@@ -1,0 +1,8 @@
+# Optional developer/research utilities; not needed for the basic editors.
+numpy
+PyYAML
+zstandard
+av
+capstone
+keystone-engine
+unicorn

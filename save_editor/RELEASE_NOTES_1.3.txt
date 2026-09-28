@@ -1,0 +1,20 @@
+OG Moon Dwellers RPCS3 Save Editor 1.3
+
+New in 1.3
+- Pilot Skills now has a drag handle (↕) on each of the six skill rows.
+- Drag a skill up/down to change the exact order shown by the game's Acquired Special Skills list.
+- Dragging stages the change automatically. Nothing is written until Save skill changes is pressed.
+- Alt+Up / Alt+Down also reorders the focused row.
+- Learned levels and natural-growth behavior are preserved. A move that would alter future natural growth is blocked.
+- Completed natural growth can be safely converted into stored training when a skill is moved to another slot.
+- Existing save backup, stale-save detection and post-write verification remain enabled.
+
+Validation
+- 65 automated tests pass, including GUI drag/drop, discard/save behavior, natural-growth preservation, replacement flags, rollback and unrelated-file preservation.
+- A reorder/write was also verified on the bundled real-save QA copy (Viletta: Learning/SP Up swap) with backup identity and unrelated files unchanged.
+- The Windows EXE was rebuilt by replacing only the save_editor runtime entry and the embedded PYZ archive in the original PyInstaller one-file package; all other CArchive payloads and the bootloader were preserved byte-for-byte.
+
+Important
+- Exit/stop the game before saving edits.
+- Use a normal in-game Load after editing. Emulator savestates can retain old values.
+- This release still benefits from an in-game normal-Load confirmation for the new reorder feature on your own save.

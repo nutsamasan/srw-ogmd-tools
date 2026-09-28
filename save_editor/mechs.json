@@ -1,0 +1,2407 @@
+{
+  "source": "work\\poc\\full_english_20260906\\fixed",
+  "source_sha256": {
+    "UnitData.dat": "42b46a2c4d0326a8d2a0cdf5afec79a398bf0f5438cbcf3792f4c306e00f55cd",
+    "AbilityData.dat": "d252209f21e48bc434cc448bc970cc6100d09c028166905c7438612a5d6ba4c6"
+  },
+  "name_edits_source": "script_editor\\edits\\project.json",
+  "name_edits_sha256": "c285223dd2bce32ec08044b25eba9b7c7d29e6a4a7cbf429fe422d7c58fbd3a2",
+  "units": {
+    "0": {
+      "name": "Dummy",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "1": {
+      "name": "R-1",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "name": "R-Wing",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "name": "R-2 Powered",
+      "builtins": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "name": "R-3 Powered",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "5": {
+      "name": "R-GUN Powered",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "6": {
+      "name": "SRX",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "7": {
+      "name": "ART-1",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "8": {
+      "name": "ART-Wing",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "9": {
+      "name": "Alteisen Riese",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "10": {
+      "name": "Rein Weissritter",
+      "builtins": [
+        7,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "11": {
+      "name": "Flickerei Geist",
+      "builtins": [
+        7,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "12": {
+      "name": "Person-Lichkeit",
+      "builtins": [
+        7,
+        14,
+        17,
+        21,
+        0
+      ]
+    },
+    "13": {
+      "name": "Huckebein Mｋ-II Mass Product Model",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "14": {
+      "name": "Huckebein Mｋ-II Mass Product Model",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "15": {
+      "name": "Pfeil III",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "16": {
+      "name": "Exbein Boxer Type-R",
+      "builtins": [
+        9,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "17": {
+      "name": "Exbein Gunner Type-R",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "18": {
+      "name": "Boxer Parts",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "19": {
+      "name": "Gunner Parts",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "20": {
+      "name": "Exbein Boxer Type-L",
+      "builtins": [
+        9,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "21": {
+      "name": "Exbein Gunner Type-L",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "22": {
+      "name": "Boxer Parts",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "23": {
+      "name": "Gunner Parts",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "24": {
+      "name": "EX Exbein",
+      "builtins": [
+        10,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "25": {
+      "name": "Grungust Type-0",
+      "builtins": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "26": {
+      "name": "Grungust Kai",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "27": {
+      "name": "Wing Gust Kai",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "28": {
+      "name": "Gust Lander Kai",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "29": {
+      "name": "Grungust Type-2",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "30": {
+      "name": "G-Hawk",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "31": {
+      "name": "Grungust Type-2",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "32": {
+      "name": "G-Hawk",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "33": {
+      "name": "Grungust Type-3",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "34": {
+      "name": "G-Raptor",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "35": {
+      "name": "G-Bison",
+      "builtins": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "36": {
+      "name": "Ryuko-o",
+      "builtins": [
+        9,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "37": {
+      "name": "Koryu-o",
+      "builtins": [
+        9,
+        12,
+        21,
+        0,
+        0
+      ]
+    },
+    "38": {
+      "name": "Ryu-o Ki",
+      "builtins": [
+        9,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "39": {
+      "name": "Ko-o Ki",
+      "builtins": [
+        9,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "40": {
+      "name": "Wildwurger",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "41": {
+      "name": "Wildfalken",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "42": {
+      "name": "Wildraubtier Schnabel",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "43": {
+      "name": "Wildraubtier Schnabel （FM）",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "44": {
+      "name": "Arblade Custom",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "45": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "46": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "47": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "48": {
+      "name": "Type-N Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "49": {
+      "name": "Type-G Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "50": {
+      "name": "Type-C Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "51": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "52": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "53": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "54": {
+      "name": "Type-N Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "55": {
+      "name": "Type-G Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "56": {
+      "name": "Type-C Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "57": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "58": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "59": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "60": {
+      "name": "Type-N Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "61": {
+      "name": "Type-G Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "62": {
+      "name": "Type-C Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "63": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "64": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "65": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "66": {
+      "name": "Type-N Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "67": {
+      "name": "Type-G Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "68": {
+      "name": "Type-C Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "70": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "73": {
+      "name": "Type-G Equipment",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "77": {
+      "name": "Gesterben Kai",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "78": {
+      "name": "Gesterben Kai",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "79": {
+      "name": "Gesterben Kai",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "80": {
+      "name": "Gesterben Kai",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "81": {
+      "name": "Gespenst Type RV",
+      "builtins": [
+        1,
+        23,
+        0,
+        0,
+        0
+      ]
+    },
+    "82": {
+      "name": "Gespenst Haken",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "83": {
+      "name": "Giganscudo Duro",
+      "builtins": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "84": {
+      "name": "Siegerlion ",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "85": {
+      "name": "Armorlion",
+      "builtins": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "86": {
+      "name": "Hyperlion",
+      "builtins": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "87": {
+      "name": "Altelion（DF）",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "88": {
+      "name": "Altelion（CF）",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "89": {
+      "name": "Vegalion ",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "90": {
+      "name": "Fairlion Type-G",
+      "builtins": [
+        2,
+        21,
+        20,
+        22,
+        0
+      ]
+    },
+    "91": {
+      "name": "Fairlion Type-S",
+      "builtins": [
+        2,
+        21,
+        20,
+        22,
+        0
+      ]
+    },
+    "92": {
+      "name": "Psilion",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "93": {
+      "name": "Psilion",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "94": {
+      "name": "F-32V Schwert Custom",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "96": {
+      "name": "Dygenguar",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "97": {
+      "name": "Aussenseiter",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "98": {
+      "name": "Rai-o",
+      "builtins": [
+        22,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "99": {
+      "name": "Garmraid Blaze（G）",
+      "builtins": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "100": {
+      "name": "Garmraid Blaze（S）",
+      "builtins": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "101": {
+      "name": "Cerberus Ignite（G）",
+      "builtins": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "102": {
+      "name": "Cerberus Ignite（S）",
+      "builtins": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "103": {
+      "name": "G Compatible Kaiser",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "104": {
+      "name": "Compatible Kaiser",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "105": {
+      "name": "G Thunder Gate",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "106": {
+      "name": "G Bankaran",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "108": {
+      "name": "Vaisaga",
+      "builtins": [
+        1,
+        21,
+        24,
+        0,
+        0
+      ]
+    },
+    "109": {
+      "name": "Soulgain",
+      "builtins": [
+        13,
+        15,
+        22,
+        0,
+        0
+      ]
+    },
+    "110": {
+      "name": "Ashsaviour ",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "111": {
+      "name": "Angelg ",
+      "builtins": [
+        7,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "112": {
+      "name": "Razangriff Raven",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "113": {
+      "name": "Randgriz Raven",
+      "builtins": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "114": {
+      "name": "Cybaster",
+      "builtins": [
+        22,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "115": {
+      "name": "Cybird",
+      "builtins": [
+        22,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "116": {
+      "name": "Valsione R",
+      "builtins": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "117": {
+      "name": "Granzon",
+      "builtins": [
+        32,
+        11,
+        15,
+        22,
+        0
+      ]
+    },
+    "118": {
+      "name": "Neo Granzon",
+      "builtins": [
+        11,
+        15,
+        22,
+        0,
+        0
+      ]
+    },
+    "127": {
+      "name": "Auguvalue",
+      "builtins": [
+        15,
+        23,
+        0,
+        0,
+        0
+      ]
+    },
+    "129": {
+      "name": "Aile Chevalier",
+      "builtins": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "130": {
+      "name": "Geant Chevalier",
+      "builtins": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "131": {
+      "name": "Geant Aile",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "132": {
+      "name": "Blancheneige",
+      "builtins": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "133": {
+      "name": "Dea Blancheneige",
+      "builtins": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "134": {
+      "name": "Excelsior Ars Nova",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "135": {
+      "name": "Fortegigas",
+      "builtins": [
+        21,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    "136": {
+      "name": "Fabularis",
+      "builtins": [
+        21,
+        7,
+        22,
+        0,
+        0
+      ]
+    },
+    "137": {
+      "name": "Excellence Gunstriker",
+      "builtins": [
+        17,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "138": {
+      "name": "Excellence Gunstriker",
+      "builtins": [
+        17,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "139": {
+      "name": "Excellence Rescue",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "140": {
+      "name": "Hagane",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "141": {
+      "name": "Hiryu Kai",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "142": {
+      "name": "Kurogane",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "143": {
+      "name": "Peregrine",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "144": {
+      "name": "Albatross",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "145": {
+      "name": "Stork",
+      "builtins": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "146": {
+      "name": "Ladybird",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "148": {
+      "name": "Galilnagant",
+      "builtins": [
+        16,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "150": {
+      "name": "Canis",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "151": {
+      "name": "Guarlion",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "155": {
+      "name": "ReLION",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "159": {
+      "name": "Lion Type-V",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "160": {
+      "name": "Landlion",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "161": {
+      "name": "Heavy Barelion",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "163": {
+      "name": "Cerbelion",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "164": {
+      "name": "Lige Geios",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "165": {
+      "name": "Geios Glud",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "166": {
+      "name": "Grassidow Ryu",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "167": {
+      "name": "Restrail",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "168": {
+      "name": "Restgranshu",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "169": {
+      "name": "Kaleitsed",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "170": {
+      "name": "Galoica",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "171": {
+      "name": "Zeranio",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "178": {
+      "name": "Soulsaber FF",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "179": {
+      "name": "Soulsaber GG",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "180": {
+      "name": "FF",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "181": {
+      "name": "GG",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "182": {
+      "name": "Super Soulsaber FF",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "183": {
+      "name": "Super Soulsaber GG",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "184": {
+      "name": "FF",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "185": {
+      "name": "GG",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "186": {
+      "name": "Allaunzer Furolaga",
+      "builtins": [
+        17,
+        24,
+        0,
+        0,
+        0
+      ]
+    },
+    "187": {
+      "name": "Ganonia Bragar",
+      "builtins": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "188": {
+      "name": "Ganonia",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "189": {
+      "name": "Ganonia Augar",
+      "builtins": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "190": {
+      "name": "Ganonia Augar",
+      "builtins": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "191": {
+      "name": "Leonisis Hagar",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "192": {
+      "name": "Leonisis Hagar",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "193": {
+      "name": "Leonisis Virga",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "194": {
+      "name": "Leonisis Virga",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "195": {
+      "name": "Leonisis",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "196": {
+      "name": "Leonisis",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "197": {
+      "name": "Gasbra",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "198": {
+      "name": "Gasbra",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "199": {
+      "name": "Cupid",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "200": {
+      "name": "Cupid",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "201": {
+      "name": "Valk Ben",
+      "builtins": [
+        41,
+        42,
+        16,
+        0,
+        0
+      ]
+    },
+    "202": {
+      "name": "Valk Ben",
+      "builtins": [
+        41,
+        42,
+        16,
+        0,
+        0
+      ]
+    },
+    "204": {
+      "name": "Valk Ben",
+      "builtins": [
+        16,
+        42,
+        0,
+        0,
+        0
+      ]
+    },
+    "205": {
+      "name": "Granteed",
+      "builtins": [
+        43,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "206": {
+      "name": "Granteed",
+      "builtins": [
+        43,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "207": {
+      "name": "Granteed Dracodeus",
+      "builtins": [
+        44,
+        47,
+        15,
+        0,
+        0
+      ]
+    },
+    "208": {
+      "name": "Bellzelute",
+      "builtins": [
+        43,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "209": {
+      "name": "Bellzelute Brigandy",
+      "builtins": [
+        44,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "210": {
+      "name": "Coustwell Brachium",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "211": {
+      "name": "Zui Gadin",
+      "builtins": [
+        45,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "212": {
+      "name": "Zui Gadin",
+      "builtins": [
+        46,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "213": {
+      "name": "Raftclans Aurun",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "214": {
+      "name": "Raftclans Aurun",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "215": {
+      "name": "Raftclans Karokuara",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "216": {
+      "name": "Raftclans Faunea",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "218": {
+      "name": "Vorlent",
+      "builtins": [
+        43,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "219": {
+      "name": "Vorlent",
+      "builtins": [
+        43,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "220": {
+      "name": "Vorlent",
+      "builtins": [
+        43,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "221": {
+      "name": "Ganjal",
+      "builtins": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "222": {
+      "name": "Ganjal",
+      "builtins": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "223": {
+      "name": "Dona Ryunpee",
+      "builtins": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "224": {
+      "name": "Dona Ryunpee",
+      "builtins": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "227": {
+      "name": "Endlich Geist",
+      "builtins": [
+        12,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "228": {
+      "name": "Endlich Geist",
+      "builtins": [
+        12,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "229": {
+      "name": "Skull Knight",
+      "builtins": [
+        21,
+        15,
+        23,
+        0,
+        0
+      ]
+    },
+    "230": {
+      "name": "Skull Knight",
+      "builtins": [
+        21,
+        15,
+        23,
+        0,
+        0
+      ]
+    },
+    "231": {
+      "name": "Debudedabide",
+      "builtins": [
+        20,
+        15,
+        22,
+        0,
+        0
+      ]
+    },
+    "233": {
+      "name": "Crystal Dragoon",
+      "builtins": [
+        2,
+        16,
+        23,
+        0,
+        0
+      ]
+    },
+    "235": {
+      "name": "Lamalice",
+      "builtins": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "236": {
+      "name": "Lamalice Cana",
+      "builtins": [
+        12,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "237": {
+      "name": "Lamalice Ida",
+      "builtins": [
+        12,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "238": {
+      "name": "XN-L",
+      "builtins": [
+        12,
+        17,
+        24,
+        0,
+        0
+      ]
+    },
+    "239": {
+      "name": "Huckebein Mｋ-II Mass Product Model",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "241": {
+      "name": "Raftclans",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "242": {
+      "name": "Tausendfuessler",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "243": {
+      "name": "Orlgo transit base",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "244": {
+      "name": "???",
+      "builtins": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "245": {
+      "name": "???",
+      "builtins": [
+        12,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "246": {
+      "name": "Raftclans",
+      "builtins": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "247": {
+      "name": "Teikou",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "248": {
+      "name": "Moukai",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "249": {
+      "name": "Karagyo",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "250": {
+      "name": "Houkyou",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "251": {
+      "name": "Kushinkoushu",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "252": {
+      "name": "Coustwell Brachium",
+      "builtins": [
+        44,
+        47,
+        16,
+        23,
+        0
+      ]
+    },
+    "253": {
+      "name": "Zeidram",
+      "builtins": [
+        16,
+        24,
+        0,
+        0,
+        0
+      ]
+    },
+    "254": {
+      "name": "Baran Schnile",
+      "builtins": [
+        23,
+        28,
+        0,
+        0,
+        0
+      ]
+    },
+    "255": {
+      "name": "Lige Geios",
+      "builtins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "builtins": {
+    "0": {
+      "name": "－－－－－－",
+      "description": "－－－－－－"
+    },
+    "1": {
+      "name": "AB Field",
+      "description": " When EN is 10 and above,reduce 1200 damage from beam attacks \n（except for barrier penetration weapons）."
+    },
+    "2": {
+      "name": "E Field",
+      "description": " When EN is 5 and above,Pilot's Will is 120 and above,reduce 1500 \n damage from all attack（except for barrier penetration weapons）."
+    },
+    "3": {
+      "name": "G-Wall",
+      "description": " When EN is 5 and above,Pilot's Will is 120 and above,nullify up to 800\n damage for all attacks（except for barrier penetration weapons）."
+    },
+    "4": {
+      "name": "G-Territory",
+      "description": " When EN is 15 and above,Pilot's Will is 120 and above,nullify up to 1800\n damage for all attacks（except for barrier penetration weapons）."
+    },
+    "5": {
+      "name": "Passive Bit",
+      "description": " When EN is 5 and above,reduce 1100 damage from beam attacks\n（except for barrier penetration weapons）."
+    },
+    "6": {
+      "name": "TE Sphere",
+      "description": " When EN is 5 and above,Pilot's Will is 120 and above,reduce 1500 \n damage from all attacks（except for barrier penetration weapons）"
+    },
+    "7": {
+      "name": "Beam Coat",
+      "description": " When EN is 5 and above,reduce 900 damage from beam attacks\n（except for barrier penetration weapons）"
+    },
+    "8": {
+      "name": "Beam Absorption",
+      "description": " Recovers unit's HP according to damage from beam attacks\n（except for barrier penetration weapons）."
+    },
+    "9": {
+      "name": "Nendo Field",
+      "description": " When EN is 5 and above,Pilot's Will is 110 and above,nullify up to pilot's\n「Telekenesis」level x 200 damage （except for barrier penetration weapons）"
+    },
+    "10": {
+      "name": "Nendo Field S",
+      "description": " When EN is 5 and above,Pilot's Will is 110 and above,nullify up to pilot's\n「Telekenesis」level x 250 damage （except for barrier penetration weapons）"
+    },
+    "11": {
+      "name": "Distortion Field",
+      "description": " When EN is 10 and above,reduce 50% damage from all attacks\n（except for barrier penetration weapons）"
+    },
+    "12": {
+      "name": "HP Regen （S）",
+      "description": " On player start phase,HP is recovered."
+    },
+    "13": {
+      "name": "HP Regen （M）",
+      "description": " On player start phase,HP is recovered."
+    },
+    "14": {
+      "name": "HP Regen （L）",
+      "description": " On player start phase,HP is recovered."
+    },
+    "15": {
+      "name": "EN Regen （S）",
+      "description": " On player start phase,EN is recovered."
+    },
+    "16": {
+      "name": "EN Regen （M）",
+      "description": " On player start phase,EN is recovered."
+    },
+    "17": {
+      "name": "EN Regen （L）",
+      "description": " On player start phase,EN is recovered."
+    },
+    "18": {
+      "name": "System LIOH",
+      "description": " When Pilot's Will is 130 and above,melee attack,hit rate,skill\n for main pilot +20"
+    },
+    "19": {
+      "name": "ODE System",
+      "description": " On player start phase,Mech with「ODE system」on the map will have\n same Will value as pilot of highest Will value.Increase final Hit and \n Evasion rate by「No. mech w/ODE system」+「No. of turns passed」 x 2 "
+    },
+    "20": {
+      "name": "Jammer",
+      "description": " 50% chance to nullify missile type attacks."
+    },
+    "21": {
+      "name": "Mirage",
+      "description": " When pilot's Will is 130 and above,50% chance to evade an attacks."
+    },
+    "22": {
+      "name": "Pilot Block",
+      "description": " Nullify all special effects of P attribute weapons."
+    },
+    "23": {
+      "name": "Robot Block",
+      "description": " Nullify all special effects of R attribute weapons."
+    },
+    "24": {
+      "name": "Full Block",
+      "description": " Nullify all special effects."
+    },
+    "25": {
+      "name": "Utilize Upgrade Parts",
+      "description": " Upgrade parts（usable by command）equipped on adjacent\n Mechs can be used."
+    },
+    "26": {
+      "name": "Gan Eden's Protection",
+      "description": " When attacked,reduce final damage equals to\n「all subordinate Mechs on the map x 100」."
+    },
+    "27": {
+      "name": "Passio",
+      "description": " On player start phase,reduced all enemy Pilot's Will on the map by 2."
+    },
+    "28": {
+      "name": "Precision Bomb",
+      "description": " On player start phase,4 random enemy Mechs on the map will receive\n damage equal to 50% of their current HP."
+    },
+    "29": {
+      "name": "Dark Aura",
+      "description": " End of player phase,decrease 30 EN for all enemies within 8 squares\n surrounding the Mech."
+    },
+    "30": {
+      "name": "Imperial Wrath",
+      "description": " On player start phase,Spirit Command「Impetus」become active when\n HP is 60% and below."
+    },
+    "31": {
+      "name": "Energy Absorption",
+      "description": " Recover 1% of damage received as EN."
+    },
+    "32": {
+      "name": "Mahakara",
+      "description": " When Pilot's Will is 130 and above,the Mech may undergo \n transformation into Neo Granzon."
+    },
+    "33": {
+      "name": "Watchful Eyes",
+      "description": " Spirit Command「Strike」become active when HP is 10% and below."
+    },
+    "34": {
+      "name": "Allied Spirits （Tentative）",
+      "description": " On player start phase,all special Mechs（TBA）on the map will\n activated Spirit Command「Inspire」."
+    },
+    "35": {
+      "name": "Allied Regeneration （Tentative）",
+      "description": " On player start phase,recovers maximum of 30% of current HP for all\n special Mechs（TBA）on the map."
+    },
+    "36": {
+      "name": "Itara Spirit （Tentative）",
+      "description": " On player start phase,all special pilots（TBA）on the map will\n activated Spirit Command（TBA）."
+    },
+    "37": {
+      "name": "Divine Shield",
+      "description": " When EN is 5 and above,Pilot's Will is 120 and above,reduce 1500 \n damage from all attacks（except for barrier penetration weapons）."
+    },
+    "38": {
+      "name": "Deity's Shield",
+      "description": " When EN is 10 and above,reduce 50% damage from all attacks\n（except for barrier penetration weapons）."
+    },
+    "39": {
+      "name": "Shikyo-Jashi",
+      "description": " On player start phase,decrease all enemy Pilots Will within 1～3\n squares surrounding the Mech by 3."
+    },
+    "40": {
+      "name": "Shinju-Jun",
+      "description": " When EN is 5 and above,Pilot's Will is 110 and above,reduce 50%\n damage from all attacks （except for barrier penetration weapons）."
+    },
+    "41": {
+      "name": "Deflect Field",
+      "description": " Reduce 1500 damage from all attacks\n（except for barrier penetration weapons）."
+    },
+    "42": {
+      "name": "Jamming Ability",
+      "description": " Final Hit and Evasion Rate +10."
+    },
+    "43": {
+      "name": "Orgone Cloud",
+      "description": " When EN is 5 and above,Pilot's Will is 130 and above,reduce 1200 \n damage from all attacks（except for barrier penetration weapons）."
+    },
+    "44": {
+      "name": "Orgone Cloud S",
+      "description": " When Pilot's Will is 130 and above,reduce 1600 damage from all attacks（except for barrier penetration   \n weapons）,「Movement Down」effect is nullified and「Hover」movement will not consume EN."
+    },
+    "45": {
+      "name": "Orgone Cloud H",
+      "description": " Reduce 2000 damage from all attacks（except for barrier penetration weapons）,\n「Movement Down」effect is nullified and「Hover」movement will not consume EN."
+    },
+    "46": {
+      "name": "Orgone Cloud H",
+      "description": " When Pilot's Will is 100 and above,reduce 1200 damage from all attacks（except for barrier penetration \n weapons）,「Movement Down」effect is nullified and「Hover」movement will not consume EN."
+    },
+    "47": {
+      "name": "Larseilam",
+      "description": " When Pilot's Will is 120 and above,evade attacks at a constant rate."
+    },
+    "48": {
+      "name": "Dummy-10",
+      "description": "－－－－－－"
+    },
+    "49": {
+      "name": "Transform",
+      "description": " The Mech can transform into a different form."
+    },
+    "50": {
+      "name": "Merge/Separate",
+      "description": " Multiple Mechs can be combined,and tranformed into\n another form.Separate to revert back to original form."
+    },
+    "51": {
+      "name": "Unit Separate",
+      "description": " Change Mech into another form.If the Exclusive Part is destroyed,it will\n be automatically separated.It is impossible to revert back once separated."
+    },
+    "52": {
+      "name": "Swap",
+      "description": " The Mech can transform into a different form."
+    },
+    "53": {
+      "name": "Repair Kit",
+      "description": " Recover HP to ally team within range."
+    },
+    "54": {
+      "name": "Resupply Kit",
+      "description": " Recover max EN and ammo to ally Mechs within range."
+    },
+    "55": {
+      "name": "Shield",
+      "description": " Reduce additional 10% damage upon using「Defend」in\n counterattack."
+    }
+  }
+}

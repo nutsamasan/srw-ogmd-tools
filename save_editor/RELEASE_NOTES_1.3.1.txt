@@ -1,0 +1,12 @@
+OGMD Save Editor 1.3.1 hotfix
+
+Fixed: saves that set replacement-weapon occupancy mask bit 255 no longer fail to load.
+
+Behavior:
+- Slot 255 is treated as a reserved/unknown mask bit during reads.
+- The bit is preserved byte-for-byte.
+- Pilot skills, stats, funds, parts, abilities, completed games, and mech skills can still be used.
+- Replacement-weapon writes are blocked while the reserved bit is present, avoiding assumptions about an unconfirmed record layout.
+- Pilot-skill drag-and-drop from 1.3 is unchanged.
+
+Validation: 65 automated tests pass under a virtual display, including GUI drag/drop and the new slot-255 compatibility test.

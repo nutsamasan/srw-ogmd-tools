@@ -1,0 +1,2376 @@
+{
+  "version": 1,
+  "title_id": "BLJS10335",
+  "unit_structure": "53f52847f4f52c9f497d4749467c46b6e2d19387be40389a8e41127bea7a0f77",
+  "ability_structure": "7066c26a383d8fa2ae5bd13f4c62321d1ad747c583eb8817e09badc06febffb1",
+  "units": {
+    "0": {
+      "name": "Dummy",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "1": {
+      "name": "R-1",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "name": "R-Wing",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "name": "R-2 Powered",
+      "defaults": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "name": "R-3 Powered",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "5": {
+      "name": "R-GUN Powered",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "6": {
+      "name": "SRX",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "7": {
+      "name": "ART-1",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "8": {
+      "name": "ART-Wing",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "9": {
+      "name": "Alteisen Riese",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "10": {
+      "name": "Rein Weissritter",
+      "defaults": [
+        7,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "11": {
+      "name": "Flickerei Geist",
+      "defaults": [
+        7,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "12": {
+      "name": "Person-Lichkeit",
+      "defaults": [
+        7,
+        14,
+        17,
+        21,
+        0
+      ]
+    },
+    "13": {
+      "name": "Huckebein Mｋ-II Mass Product Model",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "14": {
+      "name": "Huckebein Mｋ-II Mass Product Model",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "15": {
+      "name": "Pfeil III",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "16": {
+      "name": "Exbein Boxer Type-R",
+      "defaults": [
+        9,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "17": {
+      "name": "Exbein Gunner Type-R",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "18": {
+      "name": "Boxer Parts",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "19": {
+      "name": "Gunner Parts",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "20": {
+      "name": "Exbein Boxer Type-L",
+      "defaults": [
+        9,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "21": {
+      "name": "Exbein Gunner Type-L",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "22": {
+      "name": "Boxer Parts",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "23": {
+      "name": "Gunner Parts",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "24": {
+      "name": "EX Exbein",
+      "defaults": [
+        10,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "25": {
+      "name": "Grungust Type-0",
+      "defaults": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "26": {
+      "name": "Grungust Kai",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "27": {
+      "name": "Wing Gust Kai",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "28": {
+      "name": "Gust Lander Kai",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "29": {
+      "name": "Grungust Type-2",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "30": {
+      "name": "G-Hawk",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "31": {
+      "name": "Grungust Type-2",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "32": {
+      "name": "G-Hawk",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "33": {
+      "name": "Grungust Type-3",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "34": {
+      "name": "G-Raptor",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "35": {
+      "name": "G-Bison",
+      "defaults": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "36": {
+      "name": "Ryuko-o",
+      "defaults": [
+        9,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "37": {
+      "name": "Koryu-o",
+      "defaults": [
+        9,
+        12,
+        21,
+        0,
+        0
+      ]
+    },
+    "38": {
+      "name": "Ryu-o Ki",
+      "defaults": [
+        9,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "39": {
+      "name": "Ko-o Ki",
+      "defaults": [
+        9,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "40": {
+      "name": "Wildwurger",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "41": {
+      "name": "Wildfalken",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "42": {
+      "name": "Wildraubtier Schnabel",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "43": {
+      "name": "Wildraubtier Schnabel （FM）",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "44": {
+      "name": "Arblade Custom",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "45": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "46": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "47": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "48": {
+      "name": "Type-N Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "49": {
+      "name": "Type-G Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "50": {
+      "name": "Type-C Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "51": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "52": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "53": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "54": {
+      "name": "Type-N Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "55": {
+      "name": "Type-G Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "56": {
+      "name": "Type-C Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "57": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "58": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "59": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "60": {
+      "name": "Type-N Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "61": {
+      "name": "Type-G Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "62": {
+      "name": "Type-C Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "63": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-N",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "64": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "65": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-C",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "66": {
+      "name": "Type-N Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "67": {
+      "name": "Type-G Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "68": {
+      "name": "Type-C Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "70": {
+      "name": "Gespenst Mk-II Mass Product Model Kai Type-G",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "73": {
+      "name": "Type-G Equipment",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "77": {
+      "name": "Gesterben Kai",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "78": {
+      "name": "Gesterben Kai",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "79": {
+      "name": "Gesterben Kai",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "80": {
+      "name": "Gesterben Kai",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "81": {
+      "name": "Gespenst Type RV",
+      "defaults": [
+        1,
+        23,
+        0,
+        0,
+        0
+      ]
+    },
+    "82": {
+      "name": "Gespenst Haken",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "83": {
+      "name": "Giganscudo Duro",
+      "defaults": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "84": {
+      "name": "Siegerlion ",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "85": {
+      "name": "Armorlion",
+      "defaults": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "86": {
+      "name": "Hyperlion",
+      "defaults": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "87": {
+      "name": "Altelion（DF）",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "88": {
+      "name": "Altelion（CF）",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "89": {
+      "name": "Vegalion ",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "90": {
+      "name": "Fairlion Type-G",
+      "defaults": [
+        2,
+        21,
+        20,
+        22,
+        0
+      ]
+    },
+    "91": {
+      "name": "Fairlion Type-S",
+      "defaults": [
+        2,
+        21,
+        20,
+        22,
+        0
+      ]
+    },
+    "92": {
+      "name": "Psilion",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "93": {
+      "name": "Psilion",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "94": {
+      "name": "F-32V Schwert Custom",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "96": {
+      "name": "Dygenguar",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "97": {
+      "name": "Aussenseiter",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "98": {
+      "name": "Rai-o",
+      "defaults": [
+        22,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "99": {
+      "name": "Garmraid Blaze（G）",
+      "defaults": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "100": {
+      "name": "Garmraid Blaze（S）",
+      "defaults": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "101": {
+      "name": "Cerberus Ignite（G）",
+      "defaults": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "102": {
+      "name": "Cerberus Ignite（S）",
+      "defaults": [
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "103": {
+      "name": "G Compatible Kaiser",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "104": {
+      "name": "Compatible Kaiser",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "105": {
+      "name": "G Thunder Gate",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "106": {
+      "name": "G Bankaran",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "108": {
+      "name": "Vaisaga",
+      "defaults": [
+        1,
+        21,
+        24,
+        0,
+        0
+      ]
+    },
+    "109": {
+      "name": "Soulgain",
+      "defaults": [
+        13,
+        15,
+        22,
+        0,
+        0
+      ]
+    },
+    "110": {
+      "name": "Ashsaviour ",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "111": {
+      "name": "Angelg ",
+      "defaults": [
+        7,
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    "112": {
+      "name": "Razangriff Raven",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "113": {
+      "name": "Randgriz Raven",
+      "defaults": [
+        7,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "114": {
+      "name": "Cybaster",
+      "defaults": [
+        22,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "115": {
+      "name": "Cybird",
+      "defaults": [
+        22,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "116": {
+      "name": "Valsione R",
+      "defaults": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "117": {
+      "name": "Granzon",
+      "defaults": [
+        32,
+        11,
+        15,
+        22,
+        0
+      ]
+    },
+    "118": {
+      "name": "Neo Granzon",
+      "defaults": [
+        11,
+        15,
+        22,
+        0,
+        0
+      ]
+    },
+    "127": {
+      "name": "Auguvalue",
+      "defaults": [
+        15,
+        23,
+        0,
+        0,
+        0
+      ]
+    },
+    "129": {
+      "name": "Aile Chevalier",
+      "defaults": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "130": {
+      "name": "Geant Chevalier",
+      "defaults": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "131": {
+      "name": "Geant Aile",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "132": {
+      "name": "Blancheneige",
+      "defaults": [
+        7,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "133": {
+      "name": "Dea Blancheneige",
+      "defaults": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "134": {
+      "name": "Excelsior Ars Nova",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "135": {
+      "name": "Fortegigas",
+      "defaults": [
+        21,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    "136": {
+      "name": "Fabularis",
+      "defaults": [
+        21,
+        7,
+        22,
+        0,
+        0
+      ]
+    },
+    "137": {
+      "name": "Excellence Gunstriker",
+      "defaults": [
+        17,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "138": {
+      "name": "Excellence Gunstriker",
+      "defaults": [
+        17,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "139": {
+      "name": "Excellence Rescue",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "140": {
+      "name": "Hagane",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "141": {
+      "name": "Hiryu Kai",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "142": {
+      "name": "Kurogane",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "143": {
+      "name": "Peregrine",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "144": {
+      "name": "Albatross",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "145": {
+      "name": "Stork",
+      "defaults": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "146": {
+      "name": "Ladybird",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "148": {
+      "name": "Galilnagant",
+      "defaults": [
+        16,
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    "150": {
+      "name": "Canis",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "151": {
+      "name": "Guarlion",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "155": {
+      "name": "ReLION",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "159": {
+      "name": "Lion Type-V",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "160": {
+      "name": "Landlion",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "161": {
+      "name": "Heavy Barelion",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "163": {
+      "name": "Cerbelion",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "164": {
+      "name": "Lige Geios",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "165": {
+      "name": "Geios Glud",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "166": {
+      "name": "Grassidow Ryu",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "167": {
+      "name": "Restrail",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "168": {
+      "name": "Restgranshu",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "169": {
+      "name": "Kaleitsed",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "170": {
+      "name": "Galoica",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "171": {
+      "name": "Zeranio",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "178": {
+      "name": "Soulsaber FF",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "179": {
+      "name": "Soulsaber GG",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "180": {
+      "name": "FF",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "181": {
+      "name": "GG",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "182": {
+      "name": "Super Soulsaber FF",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "183": {
+      "name": "Super Soulsaber GG",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "184": {
+      "name": "FF",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "185": {
+      "name": "GG",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "186": {
+      "name": "Allaunzer Furolaga",
+      "defaults": [
+        17,
+        24,
+        0,
+        0,
+        0
+      ]
+    },
+    "187": {
+      "name": "Ganonia Bragar",
+      "defaults": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "188": {
+      "name": "Ganonia",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "189": {
+      "name": "Ganonia Augar",
+      "defaults": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "190": {
+      "name": "Ganonia Augar",
+      "defaults": [
+        24,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "191": {
+      "name": "Leonisis Hagar",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "192": {
+      "name": "Leonisis Hagar",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "193": {
+      "name": "Leonisis Virga",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "194": {
+      "name": "Leonisis Virga",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "195": {
+      "name": "Leonisis",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "196": {
+      "name": "Leonisis",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "197": {
+      "name": "Gasbra",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "198": {
+      "name": "Gasbra",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "199": {
+      "name": "Cupid",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "200": {
+      "name": "Cupid",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "201": {
+      "name": "Valk Ben",
+      "defaults": [
+        41,
+        42,
+        16,
+        0,
+        0
+      ]
+    },
+    "202": {
+      "name": "Valk Ben",
+      "defaults": [
+        41,
+        42,
+        16,
+        0,
+        0
+      ]
+    },
+    "204": {
+      "name": "Valk Ben",
+      "defaults": [
+        16,
+        42,
+        0,
+        0,
+        0
+      ]
+    },
+    "205": {
+      "name": "Granteed",
+      "defaults": [
+        43,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "206": {
+      "name": "Granteed",
+      "defaults": [
+        43,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "207": {
+      "name": "Granteed Dracodeus",
+      "defaults": [
+        44,
+        47,
+        15,
+        0,
+        0
+      ]
+    },
+    "208": {
+      "name": "Bellzelute",
+      "defaults": [
+        43,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "209": {
+      "name": "Bellzelute Brigandy",
+      "defaults": [
+        44,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "210": {
+      "name": "Coustwell Brachium",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "211": {
+      "name": "Zui Gadin",
+      "defaults": [
+        45,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "212": {
+      "name": "Zui Gadin",
+      "defaults": [
+        46,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "213": {
+      "name": "Raftclans Aurun",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "214": {
+      "name": "Raftclans Aurun",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "215": {
+      "name": "Raftclans Karokuara",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "216": {
+      "name": "Raftclans Faunea",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "218": {
+      "name": "Vorlent",
+      "defaults": [
+        43,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "219": {
+      "name": "Vorlent",
+      "defaults": [
+        43,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "220": {
+      "name": "Vorlent",
+      "defaults": [
+        43,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "221": {
+      "name": "Ganjal",
+      "defaults": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "222": {
+      "name": "Ganjal",
+      "defaults": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "223": {
+      "name": "Dona Ryunpee",
+      "defaults": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "224": {
+      "name": "Dona Ryunpee",
+      "defaults": [
+        43,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "227": {
+      "name": "Endlich Geist",
+      "defaults": [
+        12,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "228": {
+      "name": "Endlich Geist",
+      "defaults": [
+        12,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    "229": {
+      "name": "Skull Knight",
+      "defaults": [
+        21,
+        15,
+        23,
+        0,
+        0
+      ]
+    },
+    "230": {
+      "name": "Skull Knight",
+      "defaults": [
+        21,
+        15,
+        23,
+        0,
+        0
+      ]
+    },
+    "231": {
+      "name": "Debudedabide",
+      "defaults": [
+        20,
+        15,
+        22,
+        0,
+        0
+      ]
+    },
+    "233": {
+      "name": "Crystal Dragoon",
+      "defaults": [
+        2,
+        16,
+        23,
+        0,
+        0
+      ]
+    },
+    "235": {
+      "name": "Lamalice",
+      "defaults": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "236": {
+      "name": "Lamalice Cana",
+      "defaults": [
+        12,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "237": {
+      "name": "Lamalice Ida",
+      "defaults": [
+        12,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "238": {
+      "name": "XN-L",
+      "defaults": [
+        12,
+        17,
+        24,
+        0,
+        0
+      ]
+    },
+    "239": {
+      "name": "Huckebein Mｋ-II Mass Product Model",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "241": {
+      "name": "Raftclans",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "242": {
+      "name": "Tausendfuessler",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "243": {
+      "name": "Orlgo transit base",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "244": {
+      "name": "???",
+      "defaults": [
+        21,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "245": {
+      "name": "???",
+      "defaults": [
+        12,
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    "246": {
+      "name": "Raftclans",
+      "defaults": [
+        44,
+        47,
+        16,
+        0,
+        0
+      ]
+    },
+    "247": {
+      "name": "Teikou",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "248": {
+      "name": "Moukai",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "249": {
+      "name": "Karagyo",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "250": {
+      "name": "Houkyou",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "251": {
+      "name": "Kushinkoushu",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "252": {
+      "name": "Coustwell Brachium",
+      "defaults": [
+        44,
+        47,
+        16,
+        23,
+        0
+      ]
+    },
+    "253": {
+      "name": "Zeidram",
+      "defaults": [
+        16,
+        24,
+        0,
+        0,
+        0
+      ]
+    },
+    "254": {
+      "name": "Baran Schnile",
+      "defaults": [
+        23,
+        28,
+        0,
+        0,
+        0
+      ]
+    },
+    "255": {
+      "name": "Lige Geios",
+      "defaults": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "skills": {
+    "0": {
+      "name": "Empty",
+      "description": "No command or ability assigned."
+    },
+    "1": {
+      "name": "AB Field",
+      "description": "Native game ID 1. Consult the game for its effect and conditions."
+    },
+    "2": {
+      "name": "E Field",
+      "description": "Native game ID 2. Consult the game for its effect and conditions."
+    },
+    "3": {
+      "name": "G-Wall",
+      "description": "Native game ID 3. Consult the game for its effect and conditions."
+    },
+    "4": {
+      "name": "G-Territory",
+      "description": "Native game ID 4. Consult the game for its effect and conditions."
+    },
+    "5": {
+      "name": "Passive Bit",
+      "description": "Native game ID 5. Consult the game for its effect and conditions."
+    },
+    "6": {
+      "name": "TE Sphere",
+      "description": "Native game ID 6. Consult the game for its effect and conditions."
+    },
+    "7": {
+      "name": "Beam Coat",
+      "description": "Native game ID 7. Consult the game for its effect and conditions."
+    },
+    "8": {
+      "name": "Beam Absorption",
+      "description": "Native game ID 8. Consult the game for its effect and conditions."
+    },
+    "9": {
+      "name": "Nendo Field",
+      "description": "Native game ID 9. Consult the game for its effect and conditions."
+    },
+    "10": {
+      "name": "Nendo Field S",
+      "description": "Native game ID 10. Consult the game for its effect and conditions."
+    },
+    "11": {
+      "name": "Distortion Field",
+      "description": "Native game ID 11. Consult the game for its effect and conditions."
+    },
+    "12": {
+      "name": "HP Regen （S）",
+      "description": "Native game ID 12. Consult the game for its effect and conditions."
+    },
+    "13": {
+      "name": "HP Regen （M）",
+      "description": "Native game ID 13. Consult the game for its effect and conditions."
+    },
+    "14": {
+      "name": "HP Regen （L）",
+      "description": "Native game ID 14. Consult the game for its effect and conditions."
+    },
+    "15": {
+      "name": "EN Regen （S）",
+      "description": "Native game ID 15. Consult the game for its effect and conditions."
+    },
+    "16": {
+      "name": "EN Regen （M）",
+      "description": "Native game ID 16. Consult the game for its effect and conditions."
+    },
+    "17": {
+      "name": "EN Regen （L）",
+      "description": "Native game ID 17. Consult the game for its effect and conditions."
+    },
+    "18": {
+      "name": "System LIOH",
+      "description": "Native game ID 18. Consult the game for its effect and conditions."
+    },
+    "19": {
+      "name": "ODE System",
+      "description": "Native game ID 19. Consult the game for its effect and conditions."
+    },
+    "20": {
+      "name": "Jammer",
+      "description": "Native game ID 20. Consult the game for its effect and conditions."
+    },
+    "21": {
+      "name": "Mirage",
+      "description": "Native game ID 21. Consult the game for its effect and conditions."
+    },
+    "22": {
+      "name": "Pilot Block",
+      "description": "Native game ID 22. Consult the game for its effect and conditions."
+    },
+    "23": {
+      "name": "Robot Block",
+      "description": "Native game ID 23. Consult the game for its effect and conditions."
+    },
+    "24": {
+      "name": "Full Block",
+      "description": "Native game ID 24. Consult the game for its effect and conditions."
+    },
+    "25": {
+      "name": "Utilize Upgrade Parts",
+      "description": "Native game ID 25. Consult the game for its effect and conditions."
+    },
+    "26": {
+      "name": "Gan Eden's Protection",
+      "description": "Native game ID 26. Consult the game for its effect and conditions."
+    },
+    "27": {
+      "name": "Passio",
+      "description": "Native game ID 27. Consult the game for its effect and conditions."
+    },
+    "28": {
+      "name": "Precision Bomb",
+      "description": "Native game ID 28. Consult the game for its effect and conditions."
+    },
+    "29": {
+      "name": "Dark Aura",
+      "description": "Native game ID 29. Consult the game for its effect and conditions."
+    },
+    "30": {
+      "name": "Imperial Wrath",
+      "description": "Native game ID 30. Consult the game for its effect and conditions."
+    },
+    "31": {
+      "name": "Energy Absorption",
+      "description": "Native game ID 31. Consult the game for its effect and conditions."
+    },
+    "32": {
+      "name": "Mahakara",
+      "description": "Native game ID 32. Consult the game for its effect and conditions."
+    },
+    "33": {
+      "name": "Watchful Eyes",
+      "description": "Native game ID 33. Consult the game for its effect and conditions."
+    },
+    "34": {
+      "name": "Allied Spirits （Tentative）",
+      "description": "Native game ID 34. Consult the game for its effect and conditions."
+    },
+    "35": {
+      "name": "Allied Regeneration （Tentative）",
+      "description": "Native game ID 35. Consult the game for its effect and conditions."
+    },
+    "36": {
+      "name": "Itara Spirit （Tentative）",
+      "description": "Native game ID 36. Consult the game for its effect and conditions."
+    },
+    "37": {
+      "name": "Divine Shield",
+      "description": "Native game ID 37. Consult the game for its effect and conditions."
+    },
+    "38": {
+      "name": "Deity's Shield",
+      "description": "Native game ID 38. Consult the game for its effect and conditions."
+    },
+    "39": {
+      "name": "Shikyo-Jashi",
+      "description": "Native game ID 39. Consult the game for its effect and conditions."
+    },
+    "40": {
+      "name": "Shinju-Jun",
+      "description": "Native game ID 40. Consult the game for its effect and conditions."
+    },
+    "41": {
+      "name": "Deflect Field",
+      "description": "Native game ID 41. Consult the game for its effect and conditions."
+    },
+    "42": {
+      "name": "Jamming Ability",
+      "description": "Native game ID 42. Consult the game for its effect and conditions."
+    },
+    "43": {
+      "name": "Orgone Cloud",
+      "description": "Native game ID 43. Consult the game for its effect and conditions."
+    },
+    "44": {
+      "name": "Orgone Cloud S",
+      "description": "Native game ID 44. Consult the game for its effect and conditions."
+    },
+    "45": {
+      "name": "Orgone Cloud H",
+      "description": "Native game ID 45. Consult the game for its effect and conditions."
+    },
+    "46": {
+      "name": "Orgone Cloud H",
+      "description": "Native game ID 46. Consult the game for its effect and conditions."
+    },
+    "47": {
+      "name": "Larseilam",
+      "description": "Native game ID 47. Consult the game for its effect and conditions."
+    }
+  },
+  "original_files": {
+    "UnitData.dat": "e8f7833b9d85d32a55597a0db6268807b4535452b7590611b886885cf0720d93",
+    "AbilityData.dat": "15dced2ed8f1e801e1e98f9f914258da63059b3a9f046528a197942c1ce257c3"
+  }
+}

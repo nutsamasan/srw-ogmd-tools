@@ -1,0 +1,1347 @@
+{
+  "version": 1,
+  "corpus_identity": "52a3de1a8e6b9d55287174b6eb23dccb928a1667208534d0d3e4bb46f5885370",
+  "pilot_collection": "06_Game_data/Pilot_names",
+  "pilot_collection_sha256": "d33dba3816e9bac255cc385c39219bb8b804188e74b66fe7452cee49da230271",
+  "pilots": {
+    "0": {
+      "en": "Dummy",
+      "jp": "ダミー",
+      "physical_record": 0,
+      "source": "native_pilot"
+    },
+    "1": {
+      "en": "",
+      "jp": "",
+      "physical_record": 1,
+      "source": "native_pilot"
+    },
+    "2": {
+      "en": "Ginto",
+      "jp": "ギント",
+      "physical_record": 2,
+      "source": "native_pilot"
+    },
+    "3": {
+      "en": "Tetsuya",
+      "jp": "テツヤ",
+      "physical_record": 3,
+      "source": "native_pilot"
+    },
+    "5": {
+      "en": "Eita",
+      "jp": "エイタ",
+      "physical_record": 4,
+      "source": "native_pilot"
+    },
+    "7": {
+      "en": "Azuki",
+      "jp": "アヅキ",
+      "physical_record": 5,
+      "source": "native_pilot"
+    },
+    "8": {
+      "en": "Lefina",
+      "jp": "レフィーナ",
+      "physical_record": 6,
+      "source": "native_pilot"
+    },
+    "9": {
+      "en": "Sean",
+      "jp": "ショーン",
+      "physical_record": 7,
+      "source": "native_pilot"
+    },
+    "10": {
+      "en": "Yung",
+      "jp": "ユン",
+      "physical_record": 8,
+      "source": "native_pilot"
+    },
+    "11": {
+      "en": "Kurt",
+      "jp": "クルト",
+      "physical_record": 9,
+      "source": "native_pilot"
+    },
+    "12": {
+      "en": "Ryusei",
+      "jp": "リュウセイ",
+      "physical_record": 10,
+      "source": "native_pilot"
+    },
+    "13": {
+      "en": "Rai",
+      "jp": "ライ",
+      "physical_record": 11,
+      "source": "native_pilot"
+    },
+    "14": {
+      "en": "Aya",
+      "jp": "アヤ",
+      "physical_record": 12,
+      "source": "native_pilot"
+    },
+    "15": {
+      "en": "Viletta",
+      "jp": "ヴィレッタ",
+      "physical_record": 13,
+      "source": "native_pilot"
+    },
+    "16": {
+      "en": "Mai",
+      "jp": "マイ",
+      "physical_record": 14,
+      "source": "native_pilot"
+    },
+    "17": {
+      "en": "Kyosuke",
+      "jp": "キョウスケ",
+      "physical_record": 15,
+      "source": "native_pilot"
+    },
+    "18": {
+      "en": "Excellen",
+      "jp": "エクセレン",
+      "physical_record": 16,
+      "source": "native_pilot"
+    },
+    "19": {
+      "en": "Kusuha",
+      "jp": "クスハ",
+      "physical_record": 17,
+      "source": "native_pilot"
+    },
+    "20": {
+      "en": "Bullet",
+      "jp": "ブリット",
+      "physical_record": 18,
+      "source": "native_pilot"
+    },
+    "21": {
+      "en": "Ariel",
+      "jp": "アリエイル",
+      "physical_record": 19,
+      "source": "native_pilot"
+    },
+    "22": {
+      "en": "Devant",
+      "jp": "ドゥバン",
+      "physical_record": 20,
+      "source": "native_pilot"
+    },
+    "24": {
+      "en": "Irm",
+      "jp": "イルム",
+      "physical_record": 21,
+      "source": "native_pilot"
+    },
+    "25": {
+      "en": "Ing",
+      "jp": "イング",
+      "physical_record": 22,
+      "source": "native_pilot"
+    },
+    "27": {
+      "en": "Ryoto",
+      "jp": "リョウト",
+      "physical_record": 23,
+      "source": "native_pilot"
+    },
+    "28": {
+      "en": "Rio",
+      "jp": "リオ",
+      "physical_record": 24,
+      "source": "native_pilot"
+    },
+    "29": {
+      "en": "Kai",
+      "jp": "カイ",
+      "physical_record": 25,
+      "source": "native_pilot"
+    },
+    "30": {
+      "en": "Lamia",
+      "jp": "ラミア",
+      "physical_record": 26,
+      "source": "native_pilot"
+    },
+    "31": {
+      "en": "Hugo",
+      "jp": "ヒューゴ",
+      "physical_record": 27,
+      "source": "native_pilot"
+    },
+    "32": {
+      "en": "Aqua",
+      "jp": "アクア",
+      "physical_record": 28,
+      "source": "native_pilot"
+    },
+    "33": {
+      "en": "Arado",
+      "jp": "アラド",
+      "physical_record": 29,
+      "source": "native_pilot"
+    },
+    "34": {
+      "en": "Seolla",
+      "jp": "ゼオラ",
+      "physical_record": 30,
+      "source": "native_pilot"
+    },
+    "35": {
+      "en": "Latooni",
+      "jp": "ラトゥーニ",
+      "physical_record": 31,
+      "source": "native_pilot"
+    },
+    "36": {
+      "en": "Shine",
+      "jp": "シャイン",
+      "physical_record": 32,
+      "source": "native_pilot"
+    },
+    "37": {
+      "en": "Katina",
+      "jp": "カチーナ",
+      "physical_record": 33,
+      "source": "native_pilot"
+    },
+    "38": {
+      "en": "Russel",
+      "jp": "ラッセル",
+      "physical_record": 34,
+      "source": "native_pilot"
+    },
+    "39": {
+      "en": "Tasuku",
+      "jp": "タスク",
+      "physical_record": 35,
+      "source": "native_pilot"
+    },
+    "40": {
+      "en": "Leona",
+      "jp": "レオナ",
+      "physical_record": 36,
+      "source": "native_pilot"
+    },
+    "41": {
+      "en": "Sanger",
+      "jp": "ゼンガー",
+      "physical_record": 37,
+      "source": "native_pilot"
+    },
+    "42": {
+      "en": "Ratsel",
+      "jp": "レーツェル",
+      "physical_record": 38,
+      "source": "native_pilot"
+    },
+    "43": {
+      "en": "Touma",
+      "jp": "トウマ",
+      "physical_record": 39,
+      "source": "native_pilot"
+    },
+    "44": {
+      "en": "Yuuki",
+      "jp": "ユウキ",
+      "physical_record": 40,
+      "source": "native_pilot"
+    },
+    "45": {
+      "en": "Carla",
+      "jp": "カーラ",
+      "physical_record": 41,
+      "source": "native_pilot"
+    },
+    "46": {
+      "en": "Axel",
+      "jp": "アクセル",
+      "physical_record": 42,
+      "source": "native_pilot"
+    },
+    "47": {
+      "en": "Alfimi",
+      "jp": "アルフィミィ",
+      "physical_record": 43,
+      "source": "native_pilot"
+    },
+    "48": {
+      "en": "Kohta",
+      "jp": "コウタ",
+      "physical_record": 44,
+      "source": "native_pilot"
+    },
+    "49": {
+      "en": "Kohta",
+      "jp": "コウタ",
+      "physical_record": 45,
+      "source": "native_pilot"
+    },
+    "50": {
+      "en": "Roar",
+      "jp": "ロア",
+      "physical_record": 46,
+      "source": "native_pilot"
+    },
+    "51": {
+      "en": "Shoko",
+      "jp": "ショウコ",
+      "physical_record": 47,
+      "source": "native_pilot"
+    },
+    "52": {
+      "en": "Shoko",
+      "jp": "ショウコ",
+      "physical_record": 48,
+      "source": "native_pilot"
+    },
+    "53": {
+      "en": "Michiru",
+      "jp": "ミチル",
+      "physical_record": 49,
+      "source": "native_pilot"
+    },
+    "54": {
+      "en": "Ibis",
+      "jp": "アイビス",
+      "physical_record": 50,
+      "source": "native_pilot"
+    },
+    "55": {
+      "en": "Tsugumi",
+      "jp": "ツグミ",
+      "physical_record": 51,
+      "source": "native_pilot"
+    },
+    "56": {
+      "en": "Sleigh",
+      "jp": "スレイ",
+      "physical_record": 52,
+      "source": "native_pilot"
+    },
+    "57": {
+      "en": "Raul",
+      "jp": "ラウル",
+      "physical_record": 53,
+      "source": "native_pilot"
+    },
+    "58": {
+      "en": "Fiona",
+      "jp": "フィオナ",
+      "physical_record": 54,
+      "source": "native_pilot"
+    },
+    "59": {
+      "en": "Despinis",
+      "jp": "デスピニス",
+      "physical_record": 55,
+      "source": "native_pilot"
+    },
+    "60": {
+      "en": "Raji",
+      "jp": "ラージ",
+      "physical_record": 56,
+      "source": "native_pilot"
+    },
+    "61": {
+      "en": "Mizuho",
+      "jp": "ミズホ",
+      "physical_record": 57,
+      "source": "native_pilot"
+    },
+    "62": {
+      "en": "Josh",
+      "jp": "ジョッシュ",
+      "physical_record": 58,
+      "source": "native_pilot"
+    },
+    "63": {
+      "en": "Rim",
+      "jp": "リム",
+      "physical_record": 59,
+      "source": "native_pilot"
+    },
+    "64": {
+      "en": "Glacies",
+      "jp": "グラキエース",
+      "physical_record": 60,
+      "source": "native_pilot"
+    },
+    "65": {
+      "en": "Rishu",
+      "jp": "リシュウ",
+      "physical_record": 61,
+      "source": "native_pilot"
+    },
+    "66": {
+      "en": "Guiliam",
+      "jp": "ギリアム",
+      "physical_record": 62,
+      "source": "native_pilot"
+    },
+    "67": {
+      "en": "Radha",
+      "jp": "ラーダ",
+      "physical_record": 63,
+      "source": "native_pilot"
+    },
+    "68": {
+      "en": "Mekibos",
+      "jp": "メキボス",
+      "physical_record": 64,
+      "source": "native_pilot"
+    },
+    "69": {
+      "en": "Yon",
+      "jp": "ヨン",
+      "physical_record": 65,
+      "source": "native_pilot"
+    },
+    "70": {
+      "en": "Kinaha",
+      "jp": "キナハ",
+      "physical_record": 66,
+      "source": "native_pilot"
+    },
+    "71": {
+      "en": "Masaki",
+      "jp": "マサキ",
+      "physical_record": 67,
+      "source": "native_pilot"
+    },
+    "72": {
+      "en": "Shiro",
+      "jp": "シロ",
+      "physical_record": 68,
+      "source": "native_pilot"
+    },
+    "73": {
+      "en": "Kuro",
+      "jp": "クロ",
+      "physical_record": 69,
+      "source": "native_pilot"
+    },
+    "74": {
+      "en": "Ryune",
+      "jp": "リューネ",
+      "physical_record": 70,
+      "source": "native_pilot"
+    },
+    "87": {
+      "en": "Shu",
+      "jp": "シュウ",
+      "physical_record": 71,
+      "source": "native_pilot"
+    },
+    "88": {
+      "en": "Chika",
+      "jp": "チカ",
+      "physical_record": 72,
+      "source": "native_pilot"
+    },
+    "90": {
+      "en": "Amala",
+      "jp": "アーマラ",
+      "physical_record": 73,
+      "source": "native_pilot"
+    },
+    "91": {
+      "en": "Albada",
+      "jp": "アルバーダ",
+      "physical_record": 74,
+      "source": "native_pilot"
+    },
+    "92": {
+      "en": "Serena",
+      "jp": "セレーナ",
+      "physical_record": 75,
+      "source": "native_pilot"
+    },
+    "93": {
+      "en": "Elma",
+      "jp": "エルマ",
+      "physical_record": 76,
+      "source": "native_pilot"
+    },
+    "94": {
+      "en": "Haken",
+      "jp": "ハーケン",
+      "physical_record": 77,
+      "source": "native_pilot"
+    },
+    "95": {
+      "en": "Aschen",
+      "jp": "アシェン",
+      "physical_record": 78,
+      "source": "native_pilot"
+    },
+    "97": {
+      "en": "Akimi",
+      "jp": "アキミ",
+      "physical_record": 79,
+      "source": "native_pilot"
+    },
+    "98": {
+      "en": "Akemi",
+      "jp": "アケミ",
+      "physical_record": 80,
+      "source": "native_pilot"
+    },
+    "99": {
+      "en": "Fairey",
+      "jp": "フェアリ",
+      "physical_record": 81,
+      "source": "native_pilot"
+    },
+    "100": {
+      "en": "Helluga",
+      "jp": "ヘルルーガ",
+      "physical_record": 82,
+      "source": "native_pilot"
+    },
+    "101": {
+      "en": "Regianne",
+      "jp": "レジアーネ",
+      "physical_record": 83,
+      "source": "native_pilot"
+    },
+    "102": {
+      "en": "Bilgo",
+      "jp": "ビルゴー",
+      "physical_record": 84,
+      "source": "native_pilot"
+    },
+    "103": {
+      "en": "Vaught",
+      "jp": "ヴォート",
+      "physical_record": 85,
+      "source": "native_pilot"
+    },
+    "104": {
+      "en": "Vaught",
+      "jp": "ヴォート",
+      "physical_record": 86,
+      "source": "native_pilot"
+    },
+    "105": {
+      "en": "Sieg",
+      "jp": "ジーク",
+      "physical_record": 87,
+      "source": "native_pilot"
+    },
+    "106": {
+      "en": "Sieg",
+      "jp": "ジーク",
+      "physical_record": 88,
+      "source": "native_pilot"
+    },
+    "107": {
+      "en": "Sally",
+      "jp": "サリー",
+      "physical_record": 89,
+      "source": "native_pilot"
+    },
+    "108": {
+      "en": "Sally",
+      "jp": "サリー",
+      "physical_record": 90,
+      "source": "native_pilot"
+    },
+    "109": {
+      "en": "Calico",
+      "jp": "キャリコ",
+      "physical_record": 91,
+      "source": "native_pilot"
+    },
+    "110": {
+      "en": "Spectra",
+      "jp": "スペクトラ",
+      "physical_record": 92,
+      "source": "native_pilot"
+    },
+    "112": {
+      "en": "Touya",
+      "jp": "トーヤ",
+      "physical_record": 93,
+      "source": "native_pilot"
+    },
+    "113": {
+      "en": "Calvina",
+      "jp": "カルヴィナ",
+      "physical_record": 94,
+      "source": "native_pilot"
+    },
+    "114": {
+      "en": "Katia",
+      "jp": "カティア",
+      "physical_record": 95,
+      "source": "native_pilot"
+    },
+    "115": {
+      "en": "Tenia",
+      "jp": "テニア",
+      "physical_record": 96,
+      "source": "native_pilot"
+    },
+    "116": {
+      "en": "Melua",
+      "jp": "メルア",
+      "physical_record": 97,
+      "source": "native_pilot"
+    },
+    "117": {
+      "en": "Shana-Mia",
+      "jp": "シャナ＝ミア",
+      "physical_record": 98,
+      "source": "native_pilot"
+    },
+    "118": {
+      "en": "E-Selda",
+      "jp": "エ＝セルダ",
+      "physical_record": 99,
+      "source": "native_pilot"
+    },
+    "119": {
+      "en": "Jua-Mu",
+      "jp": "ジュア＝ム",
+      "physical_record": 100,
+      "source": "native_pilot"
+    },
+    "120": {
+      "en": "Gu-Landon",
+      "jp": "グ＝ランドン",
+      "physical_record": 101,
+      "source": "native_pilot"
+    },
+    "121": {
+      "en": "Al-Van",
+      "jp": "アル＝ヴァン",
+      "physical_record": 102,
+      "source": "native_pilot"
+    },
+    "122": {
+      "en": "Al-Van",
+      "jp": "アル＝ヴァン",
+      "physical_record": 103,
+      "source": "native_pilot"
+    },
+    "123": {
+      "en": "Kalo-Ran",
+      "jp": "カロ＝ラン",
+      "physical_record": 104,
+      "source": "native_pilot"
+    },
+    "124": {
+      "en": "Fu-Lu",
+      "jp": "フー＝ルー",
+      "physical_record": 105,
+      "source": "native_pilot"
+    },
+    "125": {
+      "en": "So-Des",
+      "jp": "ソ＝デス",
+      "physical_record": 106,
+      "source": "native_pilot"
+    },
+    "126": {
+      "en": "Skull Knight",
+      "jp": "スカルナイト",
+      "physical_record": 107,
+      "source": "native_pilot"
+    },
+    "127": {
+      "en": "Debudedabide",
+      "jp": "デブデダビデ",
+      "physical_record": 108,
+      "source": "native_pilot"
+    },
+    "128": {
+      "en": "Crystal Dragoon",
+      "jp": "クリスタルドラグーン",
+      "physical_record": 109,
+      "source": "native_pilot"
+    },
+    "129": {
+      "en": "ＸＮ‐Ｌ",
+      "jp": "ＸＮ‐Ｌ",
+      "physical_record": 110,
+      "source": "native_pilot"
+    },
+    "130": {
+      "en": "ＡＩ",
+      "jp": "ＡＩ",
+      "physical_record": 111,
+      "source": "native_pilot"
+    },
+    "134": {
+      "en": "Terra Federation Pilot",
+      "jp": "連邦軍兵",
+      "physical_record": 112,
+      "source": "native_pilot"
+    },
+    "135": {
+      "en": "Federation Captain",
+      "jp": "連邦軍艦長",
+      "physical_record": 113,
+      "source": "native_pilot"
+    },
+    "136": {
+      "en": "Federation Captain",
+      "jp": "連邦軍艦長",
+      "physical_record": 114,
+      "source": "native_pilot"
+    },
+    "137": {
+      "en": "Bioroid Pilot",
+      "jp": "バイオロイド兵",
+      "physical_record": 115,
+      "source": "native_pilot"
+    },
+    "138": {
+      "en": "Bioroid Pilot",
+      "jp": null,
+      "source": "official_english"
+    },
+    "139": {
+      "en": "Bioroid Pilot",
+      "jp": "バイオロイド兵",
+      "physical_record": 116,
+      "source": "native_pilot"
+    },
+    "140": {
+      "en": "Bioroid Pilot",
+      "jp": null,
+      "source": "official_english"
+    },
+    "141": {
+      "en": "Gardisord Pilot",
+      "jp": "ガディソード兵",
+      "physical_record": 117,
+      "source": "native_pilot"
+    },
+    "142": {
+      "en": "Gardisord Pilot",
+      "jp": "ガディソード兵",
+      "physical_record": 118,
+      "source": "native_pilot"
+    },
+    "145": {
+      "en": "Gardisord Elite Pilot",
+      "jp": "ガディソード親衛隊兵",
+      "physical_record": 119,
+      "source": "native_pilot"
+    },
+    "147": {
+      "en": "Gardisord Elite Pilot",
+      "jp": "ガディソード親衛隊兵",
+      "physical_record": 120,
+      "source": "native_pilot"
+    },
+    "149": {
+      "en": "Balshem",
+      "jp": "バルシェム",
+      "physical_record": 121,
+      "source": "native_pilot"
+    },
+    "150": {
+      "en": "Balshem",
+      "jp": "バルシェム",
+      "physical_record": 122,
+      "source": "native_pilot"
+    },
+    "153": {
+      "en": "Subordinate",
+      "jp": "従士",
+      "physical_record": 123,
+      "source": "native_pilot"
+    },
+    "154": {
+      "en": "Subordinate",
+      "jp": "従士",
+      "physical_record": 124,
+      "source": "native_pilot"
+    },
+    "155": {
+      "en": "Subordinate",
+      "jp": "従士",
+      "physical_record": 125,
+      "source": "native_pilot"
+    },
+    "157": {
+      "en": "Quasi-Knight",
+      "jp": "準騎士",
+      "physical_record": 126,
+      "source": "native_pilot"
+    },
+    "158": {
+      "en": "Quasi-Knight",
+      "jp": "準騎士",
+      "physical_record": 127,
+      "source": "native_pilot"
+    },
+    "161": {
+      "en": "Spy",
+      "jp": "諜士",
+      "physical_record": 128,
+      "source": "native_pilot"
+    },
+    "162": {
+      "en": "Spy",
+      "jp": "諜士",
+      "physical_record": 129,
+      "source": "native_pilot"
+    },
+    "163": {
+      "en": "Lamalice",
+      "jp": "ラマリス",
+      "physical_record": 130,
+      "source": "native_pilot"
+    },
+    "164": {
+      "en": "Lamalice Cana",
+      "jp": "ラマリス・カーナ",
+      "physical_record": 131,
+      "source": "native_pilot"
+    },
+    "165": {
+      "en": "Lamalice",
+      "jp": "ラマリス",
+      "physical_record": 132,
+      "source": "native_pilot"
+    },
+    "166": {
+      "en": "Lamalice Cana",
+      "jp": "ラマリス・カーナ",
+      "physical_record": 133,
+      "source": "native_pilot"
+    },
+    "167": {
+      "en": "Lamalice Ida",
+      "jp": "ラマリス・イーダ",
+      "physical_record": 134,
+      "source": "native_pilot"
+    },
+    "168": {
+      "en": "Madnet",
+      "jp": "マッドネット",
+      "physical_record": 135,
+      "source": "native_pilot"
+    },
+    "169": {
+      "en": "Madnet",
+      "jp": "マッドネット",
+      "physical_record": 136,
+      "source": "native_pilot"
+    },
+    "180": {
+      "en": "AI",
+      "jp": "ＡＩ",
+      "physical_record": 137,
+      "source": "native_pilot"
+    },
+    "181": {
+      "en": "AI",
+      "jp": "ＡＩ",
+      "physical_record": 138,
+      "source": "native_pilot"
+    },
+    "182": {
+      "en": "AI",
+      "jp": "ＡＩ",
+      "physical_record": 139,
+      "source": "native_pilot"
+    },
+    "183": {
+      "en": "Gaspard",
+      "jp": "ギャスパル",
+      "physical_record": 140,
+      "source": "native_pilot"
+    },
+    "184": {
+      "en": "Daniel",
+      "jp": "ダニエル",
+      "physical_record": 141,
+      "source": "native_pilot"
+    },
+    "185": {
+      "en": "Jacob",
+      "jp": "ジェイコブ",
+      "physical_record": 142,
+      "source": "native_pilot"
+    },
+    "186": {
+      "en": "Miles",
+      "jp": "マイルズ",
+      "physical_record": 143,
+      "source": "native_pilot"
+    },
+    "187": {
+      "en": "Humphrey",
+      "jp": "ハンフリー",
+      "physical_record": 144,
+      "source": "native_pilot"
+    },
+    "188": {
+      "en": "Layker",
+      "jp": "レイカー",
+      "physical_record": 145,
+      "source": "native_pilot"
+    },
+    "189": {
+      "en": "Sakae",
+      "jp": "サカエ",
+      "physical_record": 146,
+      "source": "native_pilot"
+    },
+    "190": {
+      "en": "Sinfonia",
+      "jp": "シンフォーニア",
+      "physical_record": 147,
+      "source": "native_pilot"
+    },
+    "191": {
+      "en": "Rieta",
+      "jp": "リェータ",
+      "physical_record": 148,
+      "source": "native_pilot"
+    },
+    "192": {
+      "en": "Vesna",
+      "jp": "ヴェスナー",
+      "physical_record": 149,
+      "source": "native_pilot"
+    },
+    "193": {
+      "en": "Harold",
+      "jp": "ハロルド",
+      "physical_record": 150,
+      "source": "native_pilot"
+    },
+    "194": {
+      "en": "Brian",
+      "jp": "ブライアン",
+      "physical_record": 151,
+      "source": "native_pilot"
+    },
+    "195": {
+      "en": "Taylor",
+      "jp": "テイラー",
+      "physical_record": 152,
+      "source": "native_pilot"
+    },
+    "196": {
+      "en": "Robert",
+      "jp": "ロバート",
+      "physical_record": 153,
+      "source": "native_pilot"
+    },
+    "197": {
+      "en": "Kirk",
+      "jp": "カーク",
+      "physical_record": 154,
+      "source": "native_pilot"
+    },
+    "198": {
+      "en": "Marion",
+      "jp": "マリオン",
+      "physical_record": 155,
+      "source": "native_pilot"
+    },
+    "199": {
+      "en": "Eric",
+      "jp": "エリック",
+      "physical_record": 156,
+      "source": "native_pilot"
+    },
+    "200": {
+      "en": "Cliff",
+      "jp": "クリフ",
+      "physical_record": 157,
+      "source": "native_pilot"
+    },
+    "201": {
+      "en": "Minaki",
+      "jp": "ミナキ",
+      "physical_record": 158,
+      "source": "native_pilot"
+    },
+    "202": {
+      "en": "Jonathan",
+      "jp": "ジョナサン",
+      "physical_record": 159,
+      "source": "native_pilot"
+    },
+    "203": {
+      "en": "Eri",
+      "jp": "エリ",
+      "physical_record": 160,
+      "source": "native_pilot"
+    },
+    "204": {
+      "en": "Sophia",
+      "jp": "ソフィア",
+      "physical_record": 161,
+      "source": "native_pilot"
+    },
+    "205": {
+      "en": "Kenzo",
+      "jp": "ケンゾウ",
+      "physical_record": 162,
+      "source": "native_pilot"
+    },
+    "206": {
+      "en": "Kisaburo",
+      "jp": "キサブロー",
+      "physical_record": 163,
+      "source": "native_pilot"
+    },
+    "207": {
+      "en": "Ring",
+      "jp": "リン",
+      "physical_record": 164,
+      "source": "native_pilot"
+    },
+    "208": {
+      "en": "Ewan",
+      "jp": "ユアン",
+      "physical_record": 165,
+      "source": "native_pilot"
+    },
+    "209": {
+      "en": "Mitsuko",
+      "jp": "ミツコ",
+      "physical_record": 166,
+      "source": "native_pilot"
+    },
+    "210": {
+      "en": "Ruslan",
+      "jp": "ルスラン",
+      "physical_record": 167,
+      "source": "native_pilot"
+    },
+    "211": {
+      "en": "Irui",
+      "jp": "イルイ",
+      "physical_record": 168,
+      "source": "native_pilot"
+    },
+    "213": {
+      "en": "Jinpuu",
+      "jp": "ジンプウ",
+      "physical_record": 169,
+      "source": "native_pilot"
+    },
+    "214": {
+      "en": "Zuiun",
+      "jp": "ズイウン",
+      "physical_record": 170,
+      "source": "native_pilot"
+    },
+    "215": {
+      "en": "Malm",
+      "jp": "マルム",
+      "physical_record": 171,
+      "source": "native_pilot"
+    },
+    "216": {
+      "en": "Franz",
+      "jp": "フランツ",
+      "physical_record": 172,
+      "source": "native_pilot"
+    },
+    "217": {
+      "en": "Da-Nia",
+      "jp": "ダ＝ニーア",
+      "physical_record": 173,
+      "source": "native_pilot"
+    },
+    "218": {
+      "en": "Base Commander",
+      "jp": "基地司令",
+      "physical_record": 174,
+      "source": "native_pilot"
+    },
+    "219": {
+      "en": "Operator",
+      "jp": "オペレーター",
+      "physical_record": 175,
+      "source": "native_pilot"
+    },
+    "220": {
+      "en": "Operator",
+      "jp": "オペレーター",
+      "physical_record": 176,
+      "source": "native_pilot"
+    },
+    "221": {
+      "en": "Foot Soldier",
+      "jp": "一般兵",
+      "physical_record": 177,
+      "source": "native_pilot"
+    },
+    "222": {
+      "en": "NDC Foot Soldier",
+      "jp": "ＮＤＣ一般兵",
+      "physical_record": 178,
+      "source": "native_pilot"
+    },
+    "223": {
+      "en": "Operator",
+      "jp": "オペレーター",
+      "physical_record": 179,
+      "source": "native_pilot"
+    },
+    "224": {
+      "en": "Isurugi Worker",
+      "jp": "イスルギ社員",
+      "physical_record": 180,
+      "source": "native_pilot"
+    },
+    "225": {
+      "en": "Mogami Worker",
+      "jp": "モガミ重工職員",
+      "physical_record": 181,
+      "source": "native_pilot"
+    },
+    "226": {
+      "en": "Scientist",
+      "jp": "科学者",
+      "physical_record": 182,
+      "source": "native_pilot"
+    },
+    "227": {
+      "en": "Staff",
+      "jp": "スタッフ",
+      "physical_record": 183,
+      "source": "native_pilot"
+    },
+    "228": {
+      "en": "Doctor",
+      "jp": "医者",
+      "physical_record": 184,
+      "source": "native_pilot"
+    },
+    "229": {
+      "en": "Nurse",
+      "jp": "看護師",
+      "physical_record": 185,
+      "source": "native_pilot"
+    },
+    "230": {
+      "en": "Council Member",
+      "jp": "議員",
+      "physical_record": 186,
+      "source": "native_pilot"
+    },
+    "231": {
+      "en": "Secretary",
+      "jp": "秘書",
+      "physical_record": 187,
+      "source": "native_pilot"
+    },
+    "232": {
+      "en": "Announcer",
+      "jp": "アナウンサー",
+      "physical_record": 188,
+      "source": "native_pilot"
+    },
+    "233": {
+      "en": "Civilian",
+      "jp": "市民",
+      "physical_record": 189,
+      "source": "native_pilot"
+    },
+    "234": {
+      "en": "Child",
+      "jp": "子供",
+      "physical_record": 190,
+      "source": "native_pilot"
+    },
+    "235": {
+      "en": "Terrorist",
+      "jp": "テロリスト",
+      "physical_record": 191,
+      "source": "native_pilot"
+    },
+    "236": {
+      "en": "Ko-o Ki",
+      "jp": "虎王機",
+      "physical_record": 192,
+      "source": "native_pilot"
+    },
+    "237": {
+      "en": "Koryu-o",
+      "jp": "虎龍王",
+      "physical_record": 193,
+      "source": "native_pilot"
+    },
+    "238": {
+      "en": "Ryu-o Ki",
+      "jp": "龍王機",
+      "physical_record": 194,
+      "source": "native_pilot"
+    },
+    "239": {
+      "en": "Ryuko-o",
+      "jp": "龍虎王",
+      "physical_record": 195,
+      "source": "native_pilot"
+    },
+    "240": {
+      "en": "???",
+      "jp": "？？？",
+      "physical_record": 196,
+      "source": "native_pilot"
+    },
+    "241": {
+      "en": "???",
+      "jp": "？？？",
+      "physical_record": 197,
+      "source": "native_pilot"
+    },
+    "242": {
+      "en": "Terra Federation Pilot",
+      "jp": "連邦軍兵",
+      "physical_record": 198,
+      "source": "native_pilot"
+    },
+    "243": {
+      "en": "Saika",
+      "jp": "サイカ",
+      "physical_record": 199,
+      "source": "native_pilot"
+    },
+    "244": {
+      "en": "Operator",
+      "jp": "オペレーター",
+      "physical_record": 200,
+      "source": "native_pilot"
+    },
+    "245": {
+      "en": "Gomodkka",
+      "jp": "ゴモウドッカ",
+      "physical_record": 201,
+      "source": "native_pilot"
+    },
+    "246": {
+      "en": "Iladoya",
+      "jp": "イラドーヤ",
+      "physical_record": 202,
+      "source": "native_pilot"
+    },
+    "247": {
+      "en": "Fiona",
+      "jp": "フィオナ",
+      "physical_record": 203,
+      "source": "native_pilot"
+    },
+    "248": {
+      "en": "Despinis",
+      "jp": "デスピニス",
+      "physical_record": 204,
+      "source": "native_pilot"
+    },
+    "249": {
+      "en": "???",
+      "jp": "？？？",
+      "physical_record": 205,
+      "source": "native_pilot"
+    },
+    "250": {
+      "en": "???",
+      "jp": "？？？",
+      "physical_record": 206,
+      "source": "native_pilot"
+    },
+    "251": {
+      "en": "???",
+      "jp": "？？？",
+      "physical_record": 207,
+      "source": "native_pilot"
+    },
+    "252": {
+      "en": "Unidentified Pilot",
+      "jp": "所属不明兵",
+      "physical_record": 208,
+      "source": "native_pilot"
+    },
+    "253": {
+      "en": "Jua-Mu",
+      "jp": "ジュア＝ム",
+      "physical_record": 209,
+      "source": "native_pilot"
+    },
+    "254": {
+      "en": "Raul",
+      "jp": "ラウル",
+      "physical_record": 210,
+      "source": "native_pilot"
+    },
+    "255": {
+      "en": "Balshem",
+      "jp": "バルシェム",
+      "physical_record": 211,
+      "source": "native_pilot"
+    },
+    "256": {
+      "en": "Skull Knight",
+      "jp": "スカルナイト",
+      "physical_record": 212,
+      "source": "native_pilot"
+    },
+    "257": {
+      "en": "Civillian",
+      "jp": "市民",
+      "physical_record": 213,
+      "source": "native_pilot"
+    },
+    "258": {
+      "en": "Bioroid Pilot",
+      "jp": "バイオロイド兵",
+      "physical_record": 214,
+      "source": "native_pilot"
+    },
+    "259": {
+      "en": "Bioroid Pilot",
+      "jp": "バイオロイド兵",
+      "physical_record": 215,
+      "source": "native_pilot"
+    },
+    "260": {
+      "en": "Terra Federation Pilot",
+      "jp": "連邦軍兵",
+      "physical_record": 216,
+      "source": "native_pilot"
+    },
+    "261": {
+      "en": "Balshem（Ain）",
+      "jp": "バルシェム（アイン）",
+      "physical_record": 217,
+      "source": "native_pilot"
+    },
+    "262": {
+      "en": "Unidentified Pilot",
+      "jp": "所属不明兵",
+      "physical_record": 218,
+      "source": "native_pilot"
+    }
+  },
+  "sources": {
+    "native_pilot_sha256": "1710c1ffecb67f84a5f91e2a3df9503f87fac314750bb8c3d87625d20bf5bf02",
+    "english_pilot_sha256": "5f1cf9f143856ebe63f202f32559bf06d3ae633e81a52bca4e869f051073dce6",
+    "official_english_nickname_sha256": "69931c165336cfb51ea838746a83b78576b0a02c3c504786496bce8fd59c6f67"
+  },
+  "coverage": {
+    "banks": 263,
+    "mixed_speaker_banks": 58,
+    "records": 66838,
+    "by_source": {
+      "native_pilot": 65195,
+      "unresolved": 971,
+      "official_english": 672
+    }
+  }
+}

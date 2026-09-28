@@ -1,0 +1,25 @@
+OGMD Save Editor 1.6 — Weapon stats
+
+Weapons inventory > Edit weapon stats… opens the native weapon archive editor.
+Edit base attack, minimum/maximum range, EN cost and maximum ammo for 855
+built-in and equippable weapon definitions. Search by weapon or mech, stage
+changes, review before/after values, then write after exiting the game.
+
+This feature edits installed Logic.psarc.sdat (PS3 BLJS10335), not the scenario
+save. It affects every save using that archive. Restart the game after writing.
+Existing remaining ammo is not refilled. MAP shapes and prerequisites remain.
+Some combination weapons calculate power from other weapons.
+
+Original defaults can be restored per weapon or for all weapons. Every write
+has a verified full archive backup; exact backup restoration is also available.
+Translations and unrelated pilot/mech modifications are preserved.
+
+Editable storage limits: attack 0–65535; range 1–255; EN/ammo 0–255.
+These storage limits do not establish in-game behavior at extreme values.
+
+Validation: 88 tests passed; disposable copies of three real archives passed
+edit/default/backup restoration and unrelated-entry verification. Original
+installed archives unchanged. Source UI checked at 100/150/200% scaling.
+Fresh in-game testing remains pending.
+
+All prior save editing features, including pilot status from 1.5, are retained.

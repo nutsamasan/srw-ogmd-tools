@@ -1,0 +1,13 @@
+OGMD Save Editor 1.5 - Pilot status
+
+Pilot stats > select a pilot > Edit status... > Apply > Save pilot changes.
+Double-clicking the pilot also opens its status window.
+
+Edit level/EXP, Melee, Ranged, Skill, Defense, Evade, Hit,
+and Air/Land/Water/Space ratings. Natural stats are the minimum;
+combat totals cap at 400 and terrain at S. Training stays fixed when leveling.
+All edits are staged and use the existing verified full-slot backup.
+
+74 tests passed. 11 real-save copies edited and restored byte-for-byte.
+Original saves unchanged. Normal in-game Load validation is still pending.
+Exit the game before writing; RPCS3 itself may stay open.

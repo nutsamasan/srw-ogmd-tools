@@ -1,0 +1,82 @@
+"""Install the verified S000+S001 test build while emulation is stopped.
+
+The user controls emulation. This installer only replaces the two test
+archive copies, retaining a checksum-guarded backup and rollback option.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+BUILD = ROOT / "work/poc/stage001_20260906/Logic.stage001.psarc.sdat"
+BACKUP = ROOT / "work/backups/stage001_20260906/Logic.before_stage001.psarc.sdat"
+MANIFEST = ROOT / "reports/stage001_install_20260906.json"
+BEFORE = "66f951322547025c1f46fa4b957c407a5646aacb08b0822072517fc439103bf5"
+AFTER = "d032ae8b7a589e0a471cdf668c502da3557e898d355b85a3b8b9a0297d9fc546"
+TARGETS = [ROOT / "work/rpcs3_stage000_english_poc/PS3_GAME/USRDIR/PSARC/Logic.psarc.sdat",
+           ROOT / "work/rpcs3_runtime_stage000_english_test/dev_hdd0/game/BLJS10335/USRDIR/PSARC/Logic.psarc.sdat"]
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def write_atomic(path, data):
+    temporary = path.with_name(path.name + ".stage001.tmp")
+    with temporary.open("xb") as stream:
+        stream.write(data)
+        stream.flush()
+        os.fsync(stream.fileno())
+    os.replace(temporary, path)
+    assert path.read_bytes() == data
+
+
+def main():
+    parser = argparse.ArgumentParser(__doc__)
+    parser.add_argument("--rollback", action="store_true")
+    args = parser.parse_args()
+    expected = AFTER if args.rollback else BEFORE
+    replacement = (BACKUP if args.rollback else BUILD).read_bytes()
+    assert digest(replacement) == (BEFORE if args.rollback else AFTER)
+    originals = [target.read_bytes() for target in TARGETS]
+    assert all(digest(data) == expected for data in originals), "An active archive differs from the expected revision"
+    if not args.rollback:
+        verification = json.loads((ROOT / "reports/stage001_archive_verification_20260906.json").read_text(encoding="utf-8"))
+        assert verification["sdat_sha256"] == AFTER and verification["sdat_verified_against_plaintext"]
+        BACKUP.parent.mkdir(parents=True, exist_ok=True)
+        if BACKUP.exists():
+            assert BACKUP.read_bytes() == originals[0]
+        else:
+            with BACKUP.open("xb") as stream:
+                stream.write(originals[0])
+                stream.flush()
+                os.fsync(stream.fileno())
+    assert all(target.read_bytes() == data for target, data in zip(TARGETS, originals))
+    completed = []
+    try:
+        for target, data in zip(TARGETS, originals):
+            # Include the current target in recovery even if verification after
+            # its replacement fails.
+            completed.append((target, data))
+            write_atomic(target, replacement)
+    except Exception:
+        for target, data in reversed(completed):
+            if target.read_bytes() != data:
+                write_atomic(target, data)
+        raise
+    report = dict(updated_utc=datetime.now(timezone.utc).isoformat(), rollback=args.rollback,
+                  source=str(BACKUP if args.rollback else BUILD), backup=str(BACKUP),
+                  files=[dict(path=str(target), before_sha256=expected,
+                              after_sha256=digest(replacement)) for target in TARGETS])
+    target = MANIFEST.with_name(MANIFEST.stem + "_rollback.json") if args.rollback else MANIFEST
+    target.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(report, indent=2))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,3 @@
+# Source-only requirements for native weapon archive editing. Save editing uses stdlib.
+pycryptodome>=3.20
+zopfli>=0.2.3
