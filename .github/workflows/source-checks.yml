@@ -1,0 +1,22 @@
+name: Source checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  portable-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install source dependencies
+        run: python -m pip install -r script_editor/requirements.txt
+      - name: Parse all Python source
+        run: python -c "import ast,pathlib; files=list(pathlib.Path('.').rglob('*.py')); [ast.parse(p.read_text(encoding='utf-8-sig'), filename=str(p)) for p in files]; print(f'{len(files)} files parsed')"
+      - name: Synthetic save tests
+        working-directory: save_editor
+        run: python -m unittest -v test_ogmd_save test_safety
+      - name: Synthetic text and source-selection tests
+        working-directory: script_editor
+        run: python -m unittest -v test_dialogue_capacity test_full_source
