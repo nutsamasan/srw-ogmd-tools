@@ -2,7 +2,7 @@
 
 Community editors and patching tools for **Super Robot Wars OG: The Moon Dwellers**, maintained by [nutsamasan](https://github.com/nutsamasan).
 
-The tools target the Japanese PS3 release **BLJS10335**, primarily used with RPCS3 on Windows. They help edit saves, adjust supported gameplay settings, work on dialogue, and build English patches from locally supplied data.
+The tools target the Japanese PS3 release **BLJS10335**, primarily used with RPCS3 on Windows. They help edit saves, adjust supported gameplay settings, work on dialogue, and build English patches using the downloadable patch data and your own compatible game copy.
 
 ## Included tools
 
@@ -22,7 +22,9 @@ Download the ready-to-run **Windows 64-bit GUI ZIPs** from [Releases](https://gi
 
 All five tools have separate downloads: Save Editor, Pilot Editor, Mech Skill Patcher, Script Editor, and Full English Patcher. See [download and launch instructions](docs/WINDOWS_DOWNLOADS.md).
 
-The Save, Pilot, and Mech tools include their small compatibility catalogs. The Script Editor also needs its locally generated script corpus and native preview resources. The Full English Patcher needs a compatible release-data folder. **Those game-derived resources and translation payloads are not included.** Cloning this repository alone does not produce a working English patch or a populated Script Editor.
+The Save, Pilot, and Mech tools include their small compatibility catalogs. **The Script Editor corpus and Full English Patcher data are available as separate data ZIPs on the same release page.** Download the matching GUI and data ZIP, then extract both into the same parent folder. The Script Editor data includes the English/Japanese script and native preview resources; the Full English Patcher data includes the translation payloads and support resources for 1.6.2. See [data download and setup instructions](docs/DATA_DOWNLOADS.md).
+
+Patching still requires your own compatible game copy. The data ZIPs are release attachments; cloning the source repository alone does not download them.
 
 See [setup and development](docs/DEVELOPMENT.md), [local data requirements](docs/LOCAL_DATA.md), and [validation scope](docs/VALIDATION.md).
 

@@ -1,6 +1,6 @@
 # Local game data
 
-The source repository intentionally excludes the original game and extracted game resources. Users must supply their own compatible inputs. No download of a game or official translation is supplied here.
+The source repository contains the tools. Matching script and patcher data are available as separate ZIPs on [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29). See [data download instructions](DATA_DOWNLOADS.md). Users still supply their own compatible game/save inputs; a complete game ISO or disc folder is not included.
 
 ## Save, Pilot, and Mech tools
 
@@ -8,19 +8,19 @@ These tools include small display/compatibility catalogs. Choose your own suppor
 
 ## Script Editor
 
-The editor requires a generated script corpus containing `SOURCE_MANIFEST.json`, `data/stage_index.json`, the other corpus indexes, and the per-collection `script.json` files. The historical default directory is `script_export/OGMD_EN_JP_20260908`; `--corpus` can select a different location.
+Download `OGMD-Script-Editor-3.14-data.zip` for the script corpus and preview resources. The corpus contains `SOURCE_MANIFEST.json`, `data/stage_index.json`, the other indexes, per-collection `script.json` files, and English/Japanese/bilingual text exports. Its directory is `script_export/OGMD_EN_JP_20260908`; `--corpus` can select a different location. Historical extraction paths in provenance are informational and do not require the same drive layout.
 
-Native preview resources are `font.bin`, `font_atlas.png`, and `tex_13.png`. The public GUI asks you to select their folder and then your script corpus folder. You can also use `--assets <folder> --corpus <folder>`. The selected paths are remembered beside the program. The small battle-speaker map is included separately in the application.
+Native preview resources are `font.bin`, `font_atlas.png`, and `tex_13.png`. The data ZIP places them under `assets` beside the executable when extracted together with the GUI ZIP. The GUI finds this layout automatically. If using separate folders, choose their folder and then your script corpus folder when prompted, or use `--assets <folder> --corpus <folder>`. The selected paths are remembered beside the program. The small battle-speaker map is included in the application.
 
-For source use, resources may live under `script_editor/assets`; for the portable GUI, an `assets` folder beside the executable is also recognized. Native resources are absent from public downloads. `prepare_assets.py` documents the existing local conversion process; it expects an already extracted font and archives under `work/`. Optional RPCS3 compatibility setup additionally needs the matching `runtime` subfolder. The older local `script_editor/build.ps1` expects these private resources; use `tools/build_windows_release.py` to reproduce the public packages.
+For source use, copy the resources to `script_editor/assets` or use `--assets`. The data ZIP also includes the matching `assets/runtime` support folder. To regenerate assets, `prepare_assets.py` documents the original conversion process and expects an already extracted font and archives under `work/`. The older local `script_editor/build.ps1` expects these resources; use `tools/build_windows_release.py` to reproduce the public GUI packages.
 
 `tools/export_script_by_stage.py`, `tools/export_editor_fixed_data.py`, `tools/export_editor_expanded_data.py`, and `tools/build_battle_speaker_index.py` contain the extraction/index-building code. These retain the original project's intermediate directory conventions and need PS3 Japanese and PS4 English source data. There is not yet a verified one-command setup from a clean checkout and retail inputs.
 
 ## Full English Patcher
 
-`full_patcher/data` normally holds `release.json`, archive recipes, translation deltas, SDAT metadata, native font data, an icon, and other release resources. None is included in this repository. A delta extension does not establish that a file is free of copied game content: the local release carries official English text/graphics and an English intro.
+Download `OGMD-Full-English-Patcher-1.6.2-data.zip`. Its `data` folder holds `release.json`, archive recipes, translation deltas, SDAT metadata, native font data, an icon, embedded font/battle-text resources, and the English intro patch. These resources are release attachments rather than Git-tracked source files. The data contains game-derived text, graphics and other resources; the tool's GPLv3 license does not relicense that material.
 
-The application accepts `--data` for a locally prepared compatible folder and validates that folder. `tools/build_full_patch_package.py` and related package/upgrade scripts document the current local production pipeline. This source release is not a standalone English-patch download.
+Extract the data ZIP and matching GUI ZIP into the same parent folder so `data` sits beside the EXE. The application also accepts `--data <folder>` and validates all release payload fingerprints. When using the Full English patcher dialog inside the Script Editor, browse to this same data folder. For source use, copy it to `full_patcher/data`. `tools/build_full_patch_package.py` and related scripts document the original production pipeline.
 
 ## Integration fixtures and research
 

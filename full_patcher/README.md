@@ -1,5 +1,7 @@
 # OGMD Full English Patcher 1.6.2
 
+**Public download:** get both `OGMD-Full-English-Patcher-1.6.2-windows-x64.zip` and `OGMD-Full-English-Patcher-1.6.2-data.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29). Extract both into the same parent folder, then open `OGMD-Full-English-Patcher-1.6.2.exe`. The supplied `data` folder contains the 1.6.2 patch payloads. You still select your own supported Japanese game copy. See [data setup](../docs/DATA_DOWNLOADS.md).
+
 Version 1.6.2 includes the battle-dialogue fitting fix confirmed in RPCS3 on
 Azuki's “All hands, brace for impact…” line. It applies to the shared battle
 caption renderer in both full-size and compact layouts, across all three rows.

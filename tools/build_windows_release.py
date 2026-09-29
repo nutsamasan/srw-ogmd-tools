@@ -103,15 +103,15 @@ def package(key, output, revision):
     for filename in ('LICENSE', 'THIRD_PARTY_NOTICES.md'):
         shutil.copy2(ROOT / filename, folder / filename)
     docs = folder / 'docs'; docs.mkdir(exist_ok=True)
-    for filename in ('LOCAL_DATA.md', 'DEPENDENCY_SOURCES.md', 'WINDOWS_DOWNLOADS.md', 'DEVELOPMENT.md'):
+    for filename in ('LOCAL_DATA.md', 'DEPENDENCY_SOURCES.md', 'WINDOWS_DOWNLOADS.md', 'DEVELOPMENT.md', 'DATA_DOWNLOADS.md'):
         shutil.copy2(ROOT / 'docs' / filename, docs / filename)
     shutil.copy2((ROOT / entry).parent / 'README.md' if key != 'full' else ROOT / 'full_patcher/README.md', docs / 'TOOL_README.md')
     versions = copy_licenses(folder / 'licenses', key in ('script', 'full'))
     extra = ''
     if key == 'script':
-        extra = '\nSupply your own generated script corpus and preview resources (font.bin, font_atlas.png, tex_13.png). The GUI asks for these folders. See docs/LOCAL_DATA.md.\n'
+        extra = '\nAlso download OGMD-Script-Editor-3.14-data.zip from Releases and extract it into the same parent folder. It supplies the script corpus and preview resources. See docs/DATA_DOWNLOADS.md.\n'
     if key == 'full':
-        extra = '\nSupply your own compatible release-data folder through the GUI. This download contains the patcher program, not an English translation payload. See docs/LOCAL_DATA.md.\n'
+        extra = '\nAlso download OGMD-Full-English-Patcher-1.6.2-data.zip from Releases and extract it into the same parent folder. It supplies the patching data. You still need your own supported Japanese game copy. See docs/DATA_DOWNLOADS.md.\n'
     (folder / 'START_HERE.txt').write_text(
         f'{name}\n\nExtract the entire ZIP before starting {name}.exe. Keep the _internal folder beside the program. Python installation is not required.\n'
         'For 64-bit Windows 10/11. Choose your own compatible save/archive in the GUI. Keep a backup before editing.\n'

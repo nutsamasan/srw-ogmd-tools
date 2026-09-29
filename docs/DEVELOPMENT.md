@@ -34,7 +34,7 @@ The broader `test_*.py`, `qa_*.py`, and `verify_*.py` files preserve the project
 | Script Editor | `./script_editor/.venv/Scripts/python.exe script_editor/app.py --corpus <local-corpus-folder>` |
 | Full English Patcher | `./script_editor/.venv/Scripts/python.exe script_editor/full_app.py --data <local-release-data-folder>` |
 
-The last two applications need excluded game-derived resources. See `LOCAL_DATA.md` before running them.
+The last two applications need the matching release data ZIPs, available separately from the source checkout. See [data downloads](DATA_DOWNLOADS.md) and `LOCAL_DATA.md` before running them.
 
 ## Building Windows programs
 

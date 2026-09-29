@@ -1,5 +1,7 @@
 # OGMD Script Editor v3.14
 
+**Public download:** get both `OGMD-Script-Editor-3.14-windows-x64.zip` and `OGMD-Script-Editor-3.14-data.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29). Extract both into the same parent folder, then open `OGMD-Script-Editor-3.14.exe`. The data includes the English/Japanese corpus and native preview resources. See [data setup](../docs/DATA_DOWNLOADS.md).
+
 Double-click **OGMD Script Editor.exe** (updated to v3.14) or **OGMD Script Editor v3.14.exe**. Save and close the older editor first; your existing `edits/project.json` is reused automatically. Earlier versioned executables are retained.
 
 Version 3.14 fixes `Fixed game records differ: WeaponData_name:0366` on installed data customized with the Save Editor's weapon tool. Weapon name edits preserve base attack, minimum/maximum range, EN cost and ammo. Only these six bytes per supported weapon are exempt from the stock fingerprint; invalid ranges, changed owners/slots, other weapon properties and dummy-record edits are still rejected. Pilot settings and mech-skill compatibility remain included. You do not need to restore weapon defaults before building a text patch.
