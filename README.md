@@ -22,9 +22,9 @@ Download the ready-to-run **Windows 64-bit GUI ZIPs** from [Releases](https://gi
 
 All five tools have separate downloads: Save Editor, Pilot Editor, Mech Skill Patcher, Script Editor, and Full English Patcher. See [download and launch instructions](docs/WINDOWS_DOWNLOADS.md).
 
-The Save, Pilot, and Mech tools include their small compatibility catalogs. **The Script Editor corpus and Full English Patcher data are available as separate data ZIPs on the same release page.** Download the matching GUI and data ZIP, then extract both into the same parent folder. The Script Editor data includes the English/Japanese script and native preview resources; the Full English Patcher data includes the translation payloads and support resources for 1.6.2. See [data download and setup instructions](docs/DATA_DOWNLOADS.md).
+**Each tool is one complete ZIP with its data included.** The Script Editor includes the English/Japanese corpus, preview resources, and data for its built-in Full English Patcher. After extraction, double-click `Start Script Editor.cmd`. The standalone Full English Patcher includes its complete 1.6.2 data beside the EXE. The Save, Pilot, and Mech tools include their support catalogs. See [setup instructions](docs/DATA_DOWNLOADS.md).
 
-Patching still requires your own compatible game copy. The data ZIPs are release attachments; cloning the source repository alone does not download them.
+Patching still requires your own compatible game copy. Complete Windows packages are release attachments; cloning the source repository alone does not download their data.
 
 See [setup and development](docs/DEVELOPMENT.md), [local data requirements](docs/LOCAL_DATA.md), and [validation scope](docs/VALIDATION.md).
 

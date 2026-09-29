@@ -1,53 +1,45 @@
-# Script and patcher data downloads
+# Complete tool packages
 
-Both data bundles are available on the [Windows GUI release page](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29), under **Assets**.
+Download **one ZIP per tool** from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29). The programs and their data are together. No separate data download, folder merging, or Python installation is needed.
 
-| To use | Download both files |
-| --- | --- |
-| Script Editor | `OGMD-Script-Editor-3.14-windows-x64.zip` and `OGMD-Script-Editor-3.14-data.zip` |
-| Full English Patcher | `OGMD-Full-English-Patcher-1.6.2-windows-x64.zip` and `OGMD-Full-English-Patcher-1.6.2-data.zip` |
+| Tool | Complete download | Open after extracting the entire ZIP |
+| --- | --- | --- |
+| Script Editor | `OGMD-Script-Editor-3.14-windows-x64.zip` | `Start Script Editor.cmd` |
+| Full English Patcher | `OGMD-Full-English-Patcher-1.6.2-windows-x64.zip` | `OGMD-Full-English-Patcher-1.6.2.exe` |
 
-## Extract the matching pair together
+## Script Editor
 
-1. Right-click the GUI ZIP and choose **Extract All**. Choose a parent folder such as `Documents/OGMD Tools`.
-2. Extract its data ZIP into that **same parent folder**. Both ZIPs contain the same application-folder name, so the folders merge.
-3. Open the application folder and double-click its `.exe`.
+The package includes the editor, **430 collections and 88,751 rows** of indexed English/Japanese script and game text, bilingual exports, preview resources, runtime support, and the complete Full English Patcher 1.6.2 data used by its built-in patcher buttons.
 
-The resulting layout should be:
+Right-click the ZIP, choose **Extract All**, then double-click `Start Script Editor.cmd`. Keep these folders together:
 
 ```text
-OGMD Tools/
-  OGMD-Script-Editor-3.14/
+OGMD-Script-Editor-3.14/
+  Start Script Editor.cmd
+  START_HERE.txt
+  Editor/
     OGMD-Script-Editor-3.14.exe
     _internal/
     assets/
     script_export/OGMD_EN_JP_20260908/
-    DATA_SETUP.txt
-  OGMD-Full-English-Patcher-1.6.2/
-    OGMD-Full-English-Patcher-1.6.2.exe
-    _internal/
+  full_patcher/
     data/
-    DATA_SETUP.txt
 ```
 
-If you already extracted the ZIPs into different folders, copy `assets` and `script_export` from the Script Editor data folder into the folder containing its EXE. For the Full English Patcher, copy `data` beside its EXE. The data downloads contain no `edits/project.json` or personal settings, so they do not replace your saved editing project.
+You can also open `Editor/OGMD-Script-Editor-3.14.exe` directly. It finds its corpus and preview resources automatically. The script-reading guide is `Editor/script_export/OGMD_EN_JP_20260908/START_HERE.md`.
 
-## Edit the script
+Use the GUI to edit and export corrections. To apply edits, choose your own compatible game archives or ISO. For a full English rebuild with your changes, use **Full English patcher** and **Use current editor edits**. Its release-data folder is already included and selected; the **Embed font / battle text fix** workflow uses the same included data.
 
-The Script Editor data includes **430 collections and 88,751 rows** of indexed script and game text, with English, Japanese, bilingual text exports, and editable `script.json` files. The corpus reading guide is `script_export/OGMD_EN_JP_20260908/START_HERE.md`. Native fonts, preview textures, and runtime support are included.
+The package does not include a private editing project or personal settings. If upgrading an existing installation, preserve your `edits` folder; the public package's editing workspace is under `Editor/edits`.
 
-On a fresh installation the GUI finds `assets` and `script_export/OGMD_EN_JP_20260908` beside the program. If it asks for folders, choose those locations. Use the editor to make and export corrections. The baseline corpus is preserved; the data bundle does not include a pre-existing private editing project.
+## Full English Patcher
 
-To apply edits, choose your own compatible game archives or ISO. For a full English rebuild with your changes, use **Full English patcher**, browse to the Full English Patcher's `data` folder, and select **Use current editor edits**. The separate patcher can also load the `patch_edits.json` exported by the editor.
+Extract its ZIP and open `OGMD-Full-English-Patcher-1.6.2.exe`. Keep `_internal` and `data` beside it. The complete 1.6.2 data includes archive recipes, translation payloads, metadata, fonts, embedded font/battle-text fixes, and the English intro patch. The GUI detects this data automatically.
 
-## Build an English game copy
+Choose your own supported **Japanese PS3 BLJS10335 01.00** ISO or complete game folder, then choose a **new output location**. Follow **Build and verify patch** and **Create English output**. A complete game ISO or disc folder is not included.
 
-The Full English Patcher data contains the complete **1.6.2 patch-data package**, including archive recipes, translation payloads, fonts, the embedded font/battle-text fix, and the English intro patch. Open the matching GUI and check that **Release data folder** points to the supplied `data` folder and displays `OGMD Full English 1.6.2`.
+## Package information
 
-Choose your own supported **Japanese PS3 BLJS10335 01.00** ISO or complete game folder, then choose a **new output location**. Follow **Build and verify patch** and **Create English output**. A complete game ISO or disc folder is not included in the download.
+Both packages include `START_HERE.txt`, `PACKAGE_INFO.json`, and `DATA_SHA256SUMS.txt`. The release's `SHA256SUMS.txt` covers the complete ZIPs. Program binaries are retained from the verified GUI builds; `BUILD_INFO.json` records their source revision. `PACKAGE_INFO.json` identifies the packaging recipe and its input hashes. Corpus and patch payload fingerprints are preserved.
 
-## Contents and checksums
-
-Each data ZIP includes `DATA_SETUP.txt`, `DATA_PACKAGE.json`, and `DATA_SHA256SUMS.txt`. The release's `SHA256SUMS.txt` also covers both ZIP downloads. Corpus fingerprints and patch payload hashes are preserved. Historical extraction paths in corpus provenance do not require matching folders on your computer.
-
-These are separate game-derived data resources, including original Japanese text and official English localization material. They retain their original ownership and are not relicensed under the GPLv3 license used for the tool source.
+Game-derived script, translation, and support resources retain their original ownership and are not relicensed under the GPLv3 license used for the tool source.

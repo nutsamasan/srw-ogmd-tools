@@ -1,6 +1,6 @@
 # OGMD Script Editor v3.14
 
-**Public download:** get both `OGMD-Script-Editor-3.14-windows-x64.zip` and `OGMD-Script-Editor-3.14-data.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29). Extract both into the same parent folder, then open `OGMD-Script-Editor-3.14.exe`. The data includes the English/Japanese corpus and native preview resources. See [data setup](../docs/DATA_DOWNLOADS.md).
+**Public download:** get `OGMD-Script-Editor-3.14-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29). This single ZIP includes the editor, English/Japanese corpus, preview resources, and Full English Patcher data. Extract the entire ZIP and double-click `Start Script Editor.cmd`. Keep its `Editor` and `full_patcher` folders together. See [package setup](../docs/DATA_DOWNLOADS.md).
 
 Double-click **OGMD Script Editor.exe** (updated to v3.14) or **OGMD Script Editor v3.14.exe**. Save and close the older editor first; your existing `edits/project.json` is reused automatically. Earlier versioned executables are retained.
 

@@ -34,7 +34,7 @@ The broader `test_*.py`, `qa_*.py`, and `verify_*.py` files preserve the project
 | Script Editor | `./script_editor/.venv/Scripts/python.exe script_editor/app.py --corpus <local-corpus-folder>` |
 | Full English Patcher | `./script_editor/.venv/Scripts/python.exe script_editor/full_app.py --data <local-release-data-folder>` |
 
-The last two applications need the matching release data ZIPs, available separately from the source checkout. See [data downloads](DATA_DOWNLOADS.md) and `LOCAL_DATA.md` before running them.
+The last two applications use resources included in their complete Windows packages. See [package layout](DATA_DOWNLOADS.md) and `LOCAL_DATA.md` to use those resources from source.
 
 ## Building Windows programs
 
@@ -44,7 +44,9 @@ To reproduce the public GUI ZIPs, run this command from a clean checkout after i
 ./script_editor/.venv/Scripts/python.exe tools/build_windows_release.py
 ```
 
-Outputs are under `dist/windows`. Use `--tool save`, `pilot`, `mech`, `script`, or `full` to build one program. `--output <folder>` selects a different output directory. The public build recipe uses PyInstaller's folder layout, bundles only listed catalogs, copies license notices, records the source commit, and produces ZIPs and SHA-256 checksums. It does not require native game assets to build.
+Outputs are under `dist/windows`. Use `--tool save`, `pilot`, `mech`, `script`, or `full` to build one program. `--output <folder>` selects a different output directory. This builds the program/runtime stage, with listed catalogs, dependency notices and source records. Script and Full English Patcher release downloads additionally contain their data.
+
+`tools/combine_windows_downloads.py --gui-dir <built-GUI-ZIPs> --data-dir <prepared-resource-ZIPs> --output <new-folder>` assembles the complete packages without changing their verified program binaries. Its inputs are the program-stage ZIPs and prepared resource archives; the input hashes and packaging source revision are recorded in each `PACKAGE_INFO.json`. Resource files are included in the complete downloads, and their original preparation is documented in `LOCAL_DATA.md`. The Script Editor package keeps its executable under `Editor` and full patching data under the sibling `full_patcher/data`, matching the editor's existing path resolution. The top-level launcher is portable and contains no machine-specific path.
 
 The individual `build.ps1` scripts retain the older local one-file packaging workflow. In particular, `script_editor/build.ps1` expects private preview and runtime resources; it is not the public release recipe.
 

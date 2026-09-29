@@ -109,9 +109,9 @@ def package(key, output, revision):
     versions = copy_licenses(folder / 'licenses', key in ('script', 'full'))
     extra = ''
     if key == 'script':
-        extra = '\nAlso download OGMD-Script-Editor-3.14-data.zip from Releases and extract it into the same parent folder. It supplies the script corpus and preview resources. See docs/DATA_DOWNLOADS.md.\n'
+        extra = '\nThis program-stage build needs its script corpus and preview resources. Complete public downloads already include them. See docs/DEVELOPMENT.md for the complete-package assembly step.\n'
     if key == 'full':
-        extra = '\nAlso download OGMD-Full-English-Patcher-1.6.2-data.zip from Releases and extract it into the same parent folder. It supplies the patching data. You still need your own supported Japanese game copy. See docs/DATA_DOWNLOADS.md.\n'
+        extra = '\nThis program-stage build needs release data. Complete public downloads already include it. See docs/DEVELOPMENT.md for the complete-package assembly step. You still need your own supported Japanese game copy.\n'
     (folder / 'START_HERE.txt').write_text(
         f'{name}\n\nExtract the entire ZIP before starting {name}.exe. Keep the _internal folder beside the program. Python installation is not required.\n'
         'For 64-bit Windows 10/11. Choose your own compatible save/archive in the GUI. Keep a backup before editing.\n'
