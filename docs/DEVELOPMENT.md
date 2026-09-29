@@ -38,9 +38,17 @@ The last two applications need excluded game-derived resources. See `LOCAL_DATA.
 
 ## Building Windows programs
 
-The Save, Pilot, and Mech folders each contain `build.ps1`. Run the relevant script with PowerShell after preparing the shared environment. The Script Editor's build also needs its preview resources and `assets/runtime` files. The full-patcher packaging scripts are under `tools/` and retain local staging requirements.
+To reproduce the public GUI ZIPs, run this command from a clean checkout after installing the pinned dependencies:
 
-This initial publication verifies source portability with the portable suite; it does not rebuild or certify every Windows package. Before uploading a binary, rebuild from a recorded source revision, supply dependency notices, inspect the package for game assets and personal paths, test a clean extraction, and publish a SHA-256 checksum beside it.
+```powershell
+./script_editor/.venv/Scripts/python.exe tools/build_windows_release.py
+```
+
+Outputs are under `dist/windows`. Use `--tool save`, `pilot`, `mech`, `script`, or `full` to build one program. `--output <folder>` selects a different output directory. The public build recipe uses PyInstaller's folder layout, bundles only listed catalogs, copies license notices, records the source commit, and produces ZIPs and SHA-256 checksums. It does not require native game assets to build.
+
+The individual `build.ps1` scripts retain the older local one-file packaging workflow. In particular, `script_editor/build.ps1` expects private preview and runtime resources; it is not the public release recipe.
+
+Before uploading a binary, build from a recorded source revision, inspect the package for game assets and personal settings, test a clean extraction, and publish its SHA-256 checksum. The Save Editor and the two Qt programs accept `--startup-check <new-report.json>` for a startup-only check. Pilot Editor and Mech Skill Patcher accept `--check <new-report.json>`. These checks do not edit game data. Test local resource selection with `python -m unittest test_local_resources` from `script_editor`.
 
 ## Research scripts
 

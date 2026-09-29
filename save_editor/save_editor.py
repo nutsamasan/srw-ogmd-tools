@@ -1517,6 +1517,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--inspect", action="store_true", help="Print validated save information and exit")
     parser.add_argument('--inspect-weapons', metavar='ARCHIVE', help='Validate weapon definitions read-only and exit')
     parser.add_argument('--weapon-report', metavar='JSON', help='Write the read-only weapon inspection report')
+    parser.add_argument('--startup-check', type=Path, help='Construct the GUI without discovering or opening saves.')
     return parser.parse_args()
 
 
@@ -1581,6 +1582,16 @@ def main() -> int:
         return 0
 
     root = tk.Tk()
+    if args.startup_check:
+        import json
+        root.withdraw()
+        try:
+            SaveEditor(root, '')
+            root.update_idletasks()
+            args.startup_check.write_text(json.dumps(dict(ok=True,gui_constructed=True,frozen=bool(getattr(sys,'frozen',False))))+'\n',encoding='utf8')
+        finally:
+            root.destroy()
+        return 0
     try:
         ttk.Style(root).theme_use("vista")
     except tk.TclError:

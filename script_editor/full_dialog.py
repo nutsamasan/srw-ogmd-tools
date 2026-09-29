@@ -86,7 +86,7 @@ class FullPatchDialog(QDialog):
                 ('The reported Azuki battle line was also confirmed in game; both battle layouts and all three rows passed offline checks.'
                  if doc.get('battle_fit_visual_tested') else
                  'The battle fit passed offline checks; a fresh battle visual check is pending.'))
-        except (OSError,ValueError,KeyError):self.details.setPlainText('Choose the data folder supplied with the full-English patcher.')
+        except (OSError,ValueError,KeyError):self.details.setPlainText('Choose your locally prepared full-English release-data folder. Game resources and translation payloads are not included in the public GUI download. See START_HERE.txt or docs/LOCAL_DATA.md for setup details.')
     def invalidate(self,*args):
         self.manifest=None;self.setup_plan=None;self.output_ready=False;self.write.setEnabled(False);self.configure.setEnabled(False);self.describe_release()
         self.edits.setEnabled(not self.font_only.isChecked())

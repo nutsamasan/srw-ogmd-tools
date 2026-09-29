@@ -17,9 +17,11 @@ from battle_speakers import BattleSpeakers, speaker_id
 from text_layout import battle_display, wrap_battle
 from native_eboot import BATTLE_CAPTION_LIMITS
 from dialogs import SearchDialog,PatchDialog
+from local_resources import find_preview_assets, missing_preview_files
 
 HOME=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parent
-ASSETS=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets'
+BUNDLED_ASSETS=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets'
+ASSETS=BUNDLED_ASSETS
 
 
 def load_ui_fonts():
@@ -211,7 +213,8 @@ class RowFilter(QSortFilterProxyModel):
 class Editor(QMainWindow):
     def __init__(self,corpus,project_path=None):
         super().__init__();self.corpus=corpus;self.project=EditProject(corpus,project_path or HOME/'edits'/'project.json')
-        self.battle=BattleSpeakers(self.project,ASSETS/'battle_speakers.json')
+        self.assets=ASSETS
+        self.battle=BattleSpeakers(self.project,BUNDLED_ASSETS/'battle_speakers.json')
         self.weapon_units={r['fixed_logical']:r for r in corpus.load('06_Game_data/Mech_names')[0]['rows']}
         self.metrics=NativeMetrics(ASSETS/'font.bin');self.key=None;self.row_index=None;self.loading=False
         self.setLocale(QLocale.c())
@@ -583,7 +586,10 @@ class Editor(QMainWindow):
 
 
 def main():
+    global ASSETS
     parser=argparse.ArgumentParser();parser.add_argument('--corpus',type=Path);parser.add_argument('--project',type=Path);parser.add_argument('--self-check',type=Path)
+    parser.add_argument('--assets',type=Path,help='Folder containing locally supplied font.bin, font_atlas.png, and tex_13.png.')
+    parser.add_argument('--startup-check',type=Path,help='Check the public resource-selection GUI without opening game data.')
     parser.add_argument('--check-unit-data',type=Path,help='With --self-check, verify name patching against a supplied UnitData.dat without modifying it.')
     parser.add_argument('--check-pilot-data',type=Path,help='With --self-check, verify name patching against a supplied PilotData.dat without modifying it.')
     parser.add_argument('--check-weapon-data',type=Path,help='With --self-check, verify name patching against a supplied WeaponData.dat without modifying it.')
@@ -591,11 +597,45 @@ def main():
     if args.check_unit_data and not args.self_check:parser.error('--check-unit-data requires --self-check')
     if args.check_pilot_data and not args.self_check:parser.error('--check-pilot-data requires --self-check')
     if args.check_weapon_data and not args.self_check:parser.error('--check-weapon-data requires --self-check')
-    if args.self_check:os.environ['QT_QPA_PLATFORM']='offscreen'
+    if args.self_check or args.startup_check:os.environ['QT_QPA_PLATFORM']='offscreen'
     app=QApplication(sys.argv[:1]);load_ui_fonts();app.setApplicationName('OGMD Script Editor');app.setStyle('Fusion');app.setStyleSheet(STYLE)
+    if args.startup_check:
+        if args.assets or args.corpus:
+            if not args.assets or not args.corpus:parser.error('--startup-check needs both --assets and --corpus to check the populated editor')
+            import tempfile
+            ASSETS=find_preview_assets([args.assets])
+            if ASSETS is None:raise FileNotFoundError('Preview resources missing')
+            with tempfile.TemporaryDirectory() as temporary:
+                window=Editor(Corpus(args.corpus),Path(temporary)/'project.json')
+                window.show();app.processEvents()
+                assert not QImage(str(ASSETS/'font_atlas.png')).isNull()
+                assert not QImage(str(ASSETS/'tex_13.png')).isNull()
+                window.grab().save(str(args.startup_check.with_suffix('.png')))
+                atomic_json(args.startup_check,dict(ok=True,gui_constructed=True,external_preview_loaded=True,collections=len(window.corpus.collections),frozen=bool(getattr(sys,'frozen',False))))
+                window.close()
+            return 0
+        dialog=QFileDialog(None,'Choose your local native preview resources')
+        dialog.setOption(QFileDialog.Option.DontUseNativeDialog,True);dialog.setFileMode(QFileDialog.FileMode.Directory)
+        dialog.show();app.processEvents()
+        mapping=json.loads((BUNDLED_ASSETS/'battle_speakers.json').read_text(encoding='utf8'))
+        assert mapping['version']==1
+        atomic_json(args.startup_check,dict(ok=True,resource_picker_constructed=True,battle_speaker_map_loaded=True,frozen=bool(getattr(sys,'frozen',False))))
+        dialog.close();return 0
     config_path=HOME/'settings.json'
     try:config=json.loads(config_path.read_text(encoding='utf8')) if config_path.exists() else {}
     except Exception:config={}
+    candidates=[args.assets] if args.assets else [config.get('assets'),HOME/'assets',BUNDLED_ASSETS]
+    ASSETS=find_preview_assets(candidates)
+    if ASSETS is None:
+        if args.self_check:raise FileNotFoundError('Native preview resources not located; supply --assets.')
+        QMessageBox.information(None,'Local preview resources required',
+            'The public download does not include game fonts or artwork. Choose your local folder containing font.bin, font_atlas.png, and tex_13.png. See START_HERE.txt or docs/LOCAL_DATA.md for setup details.')
+        selected=QFileDialog.getExistingDirectory(None,'Choose your local native preview resources')
+        if not selected:return 0
+        ASSETS=Path(selected)
+        missing=missing_preview_files(ASSETS)
+        if missing:
+            QMessageBox.warning(None,'Preview resources missing','Missing or empty files: '+', '.join(missing));return 1
     roots=[args.corpus,Path(config['corpus']) if config.get('corpus') else None]
     roots += [parent/'script_export/OGMD_EN_JP_20260908' for parent in [HOME,*HOME.parents]]
     root=next((r for r in roots if r and (r/'data/stage_index.json').is_file()),None)
@@ -607,7 +647,7 @@ def main():
     if args.self_check:
         import tempfile
         from runtime_check import check_runtime_package
-        runtime_check=check_runtime_package(Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets/runtime')
+        runtime_check=check_runtime_package(ASSETS/'runtime')
         with tempfile.TemporaryDirectory() as tmp:
             corpus=Corpus(root);window=Editor(corpus,Path(tmp)/'edits.json');window.show();app.processEvents()
             assert not window.preview.atlas.isNull() and window.preview.atlas.width()==1024
@@ -763,7 +803,7 @@ def main():
     lock=QLockFile(str(lock_path/'editor.lock'));lock.setStaleLockTime(0)
     if not lock.tryLock(100):QMessageBox.information(None,'Editor already open','An editor is already using this edits workspace. Switch to the existing window.');return 0
     try:
-        corpus=Corpus(root);window=Editor(corpus,args.project);atomic_json(config_path,dict(corpus=str(root.resolve())))
+        corpus=Corpus(root);window=Editor(corpus,args.project);atomic_json(config_path,dict(corpus=str(root.resolve()),assets=str(ASSETS.resolve())))
     except Exception as e:QMessageBox.critical(None,'Cannot open the script editor',str(e));return 1
     window.show();result=app.exec();lock.unlock();return result
 

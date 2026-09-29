@@ -239,7 +239,7 @@ class PatchDialog(QDialog):
     def configure_runtime(self):
         from runtime_setup import setup_runtime
         if not self.completed_manifest:return
-        assets=Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'assets/runtime'
+        assets=self.editor.assets/'runtime'
         runtime=self.runtime.text().strip();manifest=self.completed_manifest
         self.config['runtime']=runtime;atomic_json(self.config_path,self.config)
         self.run_job(lambda progress:setup_runtime(runtime,manifest,assets,progress,font_mode='compatibility-only'),

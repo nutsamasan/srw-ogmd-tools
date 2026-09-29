@@ -10,7 +10,9 @@ These tools include small display/compatibility catalogs. Choose your own suppor
 
 The editor requires a generated script corpus containing `SOURCE_MANIFEST.json`, `data/stage_index.json`, the other corpus indexes, and the per-collection `script.json` files. The historical default directory is `script_export/OGMD_EN_JP_20260908`; `--corpus` can select a different location.
 
-Native preview resources expected under `script_editor/assets` include `font.bin`, `font_atlas.png`, and `tex_13.png`. The build script also expects `provenance.json` and `assets/runtime`. They are absent from this source release. `prepare_assets.py` documents the existing local conversion process; it expects an already extracted font and archives under `work/`.
+Native preview resources are `font.bin`, `font_atlas.png`, and `tex_13.png`. The public GUI asks you to select their folder and then your script corpus folder. You can also use `--assets <folder> --corpus <folder>`. The selected paths are remembered beside the program. The small battle-speaker map is included separately in the application.
+
+For source use, resources may live under `script_editor/assets`; for the portable GUI, an `assets` folder beside the executable is also recognized. Native resources are absent from public downloads. `prepare_assets.py` documents the existing local conversion process; it expects an already extracted font and archives under `work/`. Optional RPCS3 compatibility setup additionally needs the matching `runtime` subfolder. The older local `script_editor/build.ps1` expects these private resources; use `tools/build_windows_release.py` to reproduce the public packages.
 
 `tools/export_script_by_stage.py`, `tools/export_editor_fixed_data.py`, `tools/export_editor_expanded_data.py`, and `tools/build_battle_speaker_index.py` contain the extraction/index-building code. These retain the original project's intermediate directory conventions and need PS3 Japanese and PS4 English source data. There is not yet a verified one-command setup from a clean checkout and retail inputs.
 

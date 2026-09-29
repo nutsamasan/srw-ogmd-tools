@@ -16,9 +16,11 @@ The tools target the Japanese PS3 release **BLJS10335**, primarily used with RPC
 
 The Full English Patcher's application source is `script_editor/full_app.py` and its related modules. It shares code with the Script Editor.
 
-## First source publication
+## Windows GUI downloads
 
-This repository contains **source code**. Existing local Windows executables and ZIPs are not included in this initial publication. Instructions in the individual tool READMEs describe those local builds as well as the source tools; an executable mentioned there is not a promised public download.
+Download the ready-to-run **Windows 64-bit GUI ZIPs** from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/latest). Extract the entire ZIP, open its folder, and double-click the editor's `.exe`. Keep the `_internal` folder beside the program. No Python installation is needed.
+
+All five tools have separate downloads: Save Editor, Pilot Editor, Mech Skill Patcher, Script Editor, and Full English Patcher. See [download and launch instructions](docs/WINDOWS_DOWNLOADS.md).
 
 The Save, Pilot, and Mech tools include their small compatibility catalogs. The Script Editor also needs its locally generated script corpus and native preview resources. The Full English Patcher needs a compatible release-data folder. **Those game-derived resources and translation payloads are not included.** Cloning this repository alone does not produce a working English patch or a populated Script Editor.
 
@@ -48,8 +50,6 @@ Source installation dependencies are listed in `script_editor/requirements.txt`;
 ## Compatibility
 
 PS4 saves and physical PS3 execution/signing are not supported by these releases. Strict format and fingerprint checks are intentional: unsupported game data should be rejected rather than modified speculatively.
-
-Automated checks do not establish in-game behavior. Some local font/dialogue fixes were tested in RPCS3, while other features still require gameplay validation. This source publication does not claim a new full-game playthrough or console test.
 
 ## Contributing
 

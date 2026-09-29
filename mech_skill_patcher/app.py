@@ -376,6 +376,12 @@ def main():
     if args.check:
         result = dict(version=VERSION, units=len(CATALOG['units'])-1, skills=len(SKILLS)-1, archive_read=False)
         try:
+            check_root = tk.Tk(); check_root.withdraw()
+            try:
+                App(check_root); check_root.update_idletasks()
+                result['gui_constructed'] = True
+            finally:
+                check_root.destroy()
             if args.target:
                 session = Session(args.target)
                 result.update(archive_read=True, target=str(session.target), sha256=session.original['sha256'], mechs=len(session.mechs))

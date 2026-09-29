@@ -18,9 +18,9 @@ RPCS3 is a verification reference named by the existing modules. RPCS3 generally
 
 ## Python dependencies
 
-Dependencies are installed separately, not vendored in this source snapshot. Preserve their upstream licenses when preparing binary distributions. Runtime and packaging dependencies include Python/Tkinter, PySide6/Qt, Pillow, PyCryptodome, Zopfli, and PyInstaller. Some research scripts additionally use NumPy, PyYAML, Zstandard, PyAV, Capstone, Keystone, and Unicorn; see `tools/requirements-research.txt`.
+Dependencies are installed separately for source use. The Windows GUI ZIPs include the runtime components needed by their applications and a `licenses` folder. Runtime and packaging dependencies include Python/Tkinter, PySide6/Qt, Pillow, PyCryptodome, Zopfli, PyYAML, and PyInstaller. Some research scripts additionally use NumPy, Zstandard, PyAV, Capstone, Keystone, and Unicorn; see `tools/requirements-research.txt`.
 
-Creating a Windows executable is a separate distribution step: include dependency license notices and corresponding source where required. The older local EXE/ZIP artifacts have not been republished by this source-only preparation.
+The public Windows packages are rebuilt from the published source with `tools/build_windows_release.py`. Their `BUILD_INFO.json` records versions and the source commit. See [dependency sources](docs/DEPENDENCY_SOURCES.md) for upstream source downloads and license details. Qt/PySide libraries use their open-source licensing options; Qt's commercial-license text, if present in wheel metadata, is an upstream alternative and is not the licensing option used for these downloads.
 
 ## Game metadata
 

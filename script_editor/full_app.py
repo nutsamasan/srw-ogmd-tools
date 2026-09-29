@@ -10,12 +10,18 @@ from native_eboot import BATTLE_CAPTION_LIMITS
 
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--self-check',type=Path);parser.add_argument('--data',type=Path);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--self-check',type=Path);parser.add_argument('--data',type=Path)
+    parser.add_argument('--startup-check',type=Path);args=parser.parse_args()
     home=Path(sys.executable).resolve().parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'full_patcher'
-    if args.self_check:os.environ['QT_QPA_PLATFORM']='offscreen'
+    if args.self_check or args.startup_check:os.environ['QT_QPA_PLATFORM']='offscreen'
     app=QApplication(sys.argv[:1]);load_ui_fonts();app.setStyle('Fusion');app.setStyleSheet(STYLE)
     window=FullPatchDialog(home)
     if args.data:window.data.setText(str(args.data))
+    if args.startup_check:
+        window.show();app.processEvents()
+        window.grab().save(str(args.startup_check.with_suffix('.png')))
+        atomic_json(args.startup_check,dict(ok=True,gui_constructed=True,local_data_required=not (Path(window.data.text())/'release.json').is_file(),frozen=bool(getattr(sys,'frozen',False))))
+        window.close();return 0
     if args.self_check:
         from runtime_check import check_runtime_package
         runtime_check=check_runtime_package(window.data.text())
