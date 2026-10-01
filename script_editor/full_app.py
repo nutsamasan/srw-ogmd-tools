@@ -26,6 +26,13 @@ def main():
         from runtime_check import check_runtime_package
         runtime_check=check_runtime_package(window.data.text())
         doc=package_info(window.data.text());window.show();app.processEvents()
+        from title_card_correction import ST084_PNG_SHA256
+        from title_cards import catalog
+        from core import sha
+        assert sha(catalog().source_png('st_084','en'))==ST084_PNG_SHA256
+        correction=next(c for c in doc['title_card_corrections'] if c['id']=='st_084')
+        assert correction['png_sha256']==ST084_PNG_SHA256
+        assert correction['native_sha256']==catalog().card('st_084')['sources']['en']
         args.self_check.parent.mkdir(parents=True,exist_ok=True);window.grab().save(str(args.self_check.with_suffix('.png')))
         window.font_only.setChecked(True);assert not window.edits.isEnabled()
         assert doc.get('backlog_margin_width')==720 and doc.get('backlog_user_confirmed')
@@ -33,7 +40,10 @@ def main():
         assert doc.get('battle_caption_limits')==BATTLE_CAPTION_LIMITS
         assert doc.get('battle_fit_visual_tested') and doc.get('diagnostic_recorder') is False
         assert 'The reported Azuki battle line was also confirmed in game' in window.details.toPlainText()
-        atomic_json(args.self_check,dict(status='passed',version='1.6.2',backlog_margin_width=720,battle_text_right_edge=1136,battle_caption_limits=BATTLE_CAPTION_LIMITS,battle_fit_user_confirmed=True,diagnostic_recorder=False,frozen=bool(getattr(sys,'frozen',False)),archives=len(doc['archives']),edited_rows=doc['edited_rows'],english_intro=bool(doc.get('movie')),custom_notice=bool(doc.get('custom_notice')),editor_corrections_supported=True,font_only_upgrade_available=True,font_mode=doc.get('font_mode'),runtime_workflow=runtime_check))
+        atomic_json(args.self_check,dict(status='passed',version='1.6.3',backlog_margin_width=720,battle_text_right_edge=1136,battle_caption_limits=BATTLE_CAPTION_LIMITS,battle_fit_user_confirmed=True,diagnostic_recorder=False,frozen=bool(getattr(sys,'frozen',False)),archives=len(doc['archives']),edited_rows=doc['edited_rows'],english_intro=bool(doc.get('movie')),custom_notice=bool(doc.get('custom_notice')),editor_corrections_supported=True,font_only_upgrade_available=True,font_mode=doc.get('font_mode'),runtime_workflow=runtime_check))
+        report=json.loads(args.self_check.read_text(encoding='utf8'))
+        report.update(corrected_st084_png_sha256=ST084_PNG_SHA256,title_card_corrections_supported=True)
+        atomic_json(args.self_check,report)
         window.close();return 0
     window.show();return app.exec()
 

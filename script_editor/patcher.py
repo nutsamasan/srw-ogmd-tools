@@ -29,6 +29,7 @@ def default_targets(corpus):
 
 
 def archive_name(entry):
+    if re.fullmatch(r'Dat/SceneTitle/Dds/@Ja/(st|sn)_\d{3}\.dds',entry):return 'Common'
     if entry.startswith('Dat/Archive/'):return 'Common'
     if entry.startswith('Dat/Battle/'):return 'Battle'
     if entry.startswith(('Dat/logic/','Dat/Roll/')):return 'Logic'
@@ -61,6 +62,8 @@ def collect_changes(project,language):
                 if ref['shared_id'] in shared:
                     item=copy.deepcopy(shared[ref['shared_id']]);item['row'].update(command_index=ref['command_index'],command_offset=ref['command_offset'])
                     gathered[('Logic','/'+doc['metadata']['native_entry'])].append(item)
+    from title_cards import project_cards
+    gathered.update(project_cards(project).groups(language))
     return gathered
 
 
@@ -80,6 +83,9 @@ def supported_text(text,metrics,normalize):
 
 def compile_entry(source,items,language,metrics=None,normalize=True):
     """Verify stable native record mapping and change only selected fields."""
+    if any(item['row'].get('title_card') for item in items):
+        from title_cards import compile_card
+        return compile_card(source,items,language)
     kind=source[:4];edits=[];changes={};review=[];seen={}
     if kind==b'FIXH':
         from fixed_data import compile_fixed
@@ -183,9 +189,11 @@ def prepare_patch(project,language,targets,destination,metrics=None,normalize=Tr
     while not parent.exists():parent=parent.parent
     if shutil.disk_usage(parent).free<required:raise ValueError(f'Patch building needs about {required/1024**3:.1f} GB free.')
     destination.mkdir(parents=True)
-    report=dict(version=1,status='building',language=language,project_sha256=sha(json.dumps(project.data,sort_keys=True,ensure_ascii=False).encode()),
+    from title_cards import project_fingerprint,project_cards
+    report=dict(version=1,status='building',language=language,project_sha256=project_fingerprint(project),
                 source_corpus=str(project.corpus.root),targets=[str(t) for t in targets],archives=[],review=[],layout_fixes=[])
     atomic_json(destination/'edits.json',project.data);atomic_json(destination/'patch.json',report)
+    if project_cards(project).count():atomic_json(destination/'title_cards.json',project_cards(project).data)
     try:
         for name in names:
             progress('Checking '+name+' in every target…');filename=name+'.psarc.sdat';original=targets[0]/filename
@@ -217,7 +225,7 @@ def prepare_patch(project,language,targets,destination,metrics=None,normalize=Tr
                 atomic_json(destination/'patch.json',report)
                 if not keep_plain:base.unlink()
                 continue
-            verification=repack(base,plain,overrides,lambda message:progress(name+': '+message))
+            verification=repack(base,plain,overrides,lambda message:progress(name+': '+message),optimize_images=any('/SceneTitle/' in e for e in overrides))
             progress('Encrypting and checking every '+name+' SDAT block…')
             sdat.encrypt(plain,encrypted,original,verbose=False)
             if encrypted.stat().st_size!=size or not sdat.verify(encrypted,expect_plain=plain,verbose=False):raise ValueError(name+' output verification failed.')

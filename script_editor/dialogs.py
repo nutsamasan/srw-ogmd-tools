@@ -103,9 +103,10 @@ class Job(QThread):
 
 class PatchDialog(QDialog):
     def __init__(self,editor,home):
-        super().__init__(editor);self.editor=editor;self.home=home;self.manifest=None;self.completed_manifest=None;self.job=None;self.setWindowTitle('Patch text edits');self.resize(1240,860)
+        super().__init__(editor);self.editor=editor;self.home=home;self.manifest=None;self.completed_manifest=None;self.job=None;self.setWindowTitle('Patch text and title-card edits');self.resize(1240,860)
         layout=QVBoxLayout(self)
-        intro=QLabel('Build a patch with your text edits and the selected backlog fix. Review the changes, then install to a game folder or create a patched ISO.');intro.setWordWrap(True);layout.addWidget(intro)
+        from title_cards import project_cards
+        intro=QLabel(f'Build a patch with your text edits, saved title cards ({project_cards(editor.project).count()} total), and the selected backlog fix. Review the changes, then install to a game folder or create a patched ISO.');intro.setWordWrap(True);layout.addWidget(intro)
         choice=QHBoxLayout();choice.addWidget(QLabel('Patch destination:'));self.mode=QComboBox();self.mode.addItems(['Game folders / RPCS3','ISO image']);choice.addWidget(self.mode);choice.addStretch();layout.addLayout(choice)
         self.config_path=home/'patch_settings.json'
         try:self.config=json.loads(self.config_path.read_text(encoding='utf8')) if self.config_path.exists() else {}
@@ -137,11 +138,20 @@ class PatchDialog(QDialog):
         self.use_installed=QPushButton('Use installed game data');self.use_installed.clicked.connect(self.select_installed);runtime_row.addWidget(self.use_installed);layout.addLayout(runtime_row)
         self.controls.extend([self.runtime,runtime_browse,self.use_installed])
         self.note=QLabel();self.note.setWordWrap(True);self.note.setObjectName('subtle');layout.addWidget(self.note)
-        self.model=ResultModel([('Archive','archive'),('Script','entry'),('Row','id'),('Field','field'),('Current text','before'),('Patched text','after')])
+        self.model=ResultModel([('Archive','archive'),('Asset','entry'),('Row / card','id'),('Field','field'),('Current','before'),('Patched','after')])
         self.table=results_table(self.model);self.table.setColumnWidth(0,80);self.table.setColumnWidth(1,210);self.table.setColumnWidth(3,80);self.table.setColumnWidth(4,280);layout.addWidget(self.table,1)
         detail=QHBoxLayout();self.before=QPlainTextEdit();self.after=QPlainTextEdit()
         for edit in (self.before,self.after):edit.setReadOnly(True);edit.setMaximumHeight(130);detail.addWidget(edit)
         layout.addLayout(detail);self.table.selectionModel().currentRowChanged.connect(self.show_detail)
+        from title_card_dialog import SheetPreview
+        self.card_review=QWidget();card_layout=QVBoxLayout(self.card_review)
+        self.card_view=QComboBox();self.card_view.addItems(['Solid title layer','Full animation sheet','Layer 1','Layer 2','Layer 3','Layer 5','Layer 6'])
+        self.card_view.currentIndexChanged.connect(lambda:self.show_detail(self.table.currentIndex(),None));card_layout.addWidget(self.card_view)
+        images=QHBoxLayout();card_layout.addLayout(images)
+        self.card_before=SheetPreview();self.card_after=SheetPreview()
+        for title,preview in [('Current game artwork',self.card_before),('Patched artwork',self.card_after)]:
+            column=QVBoxLayout();column.addWidget(QLabel(title));column.addWidget(preview);images.addLayout(column)
+        self.card_review.setMaximumHeight(235);self.card_review.hide();layout.addWidget(self.card_review)
         self.status=QLabel('Ready to build. No game files have been changed.');self.status.setWordWrap(True);layout.addWidget(self.status)
         self.progress=QProgressBar();self.progress.setRange(0,0);self.progress.hide();layout.addWidget(self.progress)
         buttons=QHBoxLayout();self.restore=QPushButton('Restore previous game files…');self.restore.clicked.connect(self.restore_patch);buttons.addWidget(self.restore);buttons.addStretch()
@@ -183,9 +193,17 @@ class PatchDialog(QDialog):
     def invalidate(self,*args):
         self.manifest=None
         if hasattr(self,'install'):self.install.setEnabled(False);self.model.set_rows([])
+        if hasattr(self,'card_review'):self.card_review.hide()
     def show_detail(self,current,previous):
         row=self.model.rows[current.row()] if current.isValid() else {}
         self.before.setPlainText(row.get('before',''));self.after.setPlainText(row.get('after',''))
+        if hasattr(self,'card_review'):
+            self.card_review.setVisible(bool(row.get('title_card')))
+            if row.get('title_card'):
+                import base64
+                layer=[3,-1,0,1,2,4,5][self.card_view.currentIndex()]
+                self.card_before.set_png(base64.b64decode(row['before_png']),layer)
+                self.card_after.set_png(base64.b64decode(row['after_png']),layer)
     def busy(self,value):
         for control in self.controls+[self.build,self.restore,self.close_button,self.native_font]:control.setEnabled(not value)
         self.install.setEnabled(not value and self.manifest is not None);self.progress.setVisible(value)
@@ -221,7 +239,13 @@ class PatchDialog(QDialog):
     def install_prepared(self):
         if not self.manifest:return
         doc=json.loads(self.manifest.read_text(encoding='utf8'))
-        if sha(json.dumps(self.editor.project.data,sort_keys=True,ensure_ascii=False).encode())!=doc['project_sha256']:
+        from title_cards import project_fingerprint,CardProject,project_cards
+        cards=project_cards(self.editor.project)
+        try:
+            if CardProject(cards.path).file_hash!=cards.file_hash:raise ValueError('Title-card edits changed on disk. Reopen the editor and build again.')
+        except Exception as exc:
+            self.invalidate();self.failed(str(exc));return
+        if project_fingerprint(self.editor.project)!=doc['project_sha256']:
             self.invalidate();self.failed('Your edits changed. Build the patch again.');return
         if doc.get('kind')=='ogmd-iso':
             output=self.iso_output.text().strip()

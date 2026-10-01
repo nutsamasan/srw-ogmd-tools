@@ -85,6 +85,23 @@ def repack(source,destination,overrides,progress=lambda text:None,optimize_image
                         delta+=len(data)-len(packed);b.update(data=packed,clen=len(packed));modified.add(si)
                     if processed%32==0:progress(f'Optimized {processed:,} text blocks; {max(0,-delta):,} bytes still needed…')
                 if delta>=0:break
+        if delta<0 and optimize_images:
+            # New title sheets can miss the exact-size budget by just a few
+            # bytes. Refine those first instead of scanning every game image.
+            progress('Refining compression of edited artwork…')
+            for iterations in (15,30):
+                for si,s in enumerate(segments):
+                    if not s['changed'] or not s['entry'].name.lower().endswith('.dds'):continue
+                    for b in s['blocks']:
+                        if delta>=0:break
+                        data=raw(stream,b)
+                        try:plain=zlib.decompress(data) if b['clen'] and data[:1]==b'\x78' else data
+                        except zlib.error:continue
+                        packed=compact_zlib(plain,numiterations=iterations)
+                        if len(packed)<len(data) and len(packed)<=maximum:
+                            delta+=len(data)-len(packed);b.update(data=packed,clen=len(packed));modified.add(si)
+                    if delta>=0:break
+                if delta>=0:break
         if delta<0:
             progress('Recovering space with lossless compression…')
             for si,s in sorted(enumerate(segments),key=lambda x:sum(length(b) for b in x[1]['blocks']),reverse=True):
@@ -133,7 +150,7 @@ def repack(source,destination,overrides,progress=lambda text:None,optimize_image
                     processed+=1
                     if processed%32==0:progress(f'Compacted {processed:,} image blocks; {max(0,-delta):,} bytes still needed…')
                 if delta>=0:break
-        if delta<0:raise ValueError(f'Edited archive exceeds the game size by {-delta:,} bytes. Shorten the text.')
+        if delta<0:raise ValueError(f'Edited archive exceeds the game size by {-delta:,} bytes. Simplify edited artwork or shorten text; no game files were changed.')
         # Pad valid streams only, staying inside the block-table integer range.
         for si,s in sorted(enumerate(segments),key=lambda x:not x[1]['changed']):
             for b in s['blocks']:

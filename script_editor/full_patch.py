@@ -169,7 +169,7 @@ def prepare_full_patch(data,source,build,progress=lambda text:None,edits=None):
                         if changed!=original_text:overrides[entry]=changed
                         report['editor_corrections_review'].extend(dict(archive=name,entry=entry,**r) for r in review)
                     if overrides:
-                        custom=build/(name+'.custom.psarc');verification=repack(patched,custom,overrides,progress)
+                        custom=build/(name+'.custom.psarc');verification=repack(patched,custom,overrides,progress,optimize_images=any('/SceneTitle/' in e for e in overrides))
                         patched.unlink();custom.rename(patched);customized=True
                         report.setdefault('custom_archive_verification',{})[name]=verification
                 progress('Encrypting and verifying every '+name+' block…');sdat.encrypt(patched,output,original,verbose=False)

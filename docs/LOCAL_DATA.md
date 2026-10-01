@@ -1,6 +1,6 @@
 # Data included with the tools
 
-The [complete Windows downloads](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-09-29) include their required data. See [package setup](DATA_DOWNLOADS.md). The Git source repository contains the tools and small catalogs; large game-derived resources remain in the release packages. Users supply their own supported game/save inputs.
+The [complete Windows downloads](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01) include their required data. See [package setup](DATA_DOWNLOADS.md). The Git source repository contains the tools and small catalogs; large game-derived resources remain in the release packages. Users supply their own supported game/save inputs.
 
 ## Save, Pilot, and Mech tools
 
@@ -13,6 +13,8 @@ The complete package includes `Editor/script_export/OGMD_EN_JP_20260908`, contai
 Native preview files `font.bin`, `font_atlas.png`, and `tex_13.png` are under `Editor/assets`, together with provenance and the matching `runtime` support folder. The GUI finds these resources automatically. Full-English release data used by the editor's patcher dialogs is included at `full_patcher/data`, beside the `Editor` folder.
 
 For source use, select the included corpus and preview resources with `--corpus <folder> --assets <folder>`, or copy them into the source checkout's `script_export` and `script_editor/assets` directories. Copy the included `full_patcher/data` directory to the equivalent source path for the embedded patcher dialogs.
+
+Copy `Editor/_internal/assets/title_cards.zip` from the complete Script Editor package into `script_editor/assets` for source use and Windows builds. This verified library contains 115 English/Japanese title and chapter-number sheets. S084's English sheet is corrected to **VAUGHT AND FAIRY** in all six animation layers; `tools/build_title_card_assets.py` reproduces the library and `title_card_correction.py` reproduces the correction from native donor pixels. Game-derived artwork is kept in release attachments, outside the source repository.
 
 `prepare_assets.py`, `tools/export_script_by_stage.py`, `tools/export_editor_fixed_data.py`, `tools/export_editor_expanded_data.py`, and `tools/build_battle_speaker_index.py` document the original extraction/index-building pipeline. They retain historical staging conventions and need PS3 Japanese and PS4 English source data.
 

@@ -19,9 +19,11 @@ TOOLS = {
         ('pilot_editor/catalog.json', '.'), ('pilot_editor/names.json', '.')]),
     'mech': ('OGMD-Mech-Skill-Patcher-1.0', 'mech_skill_patcher/app.py', [
         ('mech_skill_patcher/catalog.json', '.')]),
-    'script': ('OGMD-Script-Editor-3.14', 'script_editor/app.py', [
-        ('script_editor/assets/battle_speakers.json', 'assets')]),
-    'full': ('OGMD-Full-English-Patcher-1.6.2', 'script_editor/full_app.py', []),
+    'script': ('OGMD-Script-Editor-3.16', 'script_editor/app.py', [
+        ('script_editor/assets/battle_speakers.json', 'assets'),
+        ('script_editor/assets/title_cards.zip', 'assets')]),
+    'full': ('OGMD-Full-English-Patcher-1.6.3', 'script_editor/full_app.py', [
+        ('script_editor/assets/title_cards.zip', 'assets')]),
 }
 
 
@@ -119,7 +121,7 @@ def package(key, output, revision):
         + f'Corresponding project source: https://github.com/nutsamasan/srw-ogmd-tools/tree/{revision}\n'
         + 'Dependency source download links and replacement/rebuild instructions: docs/DEPENDENCY_SOURCES.md\n', encoding='utf8')
     (folder / 'BUILD_INFO.json').write_text(json.dumps(dict(source_revision=revision, python=sys.version.split()[0],
-        packages=versions, tool=key, format='PyInstaller onedir', game_resources_bundled=False), indent=2)+'\n', encoding='utf8')
+        packages=versions, tool=key, format='PyInstaller onedir', game_resources_bundled=key in ('script', 'full')), indent=2)+'\n', encoding='utf8')
     archive = output / f'{name}-windows-x64.zip'
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zip_file:
         for path in sorted(folder.rglob('*')):

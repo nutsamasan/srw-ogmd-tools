@@ -165,8 +165,16 @@ class EditProject:
         atomic_json(destination/'edits.json',self.data)
         from edit_bundle import export_bundle
         export_bundle(self,destination/'patch_edits.json')
+        from title_cards import project_cards
+        cards=project_cards(self)
+        if cards.count():
+            atomic_json(destination/'title_cards.json',cards.data)
+            folder=destination/'Title_cards';folder.mkdir()
+            for identity in cards.data['images']:
+                language,key=identity.split(':',1)
+                (folder/(key+'_'+language+'.png')).write_bytes(cards.png(key,language))
         atomic_json(destination/'export_manifest.json',dict(collections=written,game_archives_modified=False))
-        (destination/'README.txt').write_text('Edited script files and stable row IDs for review/reimport.\nOriginal source fields are retained with _original suffixes.\nThis is a text export; game archives have not been rebuilt or installed.\n',encoding='utf8')
+        (destination/'README.txt').write_text('Edited script files and stable row IDs for review/reimport.\nOriginal source fields are retained with _original suffixes.\nTitle_cards contains edited PNG sheets, when present. Reimport those through Stage title cards, not Import scripts.\npatch_edits.json includes English text and artwork for the Full English patcher embedded in Script Editor 3.15 or newer.\nGame archives have not been rebuilt or installed.\n',encoding='utf8')
         return len(written)
 
     def find_all(self,query,replacement='',languages=('en',),speakers=True,match_case=False,whole_word=False):

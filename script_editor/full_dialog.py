@@ -13,7 +13,7 @@ from runtime_setup import setup_runtime,restore_setup
 class FullPatchDialog(QDialog):
     def __init__(self,home,parent=None):
         super().__init__(parent);self.home=Path(home);self.manifest=None;self.setup_plan=None;self.output_ready=False;self.job=None
-        self.setWindowTitle('OGMD Full English Patcher 1.6.2');self.resize(1050,920)
+        self.setWindowTitle('OGMD Full English Patcher 1.6.3');self.resize(1050,920)
         self.config_path=self.home/'settings.json'
         try:self.config=json.loads(self.config_path.read_text(encoding='utf8'))
         except (OSError,ValueError):self.config={}
@@ -128,7 +128,7 @@ class FullPatchDialog(QDialog):
         self.status.setText('Patch verified. Create the new game output when ready. Your source is preserved.')
         if doc.get('editor_corrections_review'):
             changes=[r for r in doc['editor_corrections_review'] if r['before']!=r['after']]
-            self.details.appendPlainText(f'\n{len(changes)} editor text corrections applied:\n'+'\n\n'.join(r['id']+'\n'+r['before']+'\n→ '+r['after'] for r in changes))
+            self.details.appendPlainText(f'\n{len(changes)} editor text / artwork corrections applied:\n'+'\n\n'.join(r['id']+'\n'+r['before']+'\n→ '+r['after'] for r in changes))
     def open_build(self):
         path,_=QFileDialog.getOpenFileName(self,'Open a verified full-English build',str(self.home/'builds'),'Full patch build (iso_patch.json full_patch.json)')
         if not path:return

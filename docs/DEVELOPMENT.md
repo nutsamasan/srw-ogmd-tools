@@ -46,6 +46,8 @@ To reproduce the public GUI ZIPs, run this command from a clean checkout after i
 
 Outputs are under `dist/windows`. Use `--tool save`, `pilot`, `mech`, `script`, or `full` to build one program. `--output <folder>` selects a different output directory. This builds the program/runtime stage, with listed catalogs, dependency notices and source records. Script and Full English Patcher release downloads additionally contain their data.
 
+Script Editor 3.16 and Full English Patcher 1.6.3 also embed the verified `script_editor/assets/title_cards.zip` library. Supply it from a complete release as described in `LOCAL_DATA.md` before building either program. Source-only CI uses synthetic tests; native title-card tests require this library and the corpus.
+
 `tools/combine_windows_downloads.py --gui-dir <built-GUI-ZIPs> --data-dir <prepared-resource-ZIPs> --output <new-folder>` assembles the complete packages without changing their verified program binaries. Its inputs are the program-stage ZIPs and prepared resource archives; the input hashes and packaging source revision are recorded in each `PACKAGE_INFO.json`. Resource files are included in the complete downloads, and their original preparation is documented in `LOCAL_DATA.md`. The Script Editor package keeps its executable under `Editor` and full patching data under the sibling `full_patcher/data`, matching the editor's existing path resolution. The top-level launcher is portable and contains no machine-specific path.
 
 The individual `build.ps1` scripts retain the older local one-file packaging workflow. In particular, `script_editor/build.ps1` expects private preview and runtime resources; it is not the public release recipe.

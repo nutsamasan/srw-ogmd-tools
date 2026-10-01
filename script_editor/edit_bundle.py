@@ -10,6 +10,7 @@ def export_bundle(project,path):
     groups=collect_changes(project,'en')
     doc=dict(version=1,kind='ogmd-english-edits',corpus_identity=project.corpus.identity,
              groups=[dict(archive=a,entry=e,items=items) for (a,e),items in sorted(groups.items())])
+    if any('/SceneTitle/' in e for a,e in groups):doc['version']=2
     doc['payload_sha256']=checksum(doc);atomic_json(path,doc);return Path(path)
 
 def read_bundle(path,release):
@@ -17,12 +18,16 @@ def read_bundle(path,release):
     if path.stat().st_size>100*1024*1024:raise ValueError('Editor corrections exceed 100 MB.')
     doc=json.loads(path.read_text(encoding='utf-8-sig'));expected=doc.pop('payload_sha256',None)
     if checksum(doc)!=expected:raise ValueError('Editor corrections changed. Export them again from the editor.')
-    if doc.get('version')!=1 or doc.get('kind')!='ogmd-english-edits':raise ValueError('Choose patch_edits.json from Export edits.')
+    if doc.get('version') not in (1,2) or doc.get('kind')!='ogmd-english-edits':raise ValueError('Choose patch_edits.json from Export edits.')
     if doc.get('corpus_identity')!=release.get('corpus_identity'):raise ValueError('Editor corrections and release use different source libraries.')
     groups={}
     for group in doc['groups']:
         a,e=group['archive'],group['entry']
         if not e.startswith('/') or archive_name(e[1:])!=a or (a,e) in groups:raise ValueError('Invalid correction archive mapping.')
+        if '/SceneTitle/' in e:
+            from title_cards import validate_item
+            if doc['version']!=2:raise ValueError('Artwork corrections require bundle version 2.')
+            validate_item(e,group['items'],'en');groups[(a,e)]=group['items'];continue
         for item in group['items']:
             row=item['row']
             if not isinstance(row.get('id'),str):raise ValueError('Missing correction row ID.')
