@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$editorBuildName = 'OGMD Script Editor v3.16'
+$editorBuildName = 'OGMD Script Editor v3.17'
 $editorBuildPath = $env:PATH
 try {
     # Keep unrelated tools' ICU and other DLLs out of PyInstaller's dependency search.

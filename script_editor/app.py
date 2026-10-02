@@ -218,7 +218,7 @@ class Editor(QMainWindow):
         self.weapon_units={r['fixed_logical']:r for r in corpus.load('06_Game_data/Mech_names')[0]['rows']}
         self.metrics=NativeMetrics(ASSETS/'font.bin');self.key=None;self.row_index=None;self.loading=False
         self.setLocale(QLocale.c())
-        self.setWindowTitle('OGMD Script Editor v3.16');self.resize(1530,960);self.setMinimumSize(1100,760)
+        self.setWindowTitle('OGMD Script Editor v3.17');self.resize(1530,960);self.setMinimumSize(1100,760)
         self.speaker_refresh=QTimer(self);self.speaker_refresh.setSingleShot(True);self.speaker_refresh.setInterval(250);self.speaker_refresh.timeout.connect(self.refresh_battle_library)
         self.autosave=QTimer(self);self.autosave.setSingleShot(True);self.autosave.setInterval(1500);self.autosave.timeout.connect(self.save)
         root=QWidget();self.setCentralWidget(root);layout=QVBoxLayout(root);layout.setContentsMargins(18,14,18,10);layout.setSpacing(12)
@@ -691,7 +691,9 @@ def main():
             full.data.setText(str(HOME.parent/'full_patcher/data'))
             release=package_info(full.data.text())
             assert release['version']==2 and release.get('movie') and release.get('custom_notice')
-            assert full.windowTitle()=='OGMD Full English Patcher 1.6.3'
+            assert full.windowTitle()=='OGMD Full English Patcher 1.6.4'
+            from pilot_development import validate_release_fix
+            pilot_fix=validate_release_fix(release)
             assert release.get('battle_caption_limits')==BATTLE_CAPTION_LIMITS
             assert release.get('battle_fit_visual_tested') and release.get('diagnostic_recorder') is False
             assert 'The reported Azuki battle line was also confirmed in game' in full.details.toPlainText()
@@ -807,7 +809,7 @@ def main():
             compiled,card_review=compile_entry(card_native,card_items,'en')
             assert compiled==catalog().native('st_000',png) and card_review[0]['title_card']
             cards.project.reset('st_000','en');assert cards.project.count()==0;cards.close()
-            atomic_json(args.self_check,dict(status='passed',version='3.16',backlog_fix_default=True,runtime_workflow=runtime_check,collections=len(corpus.collections),
+            atomic_json(args.self_check,dict(status='passed',version='3.17',backlog_fix_default=True,runtime_workflow=runtime_check,collections=len(corpus.collections),
                 title_card_sheets=115,title_card_preview_loaded=True,title_card_save_compile_reset_verified=True,
                 corrected_st084_png_sha256=ST084_PNG_SHA256,
                 unit_data_compatibility=unit_data_check,
@@ -816,7 +818,8 @@ def main():
                 native_font_loaded=True,native_reference_width=306.75,source_rows_loaded=160,
                 global_search_loaded=True,native_patch_crypto_loaded=True,
                 import_and_undo_passed=True,iso_workflow_loaded=True,local_iso_indexes_verified=iso_checked,lossless_compression_loaded=True,dialogue_pool_compaction_loaded=True,
-                confirmed_apostrophe_spacing=True,full_game_patcher_available=True,embedded_patcher_version='1.6.3',
+                confirmed_apostrophe_spacing=True,full_game_patcher_available=True,embedded_patcher_version='1.6.4',
+                pilot_development_descriptions_corrected=pilot_fix['count'],pilot_development_user_confirmed=pilot_fix['user_confirmed_in_game'],
                 battle_caption_limits=BATTLE_CAPTION_LIMITS,battle_fit_user_confirmed=True,diagnostic_recorder=False,
                 release_format=release['version'],english_intro=bool(release.get('movie')),custom_notice=bool(release.get('custom_notice')),current_editor_edits_verified=True,
                 fixed_data_sections=5,location_fields=764,expanded_previews_verified=expanded_counts,glossary_links_rendered=True,portable_edit_bundle_available=True,

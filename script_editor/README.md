@@ -1,16 +1,18 @@
-# OGMD Script Editor v3.16
+# OGMD Script Editor v3.17
 
-**Public download:** get `OGMD-Script-Editor-3.16-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01). This single ZIP includes the editor, English/Japanese corpus, preview resources, and Full English Patcher data. Extract the entire ZIP and double-click `Start Script Editor.cmd`. Keep its `Editor` and `full_patcher` folders together. See [package setup](../docs/DATA_DOWNLOADS.md).
+Version 3.17 corrects all ten Pilot Development stat and terrain descriptions. Both lines now display completely, with line lengths fitted to the menu box. The fix was confirmed in RPCS3. The built-in Full English Patcher 1.6.4 includes it in new full translation builds.
 
-Double-click **OGMD Script Editor.exe** (updated to v3.16) or **OGMD Script Editor v3.16.exe**. Save and close the older editor first; your existing `edits/project.json` is reused automatically. Earlier versioned executables are retained.
+**Public download:** get `OGMD-Script-Editor-3.17-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01). This single ZIP includes the editor, English/Japanese corpus, preview resources, and Full English Patcher data. Extract the entire ZIP and double-click `Start Script Editor.cmd`. Keep its `Editor` and `full_patcher` folders together. See [package setup](../docs/DATA_DOWNLOADS.md).
 
-Version 3.16 fixes `Fixed game records differ: WeaponData_name:0366` on installed data customized with the Save Editor's weapon tool. Weapon name edits preserve base attack, minimum/maximum range, EN cost and ammo. Only these six bytes per supported weapon are exempt from the stock fingerprint; invalid ranges, changed owners/slots, other weapon properties and dummy-record edits are still rejected. Pilot settings and mech-skill compatibility remain included. You do not need to restore weapon defaults before building a text patch.
+Double-click **OGMD Script Editor.exe** (updated to v3.17) or **OGMD Script Editor v3.17.exe**. Save and close the older editor first; your existing `edits/project.json` is reused automatically. Earlier versioned executables are retained.
+
+Version 3.17 fixes `Fixed game records differ: WeaponData_name:0366` on installed data customized with the Save Editor's weapon tool. Weapon name edits preserve base attack, minimum/maximum range, EN cost and ammo. Only these six bytes per supported weapon are exempt from the stock fingerprint; invalid ranges, changed owners/slots, other weapon properties and dummy-record edits are still rejected. Pilot settings and mech-skill compatibility remain included. You do not need to restore weapon defaults before building a text patch.
 
 Version 3.13 fixes `Fixed game records differ: PilotData_short_name:0010` when building text edits on installed data customized with the OGMD Pilot Editor. Name edits preserve all six Spirit Command slots, SP costs, unlock levels, condition bytes and Will profiles. Validation accepts only the supported BLJS10335 table and setting values; pilot stats, skills, mappings, reserved bytes and the dummy record remain guarded. You do not need to restore pilot defaults before building a text patch.
 
 Version 3.12 fixes `Fixed game records differ: UnitData_name:0140` when building text edits on installed data customized with the OGMD Mech Skill Patcher. Text patches preserve all five built-in skill slots on every mech. Validation still checks the unit mapping, stats and other record fields, and rejects unsupported skill IDs. Existing projects and exported edit bundles remain compatible; no source-corpus conversion is needed.
 
-Version 3.11 introduced **Full English Patcher 1.6.3** and the battle-dialogue fitting fix confirmed in RPCS3 on Azuki's “All hands, brace for impact…” line. These remain included in v3.16, along with the supplied English notice and PS4 English intro. **Use current editor edits** still attaches your current English corrections. Editor 3.9 and older contain Patcher 1.5 and reject this release with “Choose the data folder from a verified full-English release.” Updating files does not update an already running editor; reopen v3.16.
+Version 3.11 introduced **Full English Patcher 1.6.4** and the battle-dialogue fitting fix confirmed in RPCS3 on Azuki's “All hands, brace for impact…” line. These remain included in v3.17, along with the supplied English notice and PS4 English intro. **Use current editor edits** still attaches your current English corrections. Editor 3.9 and older contain Patcher 1.5 and reject this release with “Choose the data folder from a verified full-English release.” Updating files does not update an already running editor; reopen v3.17.
 
 For **Full English patcher**, select the original Japanese ISO or complete extracted disc folder containing `PS3_GAME`. An installed `dev_hdd0/game/BLJS10335/USRDIR/PSARC` folder cannot supply the boot executable and intro. The patcher now identifies that selection before starting a build. To apply only saved text corrections to installed archives, use **Patch edits**. For a full rebuild, select **Use current editor edits** to carry your corrections into the new output.
 
@@ -119,7 +121,7 @@ Developer entry point: `script_editor/.venv/Scripts/python.exe script_editor/app
 
 Checks: `script_editor/.venv/Scripts/python.exe -m unittest discover -s script_editor -p "test_*.py" -v`.
 
-Rebuild from PowerShell inside this folder: `./build.ps1`. This uses a restricted build search path so unrelated tools' DLLs cannot be bundled. Run `& '.\OGMD Script Editor v3.16.exe' --self-check qa/bundle_v314_check.json` to check the packaged program with a temporary edits workspace and the sibling full-patcher release; the JSON report and screenshots are written under `qa`. Add `--check-unit-data path/to/UnitData.dat`, `--check-pilot-data path/to/PilotData.dat` and/or `--check-weapon-data path/to/WeaponData.dat` to verify that the packaged name compiler preserves custom mech skills, pilot settings and weapon stats on those extracted tables without modifying them.
+Rebuild from PowerShell inside this folder: `./build.ps1`. This uses a restricted build search path so unrelated tools' DLLs cannot be bundled. Run `& '.\OGMD Script Editor v3.17.exe' --self-check qa/bundle_v314_check.json` to check the packaged program with a temporary edits workspace and the sibling full-patcher release; the JSON report and screenshots are written under `qa`. Add `--check-unit-data path/to/UnitData.dat`, `--check-pilot-data path/to/PilotData.dat` and/or `--check-weapon-data path/to/WeaponData.dat` to verify that the packaged name compiler preserves custom mech skills, pilot settings and weapon stats on those extracted tables without modifying them.
 
 `test_import_iso.py` covers all 430 collections in all four import formats, EN/JP and speaker round trips, conflict handling, undo, stale previews, invalid inputs, ISO multi-extent writing, source/output protection, UDF CRC rejection, and GUI refresh. `qa_iso_build.py <new QA folder>` runs a separate real-ISO integration check for Logic/Common/Battle using imported QA text, without changing the user's edits or installing anything. QA ISOs contain test text and are not the user's finished patch.
 
@@ -127,11 +129,11 @@ Disc parsing uses the ISO9660/ECMA-167 field layouts, with UDF metadata-partitio
 
 Retail archives can already be tightly compressed. When an edit needs extra space, the bundled [Zopfli compressor](https://github.com/fonttools/py-zopfli) optimizes text streams using the same zlib format before larger assets are considered. All optimized streams are decoded and checked against their original bytes. Edits must still fit the native text pools and the archive's fixed total size.
 
-## Stage title cards (3.16)
+## Stage title cards (3.17)
 
 Open **Stage title cards** to preview, export, import and patch English or Japanese artwork. The library includes 66 title sheets and 49 chapter-number sheets, with all six animation layers and transparency preserved. Menu stage-name text is edited separately.
 
-The bundled S084 English card now reads **VAUGHT AND FAIRY**, reconstructed from original game glyph pixels without resampling. Full English Patcher 1.6.3 includes this correction automatically in new full translation builds.
+The bundled S084 English card now reads **VAUGHT AND FAIRY**, reconstructed from original game glyph pixels without resampling. Full English Patcher 1.6.4 includes this correction automatically in new full translation builds.
 
 For an existing game, select **st_084** and **English artwork**, click **Stage bundled artwork**, then **Patch saved edits** to build, review and apply the replacement through the existing backup workflow. **Remove saved card edit** removes the staged replacement; it does not undo an installed patch. Use patch restoration to undo an installed change.
 

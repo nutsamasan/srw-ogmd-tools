@@ -61,6 +61,9 @@ def build():
                 assert index < len(fixed.strings), (filename,logical,offset,index)
                 jp = fixed.strings[index]
                 en = tables[name][logical].text.replace('\r\n','\n').replace('\r','\n')
+                if filename == 'ProgStrData':
+                    from pilot_development_text_fix import DESCRIPTIONS
+                    en = DESCRIPTIONS.get(logical, en)
                 assignments.append((physical,offset,width,en))
                 if en not in choices[index]: choices[index].append(en)
                 rows.append(dict(logical=logical,physical=physical,offset=offset,width=width,
@@ -68,6 +71,9 @@ def build():
         replacements = {i: options[0] for i,options in choices.items()}
         try:
             result = rebuild_fixed(fixed, replacements, assignments)
+            if filename == 'ProgStrData':
+                from pilot_development_text_fix import fix_descriptions
+                result, _ = fix_descriptions(result)
             actual = parse_fixed(result)
             report = dict(file=filename, source_sha256=sha256(source),output_sha256=sha256(result),
                           source_size=len(source),output_size=len(result),rows=rows,

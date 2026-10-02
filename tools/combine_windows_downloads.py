@@ -8,7 +8,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = {'script': 'OGMD-Script-Editor-3.16', 'full': 'OGMD-Full-English-Patcher-1.6.3'}
+NAMES = {'script': 'OGMD-Script-Editor-3.17', 'full': 'OGMD-Full-English-Patcher-1.6.4'}
 
 
 def sha(path):
@@ -70,29 +70,29 @@ def assemble(key, gui_dir, data_dir, output):
         extract(patch_data, NAMES['full'] + '/data', home / 'full_patcher' / 'data')
         inputs[patch_data.name] = sha(patch_data)
         (home / 'Start Script Editor.cmd').write_text(
-            '@echo off\nstart "" "%~dp0Editor\\OGMD-Script-Editor-3.16.exe"\n', encoding='ascii')
-        instructions = '''OGMD Script Editor 3.16 - complete portable package
+            '@echo off\nstart "" "%~dp0Editor\\OGMD-Script-Editor-3.17.exe"\n', encoding='ascii')
+        instructions = '''OGMD Script Editor 3.17 - complete portable package
 
 1. Extract the entire ZIP.
 2. Double-click Start Script Editor.cmd.
 
 The program, English/Japanese script corpus, preview resources, runtime
-support and Full English Patcher 1.6.3 data are all included. No separate
+support and Full English Patcher 1.6.4 data are all included. No separate
 data download or Python installation is needed.
 
-You can also open Editor/OGMD-Script-Editor-3.16.exe directly. Keep the Editor
+You can also open Editor/OGMD-Script-Editor-3.17.exe directly. Keep the Editor
 and full_patcher folders together. Full English patcher and Embed font /
 battle text fix buttons automatically use the included full_patcher/data.
 To build a full English copy with your edits, choose Use current editor edits.
 The script-reading guide is Editor/script_export/OGMD_EN_JP_20260908/START_HERE.md.
 '''
     else:
-        instructions = '''OGMD Full English Patcher 1.6.3 - complete portable package
+        instructions = '''OGMD Full English Patcher 1.6.4 - complete portable package
 
 1. Extract the entire ZIP.
-2. Open OGMD-Full-English-Patcher-1.6.3.exe.
+2. Open OGMD-Full-English-Patcher-1.6.4.exe.
 
-The program and complete 1.6.3 patching data are included. No separate data
+The program and complete 1.6.4 patching data are included. No separate data
 download or Python installation is needed. Keep data and _internal beside
 the executable. Release data folder is detected automatically.
 
@@ -108,7 +108,7 @@ Tool source is GPLv3. Game-derived script, translation and support resources
 retain their original ownership and are not relicensed as GPL.
 
 Project: https://github.com/nutsamasan/srw-ogmd-tools
-Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01
+Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-02
 '''
     (home / 'START_HERE.txt').write_text(instructions, encoding='utf8')
     if app_home != home:

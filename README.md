@@ -11,10 +11,10 @@ The tools target the Japanese PS3 release **BLJS10335**, primarily used with RPC
 | [Save Editor](save_editor/README.md) | 1.6 | Save editing, pilot skills and status, mech abilities, and native weapon settings |
 | [Pilot Editor](pilot_editor/README.md) | 1.1 | Spirit Commands, Will behavior profiles, and current saved Will |
 | [Mech Skill Patcher](mech_skill_patcher/README.md) | 1.0 | Built-in mech skill assignments, original defaults, and backup restoration |
-| [Script Editor](script_editor/README.md) | 3.16 | English/Japanese text and stage-title artwork editing, archive/ISO patching |
-| [Full English Patcher](full_patcher/README.md) | 1.6.3 | Full translation builds and embedded font/battle-caption fixes |
+| [Script Editor](script_editor/README.md) | 3.17 | English/Japanese text and stage-title artwork editing, archive/ISO patching |
+| [Full English Patcher](full_patcher/README.md) | 1.6.4 | Full translation builds and embedded font/battle-caption fixes |
 
-**New in Script Editor 3.16 / Full English Patcher 1.6.3:** stage title-card preview and PNG editing, plus the native-pixel S084 correction to **VAUGHT AND FAIRY**. Complete downloads include the corrected library and patch data.
+**New in Script Editor 3.17 / Full English Patcher 1.6.4:** stage title-card preview and PNG editing, plus the native-pixel S084 correction to **VAUGHT AND FAIRY**. Complete downloads include the corrected library and patch data.
 
 The Full English Patcher's application source is `script_editor/full_app.py` and its related modules. It shares code with the Script Editor.
 
@@ -24,7 +24,7 @@ Download the ready-to-run **Windows 64-bit GUI ZIPs** from [Releases](https://gi
 
 All five tools have separate downloads: Save Editor, Pilot Editor, Mech Skill Patcher, Script Editor, and Full English Patcher. See [download and launch instructions](docs/WINDOWS_DOWNLOADS.md).
 
-**Each tool is one complete ZIP with its data included.** The Script Editor includes the English/Japanese corpus, preview resources, and data for its built-in Full English Patcher. After extraction, double-click `Start Script Editor.cmd`. The standalone Full English Patcher includes its complete 1.6.3 data beside the EXE. The Save, Pilot, and Mech tools include their support catalogs. See [setup instructions](docs/DATA_DOWNLOADS.md).
+**Each tool is one complete ZIP with its data included.** The Script Editor includes the English/Japanese corpus, preview resources, and data for its built-in Full English Patcher. After extraction, double-click `Start Script Editor.cmd`. The standalone Full English Patcher includes its complete 1.6.4 data beside the EXE. The Save, Pilot, and Mech tools include their support catalogs. See [setup instructions](docs/DATA_DOWNLOADS.md).
 
 Patching still requires your own compatible game copy. Complete Windows packages are release attachments; cloning the source repository alone does not download their data.
 
@@ -64,3 +64,5 @@ Bug reports, documentation improvements, and code changes are welcome. Read [CON
 Project source code is released under **GNU GPL version 3**; see [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md). The SDAT implementation credits Hykem's `make_npdata`; original credits are retained. Dependencies keep their own licenses.
 
 Game names, character names, trademarks, and other third-party material remain associated with their respective owners. The software license grants no rights to redistribute the game, its official translation, fonts, artwork, movies, or other game assets. This is an unofficial community project.
+
+Pilot Development description clipping is corrected in Script Editor 3.17 and Full English Patcher 1.6.4. All ten stat/terrain descriptions retain both lines; confirmed in RPCS3.

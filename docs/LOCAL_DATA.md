@@ -1,6 +1,6 @@
 # Data included with the tools
 
-The [complete Windows downloads](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01) include their required data. See [package setup](DATA_DOWNLOADS.md). The Git source repository contains the tools and small catalogs; large game-derived resources remain in the release packages. Users supply their own supported game/save inputs.
+The [complete Windows downloads](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-02) include their required data. See [package setup](DATA_DOWNLOADS.md). The Git source repository contains the tools and small catalogs; large game-derived resources remain in the release packages. Users supply their own supported game/save inputs.
 
 ## Save, Pilot, and Mech tools
 

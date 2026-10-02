@@ -19,10 +19,10 @@ TOOLS = {
         ('pilot_editor/catalog.json', '.'), ('pilot_editor/names.json', '.')]),
     'mech': ('OGMD-Mech-Skill-Patcher-1.0', 'mech_skill_patcher/app.py', [
         ('mech_skill_patcher/catalog.json', '.')]),
-    'script': ('OGMD-Script-Editor-3.16', 'script_editor/app.py', [
+    'script': ('OGMD-Script-Editor-3.17', 'script_editor/app.py', [
         ('script_editor/assets/battle_speakers.json', 'assets'),
         ('script_editor/assets/title_cards.zip', 'assets')]),
-    'full': ('OGMD-Full-English-Patcher-1.6.3', 'script_editor/full_app.py', [
+    'full': ('OGMD-Full-English-Patcher-1.6.4', 'script_editor/full_app.py', [
         ('script_editor/assets/title_cards.zip', 'assets')]),
 }
 
