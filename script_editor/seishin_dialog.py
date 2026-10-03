@@ -69,6 +69,19 @@ class SeishinDialog(QDialog):
     def language(self):
         return 'en' if self.tabs.currentIndex() == 0 else 'jp'
 
+    def focus_row(self, rid):
+        for logical, fields in self.commands.items():
+            field=next((name for name,row in fields.items() if row['id']==rid),None)
+            if field is None:continue
+            self.search.clear()
+            if logical<2:self.reserved.setChecked(True)
+            item=next(self.list.item(i) for i in range(self.list.count()) if self.list.item(i).data(Qt.ItemDataRole.UserRole)==logical)
+            self.list.setCurrentItem(item);self.list.scrollToItem(item)
+            if self.current==logical:
+                (self.names[self.language()] if field=='name' else self.descriptions[self.language()]).setFocus()
+            return
+        raise ValueError('Unknown Seishin text row: '+rid)
+
     def label_item(self, item):
         logical = item.data(Qt.ItemDataRole.UserRole); fields = self.commands[logical]
         row = fields['name']; values = self.project.values(KEY, row)

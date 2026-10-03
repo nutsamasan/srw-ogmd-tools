@@ -81,7 +81,7 @@ class ExpandedTests(unittest.TestCase):
         app=QApplication.instance() or QApplication([]);load_ui_fonts();app.setStyleSheet(STYLE)
         with tempfile.TemporaryDirectory() as temp:
             w=Editor(self.corpus,Path(temp)/'edits.json');w.show();app.processEvents()
-            keys=[LOCATION,'06_Game_data/Spirit_commands','06_Game_data/Weapon_names']
+            keys=[LOCATION,'06_Game_data/Weapon_names']
             for key in keys:
                 row=next(r for r in self.corpus.load(key)[0]['rows'] if r['en'])
                 w.open_line(key,row['id']);app.processEvents();self.assertEqual(w.preview_stack.currentIndex(),1)

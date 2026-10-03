@@ -311,7 +311,14 @@ class Editor(QMainWindow):
         from seishin_dialog import SeishinDialog
         if not self.save():return
         self.autosave.stop()
-        try:SeishinDialog(self).exec()
+        try:
+            dialog=getattr(self,'seishin_window',None)
+            if dialog is None:
+                dialog=SeishinDialog(self);self.seishin_window=dialog
+                dialog.setAttribute(Qt.WidgetAttribute.WA_DeleteOnClose)
+                dialog.destroyed.connect(lambda:setattr(self,'seishin_window',None))
+            dialog.setModal(True);dialog.show();dialog.raise_();dialog.activateWindow()
+            return dialog
         except Exception as exc:QMessageBox.warning(self,'Seishin editor unavailable',str(exc))
 
     def full_patch_game(self):
@@ -367,6 +374,10 @@ class Editor(QMainWindow):
         self.status.setText(f'Saved  ·  {self.project.count():,} edited rows  ·  {self.project.path}')
 
     def open_line(self,key,rid):
+        if key=='06_Game_data/Spirit_commands':
+            dialog=self.edit_seishin()
+            if dialog:dialog.focus_row(rid)
+            return
         self.library_search.clear();self.search.clear();self.only_edited.setChecked(False)
         self.battle_filter.setCurrentIndex(0)
         for i in range(self.tree.topLevelItemCount()):
@@ -387,10 +398,11 @@ class Editor(QMainWindow):
 
     def populate(self):
         parents={}
-        for name in ['Pilot names','Mech names','Spirit Commands','Weapon names','Location banners','Glossary','Stages','Alternate versions','Interludes','Extras','Shared & narration','Map event text','Battle messages','Developer scripts']:
+        for name in ['Pilot names','Mech names','Weapon names','Location banners','Glossary','Stages','Alternate versions','Interludes','Extras','Shared & narration','Map event text','Battle messages','Developer scripts']:
             parent=QTreeWidgetItem([name]);self.tree.addTopLevelItem(parent);parents[name]=parent
-            parent.setExpanded(name in ('Pilot names','Mech names','Spirit Commands','Weapon names','Location banners','Glossary','Stages','Alternate versions','Interludes'))
+            parent.setExpanded(name in ('Pilot names','Mech names','Weapon names','Location banners','Glossary','Stages','Alternate versions','Interludes'))
         for c in self.corpus.collections:
+            if c['key']=='06_Game_data/Spirit_commands':continue
             parent=parents.get(c['group'])
             if parent is None:
                 parent=QTreeWidgetItem([c['group']]);self.tree.addTopLevelItem(parent);parents[c['group']]=parent
@@ -439,7 +451,7 @@ class Editor(QMainWindow):
                 item.setHidden(not hit);visible+=hit
             parent.setHidden(not visible);matches+=visible
             if terms and visible:parent.setExpanded(True)
-        self.library_info.setText(f'{matches} / {len(self.corpus.collections)} collections')
+        self.library_info.setText(f'{matches} / {len(self.corpus.collections)-1} library collections')
 
     def select_collection(self,item,previous=None):
         if item is None:return
@@ -796,8 +808,8 @@ def main():
             slash_key='04_Shared/Battle_messages/0112';window.open_line(slash_key,'0112:2261')
             assert '/' in window.editors['en'].toPlainText() and '/' not in window.preview.text and '\n' in window.preview.text
             app.processEvents();window.grab().save(str(args.self_check.with_suffix('.png')))
-            expanded_counts={}
-            for key in ('06_Game_data/Spirit_commands','06_Game_data/Weapon_names','07_Location_banners/Locations'):
+            expanded_counts={'06_Game_data/Spirit_commands':88}
+            for key in ('06_Game_data/Weapon_names','07_Location_banners/Locations'):
                 rows=corpus.load(key)[0]['rows'];row=next(r for r in rows if r['en']);expanded_counts[key]=len(rows)
                 window.open_line(key,row['id']);app.processEvents()
                 assert window.preview_stack.currentIndex()==1 and window.data_preview.heading

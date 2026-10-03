@@ -6,6 +6,8 @@ both stage-menu title fields when the source already contains the English
 title. Japanese tables remain in their selected language.
 
 Click **Seishin names / descriptions…** above the script library to edit each
+command's text. The duplicate **Spirit Commands** library section is removed;
+global search results open the dedicated Seishin editor directly. Edit each
 command's name and description together. Search by command ID, English or
 Japanese text. Use the English and Japanese tabs, then **Save command**.
 Switching commands or closing saves valid changes. **Restore source for this

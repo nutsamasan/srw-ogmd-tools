@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
 from PySide6.QtWidgets import QApplication
+from PySide6.QtCore import Qt
 from core import Corpus, EditProject
 from app import Editor, STYLE, load_ui_fonts
 from seishin_dialog import SeishinDialog, KEY
@@ -81,3 +82,19 @@ class SeishinEditorTests(unittest.TestCase):
             dialog.reserved.setChecked(True); dialog.search.clear()
             self.assertFalse(dialog.list.item(0).isHidden())
             dialog.close(); window.close()
+
+    def test_library_omits_duplicate_and_search_opens_dedicated_editor(self):
+        with tempfile.TemporaryDirectory() as temp:
+            window=Editor(self.corpus,Path(temp)/'project.json')
+            for query in ('','spirit','Seishin'):
+                window.library_search.setText(query)
+                for i in range(window.tree.topLevelItemCount()):
+                    group=window.tree.topLevelItem(i)
+                    self.assertNotEqual(group.text(0),'Spirit Commands')
+                    for j in range(group.childCount()):
+                        self.assertNotEqual(group.child(j).data(0,Qt.ItemDataRole.UserRole),KEY)
+            window.open_line(KEY,'SpiritData_description:0010');self.app.processEvents()
+            dialog=window.seishin_window
+            self.assertEqual(dialog.current,10)
+            self.assertEqual(dialog.descriptions['en'].toPlainText(),window.project.values(KEY,dialog.commands[10]['description'])['en'])
+            dialog.close();self.app.processEvents();window.close()
