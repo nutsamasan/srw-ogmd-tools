@@ -8,7 +8,7 @@ from pathlib import Path
 from core import atomic_json
 from archive_patch import digest
 from iso_image import DiscImage,CHUNK
-from patcher import collect_changes,prepare_patch,ARCHIVE_NAMES
+from patcher import collect_changes,prepare_patch,ARCHIVE_NAMES,patch_archive_names
 from backlog_layout import patch_archives
 
 def signature(path):
@@ -18,7 +18,7 @@ def prepare_iso_patch(project,language,source,destination,metrics=None,normalize
     source=Path(source).resolve();destination=Path(destination).resolve()
     if destination.exists():raise ValueError('Choose a new ISO patch build folder.')
     if destination.is_relative_to(project.corpus.root):raise ValueError('Build outside the original script corpus.')
-    names=patch_archives(collect_changes(project,language),backlog)
+    names=patch_archive_names(collect_changes(project,language),backlog,language)
     if not names:raise ValueError('There are no edits in the selected language to patch.')
     start=signature(source)
     with DiscImage(source) as iso:

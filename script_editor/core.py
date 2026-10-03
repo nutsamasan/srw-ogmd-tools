@@ -42,6 +42,8 @@ class Corpus:
             seen.add(folder);self.collections.append(dict(key=folder,title=title,group=group,meta=meta or {}))
         stages=json.loads((self.root/'data/stage_index.json').read_text(encoding='utf8'))
         for s in sorted(stages,key=lambda s:(s.get('stage_data_chapter',1000),s['scenario_id'])):
+            if s['scenario_id']==40 and s['title_en']=="HAGWANE'S CRISIS":
+                s={**s,'title_en':"HAGANE'S CRISIS"}
             sid=s['scenario_id'];ch=s.get('stage_data_chapter','–');route=s.get('classification_route','')
             group=('Stages' if sid<96 else 'Alternate versions' if sid<100 else 'Interludes' if sid<200 else 'Extras' if sid in (200,800,999) else 'Developer scripts')
             title=f"{ch:02d}" if isinstance(ch,int) else str(ch)
@@ -51,6 +53,8 @@ class Corpus:
             add(c['folder'],c.get('title_en',c['folder']),'Shared & narration',c)
         for m in json.loads((self.root/'data/map_inventory.json').read_text(encoding='utf8')):
             stage=next((s for s in stages if s['scenario_id']==m['scenario_id']),{})
+            if stage.get('scenario_id')==40 and stage.get('title_en')=="HAGWANE'S CRISIS":
+                stage={**stage,'title_en':"HAGANE'S CRISIS"}
             add(m['folder'],f"S{m['scenario_id']:03d} · {stage.get('title_en','Map events').strip()}",'Map event text',stage)
         for b in json.loads((self.root/'data/battle_inventory.json').read_text(encoding='utf8')):
             add(b['folder'],f"Bank {Path(b['folder']).name} · {b['records']} records",'Battle messages')

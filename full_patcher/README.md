@@ -1,10 +1,16 @@
-# OGMD Full English Patcher 1.6.4
+# OGMD Full English Patcher 1.6.5
 
-Version 1.6.4 corrects all ten Pilot Development stat and terrain descriptions. Both lines now display completely, with line lengths fitted to the menu box. The fix was confirmed in RPCS3. The correction is included automatically in new full translation builds.
+Version 1.6.5 corrects both native title fields for scenario 40 to
+**HAGANE'S CRISIS**, including the intermission/save-screen title. It preserves
+the Pilot Development description fix and all previously bundled corrections.
+Select the Script Editor's exported `patch_edits.json` to include custom
+Seishin names and descriptions in a new full English output.
 
-**Public download:** get `OGMD-Full-English-Patcher-1.6.4-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01). This single ZIP includes the program and complete 1.6.4 patch data. Extract it and open `OGMD-Full-English-Patcher-1.6.4.exe`. Keep the supplied `data` folder beside the EXE, then select your own supported Japanese game copy. See [package setup](../docs/DATA_DOWNLOADS.md).
+Version 1.6.5 corrects all ten Pilot Development stat and terrain descriptions. Both lines now display completely, with line lengths fitted to the menu box. The fix was confirmed in RPCS3. The correction is included automatically in new full translation builds.
 
-Version 1.6.4 includes the battle-dialogue fitting fix confirmed in RPCS3 on
+**Public download:** get `OGMD-Full-English-Patcher-1.6.5-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01). This single ZIP includes the program and complete 1.6.5 patch data. Extract it and open `OGMD-Full-English-Patcher-1.6.5.exe`. Keep the supplied `data` folder beside the EXE, then select your own supported Japanese game copy. See [package setup](../docs/DATA_DOWNLOADS.md).
+
+Version 1.6.5 includes the battle-dialogue fitting fix confirmed in RPCS3 on
 Azuki's “All hands, brace for impact…” line. It applies to the shared battle
 caption renderer in both full-size and compact layouts, across all three rows.
 
@@ -15,7 +21,7 @@ Both assets passed offline checks; a fresh RPCS3 startup test is still pending.
 
 Use this standalone patcher or **Script Editor 3.11 → Full English patcher**
 for these additions. Release data 1.6 requires Patcher 1.6 or newer; Script
-Editor 3.9 and older embed Patcher 1.5 and cannot build it. Patcher 1.6.4 retains
+Editor 3.9 and older embed Patcher 1.5 and cannot build it. Patcher 1.6.5 retains
 the clearer source-folder guidance. Existing game copies are not changed by
 updating the patcher.
 
@@ -128,9 +134,9 @@ later changes and recovers completed writes if an operation fails.
 ## Portable copy
 
 Copy the executable, this README and `data`, or extract
-**OGMD Full English Patcher 1.6.4.zip**. Keep the sibling `script_editor` and
+**OGMD Full English Patcher 1.6.5.zip**. Keep the sibling `script_editor` and
 `full_patcher` folders when using the editor's shortcut.
 
-## S084 title correction (1.6.4)
+## S084 title correction (1.6.5)
 
 Full translation builds include the corrected **VAUGHT AND FAIRY** stage title in all six native animation layers. The existing translations, startup notice, intro, font and battle-caption fixes are preserved. Exported Script Editor artwork can also be applied as an optional correction. Font / battle text fix only mode continues to update EBOOT only; use Script Editor's title-card patching workflow to update an existing game's artwork. This title correction has passed native archive and package checks; fresh in-game validation is pending.

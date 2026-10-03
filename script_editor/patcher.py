@@ -28,6 +28,10 @@ def default_targets(corpus):
     return []
 
 
+def patch_archive_names(groups, backlog, language):
+    return sorted(set(patch_archives(groups, backlog)) | ({'Logic'} if language == 'en' else set()))
+
+
 def archive_name(entry):
     if re.fullmatch(r'Dat/SceneTitle/Dds/@Ja/(st|sn)_\d{3}\.dds',entry):return 'Common'
     if entry.startswith('Dat/Archive/'):return 'Common'
@@ -179,8 +183,8 @@ def prepare_patch(project,language,targets,destination,metrics=None,normalize=Tr
     targets=[validate_target(p,project.corpus) for p in targets if str(p).strip()]
     if not targets or len(set(targets))!=len(targets):raise ValueError('Choose distinct game archive folders.')
     groups=collect_changes(project,language)
-    if not groups and not backlog:raise ValueError('There are no '+('English' if language=='en' else 'Japanese')+' edits to patch.')
-    names=patch_archives(groups,backlog);destination=Path(destination).resolve()
+    if not groups and not backlog and language!='en':raise ValueError('There are no Japanese edits to patch.')
+    names=patch_archive_names(groups,backlog,language);destination=Path(destination).resolve()
     if destination.exists():raise ValueError('Choose a new patch output folder.')
     if destination.is_relative_to(project.corpus.root) or any(destination.is_relative_to(t.parent.parent) for t in targets):
         raise ValueError('Store patch builds outside the source corpus and game folders.')
@@ -207,6 +211,12 @@ def prepare_patch(project,language,targets,destination,metrics=None,normalize=Tr
             progress('Decrypting '+name+'…');sdat.decrypt(original,base,verbose=False)
             if not sdat.verify(original,expect_plain=base,verbose=False):raise ValueError(name+' source SDAT verification failed.')
             arc=Psarc(base);index={e.name:e for e in arc.entries};overrides={}
+            if language=='en' and name=='Logic':
+                from stage_title_correction import ENTRY, fix_english_stage_titles
+                if ENTRY in index:
+                    raw=arc._read_file(index[ENTRY]);result,title_review=fix_english_stage_titles(raw)
+                    if result!=raw:overrides[ENTRY]=result
+                    report['review'].extend(dict(archive=name,entry=ENTRY,**r) for r in title_review)
             if backlog and name==BACKLOG_ARCHIVE:
                 if BACKLOG_ENTRY not in index:raise ValueError('The selected game has no supported backlog layout.')
                 raw=arc._read_file(index[BACKLOG_ENTRY]);result,layout=patch_backlog(raw)
@@ -221,7 +231,7 @@ def prepare_patch(project,language,targets,destination,metrics=None,normalize=Tr
                 report['review'].extend(dict(archive=name,entry=entry,**r) for r in review)
             if not overrides:
                 if digest(original)!=before:raise ValueError(name+' changed during the build. Build again.')
-                progress('Backlog margin is already fixed; keeping '+name+' unchanged.')
+                progress('No native changes needed; keeping '+name+' unchanged.')
                 atomic_json(destination/'patch.json',report)
                 if not keep_plain:base.unlink()
                 continue

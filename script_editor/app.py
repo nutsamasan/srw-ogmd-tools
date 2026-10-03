@@ -218,7 +218,7 @@ class Editor(QMainWindow):
         self.weapon_units={r['fixed_logical']:r for r in corpus.load('06_Game_data/Mech_names')[0]['rows']}
         self.metrics=NativeMetrics(ASSETS/'font.bin');self.key=None;self.row_index=None;self.loading=False
         self.setLocale(QLocale.c())
-        self.setWindowTitle('OGMD Script Editor v3.17');self.resize(1530,960);self.setMinimumSize(1100,760)
+        self.setWindowTitle('OGMD Script Editor v3.18');self.resize(1530,960);self.setMinimumSize(1100,760)
         self.speaker_refresh=QTimer(self);self.speaker_refresh.setSingleShot(True);self.speaker_refresh.setInterval(250);self.speaker_refresh.timeout.connect(self.refresh_battle_library)
         self.autosave=QTimer(self);self.autosave.setSingleShot(True);self.autosave.setInterval(1500);self.autosave.timeout.connect(self.save)
         root=QWidget();self.setCentralWidget(root);layout=QVBoxLayout(root);layout.setContentsMargins(18,14,18,10);layout.setSpacing(12)
@@ -234,6 +234,7 @@ class Editor(QMainWindow):
         split=QSplitter(Qt.Orientation.Horizontal);layout.addWidget(split,1)
         library=QWidget();lv=QVBoxLayout(library);lv.setContentsMargins(0,0,4,0)
         self.title_cards_button=QPushButton('Stage title cards…');self.title_cards_button.clicked.connect(self.edit_title_cards);lv.addWidget(self.title_cards_button)
+        self.seishin_button=QPushButton('Seishin names / descriptions…');self.seishin_button.clicked.connect(self.edit_seishin);lv.addWidget(self.seishin_button)
         lv.addWidget(QLabel('SCRIPT LIBRARY'));self.library_search=QLineEdit();self.library_search.setPlaceholderText('Find a stage, pilot or script ID…');self.library_search.textChanged.connect(self.filter_library);lv.addWidget(self.library_search)
         self.tree=QTreeWidget();self.tree.setHeaderHidden(True);self.tree.setMinimumWidth(235);lv.addWidget(self.tree,1)
         self.library_info=QLabel(f'{len(corpus.collections)} text collections');self.library_info.setObjectName('subtle');lv.addWidget(self.library_info);split.addWidget(library)
@@ -305,6 +306,13 @@ class Editor(QMainWindow):
         self.autosave.stop()
         try:TitleCardDialog(self).exec()
         except Exception as exc:QMessageBox.warning(self,'Title cards unavailable',str(exc))
+
+    def edit_seishin(self):
+        from seishin_dialog import SeishinDialog
+        if not self.save():return
+        self.autosave.stop()
+        try:SeishinDialog(self).exec()
+        except Exception as exc:QMessageBox.warning(self,'Seishin editor unavailable',str(exc))
 
     def full_patch_game(self):
         from full_dialog import FullPatchDialog
@@ -582,6 +590,7 @@ class Editor(QMainWindow):
             '7. Import scripts reads JSON, EN.txt, JP.txt or Bilingual.txt files/folders by stable row IDs. Preview, choose how to handle conflicts, then import. Undo last import reverses it.\n'
             '8. Patch game builds verified native PS3 archives from edited fields. Choose Game folders to install with backups (close RPCS3 first), or ISO image to create a verified patched copy of a decrypted ISO. Unedited text stays as in the selected game/ISO.\n\n'
             'BATTLE SPEAKERS\nBattle messages show English/Japanese names matched from each record, including guest speakers in another pilot’s bank. Use Battle speaker to filter the current bank. The library search finds every bank containing a pilot. Names follow Pilot names edits and are read-only on battle lines. Missing names show an Unknown ID; English-only fallback names are identified. Find / replace all still changes only editable text.\n\n'
+            'SEISHIN\nClick Seishin names / descriptions above the library. Select a command, edit its paired name and description in the English or Japanese tab, and Save command. Selecting another command or closing saves valid changes. Use Patch saved edits to apply them, or Export edits and attach patch_edits.json to the Full English Patcher.\n\n'
             'PREVIEW ACCURACY\nNative PS3 glyph atlas and the confirmed spacing-v3 apostrophe correction. The border is reconstructed. '
             'Default 24-unit cells and 768-unit width follow the existing offline audit; they are not a confirmed live-game capture. '
             'Portraits, animation, scene backgrounds and text color effects are omitted. Narration, map menus and battle subtitles can use different layouts. '
@@ -691,9 +700,11 @@ def main():
             full.data.setText(str(HOME.parent/'full_patcher/data'))
             release=package_info(full.data.text())
             assert release['version']==2 and release.get('movie') and release.get('custom_notice')
-            assert full.windowTitle()=='OGMD Full English Patcher 1.6.4'
+            assert full.windowTitle()=='OGMD Full English Patcher 1.6.5'
             from pilot_development import validate_release_fix
             pilot_fix=validate_release_fix(release)
+            from stage_title_correction import validate_release_fix as validate_stage_titles
+            stage_fix=validate_stage_titles(release)
             assert release.get('battle_caption_limits')==BATTLE_CAPTION_LIMITS
             assert release.get('battle_fit_visual_tested') and release.get('diagnostic_recorder') is False
             assert 'The reported Azuki battle line was also confirmed in game' in full.details.toPlainText()
@@ -793,6 +804,12 @@ def main():
                 assert not window.speakers['en'].isVisible()
             assert list(expanded_counts.values())==[88,856,764]
             assert len([h for h in window.project.find_all('Hagwane','Hagane') if h['key']=='07_Location_banners/Locations'])==117
+            from seishin_dialog import SeishinDialog
+            seishin=SeishinDialog(window);seishin.show();app.processEvents()
+            assert seishin.current==2 and seishin.list.count()==44
+            assert seishin.names['en'].text()==window.project.values('06_Game_data/Spirit_commands',seishin.commands[2]['name'])['en']
+            seishin.grab().save(str(args.self_check.with_name(args.self_check.stem+'_seishin.png')))
+            seishin.close()
             assert window.project.count()==0
             from title_card_dialog import TitleCardDialog
             from title_cards import catalog,project_cards
@@ -809,7 +826,7 @@ def main():
             compiled,card_review=compile_entry(card_native,card_items,'en')
             assert compiled==catalog().native('st_000',png) and card_review[0]['title_card']
             cards.project.reset('st_000','en');assert cards.project.count()==0;cards.close()
-            atomic_json(args.self_check,dict(status='passed',version='3.17',backlog_fix_default=True,runtime_workflow=runtime_check,collections=len(corpus.collections),
+            atomic_json(args.self_check,dict(status='passed',version='3.18',backlog_fix_default=True,runtime_workflow=runtime_check,collections=len(corpus.collections),
                 title_card_sheets=115,title_card_preview_loaded=True,title_card_save_compile_reset_verified=True,
                 corrected_st084_png_sha256=ST084_PNG_SHA256,
                 unit_data_compatibility=unit_data_check,
@@ -818,7 +835,9 @@ def main():
                 native_font_loaded=True,native_reference_width=306.75,source_rows_loaded=160,
                 global_search_loaded=True,native_patch_crypto_loaded=True,
                 import_and_undo_passed=True,iso_workflow_loaded=True,local_iso_indexes_verified=iso_checked,lossless_compression_loaded=True,dialogue_pool_compaction_loaded=True,
-                confirmed_apostrophe_spacing=True,full_game_patcher_available=True,embedded_patcher_version='1.6.4',
+                confirmed_apostrophe_spacing=True,full_game_patcher_available=True,embedded_patcher_version='1.6.5',
+                seishin_name_description_editor=True,seishin_commands=44,
+                stage_titles_corrected=stage_fix['count'],stage_title=stage_fix['title'],
                 pilot_development_descriptions_corrected=pilot_fix['count'],pilot_development_user_confirmed=pilot_fix['user_confirmed_in_game'],
                 battle_caption_limits=BATTLE_CAPTION_LIMITS,battle_fit_user_confirmed=True,diagnostic_recorder=False,
                 release_format=release['version'],english_intro=bool(release.get('movie')),custom_notice=bool(release.get('custom_notice')),current_editor_edits_verified=True,
