@@ -85,6 +85,10 @@ and full_patcher folders together. Full English patcher and Embed font /
 battle text fix buttons automatically use the included full_patcher/data.
 To build a full English copy with your edits, choose Use current editor edits.
 The script-reading guide is Editor/script_export/OGMD_EN_JP_20260908/START_HERE.md.
+
+The author's saved script example is included in examples/edited-script.
+Choose Import scripts, select examples/edited-script/edits.json, then preview
+and import the changes. Read examples/edited-script/README.md for instructions.
 '''
     else:
         instructions = '''OGMD Full English Patcher 1.6.5 - complete portable package
@@ -113,9 +117,11 @@ Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-0
     (home / 'START_HERE.txt').write_text(instructions, encoding='utf8')
     if app_home != home:
         (app_home / 'START_HERE.txt').write_text(instructions, encoding='utf8')
+    if key == 'script':
+        shutil.copytree(ROOT / 'examples' / 'edited-script', home / 'examples' / 'edited-script')
     # DATA_SETUP was the old two-download guide. The complete package uses
     # START_HERE instead; regenerate per-file data checksums for this layout.
-    data_roots = ([app_home / 'assets', app_home / 'script_export', home / 'full_patcher' / 'data']
+    data_roots = ([app_home / 'assets', app_home / 'script_export', home / 'full_patcher' / 'data', home / 'examples']
                   if key == 'script' else [home / 'data'])
     entries = []
     for folder in data_roots:
@@ -138,6 +144,8 @@ Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-0
                 packaging_source_revision=package_revision, input_archives=inputs,
                 program_and_data_included=True, original_game_required=True,
                 launch='Start Script Editor.cmd' if key == 'script' else name+'.exe')
+    if key == 'script':
+        info['edited_script_example'] = json.loads((home / 'examples/edited-script/example-manifest.json').read_text(encoding='utf8'))
     (home / 'PACKAGE_INFO.json').write_text(json.dumps(info, indent=2)+'\n', encoding='utf8')
     archive = output / (name + '-windows-x64.zip')
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:

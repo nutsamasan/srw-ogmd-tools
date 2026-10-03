@@ -7,3 +7,5 @@
 *.cmd text eol=crlf
 *.bat text eol=crlf
 licenses/** -text -whitespace
+# Preserve the author's literal game text, including authored trailing spaces.
+examples/edited-script/edited-lines.txt -text -whitespace

@@ -17,6 +17,7 @@ Right-click the ZIP, choose **Extract All**, then double-click `Start Script Edi
 OGMD-Script-Editor-3.18/
   Start Script Editor.cmd
   START_HERE.txt
+  examples/edited-script/
   Editor/
     OGMD-Script-Editor-3.18.exe
     _internal/
@@ -30,7 +31,9 @@ You can also open `Editor/OGMD-Script-Editor-3.18.exe` directly. It finds its co
 
 Use the GUI to edit and export corrections. To apply edits, choose your own compatible game archives or ISO. For a full English rebuild with your changes, use **Full English patcher** and **Use current editor edits**. Its release-data folder is already included and selected; the **Embed font / battle text fix** workflow uses the same included data.
 
-The package does not include a private editing project or personal settings. If upgrading an existing installation, preserve your `edits` folder; the public package's editing workspace is under `Editor/edits`.
+The package includes the author's optional edited script example under `examples/edited-script`: 1,995 edited rows across 183 collections. Use **Import scripts → Choose file…**, select `examples/edited-script/edits.json`, review **Preview import**, then import the changes. See the [example guide](../examples/edited-script/README.md) for conflict handling and patching. `patch_edits.json` can also be selected directly in the Full English Patcher's **Editor corrections** field.
+
+If upgrading an existing installation, preserve your `edits` folder; the public package's editing workspace is under `Editor/edits`. The example is imported explicitly, and personal path settings are not included.
 
 ## Full English Patcher
 

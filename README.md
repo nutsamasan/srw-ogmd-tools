@@ -28,6 +28,8 @@ All five tools have separate downloads: Save Editor, Pilot Editor, Mech Skill Pa
 
 Patching still requires your own compatible game copy. Complete Windows packages are release attachments; cloning the source repository alone does not download their data.
 
+The complete Script Editor download also includes [the author's edited script example](examples/edited-script/README.md): 1,995 edited rows with importable corrections, a readable text listing, and a patcher bundle. Open **Import scripts** and select the example's `edits.json` to try it.
+
 See [setup and development](docs/DEVELOPMENT.md), [local data requirements](docs/LOCAL_DATA.md), and [validation scope](docs/VALIDATION.md).
 
 ## Quick start from source

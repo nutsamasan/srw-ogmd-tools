@@ -1,0 +1,8099 @@
+Author's saved script example - 2026-10-04
+Only saved edited fields are listed; use edits.json to import them.
+
+========================================================================
+01 · Space · WHITE LYNX · S071
+01_Stages/Stage_01_Space_S071_WHITE_LYNX
+
+[S071:0048] speaker_en
+Irm
+
+[S071:0048] en
+「This is Lieutenant Irmgard Kazahara of the Terra
+　Federation Forces PTX Team,affiliated with <The 
+　Steel Dragon Squad>.Both sides,cease all combat!」
+
+[S071:0052] speaker_en
+Irm
+
+[S071:0055] speaker_en
+Irm
+
+[S071:0058] speaker_en
+Irm
+
+[S071:0060] speaker_en
+Irm
+
+[S071:0071] speaker_en
+Irm
+
+[S071:0073] speaker_en
+Irm
+
+[S071:0075] speaker_en
+Irm
+
+[S071:0081] speaker_en
+Irm
+
+[S071:0085] en
+「Lieutenant Irm,do you know anything about her?」
+
+[S071:0086] speaker_en
+Irm
+
+[S071:0089] speaker_en
+Irm
+
+[S071:0091] speaker_en
+Irm
+
+[S071:0102] speaker_en
+Irm
+
+[S071:0104] speaker_en
+Irm
+
+[S071:0106] speaker_en
+Irm
+
+[S071:0110] speaker_en
+Irm
+
+[S071:0117] speaker_en
+Irm
+
+[S071:0121] speaker_en
+Irm
+
+[S071:0123] speaker_en
+Irm
+
+[S071:0123] en
+「Well,what should I say.Anyway,let's return to Steel
+　Dragon Squad's flagship Hagane and have the inquiry
+　session」
+
+[S071:0125] speaker_en
+Irm
+
+========================================================================
+02 · Space · RETURN OF THE DESTESTABLE GUEST · S072
+01_Stages/Stage_02_Space_S072_RETURN_OF_THE_DESTESTABLE_GUEST
+
+[S072:0020] en
+「I heard from Lieutenant Irm that the test result
+　was good」
+
+[S072:0021] speaker_en
+Irm
+
+[S072:0022] speaker_en
+Irm
+
+[S072:0024] speaker_en
+Irm
+
+[S072:0036] speaker_en
+Irm
+
+[S072:0038] speaker_en
+Irm
+
+[S072:0052] speaker_en
+Irm
+
+[S072:0052] en
+「Lieutenant Irmgard Kazahara and former Ensign
+　Calvina Coulange reporting」
+
+[S072:0055] speaker_en
+Irm
+
+[S072:0057] speaker_en
+Irm
+
+[S072:0061] speaker_en
+Irm
+
+[S072:0073] speaker_en
+Irm
+
+[S072:0075] speaker_en
+Irm
+
+[S072:0077] speaker_en
+Irm
+
+[S072:0079] speaker_en
+Irm
+
+[S072:0081] speaker_en
+Irm
+
+[S072:0086] en
+「By the way,Lieutenant Irm,how was it?」
+
+[S072:0087] speaker_en
+Irm
+
+[S072:0092] speaker_en
+Irm
+
+[S072:0098] speaker_en
+Irm
+
+[S072:0100] speaker_en
+Irm
+
+[S072:0102] speaker_en
+Irm
+
+[S072:0103] speaker_en
+Irm
+
+[S072:0106] speaker_en
+Irm
+
+[S072:0109] speaker_en
+Irm
+
+[S072:0111] speaker_en
+Irm
+
+[S072:0137] speaker_en
+Irm
+
+[S072:0139] speaker_en
+Irm
+
+[S072:0141] speaker_en
+Irm
+
+[S072:0143] speaker_en
+Irm
+
+[S072:0152] en
+（This time,Zovork wouldn't start a war so carelessly…
+　It is as Lieutentant Irm said,maybe it's Gleiknr?)
+
+[S072:0186] speaker_en
+Irm
+
+[S072:0190] en
+「Just call me Irm」
+
+[S072:0190] speaker_en
+Irm
+
+[S072:0191] en
+「Ok,Lieutenant Irm then.I have a request」
+
+[S072:0192] speaker_en
+Irm
+
+[S072:0194] speaker_en
+Irm
+
+[S072:0198] speaker_en
+Irm
+
+[S072:0001] en
+「XO.The Commander has sent out a summon for
+　Lieutenant Irmgard.Please relay it to Deck 3」
+
+[S072:0002] en
+「Roger.I will deliver the Commander's summon to
+　Lieutenant Irmgard」
+
+[S072:0006] en
+「I'm not the one to make decision.It will be decided
+　when Lieutenant Irmgard's report is finished」
+
+[S072:0054] en
+「Lieutenant Irmgard...why did you bring her along?」
+
+[S072:0072] en
+「Well,Lieutenant Irmgard! Please bring former Ensign
+　Calvina to the residential block」
+
+[S072:0189] en
+「Lieutenant Irmgard Kazahara」
+
+========================================================================
+03 · Space · WOE OF THE LAND · S073
+01_Stages/Stage_03_Space_S073_WOE_OF_THE_LAND
+
+[S073:0001] en
+「Lieutenant Irm said in order to get the battle data
+　with Unknown,he received permission from the
+　brass」
+
+[S073:0065] speaker_en
+Irm
+
+[S073:0076] speaker_en
+Irm
+
+[S073:0094] speaker_en
+Irm
+
+[S073:0150] speaker_en
+Irm
+
+[S073:0153] speaker_en
+Irm
+
+[S073:0155] speaker_en
+Irm
+
+[S073:0199] speaker_en
+Irm
+
+[S073:0201] speaker_en
+Irm
+
+[S073:0202] speaker_en
+Irm
+
+[S073:0207] speaker_en
+Irm
+
+[S073:0266] speaker_en
+Irm
+
+[S073:0268] speaker_en
+Irm
+
+[S073:0086] en
+「...The Imitation is not there.It should be onboard
+　Hagane」
+
+[S073:0096] en
+「Spiria 0 to all units.It is a priority that Hagane
+　reaches the Cross Gate region.Focus attack on the
+　new mobile weapons and clear the path for Hagane」
+
+[S073:0167] en
+「As expected,Bellzelute has been accepted by 
+　Hagane」
+
+========================================================================
+04 · Space · GHOST REVIVAL · S074
+01_Stages/Stage_04_Space_S074_GHOST_REVIVAL
+
+[S074:0000] en
+「Lieutenant Irm,I sincerely apologize for bothering
+　you at this time,but I have a question」
+
+[S074:0001] speaker_en
+Irm
+
+[S074:0003] speaker_en
+Irm
+
+[S074:0006] speaker_en
+Irm
+
+[S074:0008] speaker_en
+Irm
+
+[S074:0010] speaker_en
+Irm
+
+[S074:0014] speaker_en
+Irm
+
+[S074:0023] speaker_en
+Irm
+
+[S074:0024] speaker_en
+Irm
+
+[S074:0024] en
+「The former Captain of Hagane,Major Onodera
+　Tetsuya,became the Executive Officer」
+
+[S074:0026] speaker_en
+Irm
+
+[S074:0030] speaker_en
+Irm
+
+[S074:0036] speaker_en
+Irm
+
+[S074:0038] speaker_en
+Irm
+
+[S074:0041] speaker_en
+Irm
+
+[S074:0042] speaker_en
+Irm
+
+[S074:0044] speaker_en
+Irm
+
+[S074:0046] speaker_en
+Irm
+
+[S074:0047] speaker_en
+Irm
+
+[S074:0050] speaker_en
+Irm
+
+[S074:0052] speaker_en
+Irm
+
+[S074:0080] speaker_en
+Irm
+
+[S074:0083] speaker_en
+Irm
+
+[S074:0085] speaker_en
+Irm
+
+[S074:0091] speaker_en
+Irm
+
+[S074:0106] speaker_en
+Irm
+
+[S074:0121] en
+「...Lieutenant Irm,what is going on?
+　I don't see where this is going」
+
+[S074:0122] speaker_en
+Irm
+
+[S074:0144] speaker_en
+Irm
+
+[S074:0145] speaker_en
+Irm
+
+[S074:0172] speaker_en
+Irm
+
+[S074:0174] speaker_en
+Irm
+
+[S074:0176] speaker_en
+Irm
+
+[S074:0183] speaker_en
+Irm
+
+[S074:0200] speaker_en
+Irm
+
+[S074:0200] en
+「Ariel and Duvan are Idealants...Simply put,they are
+　experimental androids with superior abilities.In a way,
+　you can say they are siblings」
+
+[S074:0216] speaker_en
+Irm
+
+[S074:0022] en
+「...What about the former Commander and
+　former Captain of Hagane from the Steel
+　Dragon Squad?」
+
+[S074:0028] en
+「The death of former President Glassman.The aircraft
+　collided with Hagane during <The Sealing War>.There
+　were talks of whether it was an accident or not」　
+
+[S074:0155] en
+「We are now in the midst of discussion.Until the verdict 
+　is out,Hagane will continue with the monitoring mission
+　near Cross Gate region」
+
+[S074:0161] en
+「Be prepared,we might be required Hagane to 
+　descend to Earth depending on the situation」
+
+[S074:0171] en
+「Anyhow isn't it better for us to inform Ensign Ariel Org?」
+
+[S074:0198] en
+「Ensign Ariel Org」
+
+[S074:0215] en
+「So...Ensign Ariel Org is one of your team now?」
+
+[S074:0217] en
+「After that,Ensign Ariel fought against Duvan and
+　Alles Geist with us」
+
+[S074:0124] en
+「Is Duvan Org is on it?」
+
+[S074:0196] en
+「Yes,Duvan Org of Gaia Sabers was　
+　piloting it」
+
+========================================================================
+05 · Space · SLEEPING ENEMY · S075
+01_Stages/Stage_05_Space_S075_SLEEPING_ENEMY
+
+[S075:0044] speaker_en
+Irm
+
+[S075:0063] en
+「Lieutenant Irm,the fact that they locked on to us means
+　that they are serious about attacking.Why aren't there
+　any orders to attack them despite that?」
+
+[S075:0064] speaker_en
+Irm
+
+[S075:0066] speaker_en
+Irm
+
+[S075:0033] en
+「Neither.It's the <AM> squad from the Monitoring
+　Fleet.Hagane has been locked on by them」
+
+[S075:0060] en
+「At least we should keep a distance or detour the
+　Hagane...」
+
+[S075:0106] en
+「It could be a powerful force but the execution of the 
+　attack was rather poor.If they were really serious about 
+　taking down Hagane,they would have closed in further」
+
+[S075:0129] en
+「The order for Hagane to reinforce the Monitoring Fleet
+　at Cross Gate will be withdrawn because of this situation」
+
+========================================================================
+06 · Common · COMMON SCENARIO · S101
+03_Interludes/Stage_06_S101_COMMON_SCENARIO
+
+[S101:0072] speaker_en
+Irm
+
+[S101:0074] speaker_en
+Irm
+
+[S101:0078] speaker_en
+Irm
+
+[S101:0083] speaker_en
+Irm
+
+[S101:0089] en
+（They're quite young...Although it is the same for 
+　Lieutenant Irm's PTX team）
+
+[S101:0114] speaker_en
+Irm
+
+[S101:0149] speaker_en
+Irm
+
+[S101:0152] speaker_en
+Irm
+
+[S101:0153] speaker_en
+Irm
+
+[S101:0155] speaker_en
+Irm
+
+[S101:0289] en
+「Lieutenant Irm,I have something to ask you」
+
+[S101:0290] speaker_en
+Irm
+
+[S101:0292] speaker_en
+Irm
+
+[S101:0294] speaker_en
+Irm
+
+[S101:0296] speaker_en
+Irm
+
+[S101:0303] speaker_en
+Irm
+
+[S101:0314] speaker_en
+Irm
+
+[S101:0314] en
+「He and Ariel from ATX team are Idealants...」
+
+[S101:0315] speaker_en
+Irm
+
+[S101:0323] speaker_en
+Irm
+
+[S101:0001] en
+「Hagane of the Steel Dragon Squad is intercepting an
+　enemy offshore of Kohzu Island.Please track the
+　enemy carefully」
+
+[S101:0040] en
+「Oh,right.Hiryu Kai returned to Izu late last night
+　and this morning,Hagane returned as well」
+
+[S101:0042] en
+「Hagane was familiarizing its new formation as we'll
+　have a new squad Commander and Captain in place.
+　Hiryu Kai's work was confidential.They didn't tell us」
+
+[S101:0043] en
+「Hagane had its Captain changed?」
+
+[S101:0049] en
+「As Hagane and Hiryu Kai have returned,<SRX Team>
+　and <ATX Team> should here in this base,shouldn't 
+　they?」
+
+[S101:0073] en
+「Not a big deal.It was over in a moment.Rather than
+　that,I heard that the Hagane was caught up in a string
+　of troubles」
+
+[S101:0347] en
+「If so,do you think it is necessary to provide a spatial
+　warp device for the Hagane」
+
+[S101:0347] speaker_en
+Laker
+
+[S101:0412] en
+「Major General Laker,will the Hagane remain in Izu
+　base then?」
+
+[S101:0330] en
+「Tsugumi Takakura,Ibis Douglas,and Sleigh Presty has
+　just arrived」
+
+[S101:0334] en
+「Then,Ibis and Sleigh...I'll leave it to you」
+
+[S101:0335] speaker_en
+Sleigh
+
+[S101:0269] en
+「You'll find out soon enough.
+　...By the way,how's Ariel?」
+
+[S101:0271] speaker_en
+Ariel
+
+[S101:0273] speaker_en
+Ariel
+
+[S101:0275] speaker_en
+Ariel
+
+[S101:0277] speaker_en
+Ariel
+
+[S101:0279] en
+「Then,Ariel...lets continue with what we previously 
+　discussed」
+
+[S101:0280] speaker_en
+Ariel
+
+[S101:0282] speaker_en
+Ariel
+
+[S101:0283] speaker_en
+Ariel
+
+[S101:0284] speaker_en
+Ariel
+
+[S101:0287] speaker_en
+Ariel
+
+[S101:0288] speaker_en
+Ariel
+
+[S101:0288] en
+（If Alles Geist revived...
+　Duvan,will you too...?）
+
+[S101:0322] en
+「...That's a wonderful sense of camaraderie.Then,
+　how about Duvan and Ariel?」
+
+[S101:0324] en
+「After that,Ensign Ariel fought against Duvan and
+　Alles Geist with us」
+
+[S101:0313] en
+「Yes,Duvan Org of Gaia Sabers was piloting it」
+
+[S101:0011] speaker_en
+Eun
+
+[S101:0018] speaker_en
+Eun
+
+[S101:0020] en
+「The situation has changed.Commander Laker Randolf
+　will explain the details after your return」
+
+[S101:0054] speaker_en
+Laker
+
+[S101:0058] speaker_en
+Laker
+
+[S101:0063] speaker_en
+Laker
+
+[S101:0066] speaker_en
+Laker
+
+[S101:0067] speaker_en
+Laker
+
+[S101:0069] speaker_en
+Laker
+
+[S101:0344] speaker_en
+Laker
+
+[S101:0345] speaker_en
+Laker
+
+[S101:0349] speaker_en
+Laker
+
+[S101:0351] speaker_en
+Laker
+
+[S101:0352] speaker_en
+Laker
+
+[S101:0353] speaker_en
+Laker
+
+[S101:0356] speaker_en
+Laker
+
+[S101:0359] speaker_en
+Laker
+
+[S101:0360] speaker_en
+Laker
+
+[S101:0361] speaker_en
+Laker
+
+[S101:0363] speaker_en
+Laker
+
+[S101:0365] speaker_en
+Laker
+
+[S101:0366] speaker_en
+Laker
+
+[S101:0368] speaker_en
+Laker
+
+[S101:0380] en
+「Yes,exactly.I came here as a representative of <Terra 
+　Federation Government>.Major General Laker,may
+　I explain the mission?」
+
+[S101:0381] speaker_en
+Laker
+
+[S101:0407] speaker_en
+Laker
+
+[S101:0408] speaker_en
+Laker
+
+[S101:0413] speaker_en
+Laker
+
+[S101:0420] speaker_en
+Laker
+
+[S101:0422] speaker_en
+Laker
+
+[S101:0424] speaker_en
+Laker
+
+[S101:0427] speaker_en
+Laker
+
+[S101:0429] speaker_en
+Laker
+
+[S101:0431] speaker_en
+Laker
+
+[S101:0433] speaker_en
+Laker
+
+[S101:0438] speaker_en
+Laker
+
+[S101:0441] speaker_en
+Laker
+
+[S101:0442] speaker_en
+Laker
+
+[S101:0444] speaker_en
+Laker
+
+[S101:0387] en
+「Yes,they call themselves the『Gadisword』.Special
+　Envoy Mekibos Bolverde of Zovork also said that he 
+　hadn't heard of them before」
+
+[S101:0389] en
+「Yes,exactly.We know that Gadiswords are intelligent
+　humanoid lifeforms like us」
+
+[S101:0394] en
+「This is getting off track so I'll end it here for now.
+　By the way,the Gadiswordians are friendly from the 
+　beginning,unlike those aliens from the past」
+
+========================================================================
+07 · Space · FRAGMENTS OF DEFENSIVE SWORD · S077
+01_Stages/Stage_07_Space_S077_FRAGMENTS_OF_DEFENSIVE_SWORD
+
+[S077:0036] speaker_en
+Irm
+
+[S077:0046] speaker_en
+Irm
+
+[S077:0063] speaker_en
+Irm
+
+[S077:0065] speaker_en
+Irm
+
+[S077:0067] speaker_en
+Irm
+
+[S077:0069] speaker_en
+Irm
+
+[S077:0073] speaker_en
+Irm
+
+[S077:0104] speaker_en
+Irm
+
+[S077:0037] speaker_en
+Sleigh
+
+[S077:0100] speaker_en
+Sleigh
+
+[S077:0011] speaker_en
+Eun
+
+[S077:0019] speaker_en
+Eun
+
+[S077:0020] speaker_en
+Eun
+
+[S077:0079] speaker_en
+Eun
+
+[S077:0082] speaker_en
+Eun
+
+[S077:0111] speaker_en
+Eun
+
+[S077:0112] speaker_en
+Eun
+
+[S077:0113] speaker_en
+Eun
+
+[S077:0116] speaker_en
+Eun
+
+[S077:0118] speaker_en
+Eun
+
+[S077:0121] speaker_en
+Eun
+
+========================================================================
+08 · Space · CHANGE OF COURSE · S078
+01_Stages/Stage_08_Space_S078_CHANGE_OF_COURSE
+
+[S078:0095] speaker_en
+Irm
+
+[S078:0110] speaker_en
+Irm
+
+[S078:0002] speaker_en
+Eun
+
+[S078:0004] speaker_en
+Eun
+
+[S078:0024] speaker_en
+Eun
+
+[S078:0027] speaker_en
+Eun
+
+[S078:0061] speaker_en
+Eun
+
+[S078:0073] speaker_en
+Eun
+
+[S078:0080] speaker_en
+Eun
+
+[S078:0089] speaker_en
+Eun
+
+[S078:0090] speaker_en
+Eun
+
+========================================================================
+09 · Space · GARDISORD · S079
+01_Stages/Stage_09_Space_S079_GARDISORD
+
+[S079:0028] speaker_en
+Irm
+
+[S079:0228] speaker_en
+Irm
+
+[S079:0242] speaker_en
+Irm
+
+[S079:0249] speaker_en
+Irm
+
+[S079:0042] speaker_en
+Sleigh
+
+[S079:0201] speaker_en
+Sleigh
+
+[S079:0058] speaker_en
+Eun
+
+[S079:0066] speaker_en
+Eun
+
+[S079:0069] speaker_en
+Eun
+
+[S079:0070] speaker_en
+Eun
+
+[S079:0071] speaker_en
+Eun
+
+[S079:0073] speaker_en
+Eun
+
+[S079:0160] speaker_en
+Eun
+
+[S079:0169] speaker_en
+Eun
+
+[S079:0203] speaker_en
+Eun
+
+[S079:0203] en
+「Dragon 2 to all.There's a request from Gadisword
+　to join them as a common front.IFF has already set
+　them as friendlies」
+
+[S079:0217] speaker_en
+Eun
+
+[S079:0231] speaker_en
+Eun
+
+[S079:0027] en
+「They call themselves,『Gadisword』」
+
+[S079:0036] en
+「Matters involving Gadisword is highly classified,so I
+　had to keep it from you guys」
+
+[S079:0039] en
+「And I expect prudent actions so as to not cause any
+　unnecessary friction with Gadisword」
+
+[S079:0045] en
+（Will we really go to war with Gadisword...?）
+
+[S079:0046] en
+「Starboard and portside stop.I will communicate with 
+　Gadisword.All hands,assume level one battle station
+　and standby」
+
+[S079:0065] en
+「Be careful not to fall into its line of fire.Will Gadisword
+　deploy something like mobile weapons?」
+
+[S079:0074] en
+「Negotiation location would be in the meeting room of
+　Rubble Pile.Head of Gadisword and Leader,Malm
+　Quisudo,will receive you」
+
+[S079:0078] en
+「If the negotiation goes well,I want to know what
+　kind of culture the Gadiswordians have」
+
+[S079:0104] en
+「...This is the place we'll be talking in.I think I saw
+　furnishing and arts of Gadisword」
+
+[S079:0109] en
+「Welcome to Rubble Pile.I'm the Head of Gadisword,
+　Malm Quisudo」
+
+[S079:0129] en
+「Gadiswordian are divided into several forces,they were
+　in a civil war for a long time,but...Rubble Pile seems to
+　become a turning point to end the war」
+
+[S079:0135] en
+「After the civil war ended,Gadisword was attacked by
+　unidentified mobile weapons」
+
+[S079:0138] en
+「They threw Gadisword into chaos,and in the end,
+　many people's lives and cities were lost」　
+
+[S079:0146] en
+「I agree this is the best decision for Earth and Gadisword」
+
+[S079:0156] en
+「...Will the Terra Federation Government accept 
+　Gadisword's request?」
+
+[S079:0170] en
+「Gadisword is also their enemy...!? Return fire
+　immediately!」
+
+[S079:0192] en
+「But as to whether they knew about Gadisword's
+　presence,it's suspicious」
+
+[S079:0198] en
+「That's Gadisword's mobile weapon...」
+
+[S079:0202] en
+「Yeah...Gadisword's weapons may have developed
+　the same way as the ones on Earth」
+
+[S079:0224] en
+「Maybe,they trying to interfere with our meeting 
+　with Gadisword?」
+
+[S079:0238] en
+「Maybe,they trying to interfere with our meeting 
+　with Gadisword?」
+
+[S079:0243] en
+「They attacked us because they knew that we were
+　contacting Gadisword」
+
+[S079:0247] en
+「Are they trying to start a war not only with us
+　but also with Gadisword!?」
+
+[S079:0271] en
+（And,even if we can confirm her identity,we won't
+　hand her over to Gadisword so easily）
+
+[S079:0290] en
+「It's not the time to quarrel here.We have to work
+　together to return to Gadisword」
+
+[S079:0309] en
+「By the way,the meeting with Gadisword...」
+
+[S079:0317] en
+「On Gadisword,he is similar to a minister of Earth,not
+　President.But it seems that no one else could inherit
+　the authority within Rubble Pile」
+
+========================================================================
+10 · Common · LARSEILAM · S010
+01_Stages/Stage_10_Common_S010_LARSEILAM
+
+[S010:0083] speaker_en
+Irm
+
+[S010:0085] speaker_en
+Irm
+
+[S010:0089] speaker_en
+Irm
+
+[S010:0096] speaker_en
+Irm
+
+[S010:0104] speaker_en
+Irm
+
+[S010:0115] speaker_en
+Irm
+
+[S010:0116] speaker_en
+Irm
+
+[S010:0119] speaker_en
+Irm
+
+[S010:0121] speaker_en
+Irm
+
+[S010:0123] speaker_en
+Irm
+
+[S010:0525] speaker_en
+Irm
+
+[S010:0559] speaker_en
+Irm
+
+[S010:0562] speaker_en
+Irm
+
+[S010:0565] speaker_en
+Irm
+
+[S010:0568] speaker_en
+Irm
+
+[S010:0575] speaker_en
+Irm
+
+[S010:0592] speaker_en
+Irm
+
+[S010:0599] en
+「Lieutenant Irm,let me answer your earlier question.
+　This is just my hypothesis...」
+
+[S010:0599] speaker_en
+Raj
+
+[S010:0601] speaker_en
+Irm
+
+[S010:0605] speaker_en
+Irm
+
+[S010:0206] en
+「Mekibos,regarding the Hagane's spatial warp device
+　requested by the Joint Command Headquarters...」
+
+[S010:0342] en
+「It's likely a ruse.We'll split the Steel Dragon Squad
+　into two groups to deal with it.Hagane is standing
+　by at Izu.Please direct Hiryu Kai to Mizutorishima」
+
+[S010:0342] speaker_en
+Laker
+
+[S010:0344] en
+「Hagane's mobile troops will be defending the
+　Drift Wing at this base」
+
+[S010:0416] speaker_en
+Ariel
+
+[S010:0397] speaker_en
+Eun
+
+[S010:0424] speaker_en
+Eun
+
+[S010:0426] speaker_en
+Eun
+
+[S010:0436] speaker_en
+Eun
+
+[S010:0440] speaker_en
+Eun
+
+[S010:0444] speaker_en
+Eun
+
+[S010:0491] speaker_en
+Raj
+
+[S010:0503] speaker_en
+Raj
+
+[S010:0573] speaker_en
+Raj
+
+[S010:0574] speaker_en
+Raj
+
+[S010:0576] speaker_en
+Raj
+
+[S010:0600] speaker_en
+Raj
+
+[S010:0602] speaker_en
+Raj
+
+[S010:0604] speaker_en
+Raj
+
+[S010:0612] speaker_en
+Raj
+
+[S010:0613] en
+（Raj-san...）
+
+[S010:0631] speaker_en
+Raj
+
+[S010:0633] speaker_en
+Raj
+
+[S010:0635] speaker_en
+Raj
+
+[S010:0643] speaker_en
+Raj
+
+[S010:0647] speaker_en
+Raj
+
+[S010:0651] speaker_en
+Raj
+
+[S010:0658] speaker_en
+Raj
+
+[S010:0045] speaker_en
+Laker
+
+[S010:0047] speaker_en
+Laker
+
+[S010:0049] speaker_en
+Laker
+
+[S010:0051] speaker_en
+Laker
+
+[S010:0265] en
+「Commander,it's time for the briefing with Major
+　General Laker.Please come to Meeting Room 4」
+
+[S010:0275] speaker_en
+Laker
+
+[S010:0278] speaker_en
+Laker
+
+[S010:0280] speaker_en
+Laker
+
+[S010:0282] speaker_en
+Laker
+
+[S010:0284] speaker_en
+Laker
+
+[S010:0343] speaker_en
+Laker
+
+[S010:0345] speaker_en
+Laker
+
+[S010:0499] en
+「...Looks like they are not going to retreat.
+　Carla and Raul,let's provide support for that vessel
+　until Kurogane arrives」
+
+[S010:0506] en
+「Yuu,here comes the Kurogane!」
+
+[S010:0554] en
+「We were getting a ride to somewhere near Japan
+　via the Kurogane...」
+
+[S010:0108] en
+「Owning Thorn and Granteed...We believe that the
+　group that Touya's father,Seldore Shiun,belonged
+　to may not be connected with the Zovork」
+
+[S010:0057] en
+「Maybe,we will have to fight Gadisword...」
+
+[S010:0114] en
+（Gadisword...no,it can't be them either）
+
+[S010:0153] en
+「The people of Gadisword were divided to several
+　factions on their mother planet and were involved
+　in civil war for a long time...」
+
+[S010:0162] en
+「When the civil war ended,it seems that the planet
+　Gadisword was attacked by a group of unknown mobile
+　Mechs」
+
+[S010:0164] en
+「They immediately wreaked havoc on the whole
+　planet of Gadisword,and as a result many lives
+　and cities were lost」 
+
+[S010:0172] en
+「Do you know the real reason why Gadisword wants
+　to sign the peace treaty with Earth?」
+
+[S010:0177] en
+「Gadisword had 3 requests...permission to stay in the
+　Solar System,refugee status with Earth,and supplies
+　to repair their propeller and warp device」
+
+[S010:0187] en
+「Do you know the real reason why Gadisword wants
+　to sign the peace treaty with Earth?」
+
+[S010:0192] en
+「Gadisword had 3 requests...permission to stay in the
+　Solar System,refugee status with Earth,and supplies
+　to repair their propeller and warp device」
+
+[S010:0199] en
+「So they must know about the Gadisword too」
+
+[S010:0200] en
+「On the other hand,does the Gadisword know about
+　Gleiknr?」
+
+[S010:0267] en
+「...These are the details of the peace negotiations
+　with Gadisword」
+
+[S010:0286] en
+「Yes...It will be easier to talk to her with Zovork's
+　high-performance translation device Ensign Yon
+　Gebana provided with Gadisword's translation protocol」
+
+[S010:0321] en
+「You came from Rubble Pile of Gadisword.
+　Am I right?」
+
+========================================================================
+13 · Common · STEEL DRAGONS, WEST-BOUND · S013
+01_Stages/Stage_13_Common_S013_STEEL_DRAGONS_WEST_BOUND
+
+[S013:0063] speaker_en
+Irm
+
+[S013:0085] speaker_en
+Irm
+
+[S013:0085] en
+「So you mean they tricked us to hide the 
+　relationship between Gleiknr and Gadisword」
+
+[S013:0103] speaker_en
+Irm
+
+[S013:0105] speaker_en
+Irm
+
+[S013:0031] en
+「Zovork will provide 1 more spatial warp 
+　device with the condition of it being operated 
+　by Hagane」
+
+[S013:0035] en
+「That'll be too late.Prepare at once and set off 
+　together with Hagane.Wipe out those Lamalice by
+　using all of our current forces」
+
+[S013:0066] en
+「『Sleeping Beauty』,who was on board that object,
+　was secretly brought into Hagane」
+
+[S013:0068] en
+「Does that mean...a Gadiswordian is onboard Hagane?」
+
+[S013:0150] en
+「Or perhaps Hagane...?」
+
+[S013:0154] en
+「Regardless of the reasons,we can't ignore their 
+　actions.Errebe 1 to all units! Do not let the enemy 
+　come close to Hagane!」
+
+[S013:0160] speaker_en
+Eun
+
+[S013:0033] en
+「The device is expected to reach Izu soon.Until then,
+　the Steel Dragon Squad will be under the Far Eastern 
+　Force operations proposed by Major General Laker」
+
+[S013:0036] en
+「All of our forces...does that include Kurogane and
+　the <Re-Tech> mobile weapons?」
+
+[S013:0065] en
+「Believed to be something of Gadisword's,fell and 
+　recovered near <Mogami Heavy Industries> 
+　maritime plant...」
+
+[S013:0069] en
+「What on earth is this Gadisword...」
+
+[S013:0073] en
+「Yes,when I went to <Rubble Pile>,Gadisword
+　requested a search for a fugitive named Fairey 
+　Klivia」
+
+[S013:0076] en
+「Gadisword doesn't know,and that's the same for us.
+　And the reason is because most of her memory 
+　was lost」
+
+[S013:0078] en
+「But Gadisword didn't provide any information about 
+　it at all」
+
+[S013:0080] en
+「The Joint Command HQ thinks so too.Gadisword
+　requested us to search and hand over the Drift Wing 
+　and Fairey Klivia to them but...」
+
+[S013:0083] en
+「From that,we infer that there is a conspiracy
+　between Gadisword and Gleiknr,who is a war
+　merchant of Zovork and Gadisword」
+
+[S013:0097] en
+「We could use the truth serum and force Fairey Klivia
+　to talk,but the Terra Federation Government and
+　Gadisword are negotiating the friendship treaty now」
+
+========================================================================
+15 · Common · TAIPEI RUSH · S015
+01_Stages/Stage_15_Common_S015_TAIPEI_RUSH
+
+[S015:0251] speaker_en
+Irm
+
+[S015:0270] speaker_en
+Irm
+
+[S015:0274] speaker_en
+Irm
+
+[S015:0114] en
+「And to make our job more efficient,Hagane will
+　also be fitted with the spatial warp device
+　provided by Zovork」
+
+[S015:0116] en
+「Transfer Hagane's battle forces to Hiryu Kai at once.
+　Hagane will then head to the Izu Base for the
+　installment of the spatial warp device」 
+
+[S015:0121] en
+「I'll return to Izu on Hagane.Lieutenant Colonel
+　Lefina,I'm putting you in charge of leading the
+　battle in Taipei」
+
+[S015:0135] en
+「Can't be helped.Hagane suddenly needs to return
+　to Izu」
+
+[S015:0138] en
+「It's because they're going to install the spatial 
+　warp device to Hagane」
+
+[S015:0150] en
+「Seems like someone's been spending a lot of time in
+　the storage at the back of Hagane...Something to do
+　with that?」
+
+[S015:0172] speaker_en
+Eun
+
+[S015:0174] speaker_en
+Eun
+
+[S015:0196] speaker_en
+Eun
+
+[S015:0272] speaker_en
+Eun
+
+[S015:0141] en
+「In that case,put it on the Kurogane too」
+
+========================================================================
+16 · Common · THE FORGOTTEN NICKNAME · S016
+01_Stages/Stage_16_Common_S016_THE_FORGOTTEN_NICKNAME
+
+[S016:0111] speaker_en
+Irm
+
+[S016:0150] speaker_en
+Irm
+
+[S016:0158] speaker_en
+Irm
+
+[S016:0164] speaker_en
+Irm
+
+[S016:0169] speaker_en
+Irm
+
+[S016:0177] speaker_en
+Irm
+
+[S016:0178] speaker_en
+Irm
+
+[S016:0182] speaker_en
+Irm
+
+[S016:0197] speaker_en
+Irm
+
+[S016:0031] speaker_en
+Ariel
+
+[S016:0034] en
+「Raj,please collect the data of the gray Thorn」
+
+[S016:0035] speaker_en
+Raj
+
+========================================================================
+17 · Common · HOOK AND SWORD · S017
+01_Stages/Stage_17_Common_S017_HOOK_AND_SWORD
+
+[S017:0048] speaker_en
+Irm
+
+[S017:0053] speaker_en
+Irm
+
+[S017:0058] speaker_en
+Irm
+
+[S017:0062] speaker_en
+Irm
+
+[S017:0064] speaker_en
+Irm
+
+[S017:0066] speaker_en
+Irm
+
+[S017:0002] en
+「Besides,the mounting of the spatial warp device on
+　the Hagane will be completed by tomorrow.Thereafter,
+　we will attempt to warp to Taiwan」
+
+[S017:0068] en
+「Kurogane loaded with Ryuko-o,Grungust Type-0 and
+　Grungust Type-2 currently heading towards Izu.It seems
+　like Hagane will deliver them to Taiwan thereafter」
+
+[S017:0071] en
+「Rishu-sensei will be joining us.He will be here with
+　the Hagane」
+
+[S017:0075] speaker_en
+Ariel
+
+[S017:0077] speaker_en
+Ariel
+
+[S017:0080] speaker_en
+Ariel
+
+[S017:0082] speaker_en
+Ariel
+
+[S017:0084] speaker_en
+Ariel
+
+[S017:0089] speaker_en
+Raj
+
+[S017:0092] speaker_en
+Raj
+
+[S017:0094] speaker_en
+Raj
+
+[S017:0078] en
+「After the war,when Kurogane went to the same oceanic
+　area to investigate,the gate had opened again...」
+
+[S017:0159] en
+「Dyna 2 to Iron 3.I'll take care of Debudedabide.
+　Kurogane will hold it's current position」
+
+[S017:0161] en
+「He probably detected the spatial distortion and came,
+　but we don't know what he'll do next.As a precautionary
+　measure,do not move Kurogane」
+
+[S017:0179] en
+「Ratsel...and I didn't know that Kurogane was also here
+　as well」
+
+[S017:0188] en
+「Captain,I'll continue to engage the hostiles.
+　Send out Kurogane to recover Sanger」
+
+[S017:0195] en
+「I'll return to Kurogane,and pilot my beloved machine,
+　the War God Armament Dygenguar」
+
+[S017:0010] en
+「Maybe there is a connection that we share with them,
+　and that could be related to the reason for the Cana 
+　Type's emergence」
+
+[S017:0246] en
+「That's a relief to hear.
+　Phantom listen to me.
+　I can count on you,alright? Aschen」
+
+========================================================================
+18 · Common · SKULL KNIGHT · S018
+01_Stages/Stage_18_Common_S018_SKULL_KNIGHT
+
+[S018:0071] speaker_en
+Irm
+
+[S018:0001] en
+「Yes...I heard it directly from her.The two Fairlions
+　will also be transferred to the Hagane」
+
+[S018:0047] en
+「I agree.Well,next topic.The installation of the
+　spatial warp device inside the Hagane has been
+　completed」
+
+[S018:0048] en
+「Once Joint Command Headquarters approves,we'll
+　do a warp test for Hagane.Destination,Fugui Jiao
+　offshore,Taiwan.Then,to the Taoyuan Base」 
+
+[S018:0075] en
+「Captain,incoming transmission from Hagane」
+
+[S018:0075] speaker_en
+Eun
+
+[S018:0108] en
+「Hagane!?」
+
+[S018:0289] en
+「Hiryu Kai should stay in the Taoyuan Base and repair the
+　spatial warp drive.Hagane will warp to Jakarta...」
+
+[S018:0199] speaker_en
+Sleigh
+
+[S018:0201] speaker_en
+Sleigh
+
+[S018:0058] speaker_en
+Eun
+
+[S018:0060] speaker_en
+Eun
+
+[S018:0063] speaker_en
+Eun
+
+[S018:0080] speaker_en
+Eun
+
+[S018:0153] en
+（There is something we have to do before destroying you）
+
+========================================================================
+20 · Common · SERENDIPITY · S020
+01_Stages/Stage_20_Common_S020_SERENDIPITY
+
+[S020:0142] speaker_en
+Irm
+
+[S020:0144] speaker_en
+Irm
+
+[S020:0145] speaker_en
+Irm
+
+[S020:0181] speaker_en
+Irm
+
+[S020:0222] speaker_en
+Irm
+
+[S020:0222] en
+「...But still,did Gleiknr suspect something and that's
+　why they approached Hagane?」 
+
+[S020:0043] en
+「Yeah.Hagane and Hiryu Kai are stopping at
+　different locations」
+
+[S020:0045] en
+「It's certain that it was brought to the Izu Base after
+　recovery.After that,8 battleships that can load Ariad
+　including Hagane and Hiryu Kai left the base」
+
+[S020:0053] en
+「Then,shall we target the Hagane and the Hiryu Kai?」
+
+[S020:0149] en
+「Bilgo-chan,we'll use Galoica to attack Hagane」
+
+[S020:0160] en
+「Yeah,this is the reaction from the Gibez Drive...!
+　This is it.Ariad is in Hagane」
+
+[S020:0198] en
+「They pretended to aim for Hagane,but didn't force
+　their way...They left things unfinished」
+
+[S020:0203] en
+「Ah...Major Kai reminded us not to let Galoica
+　get any closer to Hagane.Why was that?」
+
+[S020:0204] en
+「That Mech carried a high-end sensor which can
+　be used for reconnaissance...I think it was because
+　he didn't want the enemy to check out the Hagane」
+
+[S020:0216] en
+「However,they might discover that Drift Wing was
+　in Hagane」
+
+[S020:0202] speaker_en
+Sleigh
+
+[S020:0009] en
+「He was suffering from heart disease.I'm moved by
+　his dedication despite his condition after escaping
+　from the Gadisword」
+
+[S020:0167] en
+「I'd rather destroy it than let the Terrans analyze it!
+　Because Gibez Drive is the future of Gadisword!」
+
+========================================================================
+22 · Common · PERFORMERS · S022
+01_Stages/Stage_22_Common_S022_PERFORMERS
+
+[S022:0088] speaker_en
+Irm
+
+[S022:0153] speaker_en
+Irm
+
+[S022:0000] en
+「After Bilgo's departure to Earth,we discovered
+　from his report that Ariad is located onboard
+　the Hagane of the Steel Dragon Squad」
+
+[S022:0005] en
+「We don't exactly know the state of Ariad inside the
+　Hagane.If we are unable to reclaim it,then we will
+　destroy it.」
+
+[S022:0008] en
+「I understand but...why did the Terrans load the
+　Ariad onboard the Hagane?」
+
+[S022:0034] en
+「I will have them move towards Hagane as close as
+　possible」
+
+[S022:0073] en
+「The possiblity is not zero.If Ariad is located
+　onboard the Hagane,then perhaps...」
+
+[S022:0096] en
+「Currently,we are planning to conduct an extrication
+　operation with the Southern European Forces.
+　Hagane will join them」
+
+[S022:0142] en
+「Bilgo is attacking Hagane right now.I came here to
+　finish the traitors while also being a diversion at the
+　same time」 
+
+[S022:0177] en
+「The current position of this ship is in TD Flight.
+　Send out a strict perimeter alert.Eun,what
+　about Hagane?」
+
+[S022:0192] en
+「What do you mean by Hagane has a Gadisword
+　machine!?」
+
+[S022:0127] speaker_en
+Sleigh
+
+[S022:0113] speaker_en
+Eun
+
+[S022:0113] en
+「It's a Gadisword unit,reduce speed and enter range 3」
+
+[S022:0114] speaker_en
+Eun
+
+[S022:0114] en
+「Attention Gadiswordian units.
+　Stop right there and disarm after landing」
+
+[S022:0128] speaker_en
+Eun
+
+[S022:0128] en
+「Attention Gadiswordian Mechs,open the cockpit
+　hatch...」
+
+[S022:0129] speaker_en
+Eun
+
+[S022:0131] speaker_en
+Eun
+
+[S022:0167] en
+「Right,let's secure them in.Eun,transmit this order
+　to every task force」
+
+[S022:0168] speaker_en
+Eun
+
+[S022:0168] en
+「Roger.Dragon 2 to all units.Eliminate the ensuing
+　pursuer,protect the two humanoid Gadisword Mech」
+
+[S022:0178] speaker_en
+Eun
+
+[S022:0184] speaker_en
+Eun
+
+[S022:0028] en
+「Regardless,it is not ideal to leave the Gibez Drive in
+　the hands of Terrans.We Gadiswordians should be
+　the ones to recover it」
+
+[S022:0056] en
+「Let's get Cupid out there too.For some reason,the
+　relationship between Gleiknr and Gadisword is too
+　obvious though...」
+
+[S022:0106] en
+（Gadisword,huh...）
+
+[S022:0123] en
+「It's Gadisword and Rubble Pile」
+
+[S022:0125] en
+（Gadisword...So it's a new alien huh）
+
+[S022:0136] en
+「Eliminating obstacles would enable us to capture
+　Gadisword machines...right?」
+
+[S022:0150] en
+「I can see a Gadisword mobile weapon with the
+　enemy's squad,one which I saw at the Rubble
+　Pile」
+
+[S022:0151] en
+「There's no longer any need to hide the relationship
+　between <Gleiknr> and Gadisword」
+
+[S022:0157] en
+「This is Sally Emil of Gadisword! They are our
+　enemy! I hereby request for protection!」
+
+[S022:0163] en
+「It's the Gadisword unit onboard your ship.
+　We know that you have it!」
+
+[S022:0180] en
+「What is the state of that Gadisword Mech?」
+
+[S022:0185] en
+「Understood...I shall secure the Gadisword machine
+　then」
+
+[S022:0199] en
+「Yeah,with the peace negotiations between Earth and
+　Gadisword...」 
+
+[S022:0217] en
+「H-How,do you know...both Gadiswordians' names!?」
+
+[S022:0221] en
+「Yes,I am Fairey Klivia...
+　I am of Annex from Gadisword」
+
+========================================================================
+23 · To Paris · MASKED DELITESCENCE · S023
+01_Stages/Stage_23_To_Paris_S023_MASKED_DELITESCENCE
+
+[S023:0082] speaker_en
+Irm
+
+[S023:0153] speaker_en
+Irm
+
+[S023:0155] speaker_en
+Irm
+
+[S023:0032] en
+「Sure,I'll transport it carefully from Hagane.It's a
+　valuable sample after all」
+
+[S023:0084] en
+「The Hagane will execute a spatial warp in 60
+　minutes.All Pilots,please standby at the first level
+　action stations」
+
+[S023:0102] en
+「This feeling is similar to that time when we first
+　encountered Almara Barton of <Gaia Sabers>」
+
+[S023:0143] en
+「Yes...It's the same as Almara Barton,Balshem...」　
+
+[S023:0046] en
+「And depending on the actions of Gadisword and
+　Gleiknr,it's highly likely we'll be sent to Rubble
+　Pile to spearhead the operation」
+
+[S023:0076] en
+「It may have something to do with Fury and
+　Gadisword...」
+
+========================================================================
+25 · To Paris · OPERATION TRIOMPHE · S025
+01_Stages/Stage_25_To_Paris_S025_OPERATION_TRIOMPHE
+
+[S025:0001] speaker_en
+Irm
+
+[S025:0007] speaker_en
+Irm
+
+[S025:0015] speaker_en
+Irm
+
+[S025:0184] speaker_en
+Irm
+
+[S025:0019] en
+「As long as <Ariad> is with the Hagane,I regard the
+　possibility of Gadisword attacking us as high...」
+
+[S025:0134] speaker_en
+Sleigh
+
+[S025:0024] en
+「In short,they are bait to attract the attention of  
+　Gadisword,the same as me and <Ariad>...」
+
+[S025:0039] en
+「That may be a start in improving the relationship 
+　between Gadisword and Earth...」
+
+[S025:0040] en
+「Yep.I don't view the Gadisword as aliens,not even 
+　you.I believe that there should be a way to avoid 
+　war」
+
+[S025:0206] en
+「If Gadisword,Gleiknr and Fury does not make any
+　significant action,we will move onto the Lamalice
+　suppression operation in Berlin ahead of schedule」
+
+========================================================================
+26 · Common · JUA-MU ADVANCES · S026
+01_Stages/Stage_26_Common_S026_JUA_MU_ADVANCES
+
+[S026:0155] speaker_en
+Irm
+
+[S026:0157] speaker_en
+Irm
+
+[S026:0159] speaker_en
+Irm
+
+[S026:0161] speaker_en
+Irm
+
+[S026:0165] speaker_en
+Irm
+
+[S026:0167] speaker_en
+Irm
+
+[S026:0173] speaker_en
+Irm
+
+[S026:0176] speaker_en
+Irm
+
+[S026:0178] speaker_en
+Irm
+
+[S026:0180] speaker_en
+Irm
+
+[S026:0182] speaker_en
+Irm
+
+[S026:0184] speaker_en
+Irm
+
+[S026:0225] speaker_en
+Irm
+
+[S026:0227] speaker_en
+Irm
+
+[S026:0108] en
+「We've already had ours.We have work to do in
+　Hagane after this」
+
+[S026:0115] en
+「Yes,to Sally and Sieg in the Hagane」
+
+[S026:0117] en
+「Those two people are to be kept in custody in Hagane,
+　just like Fairey-san」
+
+[S026:0127] en
+「Well then,we're going back to the Hagane」
+
+[S026:0310] en
+「It's the infirmary in Hagane」
+
+[S026:0325] en
+「It's the infirmary in Hagane. 
+　You don't have to worry any more」
+
+[S026:0341] en
+「It's the infirmary in Hagane」
+
+[S026:0078] speaker_en
+Sleigh
+
+[S026:0085] speaker_en
+Sleigh
+
+[S026:0200] speaker_en
+Eun
+
+[S026:0242] speaker_en
+Eun
+
+[S026:0274] speaker_en
+Raj
+
+[S026:0352] speaker_en
+Raj
+
+[S026:0363] en
+「Raj,how is the progress of the countermeasure?」
+
+[S026:0364] speaker_en
+Raj
+
+[S026:0366] speaker_en
+Raj
+
+[S026:0126] en
+（With the exception of Fury,Gadisword and the
+　survivors of Dark Brain,I didn't realize that these
+　fellows are active too...）
+
+========================================================================
+27 · Common · BITE THE TRAP · S027
+01_Stages/Stage_27_Common_S027_BITE_THE_TRAP
+
+[S027:0102] speaker_en
+Irm
+
+[S027:0004] en
+「...Are Sieg and Sally on the Hagane?」
+
+[S027:0006] en
+「It's not only Vaught's,but also your fault that we 
+　allowed them to make contact with Hagane」
+
+[S027:0024] en
+「I will initiate attack on Hagane.Bilgo,you will launch
+　a diversionary attack against Hiryu Kai」
+
+[S027:0067] en
+「Team 2 and 3,evict the Hagane」
+
+[S027:0070] en
+「Hm...The enemy's main target may be Ariad. 
+　Captain,order Hagane to withdraw from the current 
+　battle zone」
+
+[S027:0087] en
+「What about Hagane?」
+
+[S027:0090] speaker_en
+Eun
+
+[S027:0023] en
+「Oh my,is that so.Well,best wishes for your work 
+　then...」
+
+[S027:0009] en
+「Gadiswordians,all the same.Besides,Annex or 
+　<Latimer>,such things no longer matter,rightt?」
+
+[S027:0019] en
+「I'm saying just for the record...I will reconsider 
+　how we deal with Gadisword if you do anything which
+　is disadvantageous to us」
+
+[S027:0066] en
+「The commanding unit is a Leonisis...
+　They're Gadisword's forces」
+
+[S027:0100] en
+「As expected by the top brass,
+　Gadisword has also fallen for the bait...!」
+
+========================================================================
+28 · Common · SWORD OF A TRASCENDANT'S SOUL · S028
+01_Stages/Stage_28_Common_S028_SWORD_OF_A_TRASCENDANT_S_SOUL
+
+[S028:0104] speaker_en
+Irm
+
+[S028:0219] speaker_en
+Irm
+
+[S028:0239] speaker_en
+Irm
+
+[S028:0043] en
+「We don't have time to do that! 
+　If Hagane goes down,we're gonna lose everthing!」
+
+[S028:0055] en
+「All units are to proceed to eliminate the remaining 
+　enemy Mechs and surround the Hagane.
+　I will retrieve the Ariad」
+
+[S028:0127] en
+（I can see from the attitude of you guys. 
+　Fairey and the rest are definitely in the Hagane）
+
+[S028:0130] en
+「Hagane was almost done for.
+　I have to thank Akimi and his team!」
+
+[S028:0179] en
+「Sally and Sieg fought with Crystal Dragoon who
+　attacked Aviano Base,and they did not do anything 
+　suspicious since boarding the Hagane!」
+
+[S028:0009] en
+「Incoming transmission from Gadisword Mech!」
+
+[S028:0011] en
+「This is Vaught Nicholaus from the Gadisword force.
+　To whom I'm speaking with,I ask for you to turn
+　over the custody of the <Ariad>...」
+
+[S028:0020] en
+「If so,I cannot guarantee the lives of the 3
+　Gadiswordian.We will also destroy the Ariad」
+
+[S028:0083] en
+「Akimi,there's an incoming transmission from the 
+　Gadisword Mech!」
+
+[S028:0138] en
+「Gadisword's new model...
+　It'll be dangerous if it closes in for close quarter 
+　combat with that kind of acceleration」
+
+[S028:0140] en
+「Acceleration force and response are much better
+　than other Gadisword Mechs...! But to hell I'll
+　lose in high mobility combat!」
+
+[S028:0189] en
+「Me too...I've made up my mind not to go back
+　before everything's clear,and true peace is
+　established between Gadisword and Earth...」
+
+[S028:0206] en
+「If that...will lead to the prevention of battles 
+　between Gadisword and Earth...」
+
+========================================================================
+29 · Common · PATH TO HOPE · S029
+01_Stages/Stage_29_Common_S029_PATH_TO_HOPE
+
+[S029:0135] en
+（I received an exit pass even though it's for a short
+　period...Lieutenant Irm informed me about the nice 
+　shop in Shimoda...Now's the time to ask her out）
+
+[S029:0506] speaker_en
+Irm
+
+[S029:0510] speaker_en
+Irm
+
+[S029:0126] en
+「Though it would be better if Hagane or Hiryu Kai 
+　would spatial warp it...」
+
+[S029:0231] en
+「Touya,there's a chance Fury might appear.
+　Do not leave Hagane's side」
+
+[S029:0246] speaker_en
+Ariel
+
+[S029:0257] speaker_en
+Ariel
+
+[S029:0272] speaker_en
+Eun
+
+[S029:0306] speaker_en
+Eun
+
+[S029:0315] speaker_en
+Eun
+
+[S029:0397] speaker_en
+Eun
+
+[S029:0125] speaker_en
+Raj
+
+[S029:0288] speaker_en
+Raj
+
+[S029:0205] speaker_en
+Laker
+
+[S029:0208] speaker_en
+Laker
+
+[S029:0212] speaker_en
+Laker
+
+========================================================================
+31 · To the Ruins of Baral · PYRAMID OF MISGIVINGS I · S031
+01_Stages/Stage_31_To_the_Ruins_of_Baral_S031_PYRAMID_OF_MISGIVINGS_I
+
+[S031:0037] speaker_en
+Irm
+
+========================================================================
+32 · To the Ruins of Baral · PYRAMID OF MISGIVINGS II · S032
+01_Stages/Stage_32_To_the_Ruins_of_Baral_S032_PYRAMID_OF_MISGIVINGS_II
+
+[S032:0028] speaker_en
+Irm
+
+[S032:0065] en
+「Lieutenant Irm,we can't let that happen!」
+
+[S032:0066] speaker_en
+Irm
+
+[S032:0095] speaker_en
+Irm
+
+[S032:0031] en
+「What happened to Hagane's interception!?」
+
+[S032:0046] speaker_en
+Ariel
+
+[S032:0104] speaker_en
+Ariel
+
+[S032:0147] speaker_en
+Ariel
+
+[S032:0159] speaker_en
+Ariel
+
+[S032:0160] speaker_en
+Ariel
+
+[S032:0015] en
+「Eun,connect to Commander Miles」
+
+[S032:0016] speaker_en
+Eun
+
+[S032:0025] en
+「...Yes,Sir.
+　Mobile squads are to hold position until further orders. 
+　Eun,relay the order」
+
+[S032:0026] speaker_en
+Eun
+
+[S032:0030] speaker_en
+Eun
+
+[S032:0032] speaker_en
+Eun
+
+[S032:0072] speaker_en
+Eun
+
+[S032:0087] speaker_en
+Eun
+
+========================================================================
+34 · Common · HOLLOW SOUL · S034
+01_Stages/Stage_34_Common_S034_HOLLOW_SOUL
+
+[S034:0228] speaker_en
+Irm
+
+[S034:0285] speaker_en
+Irm
+
+[S034:0331] speaker_en
+Irm
+
+[S034:0334] speaker_en
+Irm
+
+[S034:0424] speaker_en
+Irm
+
+[S034:0447] speaker_en
+Irm
+
+[S034:0449] speaker_en
+Irm
+
+[S034:0455] speaker_en
+Irm
+
+[S034:0456] speaker_en
+Irm
+
+[S034:0559] speaker_en
+Irm
+
+[S034:0562] speaker_en
+Ariel
+
+[S034:0564] en
+「The target of assimilation might not be only
+　Ariel in this case」
+
+[S034:0566] speaker_en
+Ariel
+
+[S034:0566] en
+「Major Kai and Lieutenant Kyosuke.If Duvan's in 
+　Alles Geist,please let me settle the score with him, 
+　for I am one of the <Idealant>s too」
+
+[S034:0568] speaker_en
+Ariel
+
+[S034:0571] speaker_en
+Ariel
+
+[S034:0574] en
+「No,it's alright.That's an enemy,which is hard to
+　predict.If there's a diversion,all the better for us.
+　Ariel,I entrust you the destruction of the target」
+
+[S034:0576] speaker_en
+Ariel
+
+[S034:0578] speaker_en
+Ariel
+
+[S034:0578] en
+（Duvan,this is the final chance.Here I go...!）
+
+[S034:0585] speaker_en
+Ariel
+
+[S034:0585] en
+「Duvan,are you in there...?」
+
+[S034:0587] speaker_en
+Ariel
+
+[S034:0589] speaker_en
+Ariel
+
+[S034:0591] speaker_en
+Ariel
+
+[S034:0591] en
+「Duvan! It's you right!?」
+
+[S034:0593] speaker_en
+Ariel
+
+[S034:0593] en
+「Duvan!」
+
+[S034:0594] en
+「What happened,Ariel-chan!?」
+
+[S034:0595] speaker_en
+Ariel
+
+[S034:0595] en
+「I heard Duvan's voice just now! He is in the
+　Alles as I expected!」
+
+[S034:0597] speaker_en
+Ariel
+
+[S034:0598] speaker_en
+Ariel
+
+[S034:0600] en
+「Is Ensign Ariel trying to save Duvan...?」
+
+[S034:0603] en
+「There are only 2 Idealants in this world.Perhaps
+　Ariel no longer wish to fight with someone of
+　her race」
+
+[S034:0604] speaker_en
+Ariel
+
+[S034:0604] en
+「Duvan,it's because of your existence that Alles 
+　could return from the Cross Gate,and appeared in 
+　front of me once more,isn't it...!?」
+
+[S034:0607] speaker_en
+Ariel
+
+[S034:0609] speaker_en
+Ariel
+
+[S034:0609] en
+「Duvan!」
+
+[S034:0611] speaker_en
+Ariel
+
+[S034:0613] speaker_en
+Ariel
+
+[S034:0622] speaker_en
+Ariel
+
+[S034:0624] speaker_en
+Ariel
+
+[S034:0627] speaker_en
+Ariel
+
+[S034:0634] en
+「In the end,Ariel-chan's prediction was spot on 
+　after all」
+
+[S034:0636] speaker_en
+Ariel
+
+[S034:0638] speaker_en
+Ariel
+
+[S034:0643] speaker_en
+Ariel
+
+[S034:0643] en
+「Perhaps,Duvan is stopping Alles Geist from
+　going out of control」
+
+[S034:0647] en
+「That's true.Ariel-chan,you wanted to bring back
+　Duvan,don't you?」
+
+[S034:0648] speaker_en
+Ariel
+
+[S034:0650] speaker_en
+Ariel
+
+[S034:0652] speaker_en
+Ariel
+
+[S034:0655] speaker_en
+Ariel
+
+[S034:0658] speaker_en
+Ariel
+
+[S034:0663] speaker_en
+Ariel
+
+[S034:0542] en
+「Duvan Org once wanted energy from the Cross
+　Gate」
+
+[S034:0635] en
+「Duvan Org is still alive...」
+
+[S034:0649] en
+「But what will you do after rescuing him? Now that
+　Alles Geist has become something like that,I doubt 
+　Duvan Org will remain as he was last time」
+
+[S034:0660] en
+「Though there are no other way but to call what 
+　Duvan Org did as a sin...but to atone for them,
+　he must live」
+
+[S034:0140] en
+「No,that's not it.As the plans still exist inside Raj-san's
+　and my mind,it's not possible for me to erase 
+　them...」
+
+[S034:0002] en
+「Commander,we will transit to the converging
+　orbit with Kurogane designated by Major Guiliam」
+
+[S034:0003] en
+「Good.I'll return to my room.
+　Contact me once the transfer is done for the mobile
+　units that were in the care of Kurogane」
+
+[S034:0009] en
+「I didn't get the details as well.They are likely to
+　report right after the rendezvous with the members
+　of Kurogane...」
+
+[S034:0010] en
+「...Radar detection.It's Kurogane,at 1 o'clock.」
+
+[S034:0011] en
+「Incoming transmission from Kurogane.Permission 
+　requested to come alongside.Also,we're told that 
+　there's someone who wishes to meet the Commander」
+
+[S034:0019] en
+「In fact,I wanted to get on Kurogane to rescue you」
+
+[S034:0052] en
+「The insides of this ship are pretty much the same as
+　Kurogane's,it doesn't feel like it has been so long」
+
+[S034:0056] en
+「In fact,I wanted to get on Kurogane to rescue you」
+
+[S034:0093] en
+「In fact,I wanted to get on Kurogane to rescue you」
+
+[S034:0146] en
+「Back when Jua-Mu attacked Kurogane and used that
+　tactic...the Excellence Gunstriker of Fiona and I
+　managed to move somehow in the field」
+
+[S034:0155] en
+「The interior of this ship are pretty much the same as
+　Kurogane's,it doesn't feel like it has been so long」
+
+[S034:0164] en
+「In fact,I wanted to get on Kurogane to rescue you」
+
+[S034:0639] en
+「The end of evolution,which Duvan mentioned once in
+　the past...is it?」
+
+[S034:0651] en
+「Will you show Duvan a new way of life?」
+
+[S034:0183] en
+「To let 3 Gadiswordians take part in battles...why did 
+　you approve the decision by Ratsel Feinschmecker?」
+
+[S034:0185] en
+「In fact,on route to the Moon,we battled with 
+　Gadisword forces,but Fairey,Sieg and Sally didn't 
+　show any signs of rebellion...」
+
+========================================================================
+36 · Common · THOSE WHO ATTRACTS · S036
+01_Stages/Stage_36_Common_S036_THOSE_WHO_ATTRACTS
+
+[S036:0056] en
+「Lieutenant Irm,may I talk to you?」
+
+[S036:0057] speaker_en
+Irm
+
+[S036:0059] speaker_en
+Irm
+
+[S036:0062] speaker_en
+Irm
+
+[S036:0064] speaker_en
+Irm
+
+[S036:0066] speaker_en
+Irm
+
+[S036:0149] speaker_en
+Irm
+
+[S036:0050] en
+「Maybe that existed on Gadisword's planet too」
+
+========================================================================
+37 · Common · RETURN FROM A QUIET DEATH · S037
+01_Stages/Stage_37_Common_S037_RETURN_FROM_A_QUIET_DEATH
+
+[S037:0146] speaker_en
+Irm
+
+[S037:0204] en
+「Masaki,Lune,Almara,you should all dock at
+　Hagane」
+
+[S037:0070] speaker_en
+Sleigh
+
+[S037:0113] speaker_en
+Ariel
+
+[S037:0102] speaker_en
+Eun
+
+[S037:0117] speaker_en
+Lune
+
+[S037:0118] en
+「Lune! Masaki!」
+
+[S037:0178] en
+「Don't fall behind,Lune!」
+
+[S037:0179] speaker_en
+Lune
+
+[S037:0123] en
+「And also,why is Galilnagant...is that Almara who's
+　on board...!?」
+
+[S037:0124] speaker_en
+Almara
+
+[S037:0176] en
+「Alright.Well then,let's go Almara」
+
+[S037:0177] speaker_en
+Almara
+
+========================================================================
+38 · Common · 7 MINUTES WITHDRAWAL BATTLE · S038
+01_Stages/Stage_38_Common_S038_7_MINUTES_WITHDRAWAL_BATTLE
+
+[S038:0049] speaker_en
+Irm
+
+[S038:0093] en
+「In this situation...!? 
+　But we have to protect Hagane and Hiryu Kai
+　no matter what」
+
+[S038:0326] en
+「in the devastation of the 4th orbital patrol fleet at 
+　the Selene Base battle...I appointed you as the 
+　captain of Hagane」
+
+[S038:0340] en
+（I'm fine with this...I have already taught 
+　as much as I could to the Hagane's crew）
+
+[S038:0021] speaker_en
+Sleigh
+
+[S038:0239] speaker_en
+Sleigh
+
+[S038:0253] speaker_en
+Sleigh
+
+[S038:0264] speaker_en
+Sleigh
+
+[S038:0277] speaker_en
+Ariel
+
+[S038:0284] speaker_en
+Ariel
+
+[S038:0292] speaker_en
+Ariel
+
+[S038:0294] speaker_en
+Ariel
+
+[S038:0160] speaker_en
+Eun
+
+[S038:0201] speaker_en
+Lune
+
+[S038:0204] speaker_en
+Lune
+
+[S038:0211] en
+「When I met Almara with Lune at the other side,
+　we were working together with Saphine,Monica
+　and the rest as Shu's subordinates」
+
+[S038:0215] speaker_en
+Lune
+
+[S038:0206] en
+「Yeah,and the first to proved that...
+　is over there,Almara」
+
+[S038:0207] speaker_en
+Almara
+
+[S038:0209] speaker_en
+Almara
+
+[S038:0212] speaker_en
+Almara
+
+[S038:0216] speaker_en
+Almara
+
+[S038:0221] en
+「I didn't trust Almara at first as well,but I didn't
+　see any hostilities from her.She also fought together
+　with us at the final battle at the other side」
+
+[S038:0103] en
+「...Nii-san,our opponents are not a Bioroids.
+　Are you seriously going to fight them?」
+
+[S038:0008] en
+「Damn Gadisword! I can't believe they'll warp Rubble 
+　Pile directly above the Cross Gate!!」
+
+[S038:0020] en
+「Damn,I can't believe those Gadisword will break in
+　with their base!」
+
+[S038:0029] en
+「Wait,how is it possible for a Gadiswordian like Helluga,
+　able to create such a thing!?」
+
+[S038:0030] en
+「B-By any chance...
+　There's a Cross Gate in the planet of 
+　Gadisword...!?」
+
+[S038:0042] en
+「The Earth,RA-GEAS,and the home planet of Fury and 
+　Gadisword...」
+
+[S038:0057] en
+「Incoming transmission from a Gadisword Mech!」
+
+[S038:0058] en
+「This is Vaught Nicholaus of the Gadisword force.
+　Attention Steel Dragon Squad.You have intruded
+　Rubble Pile's space defense territory」
+
+[S038:0075] en
+「Nhuu...We can't withdraw from here until the order 
+　comes.Captain,prepare to intercept the Gadisword 
+　units!」
+
+[S038:0080] en
+「...No.We'll commence attack on the Gadisword forces
+　from now」
+
+[S038:0083] en
+「Attention Steel Dragon Squad.We will commence our 
+　attack from now.May fortune favor the brave for both
+　Gadisword and Earth」
+
+[S038:0155] en
+「I'm not going to repeat that mistake! Also,I don't 
+　intend to have the key,that may make a difference 
+　in the fight with Gadisword and Fury,ruined here!」
+
+[S038:0175] en
+「...This ship and Hiryu Kai have succeeded in 
+　withdrawing from the battle zone.We have shaken 
+　off Gadisword force's pursuit」
+
+[S038:0249] en
+「By the way,about the Cross Gate in Gadisword's
+　home planet...」
+
+[S038:0257] en
+「If the Cross Gate at Gadisword is the same as the one 
+　on Earth,then it should be as prominent as the
+　Rubble Pile」
+
+[S038:0259] en
+「Like how the Earth's Cross Gate was under the ice 
+　of Antartica,it might be hidden after it was found 
+　from a place where it can't be seen at Gadisword?」
+
+[S038:0269] en
+「Apart from that,I have a bigger question.
+　If a hostile group like <Ruina> appeared from 
+　Gadisword's Cross Gate,then...」
+
+[S038:0296] en
+「I see...so it's possible that these are the meaning 
+　behind Gadisword's restoration...」
+
+[S038:0303] en
+「And also,to stop Helluga,to end this war between
+　the Gadisword and the Earth」
+
+========================================================================
+39 · Common · OFFERINGS OF FUNENTAI · S039
+01_Stages/Stage_39_Common_S039_OFFERINGS_OF_FUNENTAI
+
+[S039:0003] speaker_en
+Irm
+
+[S039:0009] speaker_en
+Irm
+
+[S039:0097] en
+「...Understood.I'll revoke Colonel Ginto Kitaumi's
+　disciplinary action and have him take command of
+　the Hagane once more」
+
+[S039:0170] speaker_en
+Ariel
+
+[S039:0173] speaker_en
+Ariel
+
+[S039:0054] speaker_en
+Lune
+
+[S039:0054] en
+「They are all doing fine.Yang Long,Tytti and 
+　Mio are observing the Cross Gate in RA-GEAS」
+
+[S039:0063] speaker_en
+Lune
+
+[S039:0063] en
+「But the Kadum Hakham of the Fury seems to be
+　a good guy」
+
+[S039:0071] en
+「Yes.Are you okay with that too,Lune?」
+
+[S039:0072] speaker_en
+Lune
+
+[S039:0143] speaker_en
+Lune
+
+[S039:0146] speaker_en
+Lune
+
+[S039:0193] speaker_en
+Lune
+
+[S039:0017] speaker_en
+Almara
+
+[S039:0018] en
+「I didn't mean to be rude.Sorry about that,
+　Almara-chan」
+
+[S039:0019] speaker_en
+Almara
+
+[S039:0021] speaker_en
+Almara
+
+[S039:0023] en
+（I can't imagine the response from what Almara used
+　to be like...）
+
+[S039:0239] speaker_en
+Almara
+
+[S039:0243] speaker_en
+Almara
+
+[S039:0261] speaker_en
+Almara
+
+[S039:0263] speaker_en
+Almara
+
+[S039:0266] speaker_en
+Almara
+
+[S039:0006] en
+「Yes.King of the giants,『Kadum Hakham』,is the 
+　original form of the three evil gods...namely the God
+　of Destruction,Shiva Volkruss,the God of Harmony...」
+
+[S039:0011] en
+「Could it be that Kadum Hakham created the 
+　Cross Gate...?」
+
+[S039:0025] en
+「Yes.I've managed to get a few answers from Kadum
+　Hakham」
+
+[S039:0031] en
+「What happened later,after the revival of Kadum
+　Hakham?」
+
+[S039:0036] en
+「They exterminated Kadum Hakham through the
+　power of the spirits which conflicted against the
+　negative existence of the giants」
+
+[S039:0039] en
+「Yes...the spiritual power that existed in RA-GEAS
+　and Kadum Hakham canceled out each other.Declined
+　to the level even Pilots of <The Lord of Elemental>...」
+
+[S039:0057] en
+「By any chance,was there a sparkling ring attached to
+　the head of Kadum Hakham?」
+
+[S039:0060] en
+「I see...
+　So Furleim and Kadum Hakham have a couple
+　of things in common」
+
+[S039:0076] en
+（If the Cross Gate exists in other planets with intelligent
+　life and Kadum Hakham had appeared from there...）
+
+[S039:0231] en
+「In the Endless Frontier,was there someone who
+　resembles Kadum Hakham?」
+
+[S039:0233] en
+「Among the various datas I've investigated over at the
+　other side,there wasn't a Hakham」
+
+[S039:0095] en
+「Final battle with Gadisword is also a race against time.
+　Better to be brisk and sharp than slow and prudent,
+　but not without Colonel Ginto's experience and ability」
+
+[S039:0107] en
+「Well...currently,there's a negotiation ongoing
+　between the Terra Federation Government and 
+　Gadisword」
+
+[S039:0115] en
+「We'll attack all at once.So far,though Gadisword has 
+　yet to show any movement,there's still a possibility 
+　of us storming the Rubble Pile」
+
+[S039:0052] en
+（I can't believe Masaki's counting on Dr.Shirakawa...
+　Their relationship seems to have changed）
+
+========================================================================
+40 · Common · HAGANE'S CRISIS · S040
+01_Stages/Stage_40_Common_S040_HAGWANE_S_CRISIS
+
+[S040:0065] speaker_en
+Irm
+
+[S040:0019] en
+「The're probably thinking the same.There's no way 
+　they'll go with the time limit without measures.For 
+　its preparation,Hagane will continue monitoring」
+
+[S040:0054] en
+「However,transfer all mobile weapons and Pilots 
+　to the Hagane before departure」
+
+[S040:0129] en
+「Lord Helluga,the Hagane of the Steel Dragon Squad is 
+　approaching the third defense line」
+
+[S040:0167] en
+（Turn back,Hagane...
+　We only want time until the warp.
+　Don't provoke Helluga） 
+
+[S040:0294] en
+「Hagane has taken in Mechs as a carrier and 
+　they're approaching this ship through the 
+　entry course」
+
+[S040:0300] en
+「Doesn't matter.Aim and fire at the Hagane with
+　minimal output」
+
+[S040:0309] en
+「What has happened to the Hagane!?」
+
+[S040:0013] en
+「Hiryu Kai will go up to the Space again after receiving 
+　those and have them ready when Rubble Pile would not 
+　adhere to the terms of the agreement」
+
+[S040:0118] en
+（If we have to defeat Helluga Izberga for the peace,
+　I'll overthrow Gu-Landon next...)
+
+[S040:0119] en
+「Nii-san,if we can stop Helluga and his team,the 
+　battle will surely end,right...?」
+
+[S040:0007] en
+「Yes.In the case where Gadisword doesn't surrender 
+　Rubble Pile by the appointed time,we'll invoke 
+　a certain operation」
+
+[S040:0020] en
+「There are civilians of Gadisword in Rubble Pile.
+　Will we still use the chemical weapon?」
+
+[S040:0026] en
+「We have 3 Gadiswordians in our squad as support」
+
+[S040:0039] en
+「However...if Gadisword surrenders Rubble Pile before
+　the appointed time,we'll be able to avoid using the 
+　chemical weapons」
+
+[S040:0042] en
+「The other Gadiswordians may surrender without 
+　resistance.If you wish,I'll authorize a reconnaissance 
+　in force」
+
+[S040:0069] en
+「Silence.The Joint Command HQ doesn't think 
+　Gadisword will surrender Rubble Pile within the 
+　time limit」
+
+[S040:0086] en
+「If they plan to carry out the use of chemical weapons,
+　it's only normal that they did not inform us 
+　Gadiswordians in order to prevent interference」
+
+[S040:0095] en
+「As I've told you before,if Gadisword attacks us,we'll 
+　fight back...」
+
+[S040:0098] en
+「You're telling us to end the war with Gadisword 
+　before Hiryu Kai comes back,is it?」
+
+[S040:0102] en
+「Depending on the response of Gadisword,it'll be a
+　series of battles with all our forces.I'm expecting
+　the best in all of you.That is all」
+
+[S040:0103] en
+「I can't believe the Terra Federation Force has that 
+　kind of plan against Gadisword...」
+
+[S040:0115] en
+「As Touya-san says,I believe we are given the means and 
+　time to end the war against Fury and Gadisword」
+
+[S040:0122] en
+「He thinks the future of Gadisword is tied to Gleiknr 
+　instead of Earth」
+
+[S040:0160] en
+「Attention approaching Gadisword Mechs.If you are
+　to intrude our ship's firing range,we will attack.I
+　repeat.If you are to intrude our ship's firing...」
+
+[S040:0161] speaker_en
+Gadisword Pilot
+
+[S040:0162] speaker_en
+Gadisword Pilot
+
+[S040:0164] speaker_en
+Gadisword Pilot
+
+[S040:0166] speaker_en
+Gadisword Pilot
+
+[S040:0187] speaker_en
+Gadisword Pilot
+
+[S040:0189] en
+「And to end the battle between Earth and Gadisword!」
+
+[S040:0197] en
+「Gadisword's home planet...is already in ruins,
+　isn't it?」
+
+[S040:0203] en
+「We are...Gadisword's last survivors...!?」
+
+[S040:0205] en
+（The ones who destroyed Gadisword's home planet,
+　are they forces of destruction,like Ruina...?）
+
+[S040:0210] en
+「If that happens,we Gadiswordians will...!」
+
+[S040:0212] en
+「I won't let them do it.
+　There should be a way to coexist with the 
+　Gadiswordians」
+
+[S040:0218] en
+「If we don't stop him,Gadisword may actually be 
+　finished!」
+
+[S040:0219] en
+「Please let us go to Rubble Pile...! 
+　It's dangerous to leave the fate of Gadisword to 
+　Helluga!」
+
+[S040:0230] en
+「B-But...For the revival of Gadisword...Helluga 
+　will...」
+
+[S040:0235] en
+「B-But...For the revival of Gadisword...Helluga 
+　will...」
+
+[S040:0240] en
+「B-But...For the revival of Gadisword...Helluga 
+　will...」
+
+[S040:0245] en
+「B-But...For the revival of Gadisword...Helluga 
+　will...」
+
+[S040:0249] en
+「B-But...For the revival of Gadisword...Helluga 
+　will...」
+
+[S040:0255] en
+「I don't want to cause Fairey-san anymore grief. 
+　Check with your own eyes that we're trying to help 
+　Gadiswordians with our own ways」
+
+[S040:0263] en
+「...The strong will drive away the weak.
+　It has been proven in Gadisword history」
+
+[S040:0267] en
+「That alone can't restore Gadisword.Also,for the sake of
+　avenging our countryman,who we shared the same 
+　planet and fate with,I will not let you pass」
+
+[S040:0274] en
+「...The strong will drive away the weak.
+　It has been proven in Gadisword history」
+
+[S040:0278] en
+「That alone can't restore Gadisword.Also,for the sake of
+　avenging our countryman,who we shared the same 
+　planet and fate with,I will not let you pass」
+
+[S040:0284] en
+「If we're the last survivors,then I have no intention of
+　entrusting Gadisword's future to Helluga!」
+
+[S040:0290] en
+「Then what? Can you guarantee our,Gadiswordian's
+　future,in the hands of weaklings,such as the
+　Terrans?」
+
+========================================================================
+41 · Common · BLOODY WHIRILWIND · S041
+01_Stages/Stage_41_Common_S041_BLOODY_WHIRILWIND
+
+[S041:0073] speaker_en
+Irm
+
+[S041:0014] en
+「Ah,please wait! Hagane detected!」
+
+[S041:0030] en
+「Damn Hagane,so they evaded with spatial warp.
+　Then,I'll end them with my hands.
+　Suits me that way」
+
+[S041:0079] speaker_en
+Lune
+
+[S041:0034] en
+「We want to end the fight between Gadisword and
+　Earth quickly!」
+
+[S041:0051] en
+「I've said this before,Vaught Nicholaus,I will stake 
+　everything for Gadisword's revival」
+
+[S041:0134] en
+「But we won't let him die for nothing! We'll get 
+　that Zemon no matter what it takes! 
+　For the revival of Gadisword!」
+
+[S041:0176] en
+「Exactly.If we can destroy that large Mech,the 
+　remaining Gadiswordian soldiers will definitely 
+　surrender」
+
+========================================================================
+43 · Common · CLASH OF SWORDS · S043
+01_Stages/Stage_43_Common_S043_CLASH_OF_SWORDS
+
+[S043:0095] speaker_en
+Irm
+
+[S043:0097] speaker_en
+Irm
+
+[S043:0010] en
+「Everyone on-board Hagane,that is none other than
+　Gau La Furia」
+
+[S043:0259] en
+「However,in order to allow for changes in the
+　results,the Admiral plans to stay silent about
+　Hagane's movements」
+
+[S043:0066] en
+「N-Nii-san...It's no use...」
+
+[S043:0027] en
+「We can't let you go to the enemy.Although we
+　are in a difficult situation having just finished the
+　fight with Gadisword...」
+
+[S043:0069] en
+「Sieg...We might be the only Gadiswordian
+　survivors...」
+
+========================================================================
+47 · Common · TWO WAR DEITIES · S047
+01_Stages/Stage_47_Common_S047_TWO_WAR_DEITIES
+
+[S047:0463] speaker_en
+Irm
+
+[S047:0156] speaker_en
+Sleigh
+
+[S047:0009] speaker_en
+Ariel
+
+[S047:0045] speaker_en
+Ariel
+
+[S047:0050] speaker_en
+Ariel
+
+[S047:0079] en
+「Ariel-chan,this is our last chance」
+
+[S047:0080] speaker_en
+Ariel
+
+[S047:0090] speaker_en
+Ariel
+
+[S047:0090] en
+「Duvan,I will help you...!」
+
+[S047:0091] en
+「A-Ariel...」
+
+[S047:0091] speaker_en
+Duvan
+
+[S047:0092] speaker_en
+Ariel
+
+[S047:0092] en
+「Duvan! Do you recognize me!?」
+
+[S047:0095] speaker_en
+Ariel
+
+[S047:0097] speaker_en
+Ariel
+
+[S047:0098] en
+「A-Ariel...」
+
+[S047:0098] speaker_en
+Duvan
+
+[S047:0120] speaker_en
+Ariel
+
+[S047:0266] speaker_en
+Ariel
+
+[S047:0269] en
+「Ariel...」
+
+[S047:0269] speaker_en
+Duvan
+
+[S047:0270] speaker_en
+Ariel
+
+[S047:0270] en
+「Duvan」
+
+[S047:0273] speaker_en
+Ariel
+
+[S047:0276] speaker_en
+Ariel
+
+[S047:0488] en
+「Ariel-chan will be going back to Izu with Duvan
+　first,yes?」
+
+[S047:0489] speaker_en
+Ariel
+
+[S047:0491] speaker_en
+Ariel
+
+[S047:0492] en
+「Ariel-chan will be going back to Izu first,yes?」
+
+[S047:0493] speaker_en
+Ariel
+
+[S047:0495] speaker_en
+Ariel
+
+[S047:0021] speaker_en
+Lune
+
+[S047:0077] speaker_en
+Lune
+
+[S047:0181] speaker_en
+Lune
+
+[S047:0247] speaker_en
+Lune
+
+[S047:0477] en
+「Lune,Shu and I are going to the Kurogane together.
+　Until the gate of RA-GEAS opens」
+
+[S047:0478] speaker_en
+Lune
+
+[S047:0066] en
+「Almara,your Galilnagant may be one of them」
+
+[S047:0067] speaker_en
+Almara
+
+[S047:0183] speaker_en
+Almara
+
+[S047:0479] speaker_en
+Almara
+
+[S047:0472] en
+「We will return to Kurogane.In order to re-investigate
+　the areas that can be easily connected to the other
+　world」
+
+[S047:0474] en
+「OK,Mister Samurai.Until we find a way back to
+　Endless Frontier,we will be a nuisance in Kurogane」
+
+[S047:0483] en
+「Regardless,Kurogane will be burst with a variety
+　of members as compared to the past」
+
+[S047:0093] speaker_en
+Duvan
+
+[S047:0094] speaker_en
+Duvan
+
+[S047:0096] speaker_en
+Duvan
+
+[S047:0096] en
+「Arri...el...the evolution of Alles will...me...
+　and you...」
+
+[S047:0271] speaker_en
+Duvan
+
+[S047:0272] speaker_en
+Duvan
+
+[S047:0274] speaker_en
+Duvan
+
+[S047:0275] speaker_en
+Duvan
+
+[S047:0490] en
+「Duvan too?」
+
+[S047:0083] en
+「Yes Sir」
+
+[S047:0184] en
+「It's really similar to Kadum Hakham」
+
+[S047:0190] en
+「Are you Kadum Hakham?」
+
+[S047:0206] en
+「Same race...As expected,Furleim is Kadum
+　Hakham」
+
+[S047:0209] en
+「To assist the subjects of guidance by risking your 
+　life...it's something Hakham ought not to do.
+　How utterly mindless of him」
+
+[S047:0210] en
+「Oh? Wasn't the objective of Kadum Hakham to
+　raise tough intelligent life forms who can
+　overcome great ordeals?」
+
+[S047:0228] en
+「You mean there may be something going on
+　between Hakham and Einst...?」
+
+[S047:0239] en
+「But,the power to defeat Kadum Hakham...
+　the power of the spirits can no longer be used」
+
+[S047:0242] en
+「It's the Royal Sword,which Kadum Hakham's
+　lodged into Granteed Dracodeus」
+
+[S047:0245] en
+「An eye for an eye,a tooth for a tooth...
+　And for Kadum Hakham,we have Kadum
+　Hakham」
+
+[S047:0278] en
+「At the very least,the Kadum Hakham of RA-GEAS
+　no longer exists in this world!」
+
+[S047:0285] en
+（As expected,to Kadum Hakham,Cross Gate is
+　but a...）
+
+[S047:0407] en
+「The ones who attacked intelligent lifeforms,
+　Kadum Hakham of RA-GEAS and XN-L...」
+
+[S047:0416] en
+「Unlike RA-GEAS' Kadum Hakham and XN-L,he 
+　doesn't have the Divine Vessel...it's not 
+　possible for him to last in the awakened state」
+
+[S047:0480] en
+「Well,it's not that we fought XN-L at the Boundary
+　Space,unlike RA-GEAS' Kadum Hakham,who got
+　blown into the Cross Gate」
+
+[S047:0428] en
+「In the end,we 3 are the only remaining
+　Gadiswordians」
+
+[S047:0429] en
+「Since our planet is gone,I guess this is the end for
+　Gadisword...」
+
+[S047:0434] en
+「Indeed.There have been various incidents but...
+　Us being together is proof that Terrans and
+　Gadiswordians will be able to coexist together」
+
+[S047:0436] en
+「Whatever the case,we are the only ones who are
+　able to create a new history for Gadisword」
+
+========================================================================
+Shared defeat messages
+04_Shared/Defeat_messages
+
+[DEAD:0013] speaker_en
+Irm
+
+[DEAD:0041] speaker_en
+Sleigh
+
+[DEAD:0011] speaker_en
+Ariel
+
+[DEAD:0054] speaker_en
+Lune
+
+[DEAD:0056] speaker_en
+Almara
+
+[DEAD:0012] speaker_en
+Duvan
+
+========================================================================
+Bank 0012 · 1108 records
+04_Shared/Battle_messages/0012
+
+[0012:0430] en
+「Lieutenant Irm,I'll back you up!」
+
+[0012:0139] en
+「New model,I won't allow you take down Hagane!」
+
+[0012:0157] en
+「This is the final chance,Ariel!」
+
+[0012:0443] en
+「I'll back you up,Ariel!」
+
+[0012:0480] en
+「Get back,Ariel!」
+
+========================================================================
+Bank 0013 · 786 records
+04_Shared/Battle_messages/0013
+
+[0013:0312] en
+「Lieutenant Irm,I'll do the rest!」
+
+[0013:0313] en
+「Way to go Lieutenant Irm,he's/　 opened up an opportunity」
+
+[0013:0362] en
+「Lieutenant Irm,I'll take care of this!」
+
+[0013:0326] en
+「Ariel,leave the rest to me」
+
+[0013:0372] en
+「Fall back,Ariel!」
+
+[0013:0017] en
+「To resent someone's kindness,after having abandoned 
+  your pride」
+
+[0013:0409] en
+「Go!The Hakham of light...!」
+
+========================================================================
+Bank 0014 · 718 records
+04_Shared/Battle_messages/0014
+
+[0014:0267] en
+「Lieutenant Irm,I'll provide support!」
+
+[0014:0282] en
+「Ariel,leave the rest to me!」
+
+[0014:0311] en
+「Ariel,get back!」
+
+[0014:0268] en
+「Lune,go ahead and take care of the other one!」
+
+[0014:0269] en
+「Let me help you,Lune!」
+
+[0014:0314] en
+「Lune,get back!」
+
+[0014:0035] en
+「What she's looking at...isn't the fate of Gadisword...!」
+
+========================================================================
+Bank 0025 · 860 records
+04_Shared/Battle_messages/0025
+
+[0025:0353] en
+「Lieutenant Irm,please leave the rest to me」
+
+[0025:0379] en
+「Lieutenant Irm,retreat immediately!」
+
+[0025:0117] en
+「I need to lead him to where Ensign Ariel is...!」
+
+[0025:0347] en
+「Ariel-san,I'll back you up」
+
+[0025:0348] en
+「Please leave it to me from here on,Ariel-san」
+
+[0025:0375] en
+「Ariel-san,retreat!」
+
+[0025:0359] en
+「I can't believe I ended up supporting Almara...!」
+
+[0025:0381] en
+「You haven't noticed,Almara...!」
+
+========================================================================
+Bank 0027 · 894 records
+04_Shared/Battle_messages/0027
+
+[0027:0396] en
+「Lieutenant Irm,I'll back you up!」
+
+[0027:0440] en
+「Lieutenant Irm,I'll take this one!」
+
+[0027:0170] en
+「Provide suppression fire for Ensign Ariel!」
+
+[0027:0417] en
+「Ariel,leave the rest to me!」
+
+[0027:0460] en
+「Get back,Ariel!」
+
+========================================================================
+Bank 0028 · 891 records
+04_Shared/Battle_messages/0028
+
+[0028:0400] en
+「Lieutenant Irm,I'll back you up!」
+
+[0028:0441] en
+「Lieutenant Irm,please break away!」
+
+[0028:0149] en
+「Now there is no choice but to bet on Ariel...!」
+
+[0028:0416] en
+「I'll help you,Ariel!」
+
+[0028:0071] en
+「It's a Gadisword captain's machine...!」
+
+[0028:0311] en
+「Even Gadisword machines aren't much of a big/　deal,huh」
+
+[0028:0352] en
+「Even Gadisword machines aren't much of a big/　deal,huh」
+
+========================================================================
+Bank 0066 · 724 records
+04_Shared/Battle_messages/0066
+
+[0066:0295] en
+「I'll back you up,Irm!」
+
+[0066:0306] en
+「Ariel,I'll back you up!」
+
+[0066:0301] en
+「Lune,I'll back you up!」
+
+[0066:0334] en
+「Lune,fall back quickly!」
+
+[0066:0050] en
+「That lineup,/　it means that Gadisword is also getting desperate...!」
+
+[0066:0052] en
+「Cross Gate doesn't necessarily bring a better/　future to Gadisword...!」
+
+[0066:0053] en
+「Gadisword's future doesn't lie in/　Helluga any longer!」
+
+[0066:0055] en
+「Cross Gate doesn't necessarily bring a better/　future to Gadisword...!」
+
+[0066:0186] en
+「As I'd expect from a Gadiswordian battle commander」
+
+[0066:0238] en
+「I won't let Gadisword do as they please」
+
+========================================================================
+Bank 0113 · 2048 records
+04_Shared/Battle_messages/0113
+
+[0113:1442] en
+「I'll cover you,Lieutenant Irm」
+
+[0113:1472] en
+「That's not like you,Lieutenant Irm!」
+
+[0113:1473] en
+「Lieutenant Irm,get away from there!」
+
+[0113:0428] en
+「It's the ace of Gadisword,huh...!/　Well then,I'll be your opponent!」
+
+========================================================================
+01 · Earth · SOULSABER VS COMPATI KAISER · S001
+01_Stages/Stage_01_Earth_S001_SOULSABER_VS_COMPATI_KAISER
+
+[S001:0094] en
+「Mothership...? Something like Hagane?」
+
+========================================================================
+06 · Earth · GUNNER GUARD · S006
+01_Stages/Stage_06_Earth_S006_GUNNER_GUARD
+
+[S006:0076] en
+「Groups of <Zovork> mobile troops and Unknown
+　appeared around Cross Gate.They engaged in
+　battle with the Monitoring Fleet and Hagane」
+
+[S006:0096] en
+「A battle broke out when Hagane encountered
+　<Alles Geist> within the vicinity of Cross Gate」 
+
+[S006:0073] speaker_en
+Laker
+
+[S006:0092] speaker_en
+Laker
+
+[S006:0107] en
+「So now,we will do what we can accomplish.
+　Commander Laker,have we received the
+　confirmation from Joint Command Headquarters?」
+
+[S006:0108] speaker_en
+Laker
+
+[S006:0109] speaker_en
+Laker
+
+[S006:0111] speaker_en
+Laker
+
+[S006:0172] speaker_en
+Laker
+
+[S006:0173] speaker_en
+Laker
+
+[S006:0218] speaker_en
+Laker
+
+[S006:0219] speaker_en
+Laker
+
+[S006:0221] speaker_en
+Laker
+
+[S006:0156] en
+「Isn't it 11 PM already? Let us rest.We have been
+　through 3 rounds of live combat...」
+
+========================================================================
+07 · Earth · BEST OF PREY · S007
+01_Stages/Stage_07_Earth_S007_BEST_OF_PREY
+
+[S007:0005] en
+「If that's the case,will it be okay if it's just Hagane?」
+
+[S007:0012] en
+「So,the S.T.F Training Group has been temporarily
+　transferred to the Steel Dragon Squad.The mothership
+　will be Hagane」
+
+[S007:0014] en
+「Move your Mechs into Hagane by 1600 hours and
+　you'll have until 1800 hours to move your
+　belongings and to complete all procedures」
+
+[S007:0020] en
+「Then,we are also going to board the Hagane」
+
+[S007:0071] en
+「Hmm,it's Hagane of The Steel Dragon Squad.It's
+　the best catch.All mobile squads,proceed as
+　planned」
+
+[S007:0008] en
+「The ATX Team's Ensign Ariel Org will remain in
+　Izu to take care of the Alles Geist that has landed
+　on Earth」
+
+[S007:0010] speaker_en
+Ariel
+
+[S007:0069] speaker_en
+Ariel
+
+[S007:0095] speaker_en
+Ariel
+
+[S007:0096] speaker_en
+Ariel
+
+[S007:0097] speaker_en
+Ariel
+
+[S007:0055] speaker_en
+Laker
+
+========================================================================
+09 · Earth · RESONANCE · S009
+01_Stages/Stage_09_Earth_S009_RESONANCE
+
+[S009:0215] en
+「Hagane has arrived...! 」
+
+[S009:0112] speaker_en
+Laker
+
+[S009:0115] speaker_en
+Laker
+
+[S009:0117] speaker_en
+Laker
+
+[S009:0118] speaker_en
+Laker
+
+[S009:0120] speaker_en
+Laker
+
+[S009:0125] speaker_en
+Laker
+
+[S009:0136] speaker_en
+Laker
+
+[S009:0138] speaker_en
+Laker
+
+========================================================================
+12 · Common · NIGHT OF TRAGEDY II · S012
+01_Stages/Stage_12_Common_S012_NIGHT_OF_TRAGEDY_II
+
+[S012:0072] en
+「Commander,we received a report from Hagane.It
+　appears that they have wiped out the Unknowns
+　completely in Yokohama as well as Shinjuku」
+
+[S012:0087] en
+「So here,I have a request to ask of you.Currently,Red
+　Augar...Person-Lichkeit is moving together with
+　Hagane's mobile units,but..」
+
+[S012:0087] speaker_en
+Laker
+
+[S012:0000] speaker_en
+Eun
+
+[S012:0005] speaker_en
+Eun
+
+[S012:0041] speaker_en
+Raj
+
+[S012:0073] speaker_en
+Laker
+
+[S012:0075] speaker_en
+Laker
+
+[S012:0077] speaker_en
+Laker
+
+[S012:0079] speaker_en
+Laker
+
+[S012:0081] speaker_en
+Laker
+
+[S012:0083] speaker_en
+Laker
+
+[S012:0085] speaker_en
+Laker
+
+[S012:0085] en
+「...I see,so that's why Kurogane came to Japan」
+
+[S012:0088] speaker_en
+Laker
+
+[S012:0091] speaker_en
+Laker
+
+[S012:0093] speaker_en
+Laker
+
+[S012:0123] en
+「Yep.He said will go to Tesla Institute with Kurogane
+　and retrieve it」
+
+========================================================================
+14 · Common · WICKED CLOWN · S014
+01_Stages/Stage_14_Common_S014_WICKED_CLOWN
+
+[S014:0049] en
+「Captain,Hagane of the Steel Dragon Squad is here!」
+
+[S014:0053] en
+「This is Hagane,flagship of the Independent 
+　1st Squadron.Friendly units are to withdraw」
+
+========================================================================
+19 · Common · RUNAWAY GHOST · S019
+01_Stages/Stage_19_Common_S019_RUNAWAY_GHOST
+
+[S019:0059] en
+「If there are no other questions...Hiryu Kai will stay in
+　Taoyuan base to repair the spatial warp device,
+　so we'll head to the location with the Hagane only」
+
+[S019:0143] speaker_en
+Ariel
+
+[S019:0146] speaker_en
+Ariel
+
+[S019:0157] speaker_en
+Ariel
+
+[S019:0161] speaker_en
+Ariel
+
+[S019:0161] en
+（Duvan...are you inside that thing?）
+
+[S019:0163] en
+「It seems like it's moving towards us.We should keep
+　our guard up.Especially you,Ariel」
+
+[S019:0164] speaker_en
+Ariel
+
+[S019:0166] speaker_en
+Ariel
+
+[S019:0170] speaker_en
+Ariel
+
+[S019:0179] speaker_en
+Ariel
+
+[S019:0180] speaker_en
+Ariel
+
+[S019:0194] en
+（Alles Geist's objective...Could it be Ensign Ariel?）
+
+[S019:0215] en
+「It tried to attack us just like the last time.It seemed like
+　his target was Ensign Ariel,but I didn't expect that it
+　would activate the Lamalice」
+
+[S019:0226] speaker_en
+Ariel
+
+[S019:0227] speaker_en
+Ariel
+
+========================================================================
+22 · Common · SIDE SCENARIO 2 · S102
+03_Interludes/Stage_22_S102_SIDE_SCENARIO_2
+
+[S102:0115] en
+「First of all,Hagane will be joining『Operation 
+　Triomphe』,conducted by the Southern Europe Squad
+　to liberate Paris」
+
+[S102:0013] speaker_en
+Ariel
+
+[S102:0015] speaker_en
+Ariel
+
+[S102:0018] speaker_en
+Ariel
+
+[S102:0020] speaker_en
+Ariel
+
+[S102:0032] en
+「Ensign Yon,please explain what Gomodkka Gleiknr,
+　who approached Gadisword,is like?」
+
+[S102:0037] en
+「A war merchant would never do such a thing without
+　being paid.He must be getting Gadisword's weapons
+　and military technology in return」
+
+[S102:0076] en
+「So they had came to Earth before Gadisword even
+　started their peace negotiations with us...」
+
+[S102:0095] en
+「I agree.We want to avoid the fight with Gadisword
+　as much as possible」
+
+[S102:0105] en
+「Well,if you all think that way,maybe making peace
+　with the Gadiswordians might work out well」
+
+[S102:0117] en
+「But before that,we will have to resupply at the
+　Aviano base and we will have the Gadiswordians
+　disembark the ship」
+
+========================================================================
+24 · To Paris · COMMON BATTLEFRONT · S024
+01_Stages/Stage_24_To_Paris_S024_COMMON_BATTLEFRONT
+
+[S024:0113] en
+「No,the decision has been made that we're to take
+　you under our charge in Hagane just like Fairey Klivia」
+
+[S024:0118] en
+「It will be loaded on the Hagane and investigated」
+
+[S024:0079] en
+「A bait should act like bait.」
+
+[S024:0088] en
+「Too early to evaluate...
+　So I fight you」
+
+[S024:0096] en
+「You just need to fight and that's all」
+
+[S024:0048] en
+「But they are Gadisword.Who knows if they will not
+　backstab us」
+
+[S024:0051] en
+「Roger.Everybody,we will identify the Gadisword
+　Mechs as an ally」
+
+[S024:0075] en
+「How about Gadisword's Mechs?」
+
+[S024:0123] en
+「As I've said before,we would like to prevent a
+　fight with Gadisword as much as possible.So,I
+　need your cooperation...」
+
+========================================================================
+25 · To Karachi · AL-VAN'S INTENTION · S082
+01_Stages/Stage_25_To_Karachi_S082_AL_VAN_S_INTENTION
+
+[S082:0346] en
+「It seems that Hagane will be refueled and repaired at 
+　the Abiano base.Hiryu Kai will head there too」
+
+[S082:0178] speaker_en
+Ariel
+
+[S082:0140] speaker_en
+Eun
+
+[S082:0141] speaker_en
+Eun
+
+[S082:0258] speaker_en
+Eun
+
+[S082:0149] speaker_en
+Raj
+
+========================================================================
+29 · Common · SIDE SCENARIO 3 · S103
+03_Interludes/Stage_29_S103_SIDE_SCENARIO_3
+
+[S103:0048] en
+「I see...when we were taken out from Granteed,I
+　thought it would look like the hangar,but it was
+　bigger than Izu base,let alone Hagane or Hiryu Kai」
+
+[S103:0079] en
+「I see...When we were taken out from Granteed,I
+　thought it would look like the hangar,but it was
+　bigger than Izu base,let alone Hagane or Hiryu Kai」
+
+[S103:0110] en
+「I see...When we were taken out from Granteed,I
+　thought it would look like the hangar,but it was
+　bigger than Izu base,let alone Hagane or Hiryu Kai」
+
+[S103:0214] speaker_en
+Raj
+
+[S103:0151] en
+「I'd like to gather all the non-regular Steel Dragon
+　Squad members to Kurogane,and carry out the search
+　for the Fury's base」
+
+[S103:0208] en
+「...I know.I apologize,I'll need the Kurogane team's
+　help」
+
+[S103:0218] en
+「We've decided to go to the Moon with Kurogane.
+　With that,I'd like to make a request to the two of
+　you who are going to the site of Baral Garden...」
+
+[S103:0162] en
+「Furthermore,in order to search for whereabouts of
+　Gadisword and Gleiknr's activities in Space,I'm
+　considering taking Fairey,Sieg and Sally as well」
+
+========================================================================
+30 · To the Ruins of Baral · BARRIER OF SAND · S030
+01_Stages/Stage_30_To_the_Ruins_of_Baral_S030_BARRIER_OF_SAND
+
+[S030:0042] en
+「Errebe 1 to all units.Hagane can't move due
+　to the preparation of Buster Cannon.Do not let
+　enemy units come close until it fires」
+
+[S030:0044] en
+「So their aim is Hagane.
+　They seem to know what we are planning to do」
+
+[S030:0045] en
+「All units,do not let the enemy get close to
+　Hagane!」
+
+========================================================================
+30 · To the Moon · SPACE RULER · S083
+01_Stages/Stage_30_To_the_Moon_S083_SPACE_RULER
+
+[S083:0309] en
+「S-Shut up.It's a Space Noah-class,so the inside
+　should be almost the same as Hagane's」
+
+[S083:0511] speaker_en
+Sleigh
+
+[S083:0268] speaker_en
+Raj
+
+[S083:0270] speaker_en
+Raj
+
+[S083:0272] speaker_en
+Raj
+
+[S083:0274] speaker_en
+Raj
+
+[S083:0427] speaker_en
+Raj
+
+[S083:0450] en
+「Raj's idea was right on the money...! With this,
+　Excellence Gunstriker!」
+
+[S083:0469] speaker_en
+Raj
+
+[S083:0520] en
+「No,I didn't.The design layout that is in Raj-san's
+　and my head can't be deleted no matter what...」
+
+[S083:0521] speaker_en
+Raj
+
+[S083:0523] speaker_en
+Raj
+
+[S083:0524] speaker_en
+Raj
+
+[S083:0526] speaker_en
+Raj
+
+[S083:0529] speaker_en
+Raj
+
+[S083:0254] en
+「Based on the report from my subordinate,they left
+　their base,advanced over the sea,and have joined
+　Kurogane」
+
+[S083:0286] en
+「If you were to say decoy,that applies to all of us.
+　That's why we excluded some mechs,like Ariad,which
+　will be joining Kurogane by flying over the ocean」
+
+[S083:0308] en
+「A tour,you say...we've only just boarded Kurogane
+　ourselves」
+
+[S083:0488] en
+「No need to pursue him.We should head to space
+　with Kurogane while we can」
+
+[S083:0277] en
+「Although the Gadisword army is opposing the Earth
+　Army...」
+
+[S083:0336] en
+「And if possible,I want to stop the battle between
+　Gadisword and the Earth」
+
+========================================================================
+31 · To the Moon · VAUGHT AND FAIREY · S084
+01_Stages/Stage_31_To_the_Moon_S084_VAUGHT_AND_FAIREY
+
+[S084:0181] en
+「I couldn't understand why Vaught requested for
+　Fairey's extradition when he attacked the Hagane 
+　the other day but...」
+
+[S084:0017] en
+「Well,I have good news for Vaught-chan.It's the battleship
+　that works with the Steel Dragon Squad...
+　Kurogane had shown up in Space」
+
+[S084:0020] en
+「I feel that it's most likely on board the Kurogane.
+　Won't you be a dear and help me check it out?」
+
+[S084:0107] en
+「Dyna 2 to all units! Don't let the enemy come
+　anywhere near Kurogane!」
+
+[S084:0054] en
+「To be honest,I thought I'd be discriminated even
+　if Gadiswordians and Terrans look alike」
+
+[S084:0064] en
+「OK,Ponytail.
+　Since we are talking about Gadisword,so what's the
+　planet like?」
+
+[S084:0067] en
+「Identification of the approaching unknowns,complete!
+　They're Zovork and Gadiswordian units!」 
+
+[S084:0070] en
+「This reading...It's the Gadiswordian unit that we
+　fought the other day!」
+
+[S084:0080] en
+「Helluga's command will only lead to further
+　conflict! It may even destroy the Gadiswordians
+　in <Rubble Pile>」
+
+[S084:0083] en
+「I don't think they care about Gadisword's future!」
+
+[S084:0088] en
+「Why to rebuild Gadisword,of course」
+
+[S084:0090] en
+「He is worried about the future of Gadisword more
+　than anybody else」
+
+[S084:0091] en
+「Nevertheless,Fairey stole Ariad and disrupted
+　his plan.She is the one who brings harm to
+　Gadisword!」
+
+[S084:0092] en
+「Wait a minute! Fairey-san wanted to avoid a war
+　between Earth and Gadisword!」
+
+[S084:0101] en
+「...There's no reason for Gadisword and Earth to
+　fight.The truth that Helluga hides...If you know
+　a glimpse of it,please tell me」
+
+[S084:0109] en
+「...As Guiliam speculated,we managed to attract
+　Gadisword too,didn't we」
+
+[S084:0190] en
+「Let's head to the Moon as soon as possible.Although
+　I'm worried about Gadisword's actions but getting clues
+　on the location of Fury's base is more pressing...」
+
+========================================================================
+33 · To the Ruins of Baral · BURNING GRASS · S033
+01_Stages/Stage_33_To_the_Ruins_of_Baral_S033_BURNING_GRASS
+
+[S033:0124] en
+「Then,you guys pull that back along with your Mechs.
+　Our flagship Hagane is heading for this battle zone」
+
+[S033:0128] en
+「...So it's over. 
+　Errebe 1 to all units.Return to the Hagane!」
+
+[S033:0129] en
+「...Can't believe that we'll get to board the famous
+　Hagane」
+
+========================================================================
+33 · To the Moon · CONFUSE THE ENEMY · S086
+01_Stages/Stage_33_To_the_Moon_S086_CONFUSE_THE_ENEMY
+
+[S086:0114] en
+「Hagane and Hiryu Kai will be coming up to Space.
+　The order is to join them immediately」
+
+[S086:0085] en
+「Ahaha,if it isn't the Kurogane.You've got quite the
+　luck on your side,Kinaha-chan」
+
+[S086:0006] en
+「Well,the location of Gadisword's star system is still
+　unknown.Even if the repair is completed with our
+　technology...」
+
+[S086:0081] en
+「What about the Gadisword units?」
+
+========================================================================
+35 · Common · WORDS OF SHANA-MIA · S035
+01_Stages/Stage_35_Common_S035_WORDS_OF_SHANA_MIA
+
+[S035:0110] en
+「Fiona,as a precaution against the use of Larseilam
+　by the enemy,you are to take on the role of covering
+　Hagane」
+
+[S035:0124] en
+「There you are! 
+　Then the Princess is surely in the Hagane as well!」
+
+[S035:0194] en
+「Furthermore,it seems that the Princess is really on
+　the Hagane after all」
+
+[S035:0091] speaker_en
+Raj
+
+[S035:0168] speaker_en
+Raj
+
+[S035:0230] speaker_en
+Raj
+
+[S035:0253] en
+「Have the Gadiswordians here already returned to 
+　Rubble Pile?」
+
+========================================================================
+42 · Common · CORONA GATEKEEPER · S042
+01_Stages/Stage_42_Common_S042_CORONA_GATEKEEPER
+
+[S042:0208] en
+「I-Is Hagane sinking!?」
+
+[S042:0244] en
+「I-Is Hagane sinking!?」
+
+[S042:0318] speaker_en
+Ariel
+
+[S042:0036] speaker_en
+Lune
+
+[S042:0037] en
+「Don't let your guard down now,Lune」
+
+[S042:0123] speaker_en
+Almara
+
+[S042:0014] en
+「That man on top of the Cross Gate...
+　Sieg,is that the big boss of Gadisword?」
+
+[S042:0088] en
+「That's right.It is a supreme power given by God...
+　Even if it means the destruction of Gadisword,I have
+　to bring it to a closure with my own hands」
+
+[S042:0090] en
+「I am the FIRST researcher of Zemon.
+　As a matter of fact,the result of my creation brought
+　victory against the fight with Annex in Gadisword...」
+
+[S042:0101] en
+「Yes,it is the tragic truth.However,it is also right that 
+　due to Rubble Pile's warp,a few Gadiswordians
+　survived,including you all」
+
+[S042:0104] en
+「It is a revelation.
+　God has bestowed Zemon upon me twice,I was 
+　told to create a new future of Gadisword」
+
+[S042:0232] en
+「I will not allow the Gadiswordians who survived
+　disseminate disasters from the Cross Gate on 
+　this space...!」
+
+[S042:0238] en
+「The future of Gadisword...It's easy to say,and it 
+　might sound like a catchword,but...」
+
+[S042:0241] en
+「Let's go,Fairey-san!
+　With our Soulsaber,we will become the blade that will
+　open up the future of Earth and Gadisword!」
+
+[S042:0269] en
+「Victory is ours.
+　Produce Gadisword's notice of surrender」
+
+[S042:0277] en
+「What a disgrace of Gadiswordians!
+　I will personally execute you!」
+
+[S042:0304] en
+「She wish to head to Rubble Pile with the company of 
+　Sieg Altolied and Sally Emil to prompt a surrender
+　from the remaining personnels of Gadisword」
+
+[S042:0309] speaker_en
+Gadisword Pilot
+
+[S042:0310] speaker_en
+Gadisword Pilot
+
+[S042:0312] speaker_en
+Gadisword Pilot
+
+[S042:0314] speaker_en
+Gadisword Pilot
+
+[S042:0321] speaker_en
+Gadisword Pilot
+
+[S042:0324] speaker_en
+Gadisword Pilot
+
+[S042:0328] en
+「I have to explore the solutions for the future of 
+　Gadiswordian survivors.It will be a...herculean task 
+　though」
+
+========================================================================
+Archive_OG1
+05_Extras/Recaps/Archive_OG1
+
+[Archive_OG1:0087] en
+To overcome a stalemate, Izu Base Commander Laker Randolf orders
+Lieutenant Colonel Daitetsu Minase's Hagane to launch a direct
+assault on the DC's main base. The Hagane is preparing to sortie,
+when a DC team lead by Rai's older brother, Elzam, raids Izu Base...
+
+[Archive_OG1:0098] en
+Driven by desperate situation due to incoming barrage of large missiles,
+Ryusei sucessfully startup Project SRX's R-1 Mech. The Hagane makes it
+out of the woods and head towards Aidoneus Island. The SRX Team is saved
+at the south pole from a tight situation with appearance of Masaki Ando,
+pilot of Cybaster. To uncover Shu's whereabouts, he agreed to work with
+Hagane.
+
+[Archive_OG1:0109] en
+They are joined by Johnson who has escaped from Langley Base. When they
+receive the powerful Grungust, they hear that former S.T.F. squad member
+Sanger Zonvolt has revolted against DC. Ryoto Hikawa is among the enemies
+who launched the pre-emptive attack on Hagane. Having discovered that DC
+made used of him as their POW, he decided to join Hagane's fight against
+them.
+
+[Archive_OG1:0121] en
+The Hagane's offensive against the DC stronghold
+on Aidoneus Island begins.
+However, their Tronium Buster Cannon fails to penetrate
+fortress's epic center. Captain Daitetsu decides to send
+a PT squad to infiltrate the fortress.
+
+[Archive_OG1:0144] en
+After the battle at Aidoneus Island, the Hagane's crew responds to
+a distress signal and hurry to the Principality of Riksent, a Federation
+Special Administrative Region facing the Mediterranean Sea.
+There, they rescue Princess Shine and drive out the DC remnants.
+
+[Archive_OG1:0155] en
+With Princess Shine in tow, the Hagane returns to Izu Base.
+Upon their return, Ryusei and the rest of the SRX Team compete in
+a test battle against Kyosuke Nanbu's ATX Team, which is part of
+the assault humanoid mobile weapon development program, Project ATX.
+
+[Archive_OG1:0178] en
+Hagane and Hiryu Kai are dispatched to the scene. Bian's daughter,
+Lune, shows up near Sector L5. Lune chooses to join Masaki and company
+to fight the aliens. Rai's cousin, Leona, defects from the DC remnants
+and pledges to cooperate with the Federation Forces. Around the same
+time, Aerogator's leader Levi Tolah demands for Terra Federation
+Government's surrender.
+
+[Archive_OG1:0189] en
+Princess Shine was kidnapped from Izu base during Commander Laker's
+absence. In the midst of the confusion caused by Aerogator's appearance,
+Adler Koch seizes the opportunity to attack Geneva with his DC remnant
+troops. Former S.T.F. member Tempest Hawker appears and hindered Hagane
+but he suffers a mental breakdown due to Valsion Kai's GEIM System's
+side effects.
+
+[Archive_OG1:0200] en
+The Hagane and Hiryu Kai rush toward Geneva, but Tenzan and
+mind-controlled Princess Shine appear with the Valsion Kai.
+They narrowly defeat Tenzan and rescue Shine.
+The DC War draws to an end, and with the help of Sanger who
+had gone missing for a time, Adler's ambitions turn to dust.
+
+[Archive_OG1:0212] en
+Testing of the R-Series Mechs outfitted with Plus Parts is to be
+carried out in China. On the way to the training grounds, a large
+fleet of Aerogator appear before the Hagane. Ingram instructs
+Ryusei and the others to deploy in SRX formation...
+
+[Archive_OG1:0223] en
+The crew of the Hagane are in shock when they discover that
+Ingram, who fought beside them for so long, is an Aerogator spy.
+Ryusei and the SRX Team vow to avenge Ingram's betrayal
+with their own hands.
+
+[Archive_OG1:0268] en
+The Kurogane rushes to provide backup, and proceeds to the interior of
+White Star after saving the skin of the Hagane crew. In the heart of the
+White Star, Ingram awaits them with a final test. His mission is to advance
+the Aerogators' assimilation of Terran military power by identifying human
+candidates with special powers such information manipulation.
+
+========================================================================
+Archive_OG2
+05_Extras/Recaps/Archive_OG2
+
+[Archive_OG2:0073] en
+Hagane sets course for Shandong in pursuit of the DC remnants. The DC
+remnants attack the LTR Organization's Dr. Anzai who is excavating the
+ruins of Shiyu Mound for remains of ｢Chokijin｣ - the semi-living
+biological weapons constructed in ancient times as guardians to fight
+the ｢Hundred Evils｣. During the skirmish, an unknown entity warps
+to the site.
+
+[Archive_OG2:0085] en
+The DC remnants launch their campaign to use Earth Cradle as their base.
+The Hagane starts to track down the DC remnants. Latooni encounters
+Arado Balanga, who she knows from her days in The School, as an enemy
+captive. Arado has become a prisoner of war after taking a hit meant for
+Seolla.
+
+[Archive_OG2:0096] en
+The DC remnants get wind of the Federation Forces' impending attack
+on Earth Cradle, ｢Operation Molehunt｣, and so they launch a pre-emptive
+assault on the Hagane. Yet another unknown entity appears during
+the battle with the DC remnants. Kyosuke hears the voice of a girl
+who calls herself an ｢Einst｣.
+
+[Archive_OG2:0177] en
+Noie DC occupies the Principality of Riksent as a base for its campaign
+in Southern Europe. To liberate Riksent, Shirogwane and other teams staged
+a diversion, allowing Hagane to launch an assault on the garrisoned Noie
+DC forces. Latooni and Shine supported with the new Fairlion AM, freeing
+the Principality. However, an error of judgment on the part of Shirogwane's
+Captain Lee Linjun causes the ship to fall into enemy hands.
+
+[Archive_OG2:0258] en
+Tesla Leicht Institute is liberated from the Inspectors with Ibis
+reunited with Filho and the rest. Operation Plantagenet draws to an end.
+Hagane and Hiryu Kai raid Langley Base with the help of Van Vat Tran's
+Noie DC. However Shadow Mirror are in league with the Inspector and
+their joint surprise attack leaves Hagane in a bad shape...
+
+[Archive_OG2:0269] en
+The Einst appear. Taking advantage of the confusion, the Hagane
+somehow manages to slip away; but Kyosuke is seriously wounded,
+and its captain Daitetsu succumbs to his injuries.
+
+[Archive_OG2:0166] en
+Ibis and some others managed to escape from the Tesla Leicht Institute
+in Project TD prototype Mechs. Sleigh's pride is wounded when she found
+out she was not selected as α Proto's pilot, and she leaves the team.
+Meantime, Dr Aguila Setome tampered with Seolla's memory. Seolla appears
+before Arado, convinced by her false memories that he is an enemy.
+
+[Archive_OG2:0212] en
+Graien Grassman supporters favor an all-out resistance against the aliens.
+At the Federation Izu Base, the Grassman faction staged a coup d'etat
+codenamed ｢Mission Harper｣ which saw Commander Laker detained. The
+｢Shadow Mirror｣ special task force headed by Vindel Mauser took advantage
+of the confusion and shows up on scene. Lamia's hidden mission and true
+identity are revealed...
+
+[Archive_OG2:0305] en
+The Einst commence their indiscriminate assault on various world powers'
+military bases. An operation to capture Earth Cradle is launched amidst
+the turmoil. Sanger faces off against Wodan, protector of the Magus
+Gate. Ratsel and Rai defeat their sworn enemy Archibald as Kurogane
+enters Earth Cradle. Meanwhile, Ouka recovers her memories with
+Latooni's earnest persuasion.
+
+[Archive_OG2:0339] en
+The Hiryu Kai and Kurogane join forces for an attack on White Star.
+Excellen shows up again on their way there. Despite the danger, Kyosuke
+risks his life helping Excellen regains her sanity.
+
+[Archive_OG2:0351] en
+The Kurogane and Hiryu Kai launch a decisive surprise attack
+on White Star. Kyosuke attacks Axel, but Echidna voluntarily
+takes the hit and dies in Axel's place.
+
+[Archive_OG2:0363] en
+The Kurogane and Hiryu Kai infiltrate White Star. After a furious
+battle, Kyosuke defeats Axel. Thereafter, the Inspector's Commander
+Wendoro appears. The Inspector's conquest of Earth is intended to
+prevent Terrans' insatiable thirst for war from destabilizing
+the galaxy.
+
+[Archive_OG2:0374] en
+Although Kyosuke manages to defeat Wendoro, the Kurogane and Hiryu Kai
+are trapped within White Star by an energy field deployed by the Einst.
+The Shadow Mirror attempt to capture Guiliam so that they can use his
+warp capabilities. The team manages to defeat Vindel however...
+
+========================================================================
+Archive_OGg
+05_Extras/Recaps/Archive_OGg
+
+[Archive_OGg:0006] en
+Their main force is routed by the Terra Federation Forces' flagship
+Hagane, Hiryu Kai and Kurogane.
+
+[Archive_OGg:0088] en
+The human captives are used as living cores by the ｢ODE System｣, which
+acts as a master controlling core. To shut down the ODE system, Hagane
+and Hiryu Kai attempt to raid ｢Hell's Gate｣, the base of its creator,
+Dr Jurgen.They rescue Kusuha and the others who were forced onboard
+the Baltors and ventured into the heart of Hell's Gate.
+
+[Archive_OGg:0110] en
+The Hagane and Hiryu Kai have no option but to withdraw from
+the scene, as the time for the Federation fleet's nuclear attack
+on Hell's Gate draws near.
+
+[Archive_OGg:0271] en
+｢Operation Overgate｣ commences, using the ｢Dagger｣ warp device seized
+from the Shura in an assault on Swordian. The Hagane and Hiryu Kai
+successfully warped inside Swordian. Folka evolves into the deified
+Ialdabaoth during his battle with Phernand.
+
+[Archive_OGg:0282] en
+Within Swordian, Shura Generals and King Alkaid try to stop the advancing
+Hagane and Hiryu Kai. Both sides gave their all to the battle that decides
+their fates. The defeated Shura King entrusts Shura and its future to Folka.
+
+[Archive_OGg:0294] en
+After defeating the Shura, Hagane and Hiryu Kai press on to the ｢inner
+sanctum of Swordian｣, where Dunamis confronts them,bend on destroying them.
+At that moment, Dark Brain appears- Roar's nemesis and Dunami's creator.
+
+[Archive_OGg:0178] en
+Folka protects Shoko but in a confrontation with Phernand, the latter
+manages to slip past Folka's defenses and kidnaps Shoko again. An
+exhausted Folka takes refuge in the Kurogane.He becomes acquainted
+with Shoko's older brother Kohta and her grandfather Kisaburo, and
+becomes determined to rescue her.
+
+========================================================================
+Archive_2OG
+05_Extras/Recaps/Archive_2OG
+
+[Archive_2OG:0067] en
+Joined by Mio Sasuga - one of those summoned from Earth - and her Diablo,
+Masaki and the other ride out to stave off the Syutedonias force Midway,
+the Steel Dragon Squad's Hagane appears in search of Masaki and his comrades,
+who team up with the Space Noa-class multi-purpose battleship. Hot on Hagane's
+tail is Ruozorl, an Archbishop of the Volkruss religious order.
+
+[Archive_2OG:0123] en
+The Hagane makes sail for Coral Canyon to rendezvous with Tyitti
+Norrback, pilot of the Water Lord of Elemental, Gaddes. However,
+lying in wait is the Steel Dragon Squad's SRX Team  which has been
+taken hostage by Syutedonias forces and is forced to fight against
+the Hagane.
+
+[Archive_2OG:0134] en
+The Hagane teams up with Tyitti's party and makes their way to
+the Syutedonias-occupied Langran capital, to rescue the trapped
+Princess Monica Grania Bilseia, second in line to the throne.
+Before they arrive, an unknown Mech draws near...
+
+[Archive_2OG:0148] en
+At Prince Feil's request, the Hagane's crew launches an attack
+on the Syutedonias force stationed in the city of Banan. An embattled
+General Rodney Gesha brings out the Earth Lord of Elemental Zamzeed
+as his trump card.
+
+[Archive_2OG:0171] en
+After recovering the Zamzeed from Syutedonias force, Masaki and company
+realize that it has chosen Mio as its pilot. Hagane sides with Prince
+Feil and make a feint to divert the Syutedonias force while Feil and his
+troops attempt to recapture the Langran capital. They rescue Princess
+Senia, who informs them that her younger sister Monica has been taken
+away by Shu.
+
+[Archive_2OG:0227] en
+Feil's and Kirkus' allied forces defeat Syutedonias force and driven them
+out of Langran. However, because the coronation ceremony was carried out
+in Feil's absence, Prince Feil is convinced that an impostor was crowned
+in place of Prince Terius. Hagane rushes to the scene having captured
+a Masouki which is suspiciously like one of Kirku's troops.
+
+[Archive_2OG:0238] en
+Prince Feil's truce with General Kirkus ends because of the phony
+coronation ceremony. Kirkus' troops march on the capital to capture
+it, but the Hagane races over in time to stop them. After a decisive
+battle, the defeated Kirkus vanishes.
+
+[Archive_2OG:0249] en
+On orders, the Hagane crew head for Grimold Mountain, where Syutedonias
+force are hiding. Masaki and company enter the cave where they encounter
+Volkruss high priest Ruozorl who is in league with Syutedonias force.
+They discover that the temple for god of destruction, Sava Volkruss is
+at this very location.
+
+[Archive_2OG:0260] en
+The Hagane crew defeat Volkruss' avatar and return to the capital.
+However, the fragments of Volkruss cling to the Cybaster and the
+avatar is revived. Prince Feil sorties in the newly-created Super
+Masouki Durakseel, and exterminates the Volkruss avatar with its
+overwhelming power.
+
+[Archive_2OG:0308] en
+The Steel Dragon Squad's Hiryu Kai and Hagane reunite
+at RA-GEAS and return to the surface, leaving Masaki,
+the Masouki pilots and Lune behind.
+
+[Archive_2OG:0517] en
+A dimensional rift spreads over the Earth, cutting it off from space.
+The ES Wave released from the South Pole passes between the Hagane
+and the Hiryu Kai, trapping the Hiryu Kai on Earth and flinging
+the Hagane into space. The Hagane's crew realizes what is going on,
+and race to Heaven's Gate, where the Ruina are headed.
+
+[Archive_2OG:0562] en
+On the way to Heaven's Gate,Hagane encounters the Guests who capitalize
+the opportunity to seize control of the Earth and moon.Just as they succeed
+in fighting off the enemy commander Glofis Raclayne,they run into the Beta
+Sabers while providing aerial support for the battle in the South Pole.
+There, the Einst Alfimi makes her appearance...
+
+[Archive_2OG:0573] en
+Having returned from an alternate world with former Shadow Mirror
+captain Axel Almer, Alfimi leaves Axel at the Hagane before departing.
+The Hagane changes course for the moon, when the Guests Commander
+Justine Chaflowers suddenly shows up.
+Axel's Vaisaga saves the Hagane from the perilous situation.
+
+[Archive_2OG:0584] en
+The Hagane teams up with Radha, who escaped from the Personal Trooper
+manufacturer, Mao Industries, in a bid to flee the Guests. They hear that
+Moon Cradle has been captured. The Omega Sabers' Amara Burton appears
+in the Code 「Evil」 Galilnagant, relentlessly targeting Ing.
+Alteur's plotting does not go unnoticed.
+
+[Archive_2OG:0595] en
+The Hagane team continues to Heaven's Gate, planning to capture
+Ignis, who knows the truth about the barrier. However, the Guests,
+who are eyeing Heaven's Gate for themselves, exchange hostilities
+with the Ruina. The Hagane chases down Ignis as he retreats
+from Heaven's Gate.
+
+[Archive_2OG:0606] en
+Meanwhile on Earth, Hiryu Kai continues toward the Arctic Ocean seeking
+clues about the barrier. Bullet tries to reason with black Ko-o Ki that
+appears before them to no avail. Upon reaching the magnetic South Pole,
+Hagane encounters the Gaia Sabers who are about to assault the Septemplum
+barrier. Hugo notices the Medius Locus which is supposed to stolen, senses
+Mitarl's ulterior motives.
+
+[Archive_2OG:0631] en
+The Hagane chases Ignis and arrive in the Arctic sky instead of the South
+Pole where Fabula Fores is. They engage in a fierce battle with Contagio
+and the other Melior Esse they encounter, when another disaster befalls...
+
+[Archive_2OG:0642] en
+Due to the telepathic link between Rim and Ventos, the dimensional rift
+that blankets Earth, the Artrum Exterior, disappears. The Hiryu Kai is
+joined by the Hagane that has returned to Earth. Led by Ratsel, they
+head to Iti'iti Island where there is a secret base.
+
+[Archive_2OG:0936] en
+Meanwhile, Hagane is still on Earth where it has been undergoing
+repairs to its Tesla Drive. Alteur promises to stop pursuing the Steel
+Dragon Squad but the Gamma Saber disregard the pact. Marshal Gaspard
+sends the Hagane to the Gaia Sabers' main base Grand Christmas,
+to settle the score regarding the Presidential assassination incident.
+
+[Archive_2OG:0947] en
+The Delta Sabers block the Hagane's route to Grand Christmas.
+Minaki parts ways with her father, Dr Tomine. His grandiose dreams
+are crushed by the power of Touma and the Rai-o.
+
+[Archive_2OG:0981] en
+At Grand Christmas, the Hagane crew are battling it out with Egretta
+and the Gaia Sabers when the Garberus, the no. 10 TE Absorber prototype,
+shows up, piloted by AI1. After a fierce fight, Erde falls.
+Ing puts an end to Egretta, his prototype, with Black Hole Buster Cannon.
+
+[Archive_2OG:1029] en
+The Hiryu Kai and Hagane regroup. With the help of Glacies and Ventos,
+they make it past the Meridemplum barrier. Aquila and Contagio lie in
+wait at Mother Base, but are defeated by the Steel Dragons. They enter
+the site of the ruins...
+
+[Archive_2OG:0743] en
+Medius Locus withdraws leaving Aqua behind. She is devastated that her
+mistake caused the loss of Hugo and discovers that he did not have long
+before his body would have been completely mechanized. The Steel Dragon
+Squad heads to Iti'iti Island.Ibis is on patrol duty when Sleigh Presty
+appears alone far from Isurugi Heavy Industries, searching for the Steel
+Dragons. Ibis resolves to stop Sleigh once and for all...
+
+[Archive_2OG:0754] en
+Sleigh defeats the mercenary, Araseli, and joins the Steel Dragon Squad.
+She conveys a shocking message regarding Shu Shirakawa from
+Mitsuko Isurugi, President of Isurugi Heavy Industries.
+
+[Archive_2OG:0424] en
+The truths and secrets behind Project Idealants, the death of its
+supervisor, Dr Ozunu, and the ｢Faul Kern｣ power source of the Alles Geist
+are known by Ariel Org, who decides to break away from the Gaia Sabers.
+Around this time, Tesla Research is attacked by the Yokijin, who are
+targeting the Ryu-o Ki, which is undergoing repair.
+
+[Archive_2OG:0435] en
+Raul and company drive away the Yokijin and captured an approaching Mech
+which turns out to be the Flickerei Geist with its pilot Arierre. Captain
+of the Gaia Sabers and Beta Sabers, Duvan Org, appears in his Alles Geist,
+hot on Ariel's tail. He demands that she be handed over to him together
+with Ing who just happens to be at the wrong place at the wrong time.
+
+[Archive_2OG:0446] en
+Seemingly intent on awakening Ing, the mysterious Code ｢Evil｣ swiftly
+vanishes. Ariel tells of what brings her here - her identity as an
+artificial human ｢Idealant｣ created under Project Idealants, and her
+mission to warn of the dangerous nature of the ｢Faul Kern｣
+power source that makes up the Jetzt Regisseur's core.
+
+[Archive_2OG:0089] en
+At the same time, Lune Zoldark, who has been tracking Noie DC refugees'
+movements, was summoned to RA-GEAS too, where she meets the Flame Lord of
+Elemental Granveil, piloted by Huang Yang Long. General Kirkus Xan Valhalevia
+and the Langran Kingdom troops are the vanguard of Langran's liberation.
+Yang Long joins them as backup, targeting the invading Syutedonias force.
+
+[Archive_2OG:0100] en
+To rescue her Steel Dragon Squad comrades, Lune confronts Syutedonias
+force. Langran's Lord of Elemental Mechs were developed under the general-
+purpose humanoid weapon program, ｢Masouki Project｣ to counter the Majin
+prophesied by Langran Royal Academy's seers. However these existences viewed
+as dangerous by Syutedonias are part of reasons behind their invasion of
+Langran.
+
+[Archive_2OG:0111] en
+Yang Long harbors doubts about General Kirkus. Word from his old acquaintance,
+Crimson Safeene that the missing Prince Feillord Gran Bilseia, first in line
+to throne of Langran Kingdom is alive. Lune's party reunites with Hiryu Kai,
+the Steel Dragon Squad's all-purpose battleship. Captain Lefina meets General
+Kirkus and promises to support him in order to return to the surface.
+
+[Archive_2OG:0193] en
+Hiryu Kai's crew hears from General Kirkus that Terrans are trapped in
+Syutedonias force's base. Yang Long and Lune infiltrate the base.where
+former S.T.F.squad member Sanger Zonvolt appears and together they rescue
+the hostages. On their way to rendezvous with General Kirkus, Hiryu Kai
+encounters Shu Shirakawa, fearful of him plotting Volkruss's resurrection.
+
+[Archive_2OG:0215] en
+Yang Long parts ways with General Kirkus, who is trying to seize power
+by crowning Prince Terius and getting rid of the true heir, Prince Feil.
+Kirkus's ambition to unite RA-GEAS by force reminds Lune Zoldark
+of her late father Bian Zoldark.
+
+[Archive_2OG:0810] en
+On their way there, a patrolling Masaki notices Lune and some others
+who have surfaced from RA-GEAS, in a skirmish with the Ruina. The Steel
+Dragon Squad commences their assault on Tochka 8. Josh leads a team in
+search for the NV Units.
+
+[Archive_2OG:1180] en
+The Gaia Sabers are dissolved following the revelation that Alteur was
+behind the L5 Campaign and evidence of the Presidential assassination
+plot found at Grand Christmas. The Zovork Privy Council adopts a policy
+of non-intervention vis-a-vis Earth. The Guests leave Earth Orbit except
+for Mekibos who remains on Earth as their liaison. Masaki and the other
+Masouki pilots return to RA-GEAS with Lune.
+
+[Archive_2OG:0376] en
+On board the attacking Armored Modules were bioroids resembling those
+used by the Inspectors, aliens who have attempted to invade Earth.
+On their way back to Izu, the S.T.F. team attempts to rendezvous with
+the Kurogane to receive the Exbein with adjustable AM parts,
+developed in secret.
+
+[Archive_2OG:0387] en
+A message from the mysterious Zinlai enemy Mech establishes its identity
+as a Dynamic General Guardian (DGG) with objectives to destroy the DGG
+no.1 and DGG no.2. They were caught off-guard on their way back due to
+the unexpected battle with the enemy AM team, Kurogane crew find themselves
+in a bad situation when a group of mobile weapons warped to their location.
+
+[Archive_2OG:0899] en
+Aware of his 3-year Idealant lifespan, Duvan splits from the Gaia Sabers
+and absorbs Alfimi in a bid to escape from his fate. Ibis and company
+defeated the enemy but upon their return to the ship, they discover that
+Irui has disappeared.
+
+[Archive_2OG:0159] en
+In response to Yang Long's questioning about why he is ignoring Prince
+Feil, Kirkus wonders aloud whether Feil had anything to do with the
+summoning incident. With the Barrier of Harmony in ruins and the looming
+threat of resurrection of the god of destruction Volkruss, crew of the
+Hiryu Kai race to the temple of Volkruss to investigate.They arrive in
+time to rescue Leona from being sacrificed to Volkruss by high priest Ruozorl.
+
+[Archive_2OG:0182] en
+Meanwhile, Hiryu Kai escorts the convoy of Prince Terius Gran Bilseia,
+third in line to the throne, who is under the protection of Kirkus'
+troops. General Kirkus orchestrates the coronation of Prince Terius,
+worrying Yang Long by creating a new volatile situation in Langran.
+
+========================================================================
+Archive_OGDP
+05_Extras/Recaps/Archive_OGDP
+
+[Archive_OGDP:0136] en
+Terius believes Shu's words and absconds from Kirkus' camp. Shu prepares
+to train Terius till he acquires adequate power. In the meantime an
+impostor is crowned in Terius' place as a puppet king for Kirkus who
+intends to wield the true power behind the throne. Prince Feil notices
+this and confronts Kirkus. Hagane drive Kirkus'army out from the royal
+capital leaving him in a tight spot...
+
+[Archive_OGDP:0089] en
+The encounter of the Steel Dragon Squad and Masaki, pilot of the Lord
+of Elemental Cybaster brings Shu's memory back. Shu intercepts Kirkus'
+mercenaries Araseli and Sleigh with Albada and his team who arrive as
+backup. Shu agrees to Monica's request to seize the Nols, the no.1
+prototype of the Masouki Project which the Syutedonias force is after.
+
+[Archive_OGDP:0114] en
+Shu drops in on Prince Terius who is under Kirkus' custody to persuade
+Terius to lend him his strength. Meanwhile, Albada and the other lure
+Kirkus' troops' Masouki away from camp. As Terius is being conveyed to
+General Kirkus, Shu follows and skirmishes with Kirkus' troops.
+Kirkus' allies, the Steel Dragon Squad and Lune Zoldark, appear.
+
+[Archive_OGDP:0067] en
+On her way back to base after a secret rendezvous with old friend and
+Lord of Elemental pilot Huang Yang Long, Safeene crosses paths with some
+Syutedonias force. Serena rushes to back her up. Selena's autonomous
+support robot partner, Elma, plans an attack on a battleship that looks
+suspiciously like one of the Steel Dragon Squad's ships.
+
+========================================================================
+S007 · BEST OF PREY
+01_Stages/Stage_07_Earth_S007_BEST_OF_PREY/Map_text
+
+[SCR00007:0008] en
+１.Hagane defeated.
+
+========================================================================
+S009 · RESONANCE
+01_Stages/Stage_09_Earth_S009_RESONANCE/Map_text
+
+[SCR00009:0034] en
+１.Hagane defeated.
+
+========================================================================
+S013 · STEEL DRAGONS, WEST-BOUND
+01_Stages/Stage_13_Common_S013_STEEL_DRAGONS_WEST_BOUND/Map_text
+
+[SCR00013:0013] en
+２.If Hagane fails to reach eastern edge of map in #0 turns.
+
+[SCR00013:0014] en
+・Hagane reaches eastern edge of map without being attacked.
+
+========================================================================
+S014 · WICKED CLOWN
+01_Stages/Stage_14_Common_S014_WICKED_CLOWN/Map_text
+
+[SCR00014:0012] en
+１.Hagane defeated.
+
+========================================================================
+S019 · RUNAWAY GHOST
+01_Stages/Stage_19_Common_S019_RUNAWAY_GHOST/Map_text
+
+[SCR00019:0012] en
+１.Hagane defeated.
+
+[SCR00019:0013] en
+２.Either Ariel or Alfimi defeated.
+
+========================================================================
+S020 · SERENDIPITY
+01_Stages/Stage_20_Common_S020_SERENDIPITY/Map_text
+
+[SCR00020:0006] en
+１.Hagane defeated.
+
+========================================================================
+S023 · MASKED DELITESCENCE
+01_Stages/Stage_23_To_Paris_S023_MASKED_DELITESCENCE/Map_text
+
+[SCR00023:0009] en
+１.Hagane defeated.
+
+========================================================================
+S024 · COMMON BATTLEFRONT
+01_Stages/Stage_24_To_Paris_S024_COMMON_BATTLEFRONT/Map_text
+
+[SCR00024:0016] en
+１.Hagane defeated.
+
+========================================================================
+S025 · OPERATION TRIOMPHE
+01_Stages/Stage_25_To_Paris_S025_OPERATION_TRIOMPHE/Map_text
+
+[SCR00025:0016] en
+１.Hagane defeated.
+
+========================================================================
+S027 · BITE THE TRAP
+01_Stages/Stage_27_Common_S027_BITE_THE_TRAP/Map_text
+
+[SCR00027:0018] en
+２.Hagane defeated.
+
+[SCR00027:0019] en
+・Hagane arrives at designated point within #0 turn.
+
+========================================================================
+S028 · SWORD OF A TRASCENDANT'S SOUL
+01_Stages/Stage_28_Common_S028_SWORD_OF_A_TRASCENDANT_S_SOUL/Map_text
+
+[SCR00028:0015] en
+１.Hagane defeated.
+
+========================================================================
+S029 · PATH TO HOPE
+01_Stages/Stage_29_Common_S029_PATH_TO_HOPE/Map_text
+
+[SCR00029:0037] en
+１.Hagane defeated.
+
+========================================================================
+S030 · BARRIER OF SAND
+01_Stages/Stage_30_To_the_Ruins_of_Baral_S030_BARRIER_OF_SAND/Map_text
+
+[SCR00030:0011] en
+・Hagane must not received damage.
+
+========================================================================
+S038 · 7 MINUTES WITHDRAWAL BATTLE
+01_Stages/Stage_38_Common_S038_7_MINUTES_WITHDRAWAL_BATTLE/Map_text
+
+[SCR00038:0023] en
+・Move Hagane & Hiryu Kai to designated point within #0 turn
+
+========================================================================
+S040 · HAGANE'S CRISIS
+01_Stages/Stage_40_Common_S040_HAGWANE_S_CRISIS/Map_text
+
+[SCR00040:0015] en
+１.Move Hagane to mission point within #0 turn.
+
+[SCR00040:0017] en
+２.Hagane defeated.
+
+========================================================================
+S041 · BLOODY WHIRILWIND
+01_Stages/Stage_41_Common_S041_BLOODY_WHIRILWIND/Map_text
+
+[SCR00041:0008] en
+１.Hagane defeated.
+
+========================================================================
+S042 · CORONA GATEKEEPER
+01_Stages/Stage_42_Common_S042_CORONA_GATEKEEPER/Map_text
+
+[SCR00042:0013] en
+１.Hagane defeated.
+
+========================================================================
+S043 · CLASH OF SWORDS
+01_Stages/Stage_43_Common_S043_CLASH_OF_SWORDS/Map_text
+
+[SCR00043:0020] en
+１.Hagane defeated.
+
+========================================================================
+S044 · INHOSPITABLE WORLD l
+01_Stages/Stage_44_Common_S044_INHOSPITABLE_WORLD_l/Map_text
+
+[SCR00044:0005] en
+１.Hagane defeated.
+
+========================================================================
+S045 · INHOSPITABLE WORLD ll
+01_Stages/Stage_45_Common_S045_INHOSPITABLE_WORLD_ll/Map_text
+
+[SCR00045:0014] en
+１.Hagane defeated.
+
+========================================================================
+S072 · RETURN OF THE DESTESTABLE GUEST
+01_Stages/Stage_02_Space_S072_RETURN_OF_THE_DESTESTABLE_GUEST/Map_text
+
+[SCR00072:0006] en
+１.Hagane defeated.
+
+========================================================================
+S073 · WOE OF THE LAND
+01_Stages/Stage_03_Space_S073_WOE_OF_THE_LAND/Map_text
+
+[SCR00073:0007] en
+１.Hagane defeated.
+
+[SCR00073:0018] en
+１.Hagane defeated.
+
+========================================================================
+S074 · GHOST REVIVAL
+01_Stages/Stage_04_Space_S074_GHOST_REVIVAL/Map_text
+
+[SCR00074:0007] en
+１.Hagane defeated.
+
+========================================================================
+S075 · SLEEPING ENEMY
+01_Stages/Stage_05_Space_S075_SLEEPING_ENEMY/Map_text
+
+[SCR00075:0007] en
+１.Hagane defeated.
+
+========================================================================
+S076 · ANTICIPATION OF GINTO
+01_Stages/Stage_06_Space_S076_ANTICIPATION_OF_GINTO/Map_text
+
+[SCR00076:0008] en
+１.Hagane defeated.
+
+========================================================================
+S102 · SIDE SCENARIO 2
+03_Interludes/Stage_22_S102_SIDE_SCENARIO_2/Map_text
+
+[SCR00102:0002] en
+Paris-bound（Hagane）
+
+========================================================================
+S103 · SIDE SCENARIO 3
+03_Interludes/Stage_29_S103_SIDE_SCENARIO_3/Map_text
+
+[SCR00103:0006] en
+Bound for Baral Garden（Hagane,Hiryu Kai）
+
+[SCR00103:0007] en
+To the Moon（Kurogane）
+
+========================================================================
+Bank 0002 · 285 records
+04_Shared/Battle_messages/0002
+
+[0002:0084] en
+「Hagane has been...sunk...!」
+
+[0002:0225] en
+「Provide support for Kurogane」
+
+[0002:0226] en
+「Follow Kurogane」
+
+[0002:0231] en
+「Defend Kurogane」
+
+[0002:0060] en
+「Eradicate the Gadisword unit in front of us」
+
+[0002:0061] en
+「Destroy the Gadisword units」
+
+========================================================================
+Bank 0008 · 383 records
+04_Shared/Battle_messages/0008
+
+[0008:0275] en
+「Provide support for Hagane!」
+
+[0008:0288] en
+「Protect Hagane!」
+
+[0008:0356] en
+「Attention all gunners,if you take out the target,/　not only will you get the Commander's bromide,/　but Eun's as well」
+
+[0008:0277] en
+「We'll proceed to cover the Kurogane!」
+
+[0008:0278] en
+「Provide support for Kurogane!」
+
+[0008:0289] en
+「We'll proceed to support Kurogane!」
+
+[0008:0084] en
+「Eliminate the Gadisword unit ahead」
+
+[0008:0086] en
+「Eliminate the Gadisword unit ahead」
+
+[0008:0088] en
+「Gadisword unit,in range!」
+
+[0008:0090] en
+「Gadisword machine,approaching at high speed!」
+
+========================================================================
+Bank 0011 · 139 records
+04_Shared/Battle_messages/0011
+
+[0011:0082] en
+「Follow Hagane!」
+
+[0011:0095] en
+「Protect Hagane!」
+
+[0011:0039] en
+「They can't take down Kurogane with that」
+
+[0011:0138] en
+「Kurogane,commence assault!!」
+
+[0011:0006] en
+「It's the new Gadisword model...!/　We're not letting you have Aliard!」
+
+[0011:0019] en
+「We'll take down the Gadisword ship /　in front!」
+
+[0011:0020] en
+「Wipe out all Gadisword units!」
+
+[0011:0056] en
+「Don't let the Gadisword commanding/　unit approach any closer!」
+
+[0011:0060] en
+「Don't allow the Gadisword units any closer」
+
+========================================================================
+Bank 0029 · 1006 records
+04_Shared/Battle_messages/0029
+
+[0029:0142] en
+「I'll secure an escape route for Hagane and Hiryu!」
+
+[0029:0479] en
+「Ariel,I'll support you!」
+
+[0029:0533] en
+「Get back,Ariel!」
+
+[0029:0050] en
+「Even if it's humanoid,or even a Gadisword unit!」
+
+[0029:0079] en
+「I'll break Gadisword's defence line!」
+
+[0029:0080] en
+「I'll break Gadisword's defence line!」
+
+========================================================================
+Bank 0038 · 752 records
+04_Shared/Battle_messages/0038
+
+[0038:0107] en
+「We have to secure a flight path for /　Hagane and Hiryu Kai!!」
+
+[0038:0126] en
+「For Enisgn Ariel,I'll hold down their maneuvers /　as best I can!」
+
+[0038:0317] en
+「Ariel,I'll handle the rest!」
+
+[0038:0361] en
+「Ariel,withdraw now!」
+
+[0038:0330] en
+「Lune,leave the rest to me!」
+
+[0038:0331] en
+「Lune,you go first!」
+
+[0038:0369] en
+「Lune,I'll take it from here!」
+
+[0038:0370] en
+「Lune,get away from there!」
+
+========================================================================
+Bank 0103 · 280 records
+04_Shared/Battle_messages/0103
+
+[0103:0104] en
+「If Hagane wasn't behind me,I could've taken that guy...!」
+
+[0103:0028] en
+「For the revival of Gadisword...!」
+
+[0103:0052] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0103:0054] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0103:0055] en
+「Even if you find out the truth,Gadisword's current state /　won't change...!」
+
+[0103:0057] en
+「Without Zemon and Rubble Pile,/　there is no future for Gadisword...!」
+
+[0103:0058] en
+「The future of Gadisword can't be entrusted to/　the Terrans...!」 
+
+[0103:0060] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0103:0062] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0103:0063] en
+「Even if you find out the truth,Gadisword's current state /　won't change...!」
+
+[0103:0065] en
+「Without Zemon and Rubble Pile,/　there is no future for Gadisword...!」
+
+[0103:0066] en
+「The future of Gadisword can't be entrusted to/　the Terrans...!」 
+
+[0103:0071] en
+「That resolution won't do for Gadisword's sake...!」
+
+[0103:0101] en
+「I will not let Gadisword or myself end here...!」
+
+========================================================================
+Bank 0104 · 260 records
+04_Shared/Battle_messages/0104
+
+[0104:0084] en
+「If Hagane wasn't behind me,I could've taken that guy...!」
+
+[0104:0028] en
+「For the revival of Gadisword...!」
+
+[0104:0032] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0104:0034] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0104:0035] en
+「Even if you find out the truth,Gadisword's current state /　won't change...!」
+
+[0104:0037] en
+「Without Zemon and Rubble Pile,/　there is no future for Gadisword...!」
+
+[0104:0038] en
+「The future of Gadisword can't be entrusted to/　the Terrans...!」 
+
+[0104:0040] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0104:0042] en
+「Fairey,all my actions are for the future of Gadisword...!」
+
+[0104:0043] en
+「Even if you find out the truth,Gadisword's current state /　won't change...!」
+
+[0104:0045] en
+「Without Zemon and Rubble Pile,/　there is no future for Gadisword...!」
+
+[0104:0046] en
+「The future of Gadisword can't be entrusted to/　the Terrans...!」 
+
+[0104:0051] en
+「That resolution won't do for Gadisword's sake...!」
+
+[0104:0081] en
+「I will not let Gadisword or myself end here...!」
+
+========================================================================
+Bank 0112 · 2272 records
+04_Shared/Battle_messages/0112
+
+[0112:0600] en
+「I can't let them get close to /　Hagane and Hiryu Kai」
+
+[0112:1649] en
+「Touya-kun,preparations for Orgone Slave/　have been completed!」
+
+[0112:1652] en
+「Orgone Slave!Gooo!」
+
+[0112:1653] en
+「Katia,let's go with the Orgone Slave!」
+
+[0112:1656] en
+「Orgone Slave!」
+
+[0112:1657] en
+「Touya,ready to go with Orgone Slave!」
+
+[0112:1661] en
+「Katia,is the Orgone Slave ready to go!?」
+
+[0112:1664] en
+「Orgone Slave!」
+
+[0112:1665] en
+「Melua,the Orgone Slave!」
+
+[0112:1668] en
+「Orgone Slave!Gooo!」
+
+[0112:1669] en
+「Prepare the launching of Orgone Slave!」
+
+[0112:1673] en
+「Touya-kun,use Orgone Slave!」
+
+[0112:1676] en
+「Orgone Slave!Go!」
+
+[0112:1677] en
+「Touya-kun,use Orgone Slave!」
+
+[0112:1680] en
+「Orgone Slave!Go!」
+
+[0112:0054] en
+「Draco Slave!Eat this!!」
+
+[0112:1977] en
+「Draco Slave!」
+
+[0112:1978] en
+「Draco Slave!」
+
+[0112:1980] en
+「I'll blow you away with Draco Slave!」
+
+[0112:1987] en
+「Draco Slave!!」
+
+[0112:1988] en
+「Draco Slave,ready to go!?」
+
+[0112:1993] en
+「Draco Slave!」
+
+[0112:1994] en
+「Draco Slave!」
+
+[0112:1996] en
+「Using Draco Slave,Tenia!」
+
+[0112:2003] en
+「Draco Slave!!」
+
+[0112:2004] en
+「Draco Slave,is it ready to go,Melua!?」
+
+[0112:2009] en
+「Okay!Draco Slave!」
+
+[0112:2013] en
+「Yes,Draco Slave right!」
+
+[0112:2019] en
+「Draco Slave!!」
+
+[0112:2106] en
+「Draco Slave!Eat this!!」
+
+[0112:2136] en
+「Draco Slave!Eat this!!」
+
+[0112:0427] en
+「Do not underestimate the power of/　Granteed Dracodeus!」
+
+[0112:0523] en
+「This may be the fateful fight between Hakhams」
+
+[0112:0500] en
+「Gadisword's commander unit!」
+
+[0112:0508] en
+「There is no data...is that Gadisword's new model?」
+
+[0112:0539] en
+「I'll not let you approach the Gadisword units!」
+
+[0112:0598] en
+「Is that a Gadisword machine?」
+
+[0112:0607] en
+「That's the Gadisword Elite Guard!」
+
+[0112:0757] en
+「Gadisword's new model...It's strong!」
+
+[0112:0907] en
+「Not yet!Gadisword commander unit's not going to/　be the end of me!」
+
+[0112:1067] en
+「Gadisword's commander unit.../　But Granteed won't be harmed by such an attack!」
+
+[0112:1365] en
+「Gadisword's mobile weapons are pretty fast..」
+
+========================================================================
+32 · To the Moon · ROYALTY'S EARNEST · S085
+01_Stages/Stage_32_To_the_Moon_S085_ROYALTY_S_EARNEST
+
+[S085:0374] speaker_en
+Sleigh
+
+[S085:0377] en
+「Look,Sleigh-san!」
+
+[S085:0378] speaker_en
+Sleigh
+
+[S085:0415] en
+「We have the Kurogane with us! Executing underground 
+　assault tactics is its forte!」
+
+========================================================================
+Bank 0040 · 772 records
+04_Shared/Battle_messages/0040
+
+[0040:0349] en
+「Sleigh,leave the rest to me」
+
+[0040:0350] en
+「I'll back you up,Sleigh」
+
+[0040:0382] en
+「Sleigh!Retreat quickly!」
+
+[0040:0383] en
+「Sleigh,back away!」
+
+[0040:0352] en
+「Lune,leave the rest to me」
+
+[0040:0385] en
+「Lune,get back!」
+
+[0040:0051] en
+「Get out from my way,Gadisword!」
+
+[0040:0052] en
+「Get out from my way,Gadisword!」
+
+[0040:0053] en
+「Gadisword's ace...Just the battle I am waiting for」
+
+[0040:0104] en
+「If you Gadiswords,decide to oppose us...!」
+
+========================================================================
+Bank 0042 · 787 records
+04_Shared/Battle_messages/0042
+
+[0042:0318] en
+「Sleigh,I'll join」
+
+[0042:0350] en
+「Sleigh,retreat now!」
+
+[0042:0315] en
+「Ariel,you may leave the rest to me」
+
+[0042:0344] en
+「Ariel,retreat now!」
+
+[0042:0346] en
+「I won't let you lay a finger on Kurogane!」
+
+========================================================================
+Bank 0054 · 1128 records
+04_Shared/Battle_messages/0054
+
+[0054:0063] en
+「Sleigh,I make use of your help!」
+
+[0054:0069] en
+「Sleigh!Going with a barrel roll!」
+
+[0054:0088] en
+「I got it already,Sleigh!」
+
+[0054:0221] en
+「Sleigh!Don't set the limitation on yourself!」
+
+[0054:0227] en
+「I'm sorry,Sleigh!Just a little more!」
+
+[0054:0315] en
+「Sorry,Sleigh! I'll do better next time!」
+
+[0054:0360] en
+「Yes.Sleigh is definitely much stronger」
+
+[0054:0424] en
+「This is also the result of training with Sleigh!」
+
+[0054:0522] en
+「Sleigh! I'll follow you too!」
+
+[0054:0523] en
+「Right behind you,Sleigh!」
+
+[0054:0525] en
+「Sleigh!Let me handle the rest!」
+
+[0054:0587] en
+「Sleigh!That's so not like you!」
+
+[0054:0588] en
+「I won't let you take down Sleigh !」
+
+[0054:0590] en
+「Get back,Sleigh!」
+
+[0054:0752] en
+「Sleigh! It's 02!」
+
+[0054:0778] en
+「Tsugumi,Sleigh!We'll use GRaMXs!」
+
+[0054:0786] en
+「Tsugumi,Sleigh!Let's combine our powers!」
+
+[0054:0194] en
+「You must listen to Ariel's voice!」
+
+[0054:0526] en
+「Lune!Let me handle the rest!」
+
+[0054:0528] en
+「We will not waste the chance that Lune created!」
+
+[0054:0591] en
+「Fall back,Lune!」
+
+[0054:0592] en
+「You're digging into this deep,Lune!」
+
+[0054:0094] en
+「Gadisword!You can't catch up with us!」
+
+========================================================================
+Bank 0056 · 707 records
+04_Shared/Battle_messages/0056
+
+[0056:0002] en
+「This is Sleigh Presty,/　commencing the attack!」
+
+========================================================================
+11 · Common · NIGHT OF TRAGEDY I · S011
+01_Stages/Stage_11_Common_S011_NIGHT_OF_TRAGEDY_I
+
+[S011:0161] speaker_en
+Ariel
+
+[S011:0004] en
+「By the way,has Commander Laker Randolf of Izu been
+　notified?」
+
+[S011:0067] speaker_en
+Laker
+
+[S011:0070] speaker_en
+Laker
+
+[S011:0072] speaker_en
+Laker
+
+[S011:0074] speaker_en
+Laker
+
+[S011:0074] en
+「Red Augar...that thing should be under Kurogane's 
+　jurisdiction」
+
+[S011:0076] speaker_en
+Laker
+
+[S011:0078] speaker_en
+Laker
+
+[S011:0080] speaker_en
+Laker
+
+[S011:0032] en
+「As an emergency situation has been declared,curfew 
+　is in force after 2100 PM. All citizens,please return 
+　home immediately.I repeat...」
+
+========================================================================
+24 · To Karachi · LIBERATION OF KARACHI · S081
+01_Stages/Stage_24_To_Karachi_S081_LIBERATION_OF_KARACHI
+
+[S081:0021] speaker_en
+Ariel
+
+[S081:0107] en
+「Ensign Ariel seems to think the answer lies with 
+　Karachi」
+
+[S081:0108] speaker_en
+Ariel
+
+[S081:0125] speaker_en
+Ariel
+
+[S081:0014] speaker_en
+Eun
+
+[S081:0050] speaker_en
+Eun
+
+[S081:0055] speaker_en
+Eun
+
+[S081:0099] speaker_en
+Raj
+
+[S081:0101] speaker_en
+Raj
+
+[S081:0131] speaker_en
+Raj
+
+[S081:0122] en
+（Hmmm...Ventos and Chris...）　
+
+========================================================================
+45 · Common · INHOSPITABLE WORLD ll · S045
+01_Stages/Stage_45_Common_S045_INHOSPITABLE_WORLD_ll
+
+[S045:0190] speaker_en
+Ariel
+
+[S045:0199] speaker_en
+Ariel
+
+[S045:0205] speaker_en
+Ariel
+
+[S045:0214] speaker_en
+Ariel
+
+========================================================================
+46 · Common · DEMONIC CASTLE, APPEARS · S046
+01_Stages/Stage_46_Common_S046_DEMONIC_CASTLE_APPEARS
+
+[S046:0035] speaker_en
+Ariel
+
+[S046:0045] speaker_en
+Ariel
+
+========================================================================
+S034 · HOLLOW SOUL
+01_Stages/Stage_34_Common_S034_HOLLOW_SOUL/Map_text
+
+[SCR00034:0026] en
+１.Ariel & Endlich Geist battle at least 3 times.
+
+[SCR00034:0028] en
+１.Ariel defeated.
+
+========================================================================
+Bank 0015 · 875 records
+04_Shared/Battle_messages/0015
+
+[0015:0441] en
+「Ariel,leave this to me」
+
+[0015:0486] en
+「Ariel,fall back!」
+
+[0015:0444] en
+「Lune,leave this to me」
+
+[0015:0489] en
+「Lune,fall back!」
+
+[0015:0032] en
+「Even if it's a Gadisword machine,I will master it」
+
+[0015:0066] en
+「It's a Gadisword captain's machine...!」
+
+[0015:0128] en
+「I'll eradicate the Gadisword units」
+
+[0015:0195] en
+「I can't let the precious Gadisword unit be taken/　down...!」
+
+[0015:0293] en
+「Weren't you supposed to be Gadisword's veteran?」
+
+[0015:0294] en
+「Weren't you supposed to be Gadisword's veteran?」
+
+[0015:0344] en
+「Weren't you supposed to be Gadisword's veteran?」
+
+[0015:0345] en
+「Weren't you supposed to be Gadisword's veteran?」
+
+========================================================================
+Bank 0016 · 823 records
+04_Shared/Battle_messages/0016
+
+[0016:0094] en
+「I'll help Ariel...!」
+
+========================================================================
+Bank 0017 · 857 records
+04_Shared/Battle_messages/0017
+
+[0017:0377] en
+「Leave the rest to me,Ariel」
+
+[0017:0378] en
+「I've got your back,Ariel」
+
+[0017:0408] en
+「Back down,Ariel!」
+
+[0017:0481] en
+「Let's do this,Ariel」
+
+[0017:0482] en
+「Let's do this,Ariel」
+
+[0017:0503] en
+「Match my timing,Ariel!」
+
+========================================================================
+Bank 0018 · 920 records
+04_Shared/Battle_messages/0018
+
+[0018:0119] en
+「In order to assist Ariel-chan...!」
+
+[0018:0397] en
+「Ariel-chan,leave the rest to me!」
+
+[0018:0398] en
+「Ariel-chan,big sis will take care of you!」
+
+[0018:0381] en
+「Wow!Good approach,Lune-chan!」
+
+========================================================================
+Bank 0019 · 907 records
+04_Shared/Battle_messages/0019
+
+[0019:0124] en
+「I need to buy some time for Ariel too...!」
+
+[0019:0423] en
+「Ariel,leave the rest to me!」
+
+[0019:0465] en
+「Ariel,please leave it to me!」
+
+[0019:0411] en
+「Lune,I'll cover you!」
+
+[0019:0456] en
+「Lune,get out of there now!」
+
+========================================================================
+Bank 0020 · 1010 records
+04_Shared/Battle_messages/0020
+
+[0020:0185] en
+「Listen to the voice of Ariel,Duvan Org!」
+
+[0020:0186] en
+「Can you take care of it after I seize,Ariel!」
+
+[0020:0500] en
+「Ariel,I'm backing you up!」
+
+[0020:0540] en
+「Get back,Ariel!」
+
+[0020:0100] en
+「Gadisword's ace...let's duel!」
+
+[0020:0104] en
+「I'll defeat that man and end the battle with/　Gadisword!」
+
+[0020:0318] en
+「Is power of Gadisword's elite,only this much!」
+
+========================================================================
+Bank 0021 · 950 records
+04_Shared/Battle_messages/0021
+
+[0021:0000] en
+「Ariel Orge,executing the mission」
+
+[0021:0004] en
+ 「Ariel Orge,commencing attack」
+
+[0021:0010] en
+「Ariel Orge,eliminating the opponent」
+
+[0021:0363] en
+「Ariel Orge,entering as backup」
+
+[0021:0366] en
+「Ariel Orge,beginning coordination」
+
+[0021:0368] en
+「This is Ariel.Providing support」
+
+[0021:0448] en
+「Ariel Orge,eliminating the opponent」
+
+[0021:0511] en
+「Let's do this,Ariel」
+
+[0021:0512] en
+「Let's do this,Ariel」
+
+[0021:0533] en
+「Match my timing,Ariel!」
+
+[0021:0685] en
+「Ariel Orge,target destroyed」
+
+[0021:0686] en
+「Ariel Orge,target destroyed」
+
+[0021:0708] en
+「Ariel Orge,target destroyed」
+
+[0021:0831] en
+「Ariel Orge,executing the mission」
+
+[0021:0888] en
+「Ariel Orge,executing the mission」
+
+[0021:0114] en
+「Duvan,are you in that thing...?!」
+
+[0021:0117] en
+「Please answer me,Duvan!」
+
+[0021:0118] en
+「Please answer me,Duvan!」
+
+[0021:0154] en
+「Urgh!Duvan,you are...!」
+
+[0021:0398] en
+「Duvan,with our combination!」
+
+[0021:0432] en
+「Duvan,I will protect you!」
+
+[0021:0046] en
+「The ace of Gadisword...I can't let my guard down!」
+
+[0021:0047] en
+「The ace of Gadisword...I can't let my guard down!」
+
+========================================================================
+Bank 0022 · 91 records
+04_Shared/Battle_messages/0022
+
+[0022:0047] en
+「Ariel,leave the rest to me!」
+
+[0022:0052] en
+「Back off,Ariel!」
+
+[0022:0048] en
+「Almara,to see that you're here...!」
+
+========================================================================
+Bank 0024 · 1125 records
+04_Shared/Battle_messages/0024
+
+[0024:0495] en
+「Ariel,I'll back you up!」
+
+[0024:0469] en
+「I'll cover you,Lune!」
+
+[0024:0134] en
+「Gadisword,I won't let you do as you wish!」
+
+[0024:0135] en
+「I'll take care of that Gadisword machine!」
+
+[0024:0228] en
+「It exists Vaught in Gadisword,is that so...?」
+
+[0024:0248] en
+「Gadisword machines seem to be decently/　maneuverable...!」
+
+========================================================================
+Bank 0030 · 1061 records
+04_Shared/Battle_messages/0030
+
+[0030:0202] en
+「I'll also chip in the bet by Ariel」
+
+[0030:0501] en
+「That was a precise attack,Ariel」
+
+[0030:0564] en
+「Withdraw quickly,Ariel」
+
+[0030:0565] en
+「Retreat,Ariel」
+
+[0030:0112] en
+「So...a Gadisword's ace」
+
+[0030:0413] en
+「Updating the data on Gadisword's machines」
+
+========================================================================
+Bank 0031 · 602 records
+04_Shared/Battle_messages/0031
+
+[0031:0123] en
+「Let us ride along on Ensign Ariel's gamble...!」
+
+[0031:0446] en
+「Going in as back up,Ariel!」 
+
+[0031:0483] en
+「Ariel,leave this to me!」
+
+========================================================================
+Bank 0032 · 596 records
+04_Shared/Battle_messages/0032
+
+[0032:0429] en
+「I'll cover you,Ariel!」
+
+[0032:0497] en
+「Ariel,please fall back!」
+
+[0032:0057] en
+「I'm coming through,Gadisword!」
+
+========================================================================
+Bank 0033 · 966 records
+04_Shared/Battle_messages/0033
+
+[0033:0434] en
+「Ariel,I'll back you up!」
+
+[0033:0435] en
+「Ariel,I'll finish the rest!」
+
+[0033:0481] en
+「Back off,Ariel!」
+
+[0033:0595] en
+「Eins!」
+
+[0033:0597] en
+「Drei!!」
+
+========================================================================
+Bank 0034 · 783 records
+04_Shared/Battle_messages/0034
+
+[0034:0136] en
+「For the sake of Ensign Ariel,suppress the enemy!」
+
+[0034:0363] en
+「Ariel,I'll take care of the rest!」
+
+[0034:0401] en
+「Ariel,get back!」
+
+[0034:0289] en
+「Even a Gadisword unit,will end up like this!」
+
+[0034:0502] en
+「Eins!」
+
+[0034:0504] en
+「Drei!!」
+
+========================================================================
+Bank 0035 · 1282 records
+04_Shared/Battle_messages/0035
+
+[0035:0201] en
+「In order for Ensign Ariel to fulfill her objective...!」
+
+[0035:0318] en
+「I'll also utilize this result for/　the analysis of the Gadisword units」
+
+[0035:0351] en
+「I'll show that I can handle even Gadisword's machines」
+
+========================================================================
+Bank 0036 · 520 records
+04_Shared/Battle_messages/0036
+
+[0036:0130] en
+「Duvan,listen to the voice of Ariel!」
+
+[0036:0360] en
+「Ariel,leave the rest to me!」
+
+[0036:0388] en
+「Ariel,be careful!」
+
+[0036:0365] en
+「Lune,leave the rest to me!」
+
+========================================================================
+Bank 0039 · 949 records
+04_Shared/Battle_messages/0039
+
+[0039:0411] en
+「Ariel,I'll help you!」
+
+[0039:0496] en
+「Ariel,leave this to me!」
+
+[0039:0076] en
+「Get out of my way,Gadisword!」
+
+[0039:0077] en
+「Get out of my way,Gadisword!」
+
+========================================================================
+Bank 0041 · 733 records
+04_Shared/Battle_messages/0041
+
+[0041:0445] en
+「I'll help you,Ariel!」
+
+[0041:0151] en
+「I won't lose to Gadisword's Jinki!」
+
+[0041:0152] en
+「You want to get in my way,Gadisword!?」
+
+[0041:0154] en
+「Gadisword,what is it that you really want?!」
+
+[0041:0157] en
+「I won't lose to Gadisword's Jinki!」
+
+[0041:0158] en
+「You want to get in my way,Gadisword!?」
+
+[0041:0160] en
+「Gadisword,what is it that you really want?!」
+
+[0041:0269] en
+「I can't underestimate Gadisword...!」
+
+[0041:0327] en
+「The mobility of Gadisword machines is formidable」
+
+========================================================================
+Bank 0043 · 450 records
+04_Shared/Battle_messages/0043
+
+[0043:0106] en
+「I'll leave it to you after I stop that guy,Ariel!」
+
+[0043:0042] en
+「I'll push my way through,Gadisword!」
+
+[0043:0043] en
+「I'll push my way through,Gadisword!」
+
+========================================================================
+Bank 0046 · 545 records
+04_Shared/Battle_messages/0046
+
+[0046:0345] en
+「Ariel,I'll give you a hand!」
+
+[0046:0363] en
+「Out of the way,Ariel!」
+
+[0046:0149] en
+「Are you satisfied with the end used by somebody,/　Duvan？」
+
+[0046:0182] en
+「The sword flash of Raftclans...Guess I could just read the
+  movement!」
+
+[0046:0183] en
+「The sword flash of Raftclans...Guess I could just read the
+  movement!」
+
+[0046:0184] en
+「The sword flash of Raftclans...Guess I could just read the
+  movement!」
+
+[0046:0129] en
+「I won't let Gadisword do whatever they want」
+
+[0046:0130] en
+「I won't forgive you,Gadisword」
+
+[0046:0135] en
+「It's on a different level from small fries of Gadisword」
+
+[0046:0256] en
+「Gadisword's proficiency is not all that bad」
+
+[0046:0284] en
+「Stop the useless resistance,Gadisword」
+
+[0046:0314] en
+「Stop the useless resistance,Gadisword」
+
+========================================================================
+Bank 0051 · 290 records
+04_Shared/Battle_messages/0051
+
+[0051:0071] en
+「I must help Ariel-san...!」
+
+========================================================================
+Bank 0057 · 385 records
+04_Shared/Battle_messages/0057
+
+[0057:0112] en
+「I think Ariel-san's guess is correct..」
+
+[0057:0066] en
+「Raj,please collect the data!」
+
+[0057:0078] en
+「Raj,please collect Thorn's data!」
+
+[0057:0084] en
+「Raj,please collect Thorn's data!」
+
+[0057:0090] en
+「Raj,please collect Thorn's data!」
+
+[0057:0096] en
+「Raj,that guy is..」
+
+========================================================================
+Bank 0059 · 290 records
+04_Shared/Battle_messages/0059
+
+[0059:0069] en
+「We must block their move and help out Ariel-san..」
+
+[0059:0032] en
+「Raj-san,what about the skin sample..」
+
+[0059:0080] en
+「Mizuho-san,Raj-san,are you OK!?」
+
+[0059:0153] en
+「I'll revise the data of the Gadisword units」
+
+[0059:0093] en
+「U-Urgh...! Is this the power of Kadum Hakham...!?」
+
+========================================================================
+Bank 0062 · 811 records
+04_Shared/Battle_messages/0062
+
+[0062:0470] en
+「Ariel,please leave the rest to me!」
+
+[0062:0503] en
+「Ariel,leave it to me!」
+
+[0062:0065] en
+「Even if it's the Gadisword's commanding unit!」
+
+[0062:0066] en
+「Even if it's the Gadisword's commanding unit!」
+
+========================================================================
+Bank 0063 · 544 records
+04_Shared/Battle_messages/0063
+
+[0063:0124] en
+「I need to create an opening for Ensign Ariel/　to make contact!」
+
+[0063:0098] en
+「If it's just Gadisword's mass-produced models,/　this boy and I are able to handle them!」
+
+========================================================================
+Bank 0067 · 760 records
+04_Shared/Battle_messages/0067
+
+[0067:0271] en
+「I'll back you up Ariel!」
+
+[0067:0312] en
+「Ariel,move back!」
+
+========================================================================
+Bank 0071 · 607 records
+04_Shared/Battle_messages/0071
+
+[0071:0427] en
+「Ariel,leave the rest to me!」
+
+[0071:0449] en
+「Get back,Ariel!」
+
+[0071:0411] en
+「Lune,leave it to me!」
+
+[0071:0412] en
+「Lune,I'll give you a hand!!」
+
+[0071:0413] en
+「Leave the rest to me,Lune!」
+
+[0071:0414] en
+「Lune,leave the rest to me!」
+
+[0071:0442] en
+「Get back,Lune!」
+
+[0071:0443] en
+「Lune!You're meddling too much!」
+
+[0071:0444] en
+「I won't let you do it!Lune,leave it to me!」
+
+[0071:0087] en
+「I nyan't believe he is also Kadum Hakham...!」
+
+[0071:0107] en
+「Gadisword...If you are going to pick a fight with us!」
+
+[0071:0108] en
+「Come on,Gadisword!」
+
+[0071:0085] en
+「It's not the first time I'm battling with /　Kadum Hakham...! So I know how to do it!」
+
+[0071:0326] en
+「Hum...It seems better than Kadum Hakham of /　RA-GEAS」
+
+[0071:0364] en
+「Hum...It seems better than Kadum Hakham of /　RA-GEAS」
+
+========================================================================
+Bank 0097 · 638 records
+04_Shared/Battle_messages/0097
+
+[0097:0181] en
+「I'll make a move for Ariel-san!」
+
+[0097:0126] en
+「It's time for you stop doing as you please,
+  Crystal Dragoon!」
+
+[0097:0105] en
+「Helluga.../　I will not entrust Gadisword's future to you!」
+
+[0097:0166] en
+「Gadisword's new model,/　I won't let you do any more damage!」
+
+========================================================================
+Bank 0098 · 653 records
+04_Shared/Battle_messages/0098
+
+[0098:0193] en
+「For Ariel-san,I'll need to create an opening!」
+
+[0098:0361] en
+「Don't think that I'm letting Zovork units get a free hit!」
+
+[0098:0121] en
+「Helluga.../　I will not entrust Gadisword's future to you!」
+
+========================================================================
+Bank 0240 · 151 records
+04_Shared/Battle_messages/0240
+
+[0240:0015] en
+「A-Ariel...」
+
+[0240:0057] en
+「A-Ariel...this power...」
+
+[0240:0016] en
+「Arri...el...You are...」
+
+========================================================================
+Pilot names
+06_Game_data/Pilot_names
+
+[PilotData_short_name:0010] en
+Eun
+
+[PilotData_given_name:0010] en
+Eun
+
+[PilotData_short_name:0021] en
+Ariel
+
+[PilotData_given_name:0021] en
+Ariel
+
+[PilotData_family_name:0021] en
+Org
+
+[PilotData_family_name:0022] en
+Org
+
+[PilotData_short_name:0022] en
+Duvan
+
+[PilotData_given_name:0022] en
+Duvan
+
+[PilotData_family_name:0028] en
+Mei Long
+
+[PilotData_short_name:0056] en
+Sleigh 
+
+[PilotData_given_name:0056] en
+Sleigh 
+
+[PilotData_family_name:0057] en
+Gureden
+
+[PilotData_family_name:0058] en
+Gureden
+
+[PilotData_family_name:0059] en
+Gureden
+
+[PilotData_short_name:0060] en
+Raj
+
+[PilotData_given_name:0060] en
+Raj
+
+[PilotData_short_name:0074] en
+Lune
+
+[PilotData_given_name:0074] en
+Lune
+
+[PilotData_short_name:0090] en
+Almara
+
+[PilotData_family_name:0090] en
+Barton
+
+[PilotData_given_name:0090] en
+Almara
+
+[PilotData_short_name:0188] en
+Laker
+
+[PilotData_given_name:0188] en
+Laker
+
+[PilotData_short_name:0141] en
+Gadisword Pilot
+
+[PilotData_given_name:0141] en
+Gadisword Pilot
+
+[PilotData_short_name:0142] en
+Gadisword Pilot
+
+[PilotData_given_name:0142] en
+Gadisword Pilot
+
+[PilotData_short_name:0145] en
+Gadisword Elite Pilot
+
+[PilotData_given_name:0145] en
+Gadisword Elite Pilot
+
+[PilotData_short_name:0147] en
+Gadisword Elite Pilot
+
+[PilotData_given_name:0147] en
+Gadisword Elite Pilot
+
+========================================================================
+Bank 0064 · 389 records
+04_Shared/Battle_messages/0064
+
+[0064:0251] en
+「So Duvan Org's thought still remains? /　No matter,it won't get me」
+
+========================================================================
+Glossary terms and definitions
+06_Game_data/Glossary
+
+[KeyWordData_definition_1:0021] en
+　Heavy mobile weapon of the <Gaia Sabers>.Installed
+　with the high output generator「Faul Kern」also used
+　in the core of the large <Jetzt>,it is a power fighter
+　adept at close quarters and shooting combat.Also,
+　parts of the machine contains muscle,epithelial
+　and nerve tissues.
+　
+　As a mimic of the <Einst>,the Jetzt used a semi-
+　bio weapon completely controlled by human hands,
+　similar to the Rein Weissritter of <The Steel 
+　Dragon Squad>,and as an artificial prototype that
+　exceeds the original,is also used to collect data.
+　
+　Piloted by Duvan Org <Idealant>,it fought multiple
+　times with the Steel Dragon Squad,and ultimately
+　lost.
+
+[KeyWordData_definition_1:0052] en
+　Company set up by Raul and Fiona after the end of
+　the <Shura no Ran>.「L」and「E」are the initials
+　of「Lightning」and「Eternal」respectively,undertaking
+　work that makes full use of the Excellence Rescue's
+　capabilities.Raul is the President with Raj the Vice
+　-President,with operations and management handled
+　by Fiona.Mizuho takes care of the Excellence,with
+　Despinis supporting whenever necessary.
+　
+
+[KeyWordData_definition_1:0096] en
+　An engine that was in development by the fathers of
+　Raul and Fiona,and Raj.As long as time flows,it is
+　able to extract time particles anywhere to turn the
+　turbine（Time Turbine）to obtain power.
+　
+　However if it goes out of control,there is a chance of
+　dimensional warp into a parallel world.
+　
+
+[KeyWordData_definition_1:0007] en
+　Late in <The DC War>,the use of the special properties
+　of the <Terra Federation Forces> multi-purpose battleship
+　Hagane was successful in the storming of the <DC> main
+　base on <Aidoneus Island>.
+ 　
+　Originally,the Tronium Buster Cannon on the bow was
+　intended to destroy the nerve center of the DC,however,
+　it was damaged by the DC flagship,the similar Space
+　Noa-class battleship Kurogane.After that the Hagane
+　deployed a mixed team of <PT> and <Super Robot> and
+　fought hard against the DC's inferior <Armored Module>.
+　
+　Finally,the DC commander,<Bian Zoldark> deployed the
+　Valsion with him onboard,but was attacked by the
+　Hagane's PT and Super Robot team.The Valsion was
+　shot down,and Bian Zoldark was killed.
+　
+
+[KeyWordData_definition_1:0008] en
+　A suspicious organization that appeared in Terra
+　orbit from <New A.D.>187 to 188.
+　
+　With the mysterious bio weapon known as the
+　Einst Series as their main force,it was initially
+　repeating some baffling battle tactics in a limited
+　area.The precise purpose and intelligence,and
+　communication ability was held by a senior Einst
+　known as Regisseur and a young girl called Alfimi.
+　The organization's formations are similar to that of
+　a bee and an ant.
+　
+　In addition,the Einst has existed since time immemorial
+　in a different space（Einst space）,and seems to be
+　monitoring the movements of intelligent life in the
+　current world however details are not clear.Continuous
+　fighting has disrupted the silence of the universe and
+　leads to the annihilation of humankind.The objective
+　was to create new intelligent life,but when the Einst
+　space was finally connected to the current world they
+　begin to carry out the encroachment.
+　
+　The Einst has fought the Hagane,Kurogane,Hiryu
+　Kai countless times,and in the final battle,Neu
+　Regisseur combined with the <White Star>.While
+　it became the super large mobile weapon Sterun
+　Neu Regisseur,it was defeated by the Kurogane
+　and the Hiryu Kai.Furthermore after the destruction
+　of the Sterun Neu Regisseur,other Einst Series active
+　in other lands met the same fate.
+　
+
+[KeyWordData_definition_1:0033] en
+　A soldier of the <Terra Federation Forces>,and the
+　central figure of the <Project SRX>.His real identity
+　is actually a special agent of the <Aerogator>.His
+　main mission was to collect information about Earth,
+　as well as to uncover and develop people with
+　Telekenisis powers.Furthermore,he is to subject
+　humans' fine weaponry to further evolution by
+　bringing about <EOT>,such as the <Tronium> Engine
+　on purpose.
+　
+　Later in the <L5 Campaign>,he was defeated in
+　repeated skirmishes with Hagane's and Hiryu Kai's
+　mixed <PT> and <Super Robot> platoon,and died.
+　
+
+[KeyWordData_definition_1:0058] en
+　At the end of the <L5 Campaign>,this was the bold
+　attack on the <White Star> by the <Terra Federation 
+　Forces>.
+　
+　While the fleet and mobile weapons attack in waves
+　from all sides,diverting the enemy mobile weapons,
+　allowing the Hagane and Hiryu Kai to penetrate the
+　White Star from the outside.Mobile troops from both
+　ships entered and destroyed the central portion.
+　
+
+[KeyWordData_definition_1:0059] en
+　Name of the decisive infiltration operation into the
+　giant structure Swordian（teleporting fortress）during
+　the <Shura no Ran>.
+　
+　Using the teleportation device taken from <Shura>,
+　the Hagane and Hiryu Kai was moved into the
+　internal portions of the Swordian in a one-way
+　operation.
+　
+
+[KeyWordData_definition_1:0077] en
+　The Far Eastern <Terra Federation Forces> First
+　Independent Special Tactical Team,set up after the
+　conclusion of the <Shura no Ran>.It is made up of
+　the multi-purpose battleships that have generated
+　multiple battle achievements,the Hagane and the
+　Hiryu Kai,as well as high performance <Personal 
+　Trooper> and <Armored Module> special humanoid
+　mobile weapons onboard.It is great at ISA（lightning
+　battles with a mobile battleship serving as a carrier,
+　with many humanoid mobile weapons on board）tactics.
+　
+　After <The Sealing War> it came under the direct command
+　of the Terra Federation Forces Joint Command Headquarters,
+　and Brigadier General Miles Boothroyd became the new
+　Squadron Commander.
+　
+
+[KeyWordData_definition_1:0088] en
+　An organization that came from a parallel world
+　by the space dimension warp device「System XN」.
+　
+　Its former form was a Special Missions platoon of the
+　<Terra Federation Forces> in the parallel world.After
+　the <L5 Campaign>,they undertook secret moves to
+　help the <DC> remnants in their military uprising.
+　
+　They contemplated maintaining a state of war using
+　the mass-produced mobile weapon androids known
+　as「W series」,which they regarded as more complete
+　than the System XN,but they were defeated by the
+　Hagane and the Hiryu Kai.
+　
+　It should be noted that Lamia Loveless was a member
+　of the W-series(she was called W17).During <The 
+　Inspector Incident>,she deserted Shadow Mirror after
+　achieving self-consciousness.She is current a member
+　of the <Special Tactical Fighter Training Group> under
+　the Terra Federation Forces.
+　
+
+[KeyWordData_definition_1:0093] en
+　A war that resulted from the warp of the combat
+　organization「<Shura>」from the alien「Shura Kai」
+　to Earth Orbit.
+　
+　With the Shura-Kai facing the danger of extinction,
+　the king of「Rakoku」one of its countries,Alkaid,
+　led the Shura into an alternate dimension looking
+　for a new world,by using the giant sword-shaped
+　structure with the ability of dimension warp,
+　「Teleporting Fortress」（Codenamed Swordian by Earth）.
+　
+　They arrived in Earth Orbit after <The Inspector Incident>,
+　attacking multiple locations on Earth using their
+　<Shura-Shin> mobile weapons.Several cities were
+　occupied by the Shura,but were subjected to the
+　decisive action by the Hagane and the Hiryu Kai
+　forces that teleported and infiltrated the Fortress
+　in「<Operation Overgate>」.
+　
+　Doubtful about the Shura way of life,Folka Albark
+　became an ally of the Terra Forces,and was successful
+　in defeating Alkaid.
+　
+　After the end of the war,Folka and the remaining
+　Shura,moved to another dimension via the Teleporting
+　Fortress,and left the Earth Orbit.
+　
+
+[KeyWordData_definition_1:0106] en
+　During <The Sealing War>,the multi-purpose
+　battleship of <The Steel Dragon Squad>,Hagane,
+　fell into the ruse of Alteur（「<Euzeth>」）,the
+　commander of the <Gaia Sabers>.It attacked the
+　transport ship carrying <Terra Federation Government>
+　President,Graien Grassman,causing his death.Labeled
+　as the culprit that assasinated the President,the Steel
+　Dragon Squad was chased not only by the Gaia
+　Sabers but also by the <Federation Forces>.
+　
+　However after The Sealing War,Alteur's plan was
+　brought to light and cleared all suspicion on the
+　Steel Dragon Squad.
+　
+
+[KeyWordData_definition_1:0113] en
+　Refers to <The Steel Dragon Squad>'s all purpose
+　battleship Hagane.
+　
+　This is because to both sides of the bow,are beam
+　focusing induction devices that are shaped like a
+　ball（pearl）,causing the Hagane to have such a
+　nickname.
+　
+
+[KeyWordData_definition_1:0126] en
+　A war ignited by the <DC> between the end of
+　<New A.D.> 186 to 187.
+　
+　Revolting against the <Terra Federation Government>
+　and the <Federation Forces>,it was successful with
+　lightning quick attacks in suppressing army bases
+　all over the world using the <Armored Module>.
+　
+　However,during a surpise attack by the Hagane on
+　<Aidoneus Island>,the commander,<Bian Zoldark> died
+　in battle.His loss led to confusion amongst the DC
+　organization,and was defeated by the Federation Forces.
+　
+
+[KeyWordData_definition_1:0129] en
+　A military association serving as the parent body
+　to the <EOTI> by <Dr Bian Zoldark>,who predicted
+　the invasion by aliens.With the aim of resisting
+　aliens who are scheming to invade Earth,he built a
+　formidable military regime in Earth Orbit.
+　
+　Aside from EOTI members,Federation Government
+　personnel,some <Federation Forces> soldiers,anti
+　Terra Federation advocates and militants of the
+　Ethnic Liberation Front also joined,with the <United 
+　Colony Corps> showing its readiness to support.
+　
+　At the end of <New A.D.>186,they revolted against
+　the <Terra Federation Government> and the <Federation 
+　Forces> ,and was successful with lightning quick attacks
+　in suppressing army bases all over the world using the
+　<Armored Module>.
+　
+　However,the methods used by Bian and the United
+　Colony Corps commander Meyer Von Blanstein,was
+　a doube-edged sword.By becoming the「enemy」
+　on their own accord,they were placed in a situation
+　where they were recognized as a sham by Terrans,
+　with the intention of instigating action against an
+　unprecedented threat as soon as possible.But the
+　continuation of civil war on Earth results in high
+　danger of exhaustion for the forces.
+　
+　As a result,they wanted a quick end to <The DC 
+　War>,having to take measures that also preserved
+　the strength of the enemy（Federation Forces）to
+　some extent.Also,if someone with the power to
+　defeat Bian appears,they were thinking about
+　entrusting the future Earth Orbit to them.
+　
+　This paradox thought up by Bian led to his defeat,
+　and can be said to have allowed who are using
+　<DC> for their own self interests to become
+　arrogant.
+　
+　Furthermore,Bian died in battle during the surprise
+　raid on the DC headquarters by the Hagane.His defeat
+　put the DC into disarray,resulting in its defeat by
+　the Federation Forces.
+　
+
+[KeyWordData_definition_1:0146] en
+　The incident where the cities and <Federation Forces>'
+　bases were attacked due to the mass rampage of
+　Baltor humanoid mobile weapons developed by Won
+　Heavy Industries.
+　
+　The main culprit was Wilhelm von Jurgen.The Hagane
+　and Hiryu Kai assaulted Jurgen's base,which is also
+　the space plant that was mass producing the Baltor,
+　bringing a close to the incident.
+　
+
+[KeyWordData_definition_1:0001] en
+　A giant artificial hibernation facility under construction
+　for Project Ark（seed storage project）driven by the
+　<EOT Council>.
+　
+　Built underground in Africa,Kenya District,it is managed
+　by an autonomous supercomputer,Magus,developed by
+　Dr.Sophia Nate.
+　
+　In order to survive the coming invasion from the <Aerogator>,
+　several thousands were planned to undergo artificial
+　hibernation,but the start of <The DC War> disrupted the
+　construction.
+　
+　After being conquered by the remnants of the <DC> when
+　the war ended,it became their base,however it was
+　critically damaged in battle with the Kurogane team.It
+　was then placed under the management of the <Federation 
+　Forces> Special Research Institutes.
+　
+　Furthermore a similar facility,the「Moon Cradle」,exists
+　on the moon.
+　
+
+[KeyWordData_definition_1:0034] en
+　Group sent from <Zovork> to Earth orbit.Seeing that
+　Terrans' thirst for war will lead to chaos in the
+　galaxy,came to the conclusion that the Earth must be
+　placed under their control.
+　
+　Furthermore,the name Inspector,was used for convenience
+　by their combat commander,Vigaji,during battle with the
+　Hiryu Kai,but eventually became the codename for Earth.
+　
+　The attack began in <New A.D.>187,the lightning attack
+　tactics resulted in <White Star>,the moon and main
+　portions of North America being occupied.However,
+　the <Terra Federation Forces> counterattack,「<Operation 
+　Plantagenet>」,and being swept into the chaos that resulted
+　from the outbreak of large numbers of <Einst> series,had
+　no choice but to withdraw from Earth.
+　
+　After that,they lost in the final battle at White Star
+　to the Kurogane and the Hiryu Kai,and main members
+　including overall commander Wendoros,died in battle.
+　The Inspector has been destroyed.
+　
+
+[KeyWordData_definition_1:0035] en
+　The name of the disturbance that resulted from
+　the <Inspector>,that happen from <New A.D.>
+　187 to 188.
+　
+　The Inspector,is an alien organization that comes
+　from another star system to investigate the
+　culture on Earth.Concluding that the people of
+　Earth have an insatiable appetite for war,and
+　that the order of the galaxy is disrupted,they
+　envisioned a plan to place Earth Orbit under
+　their control.
+　
+　At the start of the invasion in New A.D.187,
+　the blitzkreig tactics used resulted in the
+　occupation of the the Moon and main areas of
+　the North America District etc.However,they
+　were caught up in large outbreak of the <Einst>
+　Series,and were forced to withdraw from Earth
+　and were completely destroyed in the final
+　battle,losing to the Kurogane and the Hiryu Kai.
+　
+
+[KeyWordData_definition_1:0164] en
+　An ultra large ball-like space fortress used by the
+　<Aerogator> as headquarters during the <L5 Campaign>.
+　Its official name is the「Autonomous Satellite Nevi'im」,
+　but is known on Earth by the codename White Star.
+　
+　Inside,it has a mobile weapon plant,space docks,
+　residential areas with quasi-weather functions at
+　1G,multiple farms,and can be said to be a mobile
+　space colony.There is a theory that the Aerogator
+　plans to bring back with them in great numbers,
+　Terrans that have high competitiveness and
+　battle ability,however details are unclear.
+　
+　Towards the end of the L5 Campaign,it was critically
+　damaged by the combined attack of the combined
+　space forces under <Operation SRW>,and it stopped
+　functioning.After the war,it was placed under the
+　command of the <Terra Federation Forces>.
+　
+　However in <New A.D.>187,the Earth Orbit was
+　suppresed and taken over by the <Inspector>,using
+　military force,and it became their main headquarters.
+　Furthermore,it fused with the head of the <Einst>,
+　Einst Neu Regisseur,and transformed into the ultra
+　large weapon Sterun Neu Regisseur.The Kurogane
+　and Hiryu Kai teleported into the alternate space
+　together,and after repeated fierce battles,led to its
+　destruction in the end.
+　
+
+[KeyWordData_definition_1:0016] en
+　One of the powerful tribes on the Gadisword world.
+　The Annex camp took control of the civil war
+　happening on the same world.
+　
+
+[KeyWordData_definition_1:0019] en
+　Spaceship used by the Gadiswordian,Fairey Klivia,when she
+　came to Earth.It is an aircraft with two main wings and
+　four tail wings.Codenamed「Drift Wing」by the
+　<Terra Federation Forces>.
+
+[KeyWordData_definition_1:0105] en
+　Refers to the <Cross Gate>.In Gadiswordian language,it
+　means the「Door of Hell」.
+　
+
+[KeyWordData_definition_1:0186] en
+　One of the clans on the Gadisword world.Low in
+　numbers,but has produced excellent scholars.During
+　the Gadisword civil war,it was aligned with the <Annex>
+　clan.
+　
+
+[KeyWordData_definition_1:0187] en
+　Giant Gadisword space fortress designed by Helluga
+　Izberga.Made of smaller planets,it is a military
+　facility for many mobile weapons as well as a port
+　for spaceships including docks,factories and living
+　areas.
+　
+　It is also installed with large weaponry including the
+　super large cannon and thus,can be used as a battle
+　carrier.It also has a spatial warp device but it takes
+　a lot of time to use it.
+　
+
+========================================================================
+23 · To Karachi · TWO DECOYS · S080
+01_Stages/Stage_23_To_Karachi_S080_TWO_DECOYS
+
+[S080:0054] speaker_en
+Eun
+
+[S080:0059] speaker_en
+Eun
+
+[S080:0062] speaker_en
+Eun
+
+[S080:0080] speaker_en
+Eun
+
+[S080:0084] speaker_en
+Eun
+
+[S080:0094] speaker_en
+Eun
+
+[S080:0105] speaker_en
+Eun
+
+[S080:0005] en
+「And gather the mobile squads' Captains.We will explain
+　the strategy from here on」
+
+========================================================================
+– ·  · Suspend / end-session conversations · S800
+05_Extras/S800_Suspend_end_session_conversations
+
+[S800:0079] speaker_en
+Eun
+
+[S800:0163] speaker_en
+Almara
+
+[S800:0164] en
+「What is it,Almara-san?」
+
+[S800:0165] speaker_en
+Almara
+
+[S800:0167] speaker_en
+Almara
+
+[S800:0169] speaker_en
+Almara
+
+[S800:0170] en
+「Almara-san,I wonder what is it exactly she wanted to
+　ask me about?」
+
+========================================================================
+21 · Common · GUILLIAM'S UNDERTAKING · S021
+01_Stages/Stage_21_Common_S021_GUILLIAM_S_UNDERTAKING
+
+[S021:0083] speaker_en
+Raj
+
+[S021:0085] speaker_en
+Raj
+
+[S021:0087] speaker_en
+Raj
+
+[S021:0091] speaker_en
+Raj
+
+[S021:0095] speaker_en
+Raj
+
+[S021:0206] speaker_en
+Raj
+
+[S021:0341] en
+「Same as the time Fairey betrayed Gadisword and
+　ran off」
+
+========================================================================
+– ·  · Unassigned special scene · S999
+05_Extras/S999_Unassigned_special_scene
+
+[S999:0011] speaker_en
+Lune
+
+[S999:0012] speaker_en
+Lune
+
+[S999:0028] speaker_en
+Lune
+
+[S999:0040] speaker_en
+Lune
+
+[S999:0041] speaker_en
+Lune
+
+========================================================================
+Bank 0037 · 890 records
+04_Shared/Battle_messages/0037
+
+[0037:0434] en
+「Lune,I'll take it from here!」
+
+[0037:0467] en
+「Lune,leave it to me here!」
+
+[0037:0127] en
+「Get out of our way,Gadisword!」
+
+[0037:0128] en
+「Gadisword's small fry is nothing to us!」
+
+[0037:0129] en
+「I'll fight against you if you want,Gadisword!」
+
+[0037:0282] en
+「Damned Gadisword's small fries,/　stop flying all over the place!」
+
+[0037:0327] en
+「Don't take me lightly,Gadisword!」
+
+========================================================================
+Bank 0087 · 614 records
+04_Shared/Battle_messages/0087
+
+[0087:0422] en
+「I'll help you,Lune」
+
+[0087:0434] en
+「Lune,step back」
+
+[0087:0423] en
+「Almara,time for you to step back」
+
+[0087:0055] en
+「Gadisword...I'll fight you」
+
+[0087:0078] en
+「Gadisword...I'll fight you」
+
+[0087:0287] en
+「Hmm,but I heard that you're Gadisword's ace...」
+
+[0087:0340] en
+「Hmm,but I heard that you're Gadisword's ace...」
+
+[0087:0368] en
+「Hmm,but I heard that you're Gadisword's ace...」
+
+[0087:0070] en
+Kadum Hakham...It's the end of your luck when/　you appeared in front of me」
+
+[0087:0094] en
+Kadum Hakham...It's the end of your luck when/　you appeared in front of me」
+
+[0087:0071] en
+「That's a bad luck,Kadum Hakham.Because you met me here」
+
+[0087:0095] en
+「That's a bad luck,Kadum Hakham.Because you met me here」
+
+========================================================================
+Bank 0090 · 358 records
+04_Shared/Battle_messages/0090
+
+[0090:0245] en
+「Lune,that one's my prey」
+
+[0090:0267] en
+「They are targeting Lune」
+
+[0090:0059] en
+「You're in my way,Gadisword!」
+
+[0090:0036] en
+「You're just the scraps of Kadum Hakham!」
+
+[0090:0183] en
+「Slower than Kadum Hakham of RA-GEAS,huh」
+
+[0090:0207] en
+「Slower than Kadum Hakham of RA-GEAS,huh」
+
+[0090:0132] en
+「Nothing can be done in the same way as Kadum /　Hakham of RA-GEAS...!」
+
+========================================================================
+02 · Earth · FATHER, SON & DESTINY · S097
+02_Alternate_versions/S097_FATHER_SON_DESTINY
+
+[S097:0052] en
+「Commander Laker,I would like to give you my report
+　about <Mogami Heavy Industries>」
+
+[S097:0053] speaker_en
+Laker
+
+[S097:0056] speaker_en
+Laker
+
+[S097:0059] speaker_en
+Laker
+
+[S097:0061] speaker_en
+Laker
+
+[S097:0064] speaker_en
+Laker
+
+[S097:0066] speaker_en
+Laker
+
+[S097:0068] speaker_en
+Laker
+
+[S097:0070] speaker_en
+Laker
+
+[S097:0076] speaker_en
+Laker
+
+========================================================================
+08 · Earth · LIGHT GRANTEED · S008
+01_Stages/Stage_08_Earth_S008_LIGHT_GRANTEED
+
+[S008:0000] speaker_en
+Laker
+
+[S008:0002] speaker_en
+Laker
+
+[S008:0004] speaker_en
+Laker
+
+[S008:0314] en
+「Thereafter if you still decide to do it,I will provide my
+　opinion to Commander Laker」
+
+========================================================================
+Mech names
+06_Game_data/Mech_names
+
+[UnitData_name:0140] en
+Hagane
+
+[UnitData_name:0142] en
+Kurogane
+
+========================================================================
+S017 · HOOK AND SWORD
+01_Stages/Stage_17_Common_S017_HOOK_AND_SWORD/Map_text
+
+[SCR00017:0008] en
+１.Kurogane defeated.
+
+[SCR00017:0018] en
+１.Within turn #0 of player phase,Kurogane has to reach the designated point. 
+
+[SCR00017:0019] en
+１.Kurogane defeated.
+
+========================================================================
+S083 · SPACE RULER
+01_Stages/Stage_30_To_the_Moon_S083_SPACE_RULER/Map_text
+
+[SCR00083:0043] en
+１.Kurogane defeated.
+
+========================================================================
+S084 · VAUGHT AND FAIREY
+01_Stages/Stage_31_To_the_Moon_S084_VAUGHT_AND_FAIREY/Map_text
+
+[SCR00084:0009] en
+１.Kurogane defeated.
+
+[SCR00084:0010] en
+２.Enemy reaches Kurogane.
+
+========================================================================
+S085 · ROYALTY'S EARNEST
+01_Stages/Stage_32_To_the_Moon_S085_ROYALTY_S_EARNEST/Map_text
+
+[SCR00085:0111] en
+１.Kurogane defeated.
+
+========================================================================
+S086 · CONFUSE THE ENEMY
+01_Stages/Stage_33_To_the_Moon_S086_CONFUSE_THE_ENEMY/Map_text
+
+[SCR00086:0012] en
+１.Kurogane defeated.
+
+[SCR00086:0020] en
+１.Kurogane defeated.
+
+========================================================================
+Location and scene banners
+07_Location_banners/Locations
+
+[Location_S072_location:0157] en
+Hagane,Bridge
+
+[Location_S072_location:0176] en
+Hagane,Hangar
+
+[Location_S072_location:0219] en
+Hagane,Squadron Commander Quarters
+
+[Location_S072_location:0245] en
+Hagane,Dining Hall
+
+[Location_S072_location:0361] en
+Hagane,Bridge
+
+[Location_S072_location:0389] en
+Hagane,Dining Hall
+
+[Location_S073_location:0157] en
+Hagane
+
+[Location_S073_location:0185] en
+Hagane,Dining Hall
+
+[Location_S073_location:0445] en
+Hagane,Bridge
+
+[Location_S073_location:0467] en
+Hagane
+
+[Location_S073_location:0487] en
+Hagane,Bridge
+
+[Location_S073_location:0511] en
+Hagane,Briefing Room
+
+[Location_S074_location:0156] en
+Hagane,Briefing Room
+
+[Location_S074_location:0217] en
+Hagane,Bridge
+
+[Location_S074_location:0352] en
+Hagane,Bridge
+
+[Location_S074_location:0370] en
+Hagane,Hangar
+
+[Location_S075_location:0180] en
+Hagane,Bridge
+
+[Location_S075_location:0205] en
+Hagane,Briefing Room
+
+[Location_S075_location:0288] en
+Hagane,Hangar
+
+[Location_S075_location:0309] en
+Hagane,Bridge
+
+[Location_S076_location:0157] en
+Hagane
+
+[Location_S076_location:0201] en
+Hagane,Bridge
+
+[Location_S076_location:0276] en
+Hagane,Bridge
+
+[Location_S010_location:0430] en
+Hagane,Hangar
+
+[Location_S010_location:0464] en
+Hagane,Squadron Commander Quarters
+
+[Location_S011_location:0271] en
+Hagane,Bridge
+
+[Location_S012_location:0315] en
+Hagane,Briefing Room
+
+[Location_S013_location:0181] en
+Hagane,Squadron Commander Quarters
+
+[Location_S013_location:0209] en
+Hagane,Hangar
+
+[Location_S013_location:0224] en
+Hagane,Squadron Commander Quarters
+
+[Location_S013_location:0334] en
+Hagane,Bridge
+
+[Location_S014_location:0157] en
+Hagane,Private Quarters
+
+[Location_S014_location:0176] en
+Hagane,Interior Hangar
+
+[Location_S014_location:0396] en
+Hagane,Interior Hangar
+
+[Location_S014_location:0412] en
+Hagane,Bridge
+
+[Location_S014_location:0421] en
+Hagane
+
+[Location_S015_location:0205] en
+Hagane,Briefing Room
+
+[Location_S015_location:0283] en
+Hagane,Squadron Commander Quarters
+
+[Location_S018_location:0431] en
+Hagane,Bridge
+
+[Location_S019_location:0227] en
+Hagane,Hangar
+
+[Location_S019_location:0449] en
+Hagane,Briefing Room
+
+[Location_S020_location:0250] en
+Hagane,Bridge
+
+[Location_S020_location:0264] en
+Hagane,Private Quarters
+
+[Location_S020_location:0283] en
+Hagane
+
+[Location_S020_location:0299] en
+Hagane
+
+[Location_S020_location:0314] en
+Hagane,Interior Hangar
+
+[Location_S020_location:0343] en
+Hagane,Bridge
+
+[Location_S020_location:0449] en
+Hagane,Hangar
+
+[Location_S020_location:0469] en
+Hagane,Briefing Room
+
+[Location_S021_location:0219] en
+Hagane
+
+[Location_S021_location:0249] en
+Hagane,Bridge
+
+[Location_S021_location:0260] en
+Hagane,Hangar
+
+[Location_S022_location:0261] en
+Hagane,Briefing Room
+
+[Location_S102_location:0157] en
+Hagane
+
+[Location_S102_location:0183] en
+Hagane,Briefing Room
+
+[Location_S102_location:0266] en
+Hagane
+
+[Location_S102_location:0284] en
+Hagane,Squadron Commander Quarters
+
+[Location_S023_location:0215] en
+Hagane,Briefing Room
+
+[Location_S023_location:0343] en
+Hagane,Briefing Room
+
+[Location_S023_location:0372] en
+Hagane,Bridge
+
+[Location_S024_location:0304] en
+Hagane,Bridge
+
+[Location_S024_location:0317] en
+Hagane,Hangar
+
+[Location_S025_location:0157] en
+Hagane,Briefing Room
+
+[Location_S025_location:0182] en
+Hagane,Private Quarters
+
+[Location_S025_location:0211] en
+Hagane,Briefing Room
+
+[Location_S025_location:0293] en
+Hagane,Bridge
+
+[Location_S026_location:0313] en
+Hagane,Hangar
+
+[Location_S026_location:0385] en
+Hagane,Squadron Commander Quarters
+
+[Location_S026_location:0562] en
+Hagane,Infirmary
+
+[Location_S026_location:0639] en
+Hagane,Bridge
+
+[Location_S027_location:0193] en
+Hagane,Bridge
+
+[Location_S028_location:0205] en
+Hagane
+
+[Location_S028_location:0217] en
+Hagane,Hangar
+
+[Location_S028_location:0375] en
+Hagane,Hangar
+
+[Location_S028_location:0400] en
+Hagane,Briefing Room
+
+[Location_S028_location:0462] en
+Hagane,Infirmary
+
+[Location_S029_location:0287] en
+Hagane,Bridge
+
+[Location_S029_location:0304] en
+Hagane
+
+[Location_S029_location:0731] en
+Hagane
+
+[Location_S030_location:0157] en
+Hagane,Bridge
+
+[Location_S032_location:0157] en
+Hagane,Bridge
+
+[Location_S032_location:0359] en
+Hagane,Bridge
+
+[Location_S032_location:0377] en
+Hagane,Hangar
+
+[Location_S032_location:0419] en
+Hagane,Bridge
+
+[Location_S033_location:0370] en
+Hagane,Hangar
+
+[Location_S034_location:0157] en
+Hagane,Bridge
+
+[Location_S034_location:0179] en
+Hagane,Hangar
+
+[Location_S034_location:0361] en
+Hagane,Squadron Commander Quarters
+
+[Location_S034_location:0394] en
+Hagane,Briefing Room
+
+[Location_S034_location:0735] en
+Hagane,Bridge
+
+[Location_S034_location:0891] en
+Hagane,Hangar
+
+[Location_S034_location:0925] en
+Hagane,Squadron Commander Quarters
+
+[Location_S035_location:0189] en
+Hagane,Briefing Room
+
+[Location_S035_location:0272] en
+Hagane,Bridge
+
+[Location_S035_location:0435] en
+Hagane,Hangar
+
+[Location_S035_location:0464] en
+Hagane,Shana-Mia's Private Quarters
+
+[Location_S036_location:0178] en
+Hagane,Briefing Room
+
+[Location_S036_location:0207] en
+Hagane,Interior Hangar
+
+[Location_S036_location:0234] en
+Hagane,Hangar
+
+[Location_S036_location:0374] en
+Hagane,Hangar
+
+[Location_S036_location:0391] en
+Hagane,Squadron Commander Quarters
+
+[Location_S038_location:0170] en
+Hagane,Bridge
+
+[Location_S038_location:0394] en
+Hagane,Bridge
+
+[Location_S038_location:0410] en
+Hagane,Hangar
+
+[Location_S038_location:0535] en
+Hagane,Hangar
+
+[Location_S039_location:0157] en
+Hagane,Briefing Room
+
+[Location_S039_location:0244] en
+Hagane,Squadron Commander Quarters
+
+[Location_S039_location:0300] en
+Hagane,Bridge
+
+[Location_S039_location:0441] en
+Hagane,Hangar
+
+[Location_S040_location:0157] en
+Hagane,Squadron Commander Quarters
+
+[Location_S041_location:0391] en
+Hagane,Bridge
+
+[Location_S042_location:0537] en
+Hagane,Bridge
+
+[Location_S042_location:0577] en
+Hagane,Bridge
+
+[Location_S043_location:0156] en
+Hagane,Bridge
+
+[Location_S043_location:0241] en
+Hagane,Hangar
+
+[Location_S046_location:0156] en
+Hagane,Bridge
+
+[Location_S047_location:0675] en
+Hagane,Squadron Commander Quarters
+
+[Location_S010_location:0887] en
+Kurogane,Bridge
+
+[Location_S011_location:0157] en
+Kurogane,Bridge
+
+[Location_S011_location:0174] en
+Kurogane
+
+[Location_S012_location:0298] en
+Kurogane,Bridge
+
+[Location_S017_location:0325] en
+Kurogane,Bridge
+
+[Location_S017_location:0426] en
+Kurogane,Hangar
+
+[Location_S017_location:0506] en
+Kurogane
+
+[Location_S083_location:0441] en
+Kurogane,Bridge
+
+[Location_S083_location:0463] en
+Kurogane,Briefing Room
+
+[Location_S083_location:0492] en
+Kurogane,Hangar
+
+[Location_S083_location:0540] en
+Kurogane,Bridge
+
+[Location_S083_location:0547] en
+Kurogane
+
+[Location_S083_location:0764] en
+Kurogane,Hangar
+
+[Location_S083_location:0788] en
+Kurogane,Briefing Room
+
+[Location_S084_location:0190] en
+Kurogane,Hangar
+
+[Location_S084_location:0217] en
+Kurogane
+
+[Location_S084_location:0380] en
+Kurogane
+
+[Location_S084_location:0402] en
+Kurogane,Bridge
+
+[Location_S085_location:0537] en
+Kurogane,Bridge
+
+[Location_S086_location:0178] en
+Kurogane,Briefing Room
+
+[Location_S086_location:0228] en
+Kurogane,Bridge
+
+[Location_S086_location:0319] en
+Kurogane,Bridge
+
+========================================================================
+Weapon names
+06_Game_data/Weapon_names
+
+[WeaponData_name:0366] en
+Rouga Crusher
+
+[WeaponData_name:0696] en
+Orgone Slave
+
+[WeaponData_name:0702] en
+Orgone Draco Slave
+
+[WeaponData_name:0707] en
+Orgone Draco Slave
+
+[WeaponData_name:0031] en
+Roche Saber
+
+========================================================================
+Bank 0105 · 684 records
+04_Shared/Battle_messages/0105
+
+[0105:0006] en
+「Show me what you got,Leonisis Hagar!」
+
+[0105:0045] en
+「The future of Gadisword...I won't/　hand it over to you!」
+
+[0105:0060] en
+「If the future of Gadisword is dependant on this,/　then there's only one thing to do!」
+
+========================================================================
+Bank 0106 · 520 records
+04_Shared/Battle_messages/0106
+
+[0106:0004] en
+「Show me what you got,Leonisis Hagar!」
+
+========================================================================
+Bank 0129 · 293 records
+04_Shared/Battle_messages/0129
+
+[0129:0040] en
+「Did you forget the mission of Hakham」
+
+[0129:0099] en
+「How can someone like you who has forgotten the mission of /　Hakham...!」
+
+[0129:0100] en
+「How can someone like you who has forgotten the mission of /　Hakham...!」
+
+[0129:0150] en
+「How can someone like you who has forgotten the mission of /　Hakham...!」
+
+[0129:0151] en
+「How can someone like you who has forgotten the mission of /　Hakham...!」
+
+[0129:0200] en
+「How can someone like you who has forgotten the mission of /　Hakham...!」
+
+[0129:0201] en
+「How can someone like you who has forgotten the mission of /　Hakham...!」
+
+========================================================================
+Bank 0094 · 731 records
+04_Shared/Battle_messages/0094
+
+[0094:0043] en
+「Gadisword machine seems to be within range」
+
+[0094:0158] en
+「Gadisword machine seems to be within range」
+
+========================================================================
+Bank 0107 · 715 records
+04_Shared/Battle_messages/0107
+
+[0107:0035] en
+「I won't surrender the future of Gadisword nor /　the Cross Gate!」
+
+[0107:0048] en
+「The objective of Skull Knight's gang will surely be harmful /　to Gadisword too!」
+
+========================================================================
+02 · Earth · FATHER, SON & DESTINY · S002
+01_Stages/Stage_02_Earth_S002_FATHER_SON_DESTINY
+
+[S002:0137] en
+「H-haha! Gyokuza Ki is indeed special,isn't it?
+　I may enjoy it more than I'd expected!」
+
+[S002:0254] en
+「I've never heard that he was a Pilot at Ashuari
+　Kreuzel.Even more so that he was accustomed to
+　fighting...」
+
+========================================================================
+Bank 0044 · 757 records
+04_Shared/Battle_messages/0044
+
+[0044:0064] en
+「We will eliminate all Gadisword machines on our course!!」
+
+[0044:0065] en
+「We will eliminate all Gadisword machines on our course!!」
+
+========================================================================
+Bank 0045 · 747 records
+04_Shared/Battle_messages/0045
+
+[0045:0051] en
+「I've come here to pay you back,Gadisword!」
+
+[0045:0052] en
+「I've come here to pay you back,Gadisword!」
+
+[0045:0053] en
+「I've come here to pay you back,Gadisword!」
+
+[0045:0101] en
+「I won't let you do as you please,Gadisword!」
+
+[0045:0105] en
+「I'm going to hold back the Gadisword forces!」
+
+[0045:0106] en
+「I'm going to hold back the Gadisword forces!」
+
+========================================================================
+Bank 0048 · 892 records
+04_Shared/Battle_messages/0048
+
+[0048:0132] en
+「Gadisword,I'll take you up on your challenge!」
+
+========================================================================
+Bank 0058 · 333 records
+04_Shared/Battle_messages/0058
+
+[0058:0028] en
+「The ace of Gadisword...! I cannot underestimate them!」
+
+[0058:0060] en
+「We even have the data of Gadisword machines!」
+
+========================================================================
+Bank 0070 · 310 records
+04_Shared/Battle_messages/0070
+
+[0070:0145] en
+「This damage...We'll send the invoice to Gadisword!」
+
+[0070:0146] en
+「This damage...We'll send the invoice to Gadisword!」
+
+========================================================================
+Bank 0074 · 431 records
+04_Shared/Battle_messages/0074
+
+[0074:0181] en
+「Gadisword,they're forcing their way through...!」
+
+[0074:0060] en
+「That's also Kadum Hakham too.../　That's just fine!」
+
+[0074:0061] en
+「XN-L...No,Kadum Hakham!/　I'll defeat you again and again!」
+
+========================================================================
+Bank 0100 · 186 records
+04_Shared/Battle_messages/0100
+
+[0100:0018] en
+「I won't allow any hostile actions towards Gadisword」
+
+[0100:0020] en
+「I won't allow any hostile actions towards Gadisword」
+
+[0100:0072] en
+「Who do you think can lead Gadisword except me?」
+
+[0100:0074] en
+「Who do you think can lead Gadisword except me?」
+
+========================================================================
+Bank 0102 · 322 records
+04_Shared/Battle_messages/0102
+
+[0102:0013] en
+「Sieg Altolied...Disgrace of Gadisword!」
+
+[0102:0015] en
+「A man like you isn't needed by Gadisword!」
+
+[0102:0069] en
+「The revival of Gadisword is up to us!We can't be /　eradicated here!」
+
+========================================================================
+Bank 0141 · 437 records
+04_Shared/Battle_messages/0141
+
+[0141:0000] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0141:0124] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0141:0138] en
+「Ga-Gadisword is...!!」
+
+[0141:0198] en
+「Gadisword soldiers won't retreat that easily!」
+
+[0141:0262] en
+「Don't take us,the Gadisword,/　lightly!」
+
+[0141:0327] en
+「Don't take us,the Gadisword,/　lightly!」
+
+[0141:0372] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0141:0377] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0141:0386] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+========================================================================
+Bank 0142 · 437 records
+04_Shared/Battle_messages/0142
+
+[0142:0000] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0142:0124] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0142:0138] en
+「Ga-Gadisword is...!!」
+
+[0142:0198] en
+「Gadisword soldiers won't retreat that easily!」
+
+[0142:0262] en
+「You underestimate Gadisword!」
+
+[0142:0327] en
+「You underestimate Gadisword!」
+
+[0142:0372] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0142:0377] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+[0142:0386] en
+「I'll fight till the end as a soldier of Gadisword!」
+
+========================================================================
+Bank 0145 · 417 records
+04_Shared/Battle_messages/0145
+
+[0145:0005] en
+「Mr.Helluga will create the future of Gadisword!」 
+
+[0145:0022] en
+「You're a disgrace to Gadisword!」
+
+[0145:0026] en
+「For regular Annex soldiers to betray Gadisword.../　Unbelievable!」
+
+[0145:0122] en
+「Sir H-Helluga,for the sake of Gadisword...!」
+
+[0145:0131] en
+「I-I've been chosen as an elite guard of Gadisword!/　Not here of all place...!」
+
+[0145:0213] en
+「Don't you underestimate Gadisword!」
+
+[0145:0248] en
+「Don't you think you can destroy the resolution of us/　Gadisword!」
+
+[0145:0261] en
+「Don't you underestimate Gadisword!」
+
+========================================================================
+Bank 0147 · 417 records
+04_Shared/Battle_messages/0147
+
+[0147:0005] en
+「Helluga will shape the future of Gadisword!」/　
+
+[0147:0022] en
+「You're a disgrace to Gadisword!」
+
+[0147:0026] en
+「For regular Annex soldiers to betray Gadisword.../　Unbelievable!」
+
+[0147:0122] en
+「Sir H-Helluga,for the sake of Gadisword...!」
+
+[0147:0131] en
+「I-I've been chosen as an elite guard of Gadisword!/　Not here of all place...!」
+
+========================================================================
+Bank 0241 · 315 records
+04_Shared/Battle_messages/0241
+
+[0241:0015] en
+「Sieg Altolied...Disgrace of Gadisword!」
+
+[0241:0017] en
+「A man like you isn't needed by Gadisword!」
+
+========================================================================
+Bank 0245 · 176 records
+04_Shared/Battle_messages/0245
+
+[0245:0012] en
+「I'm on Gadisword's side」
+
+[0245:0014] en
+「But we're helping Gadisword」
+
+[0245:0015] en
+「I'm on Gadisword's side」
+
+[0245:0017] en
+「But we're helping Gadisword」
+
+[0245:0018] en
+「I'm on Gadisword's side」
+
+[0245:0020] en
+「But we're helping Gadisword」
+
+[0245:0021] en
+「I'm on Gadisword's side」
+
+[0245:0023] en
+「But we're helping Gadisword」
+
+[0245:0047] en
+「Gadisword's people are pitiful...in various ways」
+
+[0245:0048] en
+「Gadisword's people are pitiful...in various ways」
+
+[0245:0049] en
+「Gadisword's people are pitiful...in various ways」
+
+[0245:0050] en
+「Gadisword's people are pitiful...in various ways」
+
+[0245:0089] en
+「Gadisword can't be saved even if you relied on Terrans」
+
+[0245:0091] en
+「Gadisword can't be saved even if you relied on Terrans」
+
+[0245:0093] en
+「Gadisword can't be saved even if you relied on Terrans」
+
+[0245:0095] en
+「Gadisword can't be saved even if you relied on Terrans」
+
+========================================================================
+Bank 0246 · 232 records
+04_Shared/Battle_messages/0246
+
+[0246:0065] en
+「You seem to be more motivated than when you/　were with Gadisword?」
+
+[0246:0066] en
+「You seem to be more motivated than when you/　were with Gadisword?」
+
+========================================================================
+Bank 0254 · 407 records
+04_Shared/Battle_messages/0254
+
+[0254:0032] en
+「If you are thinking of Gadisword's future,/　then please allow us through!」
+
