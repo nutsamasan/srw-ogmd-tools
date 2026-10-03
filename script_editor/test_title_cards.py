@@ -22,6 +22,7 @@ from app import Editor, STYLE, load_ui_fonts
 from dialogs import PatchDialog
 from test_backlog_layout import layout_archive
 from test_import_iso import mini_iso
+from test_patch_features import mini_archive
 from iso_patcher import prepare_iso_patch, write_patched_iso
 from iso_image import DiscImage
 from archive_patch import digest
@@ -152,7 +153,9 @@ class TitleCardTests(unittest.TestCase):
             native=catalog().native('st_000',catalog().source_png('st_000','en'))
             with patch('test_backlog_layout.ENTRY',entry):layout_archive(root/'original.psarc',native)
             sdat.encrypt(root/'original.psarc',root/'Common.psarc.sdat',ROOT/'work/ps3_disc/PS3_GAME/USRDIR/PSARC/Logic.psarc.sdat',verbose=False)
-            source=root/'source.iso';mini_iso(source);raw=bytearray(source.read_bytes());payload=(root/'Common.psarc.sdat').read_bytes()
+            mini_archive(root/'logic.psarc')
+            sdat.encrypt(root/'logic.psarc',root/'Logic.psarc.sdat',ROOT/'work/ps3_disc/PS3_GAME/USRDIR/PSARC/Logic.psarc.sdat',verbose=False)
+            source=root/'source.iso';mini_iso(source,(root/'Logic.psarc.sdat').read_bytes());raw=bytearray(source.read_bytes());payload=(root/'Common.psarc.sdat').read_bytes()
             name=b'COMMON_PSARC.SDAT;1';n=33+len(name)+(len(name)%2==0);rec=bytearray(n);rec[0]=n;sector=len(raw)//2048
             struct.pack_into('<I',rec,2,sector);struct.pack_into('>I',rec,6,sector)
             struct.pack_into('<I',rec,10,len(payload));struct.pack_into('>I',rec,14,len(payload))

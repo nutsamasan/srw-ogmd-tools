@@ -9,6 +9,7 @@ from iso_patcher import prepare_iso_patch,write_patched_iso
 from vendor import sdat
 from vendor.psarc import Psarc
 from test_import_iso import mini_iso
+from test_patch_features import mini_archive
 
 ROOT=Path(__file__).resolve().parents[1]
 TESTED=ROOT/'work/poc/backlog_margin_20260913'
@@ -50,7 +51,8 @@ class BacklogTests(unittest.TestCase):
     def fixture(self,root):
         target=root/'game/USRDIR/PSARC';target.mkdir(parents=True)
         (target.parent.parent/'PARAM.SFO').write_bytes(b'BLJS10335')
-        (target/'Logic.psarc.sdat').write_bytes(b'Untouched logic')
+        mini_archive(root/'logic.psarc')
+        sdat.encrypt(root/'logic.psarc',target/'Logic.psarc.sdat',TEMPLATE,verbose=False)
         layout_archive(root/'layout.psarc',self.before)
         encrypted=target/'General2d.psarc.sdat';sdat.encrypt(root/'layout.psarc',encrypted,TEMPLATE,verbose=False)
         os.utime(encrypted,ns=(1461994388000000000,1461994388000000000))
@@ -74,7 +76,7 @@ class BacklogTests(unittest.TestCase):
     def test_fix_only_folder_install_restore_and_skip(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);target,project=self.fixture(root);archive=target/'General2d.psarc.sdat'
-            before=digest(archive);stamp=archive.stat().st_mtime_ns
+            before=digest(archive);stamp=archive.stat().st_mtime_ns;logic_before=digest(target/'Logic.psarc.sdat')
             manifest=prepare_patch(project,'en',[target],root/'build',keep_plain=True)
             doc=json.loads(manifest.read_text());self.assertEqual(doc['review'],[])
             self.assertEqual([a['name'] for a in doc['archives']],['General2d']);self.assertEqual(digest(archive),before)
@@ -88,13 +90,14 @@ class BacklogTests(unittest.TestCase):
             self.assertEqual(digest(archive),fixed)
             install_patch(manifest,restore=True,closed_check=lambda:None)
             self.assertEqual(digest(archive),before);self.assertEqual(archive.stat().st_mtime_ns,stamp)
-            self.assertEqual((target/'Logic.psarc.sdat').read_bytes(),b'Untouched logic')
+            self.assertEqual(digest(target/'Logic.psarc.sdat'),logic_before)
             self.assertFalse(project.path.exists())
-            with self.assertRaisesRegex(ValueError,'no English edits'):prepare_patch(project,'en',[target],root/'disabled',backlog=False)
+            no_fix=prepare_patch(project,'en',[target],root/'disabled',backlog=False)
+            self.assertEqual(json.loads(no_fix.read_text())['archives'],[])
 
     def test_fix_only_iso_and_no_changes_on_second_build(self):
         with tempfile.TemporaryDirectory() as tmp:
-            root=Path(tmp);target,project=self.fixture(root);source=root/'source.iso';mini_iso(source)
+            root=Path(tmp);target,project=self.fixture(root);source=root/'source.iso';mini_iso(source,(target/'Logic.psarc.sdat').read_bytes())
             add_iso_archive(source,(target/'General2d.psarc.sdat').read_bytes());before=digest(source)
             manifest=prepare_iso_patch(project,'en',source,root/'build');output=root/'fixed.iso'
             result=write_patched_iso(manifest,output)

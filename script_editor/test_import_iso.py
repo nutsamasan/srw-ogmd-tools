@@ -20,15 +20,17 @@ from dialogs import PatchDialog
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'PS3/Super Robot Taisen OG - The Moon Dwellers (Japan).iso'
 
-def mini_iso(path):
+def mini_iso(path,logic_payload=None):
+    logic_payload=logic_payload if logic_payload is not None else b'NPD\0'.ljust(64,b'L')
+    assert len(logic_payload)<=10*2048
     def record(name,sector,size,directory=False,multi=False):
         name=name if isinstance(name,bytes) else name.encode();n=33+len(name)+(len(name)%2==0);rec=bytearray(n);rec[0]=n
         struct.pack_into('<I',rec,2,sector);struct.pack_into('>I',rec,6,sector);struct.pack_into('<I',rec,10,size);struct.pack_into('>I',rec,14,size)
         rec[25]=(2 if directory else 0)|(128 if multi else 0);rec[28:32]=b'\1\0\0\1';rec[32]=len(name);rec[33:33+len(name)]=name;return rec
     data=bytearray(160*2048);pvd=bytearray(2048);pvd[:7]=b'\1CD001\1';struct.pack_into('<I',pvd,80,160);struct.pack_into('>I',pvd,84,160);pvd[128:132]=b'\0\x08\x08\0';pvd[156:190]=record(b'\0',24,2048,True);data[16*2048:17*2048]=pvd;data[17*2048:17*2048+7]=b'\xffCD001\1'
-    for sector,records in [(24,[record('PS3_GAME',25,2048,True)]),(25,[record('PARAM.SFO;1',100,32),record('USRDIR',26,2048,True)]),(26,[record('PSARC',27,2048,True)]),(27,[record('LOGIC_PSARC.SDAT;1',110,64),record('BATTLE_PSARC.SDAT;1',120,2048,multi=True),record('BATTLE_PSARC.SDAT;1',124,256)])]:
+    for sector,records in [(24,[record('PS3_GAME',25,2048,True)]),(25,[record('PARAM.SFO;1',100,32),record('USRDIR',26,2048,True)]),(26,[record('PSARC',27,2048,True)]),(27,[record('LOGIC_PSARC.SDAT;1',110,len(logic_payload)),record('BATTLE_PSARC.SDAT;1',120,2048,multi=True),record('BATTLE_PSARC.SDAT;1',124,256)])]:
         content=b''.join(records);data[sector*2048:sector*2048+len(content)]=content
-    data[100*2048:100*2048+32]=b'\0PSFBLJS10335'.ljust(32,b'\0');data[110*2048:110*2048+64]=b'NPD\0'.ljust(64,b'L')
+    data[100*2048:100*2048+32]=b'\0PSFBLJS10335'.ljust(32,b'\0');data[110*2048:110*2048+len(logic_payload)]=logic_payload
     data[120*2048:121*2048]=b'NPD\0'.ljust(2048,b'B');data[124*2048:124*2048+256]=b'C'*256
     path.write_bytes(data)
 
