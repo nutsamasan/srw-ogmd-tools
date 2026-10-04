@@ -29,6 +29,9 @@ class CardCatalog:
         self.identity = sha(raw)
         self.cards = {c['id']: c for c in doc['cards']}
         self.previous_libraries = doc.get('previous_libraries', {})
+        from gilliam_title_correction import correct_title_label
+        for card in self.cards.values():
+            card['label'] = correct_title_label(card['label'])
 
     def card(self, key):
         if key not in self.cards:

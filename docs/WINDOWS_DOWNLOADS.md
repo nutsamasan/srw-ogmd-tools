@@ -7,8 +7,8 @@ Open [the latest release](https://github.com/nutsamasan/srw-ogmd-tools/releases/
 | `OGMD-Save-Editor-1.6-windows-x64.zip` | Save Editor 1.6 | Its `.exe` |
 | `OGMD-Pilot-Editor-1.1-windows-x64.zip` | Pilot Editor 1.1 | Its `.exe` |
 | `OGMD-Mech-Skill-Patcher-1.0-windows-x64.zip` | Mech Skill Patcher 1.0 | Its `.exe` |
-| `OGMD-Script-Editor-3.18-windows-x64.zip` | Script Editor, corpus, previews, built-in patcher data | `Start Script Editor.cmd` |
-| `OGMD-Full-English-Patcher-1.6.5-windows-x64.zip` | Full English Patcher and complete patch data | Its `.exe` |
+| `OGMD-Script-Editor-3.19-windows-x64.zip` | Script Editor, corpus, previews, built-in patcher data | `Start Script Editor.cmd` |
+| `OGMD-Full-English-Patcher-1.6.6-windows-x64.zip` | Full English Patcher and complete patch data | Its `.exe` |
 
 1. On 64-bit Windows 10 or 11, right-click the downloaded ZIP and choose **Extract All**.
 2. Open the extracted folder and launch the tool listed above.

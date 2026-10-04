@@ -1,8 +1,8 @@
 # Author's edited script example
 
-This is nutsamasan's saved Script Editor project, shared as an example on October 4, 2026: **1,995 edited rows, 2,036 edited fields, and 183 collections**. It includes English dialogue, speaker names, battle text, game names, glossary text, and location corrections.
+This is nutsamasan's saved Script Editor project, shared as an example on October 5, 2026: **2,440 edited rows, 2,506 edited fields, and 184 collections**. It includes English dialogue, speaker names, battle text, game names, glossary text, and location corrections.
 
-The complete Script Editor 3.18 ZIP includes this folder at `examples/edited-script`. You can also download the files from this repository. The example uses the English/Japanese library bundled with that editor; its source checksums are retained.
+The complete Script Editor 3.19 ZIP includes this folder at `examples/edited-script`. You can also download the files from this repository. The example uses the English/Japanese library bundled with that editor; its source checksums are retained.
 
 ## Load the example in Script Editor
 
@@ -16,7 +16,7 @@ The example is optional and is loaded through Import scripts. It does not need t
 
 ## Build with the example
 
-After importing, open **Full English patcher** and choose **Use current editor edits**. Alternatively, select this folder's `patch_edits.json` in **Editor corrections** in the standalone Full English Patcher 1.6.5. Choose your compatible Japanese PS3 BLJS10335 game copy and a new output location, then follow the patcher's build and verification steps.
+After importing, open **Full English patcher** and choose **Use current editor edits**. Alternatively, select this folder's `patch_edits.json` in **Editor corrections** in the standalone Full English Patcher 1.6.6. Choose your compatible Japanese PS3 BLJS10335 game copy and a new output location, then follow the patcher's build and verification steps.
 
 `patch_edits.json` is for the patcher; `edits.json` is for Import scripts. `edited-lines.txt` is a readable list of the edited fields with stable row IDs. `example-manifest.json` records the counts, source identity, file checksums, and validation.
 

@@ -8,7 +8,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = {'script': 'OGMD-Script-Editor-3.18', 'full': 'OGMD-Full-English-Patcher-1.6.5'}
+NAMES = {'script': 'OGMD-Script-Editor-3.19', 'full': 'OGMD-Full-English-Patcher-1.6.6'}
 
 
 def sha(path):
@@ -70,17 +70,17 @@ def assemble(key, gui_dir, data_dir, output):
         extract(patch_data, NAMES['full'] + '/data', home / 'full_patcher' / 'data')
         inputs[patch_data.name] = sha(patch_data)
         (home / 'Start Script Editor.cmd').write_text(
-            '@echo off\nstart "" "%~dp0Editor\\OGMD-Script-Editor-3.18.exe"\n', encoding='ascii')
-        instructions = '''OGMD Script Editor 3.18 - complete portable package
+            '@echo off\nstart "" "%~dp0Editor\\OGMD-Script-Editor-3.19.exe"\n', encoding='ascii')
+        instructions = '''OGMD Script Editor 3.19 - complete portable package
 
 1. Extract the entire ZIP.
 2. Double-click Start Script Editor.cmd.
 
 The program, English/Japanese script corpus, preview resources, runtime
-support and Full English Patcher 1.6.5 data are all included. No separate
+support and Full English Patcher 1.6.6 data are all included. No separate
 data download or Python installation is needed.
 
-You can also open Editor/OGMD-Script-Editor-3.18.exe directly. Keep the Editor
+You can also open Editor/OGMD-Script-Editor-3.19.exe directly. Keep the Editor
 and full_patcher folders together. Full English patcher and Embed font /
 battle text fix buttons automatically use the included full_patcher/data.
 To build a full English copy with your edits, choose Use current editor edits.
@@ -91,12 +91,12 @@ Choose Import scripts, select examples/edited-script/edits.json, then preview
 and import the changes. Read examples/edited-script/README.md for instructions.
 '''
     else:
-        instructions = '''OGMD Full English Patcher 1.6.5 - complete portable package
+        instructions = '''OGMD Full English Patcher 1.6.6 - complete portable package
 
 1. Extract the entire ZIP.
-2. Open OGMD-Full-English-Patcher-1.6.5.exe.
+2. Open OGMD-Full-English-Patcher-1.6.6.exe.
 
-The program and complete 1.6.5 patching data are included. No separate data
+The program and complete 1.6.6 patching data are included. No separate data
 download or Python installation is needed. Keep data and _internal beside
 the executable. Release data folder is detected automatically.
 
@@ -104,6 +104,8 @@ Choose your supported Japanese PS3 BLJS10335 01.00 ISO or complete game
 folder, choose a NEW output location, then use Build and verify patch and
 Create English output.
 '''
+    if key == 'full':
+        instructions += "\nThe author's current script edits are in examples/edited-script. Select its\npatch_edits.json in Editor corrections to include those edits in your build.\n"
     instructions += '''
 Keep your own game/save backups. Patching requires your own compatible game
 copy; a complete game ISO or disc folder is not included.
@@ -112,17 +114,16 @@ Tool source is GPLv3. Game-derived script, translation and support resources
 retain their original ownership and are not relicensed as GPL.
 
 Project: https://github.com/nutsamasan/srw-ogmd-tools
-Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-03
+Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-05
 '''
     (home / 'START_HERE.txt').write_text(instructions, encoding='utf8')
     if app_home != home:
         (app_home / 'START_HERE.txt').write_text(instructions, encoding='utf8')
-    if key == 'script':
-        shutil.copytree(ROOT / 'examples' / 'edited-script', home / 'examples' / 'edited-script')
+    shutil.copytree(ROOT / 'examples' / 'edited-script', home / 'examples' / 'edited-script')
     # DATA_SETUP was the old two-download guide. The complete package uses
     # START_HERE instead; regenerate per-file data checksums for this layout.
     data_roots = ([app_home / 'assets', app_home / 'script_export', home / 'full_patcher' / 'data', home / 'examples']
-                  if key == 'script' else [home / 'data'])
+                  if key == 'script' else [home / 'data', home / 'examples'])
     entries = []
     for folder in data_roots:
         for path in sorted(folder.rglob('*')):
@@ -144,8 +145,7 @@ Release: https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-0
                 packaging_source_revision=package_revision, input_archives=inputs,
                 program_and_data_included=True, original_game_required=True,
                 launch='Start Script Editor.cmd' if key == 'script' else name+'.exe')
-    if key == 'script':
-        info['edited_script_example'] = json.loads((home / 'examples/edited-script/example-manifest.json').read_text(encoding='utf8'))
+    info['edited_script_example'] = json.loads((home / 'examples/edited-script/example-manifest.json').read_text(encoding='utf8'))
     (home / 'PACKAGE_INFO.json').write_text(json.dumps(info, indent=2)+'\n', encoding='utf8')
     archive = output / (name + '-windows-x64.zip')
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:

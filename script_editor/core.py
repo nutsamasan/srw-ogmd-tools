@@ -67,6 +67,11 @@ class Corpus:
                 add(c['folder'],c['title_en'],c['group'],c)
                 self.extension_hashes[c['folder']]=c['sha256']
                 if c['group']!='Location banners':self.fixed_hashes[c['folder']]=c['sha256']
+        from gilliam_title_correction import correct_title_label
+        for collection in self.collections:
+            collection['title'] = correct_title_label(collection['title'])
+            if 'title_en' in collection['meta']:
+                collection['meta']['title_en'] = correct_title_label(collection['meta']['title_en'])
         self.cache={};self.by_key={c['key']:c for c in self.collections}
 
     def load(self,key):
@@ -76,6 +81,13 @@ class Corpus:
             if key in self.extension_hashes and sha(raw)!=self.extension_hashes[key]:raise ValueError('Game-data source changed: '+key)
             ids=[r['id'] for r in doc['rows']]
             if len(ids)!=len(set(ids)):raise ValueError('Duplicate row IDs in '+key)
+            from gilliam_title_correction import correct_title_label
+            for row in doc['rows']:
+                for field in ('label_en', 'label_jp'):
+                    if field in row: row[field] = correct_title_label(row[field])
+            for metadata in ('meta', 'metadata'):
+                if 'title_en' in doc.get(metadata, {}):
+                    doc[metadata]['title_en'] = correct_title_label(doc[metadata]['title_en'])
             self.cache[key]=(doc,sha(raw))
         return self.cache[key]
 

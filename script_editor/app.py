@@ -218,7 +218,7 @@ class Editor(QMainWindow):
         self.weapon_units={r['fixed_logical']:r for r in corpus.load('06_Game_data/Mech_names')[0]['rows']}
         self.metrics=NativeMetrics(ASSETS/'font.bin');self.key=None;self.row_index=None;self.loading=False
         self.setLocale(QLocale.c())
-        self.setWindowTitle('OGMD Script Editor v3.18');self.resize(1530,960);self.setMinimumSize(1100,760)
+        self.setWindowTitle('OGMD Script Editor v3.19');self.resize(1530,960);self.setMinimumSize(1100,760)
         self.speaker_refresh=QTimer(self);self.speaker_refresh.setSingleShot(True);self.speaker_refresh.setInterval(250);self.speaker_refresh.timeout.connect(self.refresh_battle_library)
         self.autosave=QTimer(self);self.autosave.setSingleShot(True);self.autosave.setInterval(1500);self.autosave.timeout.connect(self.save)
         root=QWidget();self.setCentralWidget(root);layout=QVBoxLayout(root);layout.setContentsMargins(18,14,18,10);layout.setSpacing(12)
@@ -712,11 +712,16 @@ def main():
             full.data.setText(str(HOME.parent/'full_patcher/data'))
             release=package_info(full.data.text())
             assert release['version']==2 and release.get('movie') and release.get('custom_notice')
-            assert full.windowTitle()=='OGMD Full English Patcher 1.6.5'
+            assert full.windowTitle()=='OGMD Full English Patcher 1.6.6'
             from pilot_development import validate_release_fix
             pilot_fix=validate_release_fix(release)
             from stage_title_correction import validate_release_fix as validate_stage_titles
             stage_fix=validate_stage_titles(release)
+            from gilliam_title_correction import AFTER as gilliam_title, validate_release_fix as validate_gilliam
+            gilliam_fix=validate_gilliam(release)
+            gilliam_key=next(c['key'] for c in corpus.collections if c['meta'].get('scenario_id')==21 and c['group']=='Stages')
+            assert gilliam_title in corpus.by_key[gilliam_key]['title']
+            assert corpus.load(gilliam_key)[0]['metadata']['title_en']==gilliam_title
             assert release.get('battle_caption_limits')==BATTLE_CAPTION_LIMITS
             assert release.get('battle_fit_visual_tested') and release.get('diagnostic_recorder') is False
             assert 'The reported Azuki battle line was also confirmed in game' in full.details.toPlainText()
@@ -838,7 +843,10 @@ def main():
             compiled,card_review=compile_entry(card_native,card_items,'en')
             assert compiled==catalog().native('st_000',png) and card_review[0]['title_card']
             cards.project.reset('st_000','en');assert cards.project.count()==0;cards.close()
-            atomic_json(args.self_check,dict(status='passed',version='3.18',backlog_fix_default=True,runtime_workflow=runtime_check,collections=len(corpus.collections),
+            assert gilliam_title in catalog().card('st_021')['label']
+            window.open_line(gilliam_key,corpus.load(gilliam_key)[0]['rows'][0]['id']);app.processEvents()
+            window.grab().save(str(args.self_check.with_name(args.self_check.stem+'_gilliam.png')))
+            atomic_json(args.self_check,dict(status='passed',version='3.19',backlog_fix_default=True,runtime_workflow=runtime_check,collections=len(corpus.collections),
                 title_card_sheets=115,title_card_preview_loaded=True,title_card_save_compile_reset_verified=True,
                 corrected_st084_png_sha256=ST084_PNG_SHA256,
                 unit_data_compatibility=unit_data_check,
@@ -847,9 +855,10 @@ def main():
                 native_font_loaded=True,native_reference_width=306.75,source_rows_loaded=160,
                 global_search_loaded=True,native_patch_crypto_loaded=True,
                 import_and_undo_passed=True,iso_workflow_loaded=True,local_iso_indexes_verified=iso_checked,lossless_compression_loaded=True,dialogue_pool_compaction_loaded=True,
-                confirmed_apostrophe_spacing=True,full_game_patcher_available=True,embedded_patcher_version='1.6.5',
+                confirmed_apostrophe_spacing=True,full_game_patcher_available=True,embedded_patcher_version='1.6.6',
                 seishin_name_description_editor=True,seishin_commands=44,
                 stage_titles_corrected=stage_fix['count'],stage_title=stage_fix['title'],
+                gilliam_stage_title=gilliam_fix['title'],gilliam_title_fields_corrected=2,gilliam_shared_title_strings_corrected=1,
                 pilot_development_descriptions_corrected=pilot_fix['count'],pilot_development_user_confirmed=pilot_fix['user_confirmed_in_game'],
                 battle_caption_limits=BATTLE_CAPTION_LIMITS,battle_fit_user_confirmed=True,diagnostic_recorder=False,
                 release_format=release['version'],english_intro=bool(release.get('movie')),custom_notice=bool(release.get('custom_notice')),current_editor_edits_verified=True,

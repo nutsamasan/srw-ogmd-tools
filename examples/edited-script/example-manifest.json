@@ -1,21 +1,21 @@
 {
-  "snapshot_date": "2026-10-04",
+  "snapshot_date": "2026-10-05",
   "corpus_identity": "52a3de1a8e6b9d55287174b6eb23dccb928a1667208534d0d3e4bb46f5885370",
-  "edited_collections": 183,
-  "edited_rows": 1995,
-  "edited_fields": 2036,
+  "edited_collections": 184,
+  "edited_rows": 2440,
+  "edited_fields": 2506,
   "native_patch_groups": 191,
-  "patch_payload_sha256": "e61aa72d9deecb03e1a2544633cb707b3e855389894e4227f2571b1b11353330",
+  "patch_payload_sha256": "749ff75a0c203da77e945989cfd200ee2061666410134543e73cedf63fdb1122",
   "files": {
-    "edits.json": "360121e0552574e6d2c106f52ad6a48daaed544c09b0d22e7d7cf1c55a0227d2",
-    "patch_edits.json": "070b22ae7675b26894caf0ed8f703d9bbbae54bb8b60450176c463abb61341fa",
-    "edited-lines.txt": "fb351e59457345e109ef198a0dc06227b91bb49e8f615f004c362cd5dd3e1410"
+    "edits.json": "6a8159f4b5dd9378a2747983c490d6a7d77fc17abc2826cb4815d8f3191bddf2",
+    "patch_edits.json": "4378a39c7ea40bbc0c1826c19e6ae8a6965e957a2c669f56fdf9493dfbd1ce0d",
+    "edited-lines.txt": "079b2427dd3a749a01e892740e9fd5121ae4e1147b4bed17586a82c936441708"
   },
   "validation": {
     "import_save_reload_matches_saved_project": true,
     "repeat_import_has_no_changes": true,
     "import_undo_restores_empty_project": true,
-    "patch_bundle_accepted_by_release": "1.6.5",
+    "patch_bundle_accepted_by_release": "1.6.6",
     "original_saved_project_unchanged": true,
     "fresh_game_boot_tested": false
   }

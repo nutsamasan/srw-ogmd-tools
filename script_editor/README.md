@@ -1,4 +1,6 @@
-# OGMD Script Editor v3.18
+# OGMD Script Editor v3.19
+
+Version 3.19 corrects scenario 21 to **GILLIAM'S UNDERTAKING** in the library, title-card labels, and native menu/save title. Full English Patcher 1.6.6 includes it in new builds. Existing saved text and artwork edits retain their source fingerprints and folder keys. The stage-start artwork already has the correct spelling.
 
 Version 3.18 includes the scenario 40 **HAGANE'S CRISIS** correction in the
 built-in Full English Patcher 1.6.5. English **Patch edits** builds also correct
@@ -23,9 +25,9 @@ reference; verify the final appearance after a fresh game boot.
 
 Version 3.17 corrects all ten Pilot Development stat and terrain descriptions. Both lines now display completely, with line lengths fitted to the menu box. The fix was confirmed in RPCS3. The built-in Full English Patcher 1.6.5 includes it in new full translation builds.
 
-**Public download:** get `OGMD-Script-Editor-3.18-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01). This single ZIP includes the editor, English/Japanese corpus, preview resources, and Full English Patcher data. Extract the entire ZIP and double-click `Start Script Editor.cmd`. Keep its `Editor` and `full_patcher` folders together. See [package setup](../docs/DATA_DOWNLOADS.md).
+**Public download:** get `OGMD-Script-Editor-3.19-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-05). This single ZIP includes the editor, English/Japanese corpus, preview resources, and Full English Patcher data. Extract the entire ZIP and double-click `Start Script Editor.cmd`. Keep its `Editor` and `full_patcher` folders together. See [package setup](../docs/DATA_DOWNLOADS.md).
 
-Double-click **OGMD Script Editor.exe** (updated to v3.18) or **OGMD Script Editor v3.18.exe**. Save and close the older editor first; your existing `edits/project.json` is reused automatically. Earlier versioned executables are retained.
+Double-click **OGMD Script Editor.exe** (updated to v3.19) or **OGMD Script Editor v3.19.exe**. Save and close the older editor first; your existing `edits/project.json` is reused automatically. Earlier versioned executables are retained.
 
 Version 3.18 fixes `Fixed game records differ: WeaponData_name:0366` on installed data customized with the Save Editor's weapon tool. Weapon name edits preserve base attack, minimum/maximum range, EN cost and ammo. Only these six bytes per supported weapon are exempt from the stock fingerprint; invalid ranges, changed owners/slots, other weapon properties and dummy-record edits are still rejected. Pilot settings and mech-skill compatibility remain included. You do not need to restore weapon defaults before building a text patch.
 

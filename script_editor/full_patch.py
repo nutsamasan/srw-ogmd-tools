@@ -34,11 +34,14 @@ def package_info(data):
         if digest(data/file)!=doc[key]:raise ValueError('Release asset checksum failed: '+file)
     if doc.get('font_sha256') and digest(data/'font.bin')!=doc['font_sha256']:raise ValueError('Release font checksum failed.')
     package_movie(data,doc)
-    if doc.get('release') in ('OGMD Full English 1.6.4','OGMD Full English 1.6.5'):
+    if doc.get('release') in ('OGMD Full English 1.6.4','OGMD Full English 1.6.5','OGMD Full English 1.6.6'):
         from pilot_development import validate_release_fix
         validate_release_fix(doc)
-    if doc.get('release') == 'OGMD Full English 1.6.5':
+    if doc.get('release') in ('OGMD Full English 1.6.5','OGMD Full English 1.6.6'):
         from stage_title_correction import validate_release_fix
+        validate_release_fix(doc)
+    if doc.get('release') == 'OGMD Full English 1.6.6':
+        from gilliam_title_correction import validate_release_fix
         validate_release_fix(doc)
     return doc
 

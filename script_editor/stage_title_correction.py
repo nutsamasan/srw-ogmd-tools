@@ -21,19 +21,22 @@ def validate_release_fix(release):
 
 def fix_english_stage_titles(source):
     """Leave untranslated Japanese tables alone in an English edits-only build."""
+    from gilliam_title_correction import fix_gilliam_title
+    source, gilliam_review = fix_gilliam_title(source, english_only=True)
     from fixed_data import parse_fixed
     fixed = parse_fixed(source)
     if len(fixed.logical_indices) <= 40:
-        return source, []
+        return source, gilliam_review
     physical = fixed.logical_indices[40]
     if physical == 0xffffffff or physical >= len(fixed.records):
-        return source, []
+        return source, gilliam_review
     if len(fixed.records[physical]) != 20:
-        return source, []
+        return source, gilliam_review
     indices = [fixed.records[physical][offset] for offset in (3, 5)]
     if not any(fixed.strings[index] in (BEFORE, AFTER) for index in indices):
-        return source, []
-    return fix_stage_titles(source)
+        return source, gilliam_review
+    result, review = fix_stage_titles(source)
+    return result, gilliam_review + review
 
 
 def fix_stage_titles(source):

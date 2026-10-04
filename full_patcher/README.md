@@ -1,4 +1,6 @@
-# OGMD Full English Patcher 1.6.5
+# OGMD Full English Patcher 1.6.6
+
+Version 1.6.6 corrects scenario 21's native menu/save title to **GILLIAM'S UNDERTAKING**, preserving the Hagane and Pilot Development corrections. The stage-start artwork already has the correct spelling.
 
 Version 1.6.5 corrects both native title fields for scenario 40 to
 **HAGANE'S CRISIS**, including the intermission/save-screen title. It preserves
@@ -8,7 +10,7 @@ Seishin names and descriptions in a new full English output.
 
 Version 1.6.5 corrects all ten Pilot Development stat and terrain descriptions. Both lines now display completely, with line lengths fitted to the menu box. The fix was confirmed in RPCS3. The correction is included automatically in new full translation builds.
 
-**Public download:** get `OGMD-Full-English-Patcher-1.6.5-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-01). This single ZIP includes the program and complete 1.6.5 patch data. Extract it and open `OGMD-Full-English-Patcher-1.6.5.exe`. Keep the supplied `data` folder beside the EXE, then select your own supported Japanese game copy. See [package setup](../docs/DATA_DOWNLOADS.md).
+**Public download:** get `OGMD-Full-English-Patcher-1.6.5-windows-x64.zip` from [Releases](https://github.com/nutsamasan/srw-ogmd-tools/releases/tag/gui-2026-10-05). This single ZIP includes the program and complete 1.6.5 patch data. Extract it and open `OGMD-Full-English-Patcher-1.6.5.exe`. Keep the supplied `data` folder beside the EXE, then select your own supported Japanese game copy. See [package setup](../docs/DATA_DOWNLOADS.md).
 
 Version 1.6.5 includes the battle-dialogue fitting fix confirmed in RPCS3 on
 Azuki's “All hands, brace for impact…” line. It applies to the shared battle

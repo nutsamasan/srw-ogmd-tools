@@ -1,4 +1,4 @@
-Author's saved script example - 2026-10-04
+Author's saved script example - 2026-10-05
 Only saved edited fields are listed; use edits.json to import them.
 
 ========================================================================
@@ -645,9 +645,16 @@ Eun
 [S101:0018] speaker_en
 Eun
 
+[S101:0018] en
+「Captain,I received a communication from Major
+　Gilliam」
+
 [S101:0020] en
 「The situation has changed.Commander Laker Randolf
 　will explain the details after your return」
+
+[S101:0020] speaker_en
+Gilliam
 
 [S101:0054] speaker_en
 Laker
@@ -702,6 +709,11 @@ Laker
 
 [S101:0365] speaker_en
 Laker
+
+[S101:0365] en
+「Yes.From the advice by Major Gilliam,we decided
+　to remove the seal on Geant Chevalier to deploy 
+　it to sites 」
 
 [S101:0366] speaker_en
 Laker
@@ -772,6 +784,51 @@ Laker
 「This is getting off track so I'll end it here for now.
 　By the way,the Gadiswordians are friendly from the 
 　beginning,unlike those aliens from the past」
+
+[S101:0003] speaker_en
+Gilliam
+
+[S101:0005] speaker_en
+Gilliam
+
+[S101:0006] speaker_en
+Gilliam
+
+[S101:0017] speaker_en
+Gilliam
+
+[S101:0034] en
+「They were summoned by Major Gilliam for the
+　continuation of the inquiry」
+
+[S101:0055] speaker_en
+Gilliam
+
+[S101:0068] speaker_en
+Gilliam
+
+[S101:0070] speaker_en
+Gilliam
+
+[S101:0230] speaker_en
+Gilliam
+
+[S101:0235] speaker_en
+Gilliam
+
+[S101:0244] speaker_en
+Gilliam
+
+[S101:0261] speaker_en
+Gilliam
+
+[S101:0262] speaker_en
+Gilliam
+
+[S101:0337] en
+「...May I ask what kind of mission is it? I didn't
+　hear from Major Gilliam about the details when he
+　requested for us...」
 
 ========================================================================
 07 · Space · FRAGMENTS OF DEFENSIVE SWORD · S077
@@ -1116,6 +1173,9 @@ Irm
 「Mekibos,regarding the Hagane's spatial warp device
 　requested by the Joint Command Headquarters...」
 
+[S010:0206] speaker_en
+Gilliam
+
 [S010:0342] en
 「It's likely a ruse.We'll split the Steel Dragon Squad
 　into two groups to deal with it.Hagane is standing
@@ -1231,6 +1291,10 @@ Laker
 [S010:0284] speaker_en
 Laker
 
+[S010:0284] en
+「Major Gilliam,I've been told that she's awake,
+　can we try to ask her some questions?」
+
 [S010:0343] speaker_en
 Laker
 
@@ -1296,6 +1360,9 @@ Laker
 [S010:0199] en
 「So they must know about the Gadisword too」
 
+[S010:0199] speaker_en
+Gilliam
+
 [S010:0200] en
 「On the other hand,does the Gadisword know about
 　Gleiknr?」
@@ -1312,6 +1379,195 @@ Laker
 [S010:0321] en
 「You came from Rubble Pile of Gadisword.
 　Am I right?」
+
+[S010:0321] speaker_en
+Gilliam
+
+[S010:0063] en
+「Major Gilliam.Has something happened?」
+
+[S010:0065] speaker_en
+Gilliam
+
+[S010:0067] speaker_en
+Gilliam
+
+[S010:0087] en
+「No,the Training Group was not there.The ones
+　battling at that time were Gilliam and Calvina,
+　Melua,the Akatsuki siblings with Touya and Katia」
+
+[S010:0110] en
+「According to Gilliam...at the end of the Sealing War,
+　the Zovork weapon used by <Zezenan> was left
+　behind in Space...」
+
+[S010:0170] speaker_en
+Gilliam
+
+[S010:0179] speaker_en
+Gilliam
+
+[S010:0181] speaker_en
+Gilliam
+
+[S010:0185] speaker_en
+Gilliam
+
+[S010:0194] speaker_en
+Gilliam
+
+[S010:0196] speaker_en
+Gilliam
+
+[S010:0203] speaker_en
+Gilliam
+
+[S010:0208] en
+「Major Gilliam」
+
+[S010:0209] speaker_en
+Gilliam
+
+[S010:0212] speaker_en
+Gilliam
+
+[S010:0213] speaker_en
+Gilliam
+
+[S010:0215] speaker_en
+Gilliam
+
+[S010:0217] speaker_en
+Gilliam
+
+[S010:0219] speaker_en
+Gilliam
+
+[S010:0272] speaker_en
+Gilliam
+
+[S010:0277] speaker_en
+Gilliam
+
+[S010:0285] speaker_en
+Gilliam
+
+[S010:0287] speaker_en
+Gilliam
+
+[S010:0293] speaker_en
+Gilliam
+
+[S010:0295] speaker_en
+Gilliam
+
+[S010:0297] speaker_en
+Gilliam
+
+[S010:0299] speaker_en
+Gilliam
+
+[S010:0302] speaker_en
+Gilliam
+
+[S010:0305] en
+「Major Gilliam...Who's that girl?」
+
+[S010:0309] speaker_en
+Gilliam
+
+[S010:0316] speaker_en
+Gilliam
+
+[S010:0318] en
+「My name is Gilliam Jaeger.
+　And you...Are you Fairey Klivia?」
+
+[S010:0318] speaker_en
+Gilliam
+
+[S010:0323] speaker_en
+Gilliam
+
+[S010:0326] speaker_en
+Gilliam
+
+[S010:0327] speaker_en
+Gilliam
+
+[S010:0329] speaker_en
+Gilliam
+
+[S010:0331] speaker_en
+Gilliam
+
+[S010:0332] speaker_en
+Gilliam
+
+[S010:0334] speaker_en
+Gilliam
+
+[S010:0531] speaker_en
+Gilliam
+
+[S010:0549] en
+「Yes,indeed.
+　I'll inform Gilliam to share any information on the
+　hemisphere once they have something」
+
+[S010:0626] en
+（As I've already agreed with Major Gilliam on the
+　the background story,this should do it...）
+
+[S010:0627] en
+（But at that time,Major Gilliam and Ensign Saika
+　were with us,and there wasn't a nurse in sight...）
+
+[S010:0630] speaker_en
+Gilliam
+
+[S010:0632] speaker_en
+Gilliam
+
+[S010:0634] speaker_en
+Gilliam
+
+[S010:0636] speaker_en
+Gilliam
+
+[S010:0640] speaker_en
+Gilliam
+
+[S010:0641] speaker_en
+Gilliam
+
+[S010:0642] speaker_en
+Gilliam
+
+[S010:0644] speaker_en
+Gilliam
+
+[S010:0645] speaker_en
+Gilliam
+
+[S010:0646] speaker_en
+Gilliam
+
+[S010:0648] speaker_en
+Gilliam
+
+[S010:0650] speaker_en
+Gilliam
+
+[S010:0652] speaker_en
+Gilliam
+
+[S010:0653] speaker_en
+Gilliam
+
+[S010:0662] speaker_en
+Gilliam
 
 ========================================================================
 13 · Common · STEEL DRAGONS, WEST-BOUND · S013
@@ -1407,6 +1663,18 @@ Eun
 　to talk,but the Terra Federation Government and
 　Gadisword are negotiating the friendship treaty now」
 
+[S013:0092] speaker_en
+Gilliam
+
+[S013:0093] speaker_en
+Gilliam
+
+[S013:0094] speaker_en
+Gilliam
+
+[S013:0096] speaker_en
+Gilliam
+
 ========================================================================
 15 · Common · TAIPEI RUSH · S015
 01_Stages/Stage_15_Common_S015_TAIPEI_RUSH
@@ -1463,6 +1731,12 @@ Eun
 [S015:0141] en
 「In that case,put it on the Kurogane too」
 
+[S015:0067] speaker_en
+Gilliam
+
+[S015:0094] speaker_en
+Gilliam
+
 ========================================================================
 16 · Common · THE FORGOTTEN NICKNAME · S016
 01_Stages/Stage_16_Common_S016_THE_FORGOTTEN_NICKNAME
@@ -1502,6 +1776,46 @@ Ariel
 
 [S016:0035] speaker_en
 Raj
+
+[S016:0026] en
+「In any case,we have to destroy the Lamalice.
+　Gilliam,do you think Thorn will use that attack?」
+
+[S016:0027] speaker_en
+Gilliam
+
+[S016:0099] speaker_en
+Gilliam
+
+[S016:0141] speaker_en
+Gilliam
+
+[S016:0146] speaker_en
+Gilliam
+
+[S016:0151] speaker_en
+Gilliam
+
+[S016:0153] speaker_en
+Gilliam
+
+[S016:0155] speaker_en
+Gilliam
+
+[S016:0160] speaker_en
+Gilliam
+
+[S016:0167] speaker_en
+Gilliam
+
+[S016:0175] speaker_en
+Gilliam
+
+[S016:0176] speaker_en
+Gilliam
+
+[S016:0186] speaker_en
+Gilliam
 
 ========================================================================
 17 · Common · HOOK AND SWORD · S017
@@ -1598,6 +1912,83 @@ Raj
 　Phantom listen to me.
 　I can count on you,alright? Aschen」
 
+[S017:0023] en
+「That's not it,I knew that you were going to ask me
+　about this.But just as I have told Major Kai and Major
+　Gilliam,I was fooled by that man」
+
+[S017:0095] speaker_en
+Gilliam
+
+[S017:0096] speaker_en
+Gilliam
+
+[S017:0097] speaker_en
+Gilliam
+
+[S017:0098] speaker_en
+Gilliam
+
+[S017:0100] speaker_en
+Gilliam
+
+[S017:0103] speaker_en
+Gilliam
+
+[S017:0105] speaker_en
+Gilliam
+
+[S017:0106] speaker_en
+Gilliam
+
+[S017:0108] speaker_en
+Gilliam
+
+[S017:0110] speaker_en
+Gilliam
+
+[S017:0112] speaker_en
+Gilliam
+
+[S017:0113] speaker_en
+Gilliam
+
+[S017:0114] speaker_en
+Gilliam
+
+[S017:0116] speaker_en
+Gilliam
+
+[S017:0118] speaker_en
+Gilliam
+
+[S017:0120] speaker_en
+Gilliam
+
+[S017:0123] speaker_en
+Gilliam
+
+[S017:0125] speaker_en
+Gilliam
+
+[S017:0128] speaker_en
+Gilliam
+
+[S017:0130] speaker_en
+Gilliam
+
+[S017:0132] speaker_en
+Gilliam
+
+[S017:0187] en
+「There's a mix of Earth and <Zovork> Mechs present
+　By any chance,are they controlled by the Madnet
+　that was in Gilliam's report?」
+
+[S017:0262] en
+「Based on what Gilliam said,even if Debudedabide is
+　related to this,he's not the direct cause of it」
+
 ========================================================================
 18 · Common · SKULL KNIGHT · S018
 01_Stages/Stage_18_Common_S018_SKULL_KNIGHT
@@ -1652,6 +2043,18 @@ Eun
 
 [S018:0153] en
 （There is something we have to do before destroying you）
+
+[S018:0010] speaker_en
+Gilliam
+
+[S018:0015] speaker_en
+Gilliam
+
+[S018:0018] speaker_en
+Gilliam
+
+[S018:0267] speaker_en
+Gilliam
 
 ========================================================================
 20 · Common · SERENDIPITY · S020
@@ -1723,6 +2126,45 @@ Sleigh
 [S020:0167] en
 「I'd rather destroy it than let the Terrans analyze it!
 　Because Gibez Drive is the future of Gadisword!」
+
+[S020:0096] speaker_en
+Gilliam
+
+[S020:0098] speaker_en
+Gilliam
+
+[S020:0100] speaker_en
+Gilliam
+
+[S020:0102] speaker_en
+Gilliam
+
+[S020:0104] speaker_en
+Gilliam
+
+[S020:0106] speaker_en
+Gilliam
+
+[S020:0152] en
+「...Gilliam,this is a private communication」
+
+[S020:0153] speaker_en
+Gilliam
+
+[S020:0155] speaker_en
+Gilliam
+
+[S020:0213] speaker_en
+Gilliam
+
+[S020:0215] speaker_en
+Gilliam
+
+[S020:0218] speaker_en
+Gilliam
+
+[S020:0220] speaker_en
+Gilliam
 
 ========================================================================
 22 · Common · PERFORMERS · S022
@@ -1879,6 +2321,18 @@ Eun
 「Yes,I am Fairey Klivia...
 　I am of Annex from Gadisword」
 
+[S022:0165] speaker_en
+Gilliam
+
+[S022:0195] speaker_en
+Gilliam
+
+[S022:0202] speaker_en
+Gilliam
+
+[S022:0207] speaker_en
+Gilliam
+
 ========================================================================
 23 · To Paris · MASKED DELITESCENCE · S023
 01_Stages/Stage_23_To_Paris_S023_MASKED_DELITESCENCE
@@ -1916,6 +2370,21 @@ Irm
 [S023:0076] en
 「It may have something to do with Fury and
 　Gadisword...」
+
+[S023:0113] speaker_en
+Gilliam
+
+[S023:0142] speaker_en
+Gilliam
+
+[S023:0156] speaker_en
+Gilliam
+
+[S023:0159] speaker_en
+Gilliam
+
+[S023:0160] speaker_en
+Gilliam
 
 ========================================================================
 25 · To Paris · OPERATION TRIOMPHE · S025
@@ -1957,6 +2426,42 @@ Sleigh
 「If Gadisword,Gleiknr and Fury does not make any
 　significant action,we will move onto the Lamalice
 　suppression operation in Berlin ahead of schedule」
+
+[S025:0000] speaker_en
+Gilliam
+
+[S025:0002] speaker_en
+Gilliam
+
+[S025:0004] speaker_en
+Gilliam
+
+[S025:0005] speaker_en
+Gilliam
+
+[S025:0009] speaker_en
+Gilliam
+
+[S025:0010] speaker_en
+Gilliam
+
+[S025:0012] speaker_en
+Gilliam
+
+[S025:0013] speaker_en
+Gilliam
+
+[S025:0016] speaker_en
+Gilliam
+
+[S025:0018] speaker_en
+Gilliam
+
+[S025:0144] speaker_en
+Gilliam
+
+[S025:0188] speaker_en
+Gilliam
 
 ========================================================================
 26 · Common · JUA-MU ADVANCES · S026
@@ -2060,6 +2565,30 @@ Raj
 　survivors of Dark Brain,I didn't realize that these
 　fellows are active too...）
 
+[S026:0276] speaker_en
+Gilliam
+
+[S026:0293] speaker_en
+Gilliam
+
+[S026:0294] speaker_en
+Gilliam
+
+[S026:0356] speaker_en
+Gilliam
+
+[S026:0357] speaker_en
+Gilliam
+
+[S026:0360] speaker_en
+Gilliam
+
+[S026:0368] speaker_en
+Gilliam
+
+[S026:0370] speaker_en
+Gilliam
+
 ========================================================================
 27 · Common · BITE THE TRAP · S027
 01_Stages/Stage_27_Common_S027_BITE_THE_TRAP
@@ -2112,6 +2641,9 @@ Eun
 [S027:0100] en
 「As expected by the top brass,
 　Gadisword has also fallen for the bait...!」
+
+[S027:0096] speaker_en
+Gilliam
 
 ========================================================================
 28 · Common · SWORD OF A TRASCENDANT'S SOUL · S028
@@ -2183,6 +2715,36 @@ Irm
 「If that...will lead to the prevention of battles 
 　between Gadisword and Earth...」
 
+[S028:0164] speaker_en
+Gilliam
+
+[S028:0197] speaker_en
+Gilliam
+
+[S028:0211] speaker_en
+Gilliam
+
+[S028:0212] speaker_en
+Gilliam
+
+[S028:0214] speaker_en
+Gilliam
+
+[S028:0217] speaker_en
+Gilliam
+
+[S028:0241] speaker_en
+Gilliam
+
+[S028:0243] speaker_en
+Gilliam
+
+[S028:0245] speaker_en
+Gilliam
+
+[S028:0248] speaker_en
+Gilliam
+
 ========================================================================
 29 · Common · PATH TO HOPE · S029
 01_Stages/Stage_29_Common_S029_PATH_TO_HOPE
@@ -2238,6 +2800,57 @@ Laker
 
 [S029:0212] speaker_en
 Laker
+
+[S029:0059] en
+「Welcome.This will actually be our first meeting
+　isn't it,Major Gilliam Jaeger?」
+
+[S029:0060] speaker_en
+Gilliam
+
+[S029:0067] speaker_en
+Gilliam
+
+[S029:0068] en
+「Major Gilliam asked me the same question in the
+　past,but...the answer is No.I don't know their
+　details」
+
+[S029:0081] speaker_en
+Gilliam
+
+[S029:0094] speaker_en
+Gilliam
+
+[S029:0105] speaker_en
+Gilliam
+
+[S029:0109] en
+「...Incoming transmission from Major Gilliam.He will 
+　be departing from Ashuari Kreuzel branch,and 
+　will arrive here an hour later」
+
+[S029:0119] en
+「Roger that.Captain,as soon as Major Gilliam and
+　his party are back,we will return to Izu」
+
+[S029:0268] speaker_en
+Gilliam
+
+[S029:0274] speaker_en
+Gilliam
+
+[S029:0279] speaker_en
+Gilliam
+
+[S029:0296] speaker_en
+Gilliam
+
+[S029:0406] speaker_en
+Gilliam
+
+[S029:0408] speaker_en
+Gilliam
 
 ========================================================================
 31 · To the Ruins of Baral · PYRAMID OF MISGIVINGS I · S031
@@ -2518,7 +3131,7 @@ Ariel
 
 [S034:0002] en
 「Commander,we will transit to the converging
-　orbit with Kurogane designated by Major Guiliam」
+　orbit with Kurogane designated by Major Gilliam」
 
 [S034:0003] en
 「Good.I'll return to my room.
@@ -2578,6 +3191,92 @@ Ariel
 「In fact,on route to the Moon,we battled with 
 　Gadisword forces,but Fairey,Sieg and Sally didn't 
 　show any signs of rebellion...」
+
+[S034:0185] speaker_en
+Gilliam
+
+[S034:0040] en
+「...I can't share any details yet.
+　As prohibited by Major Gilliam」
+
+[S034:0077] en
+「...I can't share any details yet.
+　As prohibited by Major Gilliam」
+
+[S034:0114] en
+「...I can't share any details yet.
+　As prohibited by Major Gilliam」
+
+[S034:0142] en
+「My apologies...
+　I was told by Major Gilliam to proceed with this 
+　project in strict confidence」
+
+[S034:0184] speaker_en
+Gilliam
+
+[S034:0186] speaker_en
+Gilliam
+
+[S034:0188] speaker_en
+Gilliam
+
+[S034:0191] speaker_en
+Gilliam
+
+[S034:0193] speaker_en
+Gilliam
+
+[S034:0195] speaker_en
+Gilliam
+
+[S034:0196] speaker_en
+Gilliam
+
+[S034:0267] speaker_en
+Gilliam
+
+[S034:0326] speaker_en
+Gilliam
+
+[S034:0327] speaker_en
+Gilliam
+
+[S034:0329] speaker_en
+Gilliam
+
+[S034:0330] speaker_en
+Gilliam
+
+[S034:0332] speaker_en
+Gilliam
+
+[S034:0333] speaker_en
+Gilliam
+
+[S034:0335] speaker_en
+Gilliam
+
+[S034:0337] speaker_en
+Gilliam
+
+[S034:0338] speaker_en
+Gilliam
+
+[S034:0339] speaker_en
+Gilliam
+
+[S034:0341] speaker_en
+Gilliam
+
+[S034:0345] speaker_en
+Gilliam
+
+[S034:0346] speaker_en
+Gilliam
+
+[S034:0347] speaker_en
+Gilliam
 
 ========================================================================
 36 · Common · THOSE WHO ATTRACTS · S036
@@ -2819,6 +3518,18 @@ Almara
 「And also,to stop Helluga,to end this war between
 　the Gadisword and the Earth」
 
+[S038:0241] speaker_en
+Gilliam
+
+[S038:0261] speaker_en
+Gilliam
+
+[S038:0263] speaker_en
+Gilliam
+
+[S038:0267] speaker_en
+Gilliam
+
 ========================================================================
 39 · Common · OFFERINGS OF FUNENTAI · S039
 01_Stages/Stage_39_Common_S039_OFFERINGS_OF_FUNENTAI
@@ -2917,6 +3628,9 @@ Almara
 [S039:0031] en
 「What happened later,after the revival of Kadum
 　Hakham?」
+
+[S039:0031] speaker_en
+Gilliam
 
 [S039:0036] en
 「They exterminated Kadum Hakham through the
@@ -3178,6 +3892,9 @@ Gadisword Pilot
 　future,in the hands of weaklings,such as the
 　Terrans?」
 
+[S040:0093] speaker_en
+Gilliam
+
 ========================================================================
 41 · Common · BLOODY WHIRILWIND · S041
 01_Stages/Stage_41_Common_S041_BLOODY_WHIRILWIND
@@ -3244,6 +3961,9 @@ Irm
 [S043:0069] en
 「Sieg...We might be the only Gadiswordian
 　survivors...」
+
+[S043:0071] speaker_en
+Gilliam
 
 ========================================================================
 47 · Common · TWO WAR DEITIES · S047
@@ -3403,6 +4123,10 @@ Duvan
 [S047:0271] speaker_en
 Duvan
 
+[S047:0271] en
+「It's because of you,that I am able to
+  control Alles」
+
 [S047:0272] speaker_en
 Duvan
 
@@ -3494,6 +4218,40 @@ Duvan
 「Whatever the case,we are the only ones who are
 　able to create a new history for Gadisword」
 
+[S047:0031] speaker_en
+Gilliam
+
+[S047:0154] speaker_en
+Gilliam
+
+[S047:0194] speaker_en
+Gilliam
+
+[S047:0362] speaker_en
+Gilliam
+
+[S047:0409] speaker_en
+Gilliam
+
+[S047:0411] speaker_en
+Gilliam
+
+[S047:0417] speaker_en
+Gilliam
+
+[S047:0510] speaker_en
+Gilliam
+
+[S047:0517] speaker_en
+Gilliam
+
+[S047:0523] speaker_en
+Gilliam
+
+[S047:0535] en
+「Yeah,it's all thanks to Major Gilliam.That aside,
+　I'm sorry.It's only me,that...」
+
 ========================================================================
 Shared defeat messages
 04_Shared/Defeat_messages
@@ -3515,6 +4273,9 @@ Almara
 
 [DEAD:0012] speaker_en
 Duvan
+
+[DEAD:0050] speaker_en
+Gilliam
 
 ========================================================================
 Bank 0012 · 1108 records
@@ -3633,6 +4394,9 @@ Bank 0027 · 894 records
 [0027:0460] en
 「Get back,Ariel!」
 
+[0027:0400] en
+「I'll support you,Major Gilliam!」
+
 ========================================================================
 Bank 0028 · 891 records
 04_Shared/Battle_messages/0028
@@ -3724,9 +4488,15 @@ Bank 0113 · 2048 records
 　appeared around Cross Gate.They engaged in
 　battle with the Monitoring Fleet and Hagane」
 
+[S006:0076] speaker_en
+Gilliam
+
 [S006:0096] en
 「A battle broke out when Hagane encountered
 　<Alles Geist> within the vicinity of Cross Gate」 
+
+[S006:0096] speaker_en
+Gilliam
 
 [S006:0073] speaker_en
 Laker
@@ -3738,6 +4508,9 @@ Laker
 「So now,we will do what we can accomplish.
 　Commander Laker,have we received the
 　confirmation from Joint Command Headquarters?」
+
+[S006:0107] speaker_en
+Gilliam
 
 [S006:0108] speaker_en
 Laker
@@ -3766,6 +4539,144 @@ Laker
 [S006:0156] en
 「Isn't it 11 PM already? Let us rest.We have been
 　through 3 rounds of live combat...」
+
+[S006:0060] en
+「Nope,it seems like we'll be hearing from Major
+　Gilliam and Roar」
+
+[S006:0062] en
+「Touya,Katia,Melua.The interview with Major Gilliam
+　of Intel will start in an hour.Rest here until then」
+
+[S006:0068] speaker_en
+Gilliam
+
+[S006:0075] speaker_en
+Gilliam
+
+[S006:0078] speaker_en
+Gilliam
+
+[S006:0080] speaker_en
+Gilliam
+
+[S006:0081] speaker_en
+Gilliam
+
+[S006:0083] speaker_en
+Gilliam
+
+[S006:0085] speaker_en
+Gilliam
+
+[S006:0087] speaker_en
+Gilliam
+
+[S006:0089] speaker_en
+Gilliam
+
+[S006:0091] speaker_en
+Gilliam
+
+[S006:0094] speaker_en
+Gilliam
+
+[S006:0098] speaker_en
+Gilliam
+
+[S006:0100] speaker_en
+Gilliam
+
+[S006:0102] speaker_en
+Gilliam
+
+[S006:0104] speaker_en
+Gilliam
+
+[S006:0110] speaker_en
+Gilliam
+
+[S006:0112] speaker_en
+Gilliam
+
+[S006:0140] en
+「Yes,let's ask them to come over after the interview
+　with Major Gilliam is done」
+
+[S006:0225] speaker_en
+Gilliam
+
+[S006:0226] speaker_en
+Gilliam
+
+[S006:0228] speaker_en
+Gilliam
+
+[S006:0230] speaker_en
+Gilliam
+
+[S006:0232] speaker_en
+Gilliam
+
+[S006:0234] speaker_en
+Gilliam
+
+[S006:0236] speaker_en
+Gilliam
+
+[S006:0237] speaker_en
+Gilliam
+
+[S006:0239] speaker_en
+Gilliam
+
+[S006:0243] speaker_en
+Gilliam
+
+[S006:0244] speaker_en
+Gilliam
+
+[S006:0246] speaker_en
+Gilliam
+
+[S006:0248] speaker_en
+Gilliam
+
+[S006:0250] speaker_en
+Gilliam
+
+[S006:0252] speaker_en
+Gilliam
+
+[S006:0254] speaker_en
+Gilliam
+
+[S006:0256] speaker_en
+Gilliam
+
+[S006:0259] speaker_en
+Gilliam
+
+[S006:0260] speaker_en
+Gilliam
+
+[S006:0293] speaker_en
+Gilliam
+
+[S006:0295] speaker_en
+Gilliam
+
+[S006:0297] speaker_en
+Gilliam
+
+[S006:0299] speaker_en
+Gilliam
+
+[S006:0302] speaker_en
+Gilliam
+
+[S006:0305] speaker_en
+Gilliam
 
 ========================================================================
 07 · Earth · BEST OF PREY · S007
@@ -3815,6 +4726,18 @@ Ariel
 [S007:0055] speaker_en
 Laker
 
+[S007:0043] speaker_en
+Gilliam
+
+[S007:0046] speaker_en
+Gilliam
+
+[S007:0049] speaker_en
+Gilliam
+
+[S007:0051] speaker_en
+Gilliam
+
 ========================================================================
 09 · Earth · RESONANCE · S009
 01_Stages/Stage_09_Earth_S009_RESONANCE
@@ -3845,6 +4768,79 @@ Laker
 
 [S009:0138] speaker_en
 Laker
+
+[S009:0063] speaker_en
+Gilliam
+
+[S009:0068] speaker_en
+Gilliam
+
+[S009:0076] speaker_en
+Gilliam
+
+[S009:0094] speaker_en
+Gilliam
+
+[S009:0096] speaker_en
+Gilliam
+
+[S009:0099] speaker_en
+Gilliam
+
+[S009:0100] speaker_en
+Gilliam
+
+[S009:0101] speaker_en
+Gilliam
+
+[S009:0102] speaker_en
+Gilliam
+
+[S009:0104] speaker_en
+Gilliam
+
+[S009:0110] speaker_en
+Gilliam
+
+[S009:0134] en
+「How absurd! Major Gilliam,why did you order for
+　their deployment?」
+
+[S009:0135] speaker_en
+Gilliam
+
+[S009:0181] en
+「Geant Chevalier will handle the enemy ship.
+　Major Gilliam and others,please take care
+　of the other units」
+
+[S009:0182] speaker_en
+Gilliam
+
+[S009:0209] speaker_en
+Gilliam
+
+[S009:0210] speaker_en
+Gilliam
+
+[S009:0245] en
+「I heard from Major Gilliam.Also,I know you have
+　something you want to ask me」
+
+[S009:0266] speaker_en
+Gilliam
+
+[S009:0268] speaker_en
+Gilliam
+
+[S009:0270] speaker_en
+Gilliam
+
+[S009:0272] speaker_en
+Gilliam
+
+[S009:0274] speaker_en
+Gilliam
 
 ========================================================================
 12 · Common · NIGHT OF TRAGEDY II · S012
@@ -3908,6 +4904,13 @@ Laker
 [S012:0123] en
 「Yep.He said will go to Tesla Institute with Kurogane
 　and retrieve it」
+
+[S012:0052] speaker_en
+Gilliam
+
+[S012:0141] en
+（Major Kai doesn't know the truth.If it's Major
+　Gilliam or Captain Viletta...）
 
 ========================================================================
 14 · Common · WICKED CLOWN · S014
@@ -4002,6 +5005,9 @@ Ariel
 「Ensign Yon,please explain what Gomodkka Gleiknr,
 　who approached Gadisword,is like?」
 
+[S102:0032] speaker_en
+Gilliam
+
 [S102:0037] en
 「A war merchant would never do such a thing without
 　being paid.He must be getting Gadisword's weapons
@@ -4015,6 +5021,9 @@ Ariel
 「I agree.We want to avoid the fight with Gadisword
 　as much as possible」
 
+[S102:0095] speaker_en
+Gilliam
+
 [S102:0105] en
 「Well,if you all think that way,maybe making peace
 　with the Gadiswordians might work out well」
@@ -4024,6 +5033,21 @@ Ariel
 　Aviano base and we will have the Gadiswordians
 　disembark the ship」
 
+[S102:0035] speaker_en
+Gilliam
+
+[S102:0049] speaker_en
+Gilliam
+
+[S102:0071] speaker_en
+Gilliam
+
+[S102:0074] speaker_en
+Gilliam
+
+[S102:0078] speaker_en
+Gilliam
+
 ========================================================================
 24 · To Paris · COMMON BATTLEFRONT · S024
 01_Stages/Stage_24_To_Paris_S024_COMMON_BATTLEFRONT
@@ -4032,8 +5056,14 @@ Ariel
 「No,the decision has been made that we're to take
 　you under our charge in Hagane just like Fairey Klivia」
 
+[S024:0113] speaker_en
+Gilliam
+
 [S024:0118] en
 「It will be loaded on the Hagane and investigated」
+
+[S024:0118] speaker_en
+Gilliam
 
 [S024:0079] en
 「A bait should act like bait.」
@@ -4061,6 +5091,36 @@ Ariel
 　fight with Gadisword as much as possible.So,I
 　need your cooperation...」
 
+[S024:0123] speaker_en
+Gilliam
+
+[S024:0057] speaker_en
+Gilliam
+
+[S024:0058] speaker_en
+Gilliam
+
+[S024:0101] speaker_en
+Gilliam
+
+[S024:0103] speaker_en
+Gilliam
+
+[S024:0105] speaker_en
+Gilliam
+
+[S024:0107] speaker_en
+Gilliam
+
+[S024:0116] speaker_en
+Gilliam
+
+[S024:0120] speaker_en
+Gilliam
+
+[S024:0124] speaker_en
+Gilliam
+
 ========================================================================
 25 · To Karachi · AL-VAN'S INTENTION · S082
 01_Stages/Stage_25_To_Karachi_S082_AL_VAN_S_INTENTION
@@ -4083,6 +5143,15 @@ Eun
 
 [S082:0149] speaker_en
 Raj
+
+[S082:0151] en
+「Who knows.The marker I got from Major Gilliam could
+　be fired anytime」
+
+[S082:0285] en
+（This time,they did not use that tactics first...don't
+　think Gilliam's marker will be the one making the
+　difference）
 
 ========================================================================
 29 · Common · SIDE SCENARIO 3 · S103
@@ -4125,6 +5194,21 @@ Raj
 　Gadisword and Gleiknr's activities in Space,I'm
 　considering taking Fairey,Sieg and Sally as well」
 
+[S103:0137] speaker_en
+Gilliam
+
+[S103:0138] speaker_en
+Gilliam
+
+[S103:0140] speaker_en
+Gilliam
+
+[S103:0141] speaker_en
+Gilliam
+
+[S103:0156] speaker_en
+Gilliam
+
 ========================================================================
 30 · To the Ruins of Baral · BARRIER OF SAND · S030
 01_Stages/Stage_30_To_the_Ruins_of_Baral_S030_BARRIER_OF_SAND
@@ -4155,6 +5239,10 @@ Sleigh
 
 [S083:0268] speaker_en
 Raj
+
+[S083:0268] en
+「Ratsel-san,Major Gilliam,there's something I need
+　to inform you」
 
 [S083:0270] speaker_en
 Raj
@@ -4204,6 +5292,9 @@ Raj
 　That's why we excluded some mechs,like Ariad,which
 　will be joining Kurogane by flying over the ocean」
 
+[S083:0286] speaker_en
+Gilliam
+
 [S083:0308] en
 「A tour,you say...we've only just boarded Kurogane
 　ourselves」
@@ -4220,6 +5311,47 @@ Raj
 「And if possible,I want to stop the battle between
 　Gadisword and the Earth」
 
+[S083:0262] speaker_en
+Gilliam
+
+[S083:0264] speaker_en
+Gilliam
+
+[S083:0266] speaker_en
+Gilliam
+
+[S083:0271] speaker_en
+Gilliam
+
+[S083:0282] speaker_en
+Gilliam
+
+[S083:0288] speaker_en
+Gilliam
+
+[S083:0290] speaker_en
+Gilliam
+
+[S083:0293] en
+「As Gilliam said,there's going to be a lot of enemies
+　targeting us」
+
+[S083:0407] speaker_en
+Gilliam
+
+[S083:0438] speaker_en
+Gilliam
+
+[S083:0490] speaker_en
+Gilliam
+
+[S083:0502] en
+「That's because Major Gilliam told us to keep it
+　confidential」
+
+[S083:0528] speaker_en
+Gilliam
+
 ========================================================================
 31 · To the Moon · VAUGHT AND FAIREY · S084
 01_Stages/Stage_31_To_the_Moon_S084_VAUGHT_AND_FAIREY
@@ -4228,6 +5360,9 @@ Raj
 「I couldn't understand why Vaught requested for
 　Fairey's extradition when he attacked the Hagane 
 　the other day but...」
+
+[S084:0181] speaker_en
+Gilliam
 
 [S084:0017] en
 「Well,I have good news for Vaught-chan.It's the battleship
@@ -4289,13 +5424,22 @@ Raj
 　a glimpse of it,please tell me」
 
 [S084:0109] en
-「...As Guiliam speculated,we managed to attract
+「...As Gilliam speculated,we managed to attract
 　Gadisword too,didn't we」
 
 [S084:0190] en
 「Let's head to the Moon as soon as possible.Although
 　I'm worried about Gadisword's actions but getting clues
 　on the location of Fury's base is more pressing...」
+
+[S084:0106] speaker_en
+Gilliam
+
+[S084:0183] speaker_en
+Gilliam
+
+[S084:0185] speaker_en
+Gilliam
 
 ========================================================================
 33 · To the Ruins of Baral · BURNING GRASS · S033
@@ -4321,6 +5465,9 @@ Raj
 「Hagane and Hiryu Kai will be coming up to Space.
 　The order is to join them immediately」
 
+[S086:0114] speaker_en
+Gilliam
+
 [S086:0085] en
 「Ahaha,if it isn't the Kurogane.You've got quite the
 　luck on your side,Kinaha-chan」
@@ -4332,6 +5479,28 @@ Raj
 
 [S086:0081] en
 「What about the Gadisword units?」
+
+[S086:0015] speaker_en
+Gilliam
+
+[S086:0051] en
+「Gilliam,did you report Shana-Mia's case to the top
+　brass?」
+
+[S086:0052] speaker_en
+Gilliam
+
+[S086:0054] speaker_en
+Gilliam
+
+[S086:0057] speaker_en
+Gilliam
+
+[S086:0113] speaker_en
+Gilliam
+
+[S086:0116] speaker_en
+Gilliam
 
 ========================================================================
 35 · Common · WORDS OF SHANA-MIA · S035
@@ -4353,6 +5522,9 @@ Raj
 [S035:0091] speaker_en
 Raj
 
+[S035:0091] en
+「Then the inference by Major Gilliam was correct」
+
 [S035:0168] speaker_en
 Raj
 
@@ -4362,6 +5534,19 @@ Raj
 [S035:0253] en
 「Have the Gadiswordians here already returned to 
 　Rubble Pile?」
+
+[S035:0025] speaker_en
+Gilliam
+
+[S035:0027] en
+（So the ones that are here are the Commander,Captain
+　and Major Gilliam）
+
+[S035:0051] speaker_en
+Gilliam
+
+[S035:0234] speaker_en
+Gilliam
 
 ========================================================================
 42 · Common · CORONA GATEKEEPER · S042
@@ -4458,6 +5643,9 @@ Gadisword Pilot
 「I have to explore the solutions for the future of 
 　Gadiswordian survivors.It will be a...herculean task 
 　though」
+
+[S042:0200] speaker_en
+Gilliam
 
 ========================================================================
 Archive_OG1
@@ -4635,8 +5823,22 @@ the galaxy.
 [Archive_OG2:0374] en
 Although Kyosuke manages to defeat Wendoro, the Kurogane and Hiryu Kai
 are trapped within White Star by an energy field deployed by the Einst.
-The Shadow Mirror attempt to capture Guiliam so that they can use his
+The Shadow Mirror attempt to capture Gilliam so that they can use his
 warp capabilities. The team manages to defeat Vindel however...
+
+[Archive_OG2:0235] en
+Lamia, recovered by Lemon, resolves to part ways with the Shadow Mirror.
+Lamia and Gilliam revealed that Shadow Mirror is from an alternate
+universe and warped to this world after being defeated by the
+Federation's special task force ｢Beowulves｣ . With Gilliam as a
+dimensional traveler, he is required as a core to power the System XN
+dimensional warp device.
+
+[Archive_OG2:0293] en
+Raul and the others are warped from ｢the other world｣ due to a Time
+Flow Engine malfunction.Before them, Fiona's nemesis, Axel appears.
+After being saved by Gilliam and Lamia, Raul and company team up with
+Gilliam.
 
 ========================================================================
 Archive_OGg
@@ -5295,6 +6497,15 @@ Bank 0029 · 1006 records
 [0029:0080] en
 「I'll break Gadisword's defence line!」
 
+[0029:0443] en
+「I'll back you up,Gilliam」
+
+[0029:0444] en
+「You mean,you'll leave the rest to me,/　Gilliam」
+
+[0029:0518] en
+「Gilliam,leave it to me here!」
+
 ========================================================================
 Bank 0038 · 752 records
 04_Shared/Battle_messages/0038
@@ -5322,6 +6533,12 @@ Bank 0038 · 752 records
 
 [0038:0370] en
 「Lune,get away from there!」
+
+[0038:0321] en
+「I'll provide cover,Major Gilliam!」
+
+[0038:0365] en
+「Major Gilliam,leave this to me!」
 
 ========================================================================
 Bank 0103 · 280 records
@@ -5545,6 +6762,12 @@ Bank 0112 · 2272 records
 [0112:1365] en
 「Gadisword's mobile weapons are pretty fast..」
 
+[0112:1441] en
+「If we coordinate with Major Gilliam,/　we too can do it!」
+
+[0112:1481] en
+「Even we,can at least provide cover for/　Major Gilliam!」
+
 ========================================================================
 32 · To the Moon · ROYALTY'S EARNEST · S085
 01_Stages/Stage_32_To_the_Moon_S085_ROYALTY_S_EARNEST
@@ -5561,6 +6784,12 @@ Sleigh
 [S085:0415] en
 「We have the Kurogane with us! Executing underground 
 　assault tactics is its forte!」
+
+[S085:0379] speaker_en
+Gilliam
+
+[S085:0418] speaker_en
+Gilliam
 
 ========================================================================
 Bank 0040 · 772 records
@@ -5614,6 +6843,15 @@ Bank 0042 · 787 records
 
 [0042:0346] en
 「I won't let you lay a finger on Kurogane!」
+
+[0042:0299] en
+「Gilliam...I'll give you a hand」
+
+[0042:0300] en
+「Gilliam,leave the rest to me」
+
+[0042:0338] en
+「It's not like you,Gilliam」
 
 ========================================================================
 Bank 0054 · 1128 records
@@ -5736,6 +6974,14 @@ Laker
 　is in force after 2100 PM. All citizens,please return 
 　home immediately.I repeat...」
 
+[S011:0005] en
+「He has been informed of the objective through
+　Gilliam.Based on the current situation,it's undesirable
+　to contact him directly」
+
+[S011:0129] speaker_en
+Gilliam
+
 ========================================================================
 24 · To Karachi · LIBERATION OF KARACHI · S081
 01_Stages/Stage_24_To_Karachi_S081_LIBERATION_OF_KARACHI
@@ -5789,6 +7035,9 @@ Ariel
 
 [S045:0214] speaker_en
 Ariel
+
+[S045:0173] speaker_en
+Gilliam
 
 ========================================================================
 46 · Common · DEMONIC CASTLE, APPEARS · S046
@@ -5849,6 +7098,12 @@ Bank 0015 · 875 records
 
 [0015:0345] en
 「Weren't you supposed to be Gadisword's veteran?」
+
+[0015:0412] en
+「I'm here to support you,Major Gilliam」
+
+[0015:0466] en
+「Major Gilliam,please fall back!」
 
 ========================================================================
 Bank 0016 · 823 records
@@ -6069,6 +7324,9 @@ Bank 0030 · 1061 records
 [0030:0413] en
 「Updating the data on Gadisword's machines」
 
+[0030:0490] en
+「Major Gilliam,that enemy is mine」
+
 ========================================================================
 Bank 0031 · 602 records
 04_Shared/Battle_messages/0031
@@ -6212,6 +7470,12 @@ Bank 0041 · 733 records
 [0041:0327] en
 「The mobility of Gadisword machines is formidable」
 
+[0041:0423] en
+「Leave the rest to me,Gilliam」
+
+[0041:0466] en
+「Retreat,Gilliam!」
+
 ========================================================================
 Bank 0043 · 450 records
 04_Shared/Battle_messages/0043
@@ -6297,6 +7561,15 @@ Bank 0057 · 385 records
 [0057:0096] en
 「Raj,that guy is..」
 
+[0057:0268] en
+「Major Gilliam,I'll also go from here!」
+
+[0057:0312] en
+「Get back!Major Gilliam!」
+
+[0057:0296] en
+「Major Gilliam,I'll assist you!」
+
 ========================================================================
 Bank 0059 · 290 records
 04_Shared/Battle_messages/0059
@@ -6351,6 +7624,9 @@ Bank 0067 · 760 records
 
 [0067:0312] en
 「Ariel,move back!」
+
+[0067:0253] en
+「Major Gilliam,let me help..」
 
 ========================================================================
 Bank 0071 · 607 records
@@ -6418,6 +7694,9 @@ Bank 0097 · 638 records
 [0097:0166] en
 「Gadisword's new model,/　I won't let you do any more damage!」
 
+[0097:0485] en
+「I'll support you,Major Gilliam!」
+
 ========================================================================
 Bank 0098 · 653 records
 04_Shared/Battle_messages/0098
@@ -6430,6 +7709,9 @@ Bank 0098 · 653 records
 
 [0098:0121] en
 「Helluga.../　I will not entrust Gadisword's future to you!」
+
+[0098:0488] en
+「Major Gilliam,I'll back you up!」
 
 ========================================================================
 Bank 0240 · 151 records
@@ -6540,6 +7822,15 @@ Gadisword Elite Pilot
 
 [PilotData_given_name:0147] en
 Gadisword Elite Pilot
+
+[PilotData_short_name:0066] en
+Gilliam
+
+[PilotData_given_name:0066] en
+Gilliam
+
+[PilotData_family_name:0066] en
+Jaeger
 
 ========================================================================
 Bank 0064 · 389 records
@@ -6991,6 +8282,30 @@ Glossary terms and definitions
 　a lot of time to use it.
 　
 
+[KeyWordData_definition_1:0134] en
+　A team set up to research the battle tactics and
+　construction of the humanoid mobile weapons as
+　well as generation of motion data.
+　
+　The basic motion data found in the <TC-OS>
+　equipped on current <Personal Trooper>s is the
+　creation of their repeated testing.
+　
+　Beginning with the team leader Gaawai Lau,Kai
+　Kitamura,Tempest Hawker,Sanger Zonvolt,Elzam
+　Von Branstein and Gilliam Jaeger,these six elites
+　formed the organization.
+　
+　As a result of an incident in <New A.D.>184, it
+　was dissolved but the results brought about by
+　all members together with their rich personalities
+　made them legends both within and outside of
+　the <Federation Forces>. 
+　
+　After the <L5 Campaign>,it was reformed with
+　Kai Kitamura as its leader.
+　
+
 ========================================================================
 23 · To Karachi · TWO DECOYS · S080
 01_Stages/Stage_23_To_Karachi_S080_TWO_DECOYS
@@ -7046,8 +8361,20 @@ Almara
 「Almara-san,I wonder what is it exactly she wanted to
 　ask me about?」
 
+[S800:0018] speaker_en
+Gilliam
+
+[S800:0019] speaker_en
+Gilliam
+
+[S800:0020] speaker_en
+Gilliam
+
+[S800:0021] speaker_en
+Gilliam
+
 ========================================================================
-21 · Common · GUILLIAM'S UNDERTAKING · S021
+21 · Common · GILLIAM'S UNDERTAKING · S021
 01_Stages/Stage_21_Common_S021_GUILLIAM_S_UNDERTAKING
 
 [S021:0083] speaker_en
@@ -7071,6 +8398,95 @@ Raj
 [S021:0341] en
 「Same as the time Fairey betrayed Gadisword and
 　ran off」
+
+[S021:0084] speaker_en
+Gilliam
+
+[S021:0086] speaker_en
+Gilliam
+
+[S021:0088] speaker_en
+Gilliam
+
+[S021:0092] speaker_en
+Gilliam
+
+[S021:0094] speaker_en
+Gilliam
+
+[S021:0096] speaker_en
+Gilliam
+
+[S021:0116] speaker_en
+Gilliam
+
+[S021:0134] speaker_en
+Gilliam
+
+[S021:0139] speaker_en
+Gilliam
+
+[S021:0197] speaker_en
+Gilliam
+
+[S021:0198] en
+「It was a close shave,but we managed to pull
+　through this time thanks to Major Gilliam!」
+
+[S021:0200] en
+「Thanks to Major Gilliam,Touya and the others
+　have been saved,but Fury is still around!」
+
+[S021:0213] en
+「Doesn't seem like they will be using it...!
+　We can't waste this chance that Major Gilliam
+　has created for us!」
+
+[S021:0222] speaker_en
+Gilliam
+
+[S021:0243] speaker_en
+Gilliam
+
+[S021:0265] en
+「Thank you,Major Gilliam...frankly,I didn't know
+　what was going on...」
+
+[S021:0266] speaker_en
+Gilliam
+
+[S021:0267] speaker_en
+Gilliam
+
+[S021:0269] speaker_en
+Gilliam
+
+[S021:0270] speaker_en
+Gilliam
+
+[S021:0273] speaker_en
+Gilliam
+
+[S021:0275] speaker_en
+Gilliam
+
+[S021:0276] speaker_en
+Gilliam
+
+[S021:0286] speaker_en
+Gilliam
+
+[S021:0288] speaker_en
+Gilliam
+
+[S021:0290] speaker_en
+Gilliam
+
+[S021:0292] speaker_en
+Gilliam
+
+[S021:0297] speaker_en
+Gilliam
 
 ========================================================================
 – ·  · Unassigned special scene · S999
@@ -7232,6 +8648,76 @@ Laker
 [S008:0314] en
 「Thereafter if you still decide to do it,I will provide my
 　opinion to Commander Laker」
+
+[S008:0314] speaker_en
+Gilliam
+
+[S008:0003] en
+「Commander,Major Gilliam Jaeger is seeking permission
+　for his deployment」
+
+[S008:0018] speaker_en
+Gilliam
+
+[S008:0020] speaker_en
+Gilliam
+
+[S008:0080] speaker_en
+Gilliam
+
+[S008:0081] speaker_en
+Gilliam
+
+[S008:0103] speaker_en
+Gilliam
+
+[S008:0142] speaker_en
+Gilliam
+
+[S008:0207] speaker_en
+Gilliam
+
+[S008:0210] speaker_en
+Gilliam
+
+[S008:0258] speaker_en
+Gilliam
+
+[S008:0280] speaker_en
+Gilliam
+
+[S008:0282] speaker_en
+Gilliam
+
+[S008:0287] speaker_en
+Gilliam
+
+[S008:0289] speaker_en
+Gilliam
+
+[S008:0291] speaker_en
+Gilliam
+
+[S008:0293] speaker_en
+Gilliam
+
+[S008:0295] speaker_en
+Gilliam
+
+[S008:0297] speaker_en
+Gilliam
+
+[S008:0299] speaker_en
+Gilliam
+
+[S008:0301] speaker_en
+Gilliam
+
+[S008:0304] speaker_en
+Gilliam
+
+[S008:0311] speaker_en
+Gilliam
 
 ========================================================================
 Mech names
@@ -8096,4 +9582,20 @@ Bank 0254 · 407 records
 
 [0254:0032] en
 「If you are thinking of Gadisword's future,/　then please allow us through!」
+
+[0254:0270] en
+「Major Gilliam,I'll also go from here!」
+
+[0254:0304] en
+「Get back!Major Gilliam!」
+
+[0254:0264] en
+「Major Gilliam,I'll assist you!」
+
+========================================================================
+44 · Common · INHOSPITABLE WORLD l · S044
+01_Stages/Stage_44_Common_S044_INHOSPITABLE_WORLD_l
+
+[S044:0013] speaker_en
+Gilliam
 
